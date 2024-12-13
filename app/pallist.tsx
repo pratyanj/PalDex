@@ -4,8 +4,9 @@ import Card11 from "@/components/palcrad";
 // import pals from "../assets/json/pals.json";
 import {pals} from '@/constants/pals'
 import { imageMapping } from "@/constants/imageMapping";
-
+import { useTheme } from "@react-navigation/native";
 export default function PalList() {
+  const Theme  = useTheme();
   return (
     <ScrollView style={{ backgroundColor: "#181818" }}>
       <View
@@ -14,14 +15,13 @@ export default function PalList() {
         {pals.map((pal) => (
   
           <React.Fragment key={pal.id}>
-           <TouchableOpacity onPress={() => console.log()}>
+           <TouchableOpacity onPress={() => console.log(pal.key)}>
               <Card11
                 name={pal.name}
                 image={pal.image}
                 number={pal.key}
                 element= {pal.types[0].image}
               />
-              <Text>{pal.types[0].image}</Text>
             </TouchableOpacity>
           </React.Fragment>
         ))}
