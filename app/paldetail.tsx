@@ -3,9 +3,25 @@ import React from "react";
 import { Image } from "expo-image";
 import { pals } from "@/constants/pals";
 import { Colors } from "@/constants/Colors";
-import { Stack } from "expo-router/stack";
-import { Tabs, TabList, TabTrigger, TabSlot } from 'expo-router/ui';
+import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
+import GeneralTab from "@/components/general";
+import { WorkSkill } from "@/components/Work_Suitability";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { useState } from "react";
+const Tab = createMaterialTopTabNavigator();
+
+
+function TabScreen({ title }: { title: string }) {
+  return (
+    <View style={styles.tabScreen}>
+      <Text style={styles.text}>{title}</Text>
+    </View>
+  );
+}
+
+
 export default function paldetail() {
+  const [pal_id, setPalId] = useState(135);
   const pal_header = (
     pal_image: String,
     pal_name: string,
@@ -77,57 +93,54 @@ export default function paldetail() {
       </>
     );
   };
-  const pal_food = (pal_food: number) => {
-    const foodIcons = [];
-    for (let i = 0; i < 10; i++) {
-      if (i < pal_food) {
-        foodIcons.push(
-          <Image
-            key={`food-on-${i}`}
-            source={require("../assets/images/items/Food_on_icon.png")}
-            style={{ width: 20, height: 20, marginLeft: 8 }}
-          />
-        );
-      } else {
-        foodIcons.push(
-          <Image
-            key={`food-off-${i}`}
-            source={require("../assets/images/items/Food_off_icon.png")}
-            style={{ width: 20, height: 20, marginLeft: 8 }}
-          />
-        );
-      }
-    }
-    return <View style={{ flex: 1, flexDirection: "row" }}>{foodIcons}</View>;
-  };
+
   return (
-    <>
-      <View style={{ backgroundColor: "#181818" }}>
-        <View style={styles.container}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#181818" }}>
+          <View style={{flex: 1 }}>
           {pal_header(
-            pals[10].image,
-            pals[10].name,
-            pals[10].key,
-            pals[10].types[0].image,
-            pals[10].types[0].name,
-            pals[10].stats.food
+            pals[pal_id].image,
+            pals[pal_id].name,
+            pals[pal_id].key,
+            pals[pal_id].types[0].image,
+            pals[pal_id].types[0].name,
+            pals[pal_id].stats.food
           )}
-        </View>
-      </View>
-      <ScrollView style={{ backgroundColor: "#11717" }}>
-      <Tabs>
-      <TabSlot />
-      <TabList>
-        <TabTrigger name="home" >
-          <Text>Home</Text>
-        </TabTrigger>
-        <TabTrigger name="article">
-          <Text>Article</Text>
-        </TabTrigger>
-      </TabList>
-    </Tabs>
-      </ScrollView>
-    </>
+        
+            <Tab.Navigator
+              screenOptions={{
+                tabBarStyle: styles.tabBar,
+                tabBarLabelStyle: styles.tabLabel,
+                tabBarIndicatorStyle: styles.tabIndicator,
+                tabBarActiveTintColor: "white",
+                tabBarInactiveTintColor: "gray",
+              }}
+            >
+              <Tab.Screen
+                name="General"
+                options={{ title: "General" }}
+                children={() => <GeneralTab 
+                  pal_id={pal_id}
+                  description={pals[pal_id].description} 
+                  partner_skill={pals[pal_id].aura.description} 
+                  partner_skill_name={pals[pal_id].aura.name.charAt(0).toUpperCase() + pals[pal_id].aura.name.slice(1).replace("_", " ")
+                  
+                  }
+                  />}
+              />
+              <Tab.Screen
+                name="Tab2"
+                options={{ title: "1.1-2MM" }}
+                children={() => <TabScreen title="1.1-2MM Content" />}
+              />
+              <Tab.Screen
+                name="Tab3"
+                options={{ title: "2.1-3MM" }}
+                children={() => <TabScreen title="2.1-3MM Content" />}
+              />
+            </Tab.Navigator>
+            </View>
+        </SafeAreaView>
+     
   );
 }
 const styles = StyleSheet.create({
@@ -183,4 +196,35 @@ const styles = StyleSheet.create({
     color: "#4cd137", // Use a distinctive color for keys
     marginLeft: 8, // Spacing for readability
   },
+
+  tabBar: {
+    backgroundColor: "#2b2b2b", // Dark background for the tab bar
+    borderRadius: 8, // Rounded edges for the tab bar
+    marginHorizontal: 8, // Center alignment
+    marginVertical: 6,
+    height: 50, // Height for better visibility
+    elevation: 0, // Remove shadow on Android
+    shadowOpacity: 0,
+  },
+  tabLabel: {
+    fontSize: 14,
+    fontWeight: "600",
+    textTransform: "none", // Disable uppercase labels
+  },
+  tabIndicator: {
+    backgroundColor: "#32a852", // Accent color for the indicator
+    height: 4,
+    borderRadius: 2,
+  },
+  tabScreen: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#f5f5f5",
+  },
+  text: {
+    fontSize: 18,
+    color: "red",
+  },
+  
 });

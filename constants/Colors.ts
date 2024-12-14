@@ -7,6 +7,7 @@ const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
 export const Colors = {
+  mainDark:"#181818",
   light: {
     "primary": "rgb(0, 103, 131)",
     "onPrimary": "rgb(255, 255, 255)",
