@@ -1,15 +1,17 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React from "react";
 import { Image } from "expo-image";
-import { pals } from "@/constants/pals";
-import { Colors } from "@/constants/Colors";
+import { pals } from "../constants/pals";
+import { Colors } from "../constants/Colors";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import GeneralTab from "@/components/general";
-import { WorkSkill } from "@/components/Work_Suitability";
+import GeneralTab from "../components/general";
+import { WorkSkill } from "../components/Work_Suitability";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useState } from "react";
-const Tab = createMaterialTopTabNavigator();
+import { useLocalSearchParams } from 'expo-router';
+import { useEffect } from 'react';
 
+const Tab = createMaterialTopTabNavigator();
 
 function TabScreen({ title }: { title: string }) {
   return (
@@ -19,9 +21,12 @@ function TabScreen({ title }: { title: string }) {
   );
 }
 
-
-export default function paldetail() {
-  const [pal_id, setPalId] = useState(135);
+export default function paldetail(ppalID:number) {
+  const { id } = useLocalSearchParams();
+  const [pal_id, setPalId] = useState(Number(id) || 0);
+  useEffect(() => {
+    setPalId(Number(id));
+  }, [id]);
   const pal_header = (
     pal_image: String,
     pal_name: string,
@@ -96,7 +101,8 @@ export default function paldetail() {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#181818" }}>
-          <View style={{flex: 1 }}>
+      <View style={{ flex: 1 }}>
+        <View style={{ alignItems: "center", marginTop: 10 }}>
           {pal_header(
             pals[pal_id].image,
             pals[pal_id].name,
@@ -105,42 +111,48 @@ export default function paldetail() {
             pals[pal_id].types[0].name,
             pals[pal_id].stats.food
           )}
-        
-            <Tab.Navigator
-              screenOptions={{
-                tabBarStyle: styles.tabBar,
-                tabBarLabelStyle: styles.tabLabel,
-                tabBarIndicatorStyle: styles.tabIndicator,
-                tabBarActiveTintColor: "white",
-                tabBarInactiveTintColor: "gray",
-              }}
-            >
-              <Tab.Screen
-                name="General"
-                options={{ title: "General" }}
-                children={() => <GeneralTab 
+        </View>
+          <ScrollView>
+        <View style={{ flex: 1 ,height: 1000}}>
+          <Tab.Navigator
+            screenOptions={{
+              tabBarStyle: styles.tabBar,
+              tabBarLabelStyle: styles.tabLabel,
+              tabBarIndicatorStyle: styles.tabIndicator,
+              tabBarActiveTintColor: "white",
+              tabBarInactiveTintColor: "gray",
+            }}
+          >
+            <Tab.Screen
+              name="General"
+              options={{ title: "General" }}
+              children={() => (
+                <GeneralTab
                   pal_id={pal_id}
-                  description={pals[pal_id].description} 
-                  partner_skill={pals[pal_id].aura.description} 
-                  partner_skill_name={pals[pal_id].aura.name.charAt(0).toUpperCase() + pals[pal_id].aura.name.slice(1).replace("_", " ")
-                  
+                  description={pals[pal_id].description}
+                  partner_skill={pals[pal_id].aura.description}
+                  partner_skill_name={
+                    pals[pal_id].aura.name.charAt(0).toUpperCase() +
+                    pals[pal_id].aura.name.slice(1).replace("_", " ")
                   }
-                  />}
-              />
-              <Tab.Screen
-                name="Tab2"
-                options={{ title: "1.1-2MM" }}
-                children={() => <TabScreen title="1.1-2MM Content" />}
-              />
-              <Tab.Screen
-                name="Tab3"
-                options={{ title: "2.1-3MM" }}
-                children={() => <TabScreen title="2.1-3MM Content" />}
-              />
-            </Tab.Navigator>
-            </View>
-        </SafeAreaView>
-     
+                />
+              )}
+            />
+            <Tab.Screen
+              name="Tab2"
+              options={{ title: "1.1-2MM" }}
+              children={() => <TabScreen title="1.1-2MM Content" />}
+            />
+            <Tab.Screen
+              name="Tab3"
+              options={{ title: "2.1-3MM" }}
+              children={() => <TabScreen title="2.1-3MM Content" />}
+            />
+          </Tab.Navigator>
+        </View>
+          </ScrollView>
+      </View>
+    </SafeAreaView>
   );
 }
 const styles = StyleSheet.create({
@@ -205,6 +217,8 @@ const styles = StyleSheet.create({
     height: 50, // Height for better visibility
     elevation: 0, // Remove shadow on Android
     shadowOpacity: 0,
+    alignItems: "center",
+    justifyContent: "center",
   },
   tabLabel: {
     fontSize: 14,
@@ -226,5 +240,4 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: "red",
   },
-  
 });

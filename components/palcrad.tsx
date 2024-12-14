@@ -8,7 +8,7 @@ type Props = {
   element : string;
 };
 
-export default function card11({ name, image, number,element }: Props) {
+export default function Card11({ name, image, number,element }: Props) {
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>

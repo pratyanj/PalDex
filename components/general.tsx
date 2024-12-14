@@ -1,9 +1,8 @@
 // GeneralTab.js
 import React from "react";
 import { View, Text, ScrollView, StyleSheet } from "react-native";
-import { Colors } from "@/constants/Colors";
 import { WorkSkill } from "./Work_Suitability";
-import { pals } from "@/constants/pals";
+import { pals } from "../constants/pals";
 type Props = {
   description: string;
   partner_skill: string;
@@ -20,7 +19,7 @@ const GeneralTab = ({
   // console.log(works)
   return (
     <ScrollView style={styles.container}>
-      <View style={{ backgroundColor: "#151515", padding: 8, borderRadius: 8 }}>
+      <View style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}>
         <Text style={styles.text}>{description}</Text>
       </View>
       <View style={styles.skill}>
@@ -42,7 +41,15 @@ const GeneralTab = ({
           style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}
         >
           {pals[pal_id].suitability.map((i) => (
-            <WorkSkill name={i.type.charAt(0).toUpperCase() + i.type.slice(1).replace("_", " ")} icon={i.image} level={i.level} />
+            <WorkSkill
+              key={`${i.type}-${i}`}
+              name={
+                i.type.charAt(0).toUpperCase() +
+                i.type.slice(1).replace("_", " ")
+              }
+              icon={i.image}
+              level={i.level}
+            />
           ))}
         </View>
       </View>
@@ -53,7 +60,7 @@ const GeneralTab = ({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#1f1f1f",
+    backgroundColor: "#151515",
     padding: 16,
     // marginHorizontal: 8,
   },
