@@ -12,7 +12,7 @@ import { useLocalSearchParams } from 'expo-router';
 import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import { useNavigation } from '@react-navigation/native';
-
+import Stats from "../components/stats";
 const Tab = createMaterialTopTabNavigator();
 
 function TabScreen({ title }: { title: string }) {
@@ -124,6 +124,7 @@ export default function paldetail() {
           
         <View style={{ flex: 1 ,height: 1000}}>
           <Tab.Navigator
+          
             screenOptions={{
               tabBarStyle: styles.tabBar,
               tabBarLabelStyle: styles.tabLabel,
@@ -135,22 +136,12 @@ export default function paldetail() {
             <Tab.Screen
               name="General"
               options={{ title: "General" }}
-              children={() => (
-                <GeneralTab
-                  pal_id={pal_id}
-                  description={pals[pal_id].description}
-                  partner_skill={pals[pal_id].aura.description}
-                  partner_skill_name={
-                    pals[pal_id].aura.name.charAt(0).toUpperCase() +
-                    pals[pal_id].aura.name.slice(1).replace("_", " ")
-                  }
-                />
-              )}
-            />
+              children={() => ( <GeneralTab pal_id={pal_id} /> )} 
+              />
             <Tab.Screen
               name="Stats"
               options={{ title: "Stats" }}
-              children={() => <TabScreen title="1.1-2MM Content" />}
+              children={() => <Stats pal_id={pal_id} />}
             />
             <Tab.Screen
               name="Tab3"
