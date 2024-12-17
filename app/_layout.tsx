@@ -42,11 +42,11 @@ export default function Layout() {
         />
         <Drawer.Screen
           name="paldetail"
-          options={{
-            title: 'paldetail',
-            drawerLabel: 'paldetail',
+          options={({ route }) => ({
+            title: route?.params?.palName || 'Pal Detail',
+            drawerLabel: 'Pal Detail',
             drawerIcon: () => <AntDesign name="tablet1" size={24} color="black" />,
-          }}
+          })}
         />
       </Drawer>
       </PaperProvider>

@@ -17,7 +17,7 @@ export function WorkSkill({
 }: WorkSkillProps) {
   return (
     <View style={[styles.container, isActive && styles.activeContainer]}>
-      <Image source={icon} style={{ width: 24, height: 24 }} />
+      <Image source={icon} style={{ width: 28, height: 28 }} />
       <Text style={[styles.text, isActive && styles.activeText]}>{name}</Text>
       {level && (
         <View style={styles.levelContainer}>

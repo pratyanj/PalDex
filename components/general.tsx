@@ -3,35 +3,30 @@ import React from "react";
 import { View, Text, ScrollView, StyleSheet } from "react-native";
 import { WorkSkill } from "./Work_Suitability";
 import { pals } from "../constants/pals";
+import { Image } from "expo-image";
 type Props = {
-  description: string;
-  partner_skill: string;
-  partner_skill_name: string;
   pal_id: number;
 };
 
 const GeneralTab = ({
-  description,
-  partner_skill,
-  partner_skill_name,
   pal_id,
 }: Props) => {
   // console.log(works)
   return (
     <ScrollView style={styles.container}>
       <View style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}>
-        <Text style={styles.text}>{description}</Text>
+        <Text style={styles.text}>{pals[pal_id].description}</Text>
       </View>
       <View style={styles.skill}>
         <Text style={styles.skillTitle}>Partner Skill</Text>
         <View
           style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}
         >
-          <Text style={styles.skillTitle}>{partner_skill_name}</Text>
+          <Text style={styles.skillTitle}>{pals[pal_id].aura.name.charAt(0).toUpperCase() + pals[pal_id].aura.name.slice(1).replace("_", " ")}</Text>
           <View
             style={{ backgroundColor: "#151515", padding: 8, borderRadius: 8 }}
           >
-            <Text style={styles.text}>{partner_skill}</Text>
+            <Text style={styles.text}>{pals[pal_id].aura.description}</Text>
           </View>
         </View>
       </View>
@@ -50,6 +45,41 @@ const GeneralTab = ({
               icon={i.image}
               level={i.level}
             />
+          ))}
+        </View>
+      </View>
+      {/* Add drop item here */}
+      <View style={[styles.skill, { marginBottom: 100 }]}>
+        <Text style={styles.skillTitle}>Drop Item</Text>
+        <View
+          style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}
+        >
+          {pals[pal_id].drops.map((i) => (
+            <View
+            key={`${i.name}-${i}`}
+              style={{
+                backgroundColor: "#151515",
+                padding: 8,
+                borderRadius: 8,
+                flexDirection: "row",
+                alignItems: "center",
+                marginVertical: 3,
+                gap: 5,
+              }}
+            >
+              <Image
+                source={i.image}
+                style={{
+                  width: 50,
+                  height: 50,
+                  backgroundColor: "#2b2b2b",
+                  borderRadius: 8,
+                }}
+              />
+              <Text style={styles.text}>
+                {i.name.charAt(0).toUpperCase() + i.name.slice(1).toLowerCase().replace(/_/g, " ")}
+              </Text>
+            </View>
           ))}
         </View>
       </View>

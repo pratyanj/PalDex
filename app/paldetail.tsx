@@ -10,6 +10,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { useState } from "react";
 import { useLocalSearchParams } from 'expo-router';
 import { useEffect } from 'react';
+import { Stack } from 'expo-router';
+import { useNavigation } from '@react-navigation/native';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -21,11 +23,18 @@ function TabScreen({ title }: { title: string }) {
   );
 }
 
-export default function paldetail(ppalID:number) {
+
+export default function paldetail() {
   const { id } = useLocalSearchParams();
   const [pal_id, setPalId] = useState(Number(id) || 0);
+  const navigation = useNavigation();
+
   useEffect(() => {
     setPalId(Number(id));
+    navigation.setOptions({
+      title: pals[Number(id)].name
+    });
+    
   }, [id]);
   const pal_header = (
     pal_image: String,
@@ -65,11 +74,11 @@ export default function paldetail(ppalID:number) {
               <Text style={{ color: "white", paddingTop: 10 }}>No: </Text>
               <Text style={styles.paklkey}>#{pal_key}</Text>
             </View>
-            <View style={{ flex: 1, flexDirection: "row" }}>
+            <View style={{ flex: 1, flexDirection: "row",paddingRight: 30 }}>
               <Text style={{ color: "white", paddingTop: 6 }}>Name: </Text>
               <Text style={styles.palname}>{pal_name}</Text>
             </View>
-            <View style={{ flex: 1, flexDirection: "row", marginTop: -10 }}>
+            <View style={{ flex: 1, flexDirection: "row" }}>
               <Text style={{ color: "white", paddingTop: 6 }}>Element: </Text>
               <Text style={styles.palname}>{pal_element_name}</Text>
               <Image
@@ -81,13 +90,13 @@ export default function paldetail(ppalID:number) {
 
           <View
             style={{
-              backgroundColor: "#111111",
+              backgroundColor: "#2b2b2b",
               borderColor: "#1f1f1f",
               borderWidth: 2,
               borderRadius: 15,
               flexDirection: "row",
               marginLeft: 10,
-              marginTop: 5,
+              marginTop: 10,
               padding: 5,
               paddingRight: 10,
             }}
@@ -112,7 +121,7 @@ export default function paldetail(ppalID:number) {
             pals[pal_id].stats.food
           )}
         </View>
-          <ScrollView>
+          
         <View style={{ flex: 1 ,height: 1000}}>
           <Tab.Navigator
             screenOptions={{
@@ -139,8 +148,8 @@ export default function paldetail(ppalID:number) {
               )}
             />
             <Tab.Screen
-              name="Tab2"
-              options={{ title: "1.1-2MM" }}
+              name="Stats"
+              options={{ title: "Stats" }}
               children={() => <TabScreen title="1.1-2MM Content" />}
             />
             <Tab.Screen
@@ -150,12 +159,12 @@ export default function paldetail(ppalID:number) {
             />
           </Tab.Navigator>
         </View>
-          </ScrollView>
+          
       </View>
     </SafeAreaView>
   );
-}
-const styles = StyleSheet.create({
+
+}const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     justifyContent: "center",
@@ -169,30 +178,31 @@ const styles = StyleSheet.create({
     elevation: 4,
     borderRadius: 12,
     margin: 10,
+    width: 300,
   },
   container1: {
     position: "absolute",
     left: 70,
     height: 120,
-    width: 240,
+    width: 250,
     paddingLeft: 70,
     flex: 1,
-    backgroundColor: "#111111",
+    backgroundColor: "#2b2b2b",
     borderRadius: 12,
     paddingVertical: 12,
     paddingHorizontal: 16,
     justifyContent: "space-evenly",
-    shadowColor: "#000",
-    shadowOpacity: 0.1,
+    shadowColor: "#fff",
+    shadowOpacity: 1,
     shadowRadius: 4,
-    elevation: 3,
+    elevation: 5,
   },
   palImage: {
     width: 120, // Scaled to fit content better
     height: 120,
     borderRadius: 60, // Circle image
-    borderWidth: 4, // Slightly thicker for more emphasis
-    borderColor: "#111111",
+    borderWidth: 8, // Slightly thicker for more emphasis
+    borderColor: "#2b2b2b",
     zIndex: 1, // Ensure it's above the image
     backgroundColor: "#1f1f1f",
   },
@@ -201,6 +211,8 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     color: "white",
     marginLeft: 8,
+    flexWrap: "wrap",
+    
   },
   paklkey: {
     fontSize: 20,
