@@ -31,8 +31,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "wool",
-          "lamball_mutton"
+        {
+           "name" : 'wool',
+           "image": require('../assets/images/items/wool.png'),
+        } ,
+
+          {
+            "name":"lamball_mutton",
+            "image":require('../assets/images/items/lamball-mutton.png'),
+        }
       ],
       "aura": {
           "name": "fluffy_shield",
@@ -166,7 +173,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "red_berries"
+        {
+            "name": "red_berries",
+            "image":require('../assets/images/items/red-berries.png'),
+        }
       ],
       "aura": {
           "name": "cat_helper",
@@ -290,10 +300,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "egg",
-          "chikipi_poultry"
-      ],
-      "aura": {
+          {
+              "name": "egg",
+              "image": require('../assets/images/items/egg.png'),
+          },
+          {
+              "name": "chikipi_poultry",
+              "image": require('../assets/images/items/chikipi-poultry.png'),
+          }
+      ],      "aura": {
           "name": "egg_layer",
           "description": "Sometimes lays an Egg when assigned to Ranch.",
           "tech": null
@@ -430,9 +445,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "berry_seeds",
-          "low_grade_medical_supplies"
-      ],
+          {
+              "name": "berry_seeds",
+              "image": require('../assets/images/items/berry-seeds.png'),
+          },
+          {
+              "name": "low_grade_medical_supplies",
+              "image": require('../assets/images/items/low-grade-medical-supplies.png'),
+          }
+      ],      
       "aura": {
           "name": "lifmunk_recoil",
           "description": "When activated, leaps into the player's head and uses a submachine gun to follows up player attacks.",
@@ -550,9 +571,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "flame_organ"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      
+            ],
       "aura": {
           "name": "huggy_fire",
           "description": "When activated, equips to the player and transforms into a flamethrower.",
@@ -680,9 +707,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "pal_fluids"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "pal_fluids",
+                    "image": require('../assets/images/items/pal-fluids.png'),
+                }      
+            ],
       "aura": {
           "name": "surfing_slam",
           "description": "When activated, Fuack body surfs towards an enemy and slams into them.",
@@ -810,8 +843,11 @@ export const pals =[
           }
       ],
       "drops": [
-          "electric_organ"
-      ],
+          {
+              "name": "electric_organ",
+              "image": require('../assets/images/items/electric-organ.png'),
+          }
+      ],      
       "aura": {
           "name": "static_electricity",
           "description": "While in team, increases attack power of Electric Pals.",
@@ -948,10 +984,12 @@ export const pals =[
               "level": 1
           }
       ],
-      "drops": [
-          "mushroom"
-      ],
-      "aura": {
+        "drops": [
+            {
+              "neme": "mushroom",
+              "image": require('../assets/images/items/mushroom.png'),
+            }
+        ],      "aura": {
           "name": "cheery_rifle",
           "description": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies.",
           "tech": null
@@ -1068,9 +1106,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ",
-          "leather"
-      ],
+          {
+              "neme": "flame_organ",
+              "image": require('../assets/images/items/flame-organ.png'),
+          },
+          {
+              "name": "leather",
+              "image": require('../assets/images/items/leather.png'),
+          }
+      ],      
       "aura": {
           "name": "tiny_spark",
           "description": "While in team, increases attack power of Fire Pals.",
@@ -1207,9 +1251,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "ice_organ",
-          "pal_fluids"
-      ],
+          {
+              "name": "ice_organ",
+              "image": require('../assets/images/items/ice-organ.png'),
+          },
+          {
+              "name": "pal_fluids",
+              "image": require('../assets/images/items/pal-fluids.png'),
+          }
+      ],      
       "aura": {
           "name": "pengullet_cannon",
           "description": "When activated, the player equips a Rocket Launcher and fires Pengullet as ammunition. Pengullet explodes on contact and is incapacitated.",
@@ -1351,9 +1401,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "ice_organ",
-          "penking_plume"
-      ],
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png')
+                },
+                {
+                    "name": "penking_plume",
+                    "image": require('../assets/images/items/penking-plume.png')
+                }      
+            ],
       "aura": {
           "name": "brave_sailor",
           "description": "When fighting together, Fire Pals drop more items when defeated.",
@@ -1471,9 +1527,11 @@ export const pals =[
           }
       ],
       "drops": [
-          "electric_organ"
-      ],
-      "aura": {
+          {
+              "name": "electric_organ",
+              "image": require('../assets/images/items/electric-organ.png'),
+          }
+      ],      "aura": {
           "name": "jolt_bomb",
           "description": "When activated, equips Jolthog to the player's hand. When thrown at an enemy, causes an electrical explosion upon impact.",
           "tech": "Jolthog's Gloves"
@@ -1594,8 +1652,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "berry_seeds",
-          "gumoss_leaf"
+          {
+              "name": "berry_seeds",
+              "image": require('../assets/images/items/berry-seeds.png')
+          },
+          {
+              "name": "gumoss_leaf",
+              "image": require('../assets/images/items/gumoss-leaf.png')
+          }
       ],
       "aura": {
           "name": "logging_assistance",
@@ -1719,8 +1783,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "bone"
+          {
+              "name": "leather",
+              "image": require('../assets/images/items/leather.png')
+          },
+          {
+              "name": "bone",
+              "image": require('../assets/images/items/bone.png')
+          }
       ],
       "aura": {
           "name": "dig_here!",
@@ -1839,8 +1909,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "fiber",
-          "high_grade_technical_manual"
+          {
+              "name": "fiber",
+              "image": require('../assets/images/items/fiber.png')
+          },
+          {
+              "name": "high_grade_technical_manual",
+              "image": require('../assets/images/items/high-grade-technical-manual.png')
+          }
       ],
       "aura": {
           "name": "dark_knowledge",
@@ -1958,7 +2034,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_fluids"
+          {
+              "name": "pal_fluids",
+              "image": require('../assets/images/items/pal-fluids.png')
+          }
       ],
       "aura": {
           "name": "soothing_shower",
@@ -2087,8 +2166,11 @@ export const pals =[
           }
       ],
       "drops": [
-          "venom_gland"
-      ],
+          {
+              "name": "venom_gland",
+              "image": require('../assets/images/items/venom-gland.png'),
+          }
+      ],      
       "aura": {
           "name": "caffeine_inoculation",
           "description": "When activated, Depresso drinks a massive amount of energy drinks, causing its movement speed to increase.",
@@ -2209,10 +2291,13 @@ export const pals =[
               "level": 1
           }
       ],
-      "drops": [
-          "wool"
-      ],
-      "aura": {
+       "drops": [
+           {
+             "neme": 'wool',
+             "image": require('../assets/images/items/wool.png'),
+          }
+       ],      
+       "aura": {
           "name": "fluffy_wool",
           "description": "While in team, increases attack power of Neutral Pals. Sometimes drops Wool when assigned to Ranch.",
           "tech": null
@@ -2338,9 +2423,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "venom_gland",
-          "small_pal_soul"
-      ],
+                {
+                    "name": "venom_gland",
+                    "image": require('../assets/images/items/venom-gland.png')
+                },
+                {
+                    "name": "small_pal_soul",
+                    "image": require('../assets/images/items/small-pal-soul.png')
+                }      
+            ],
       "aura": {
           "name": "dream_chaser",
           "description": "While in team, appears near the player. Follows up player attacks with magic bullets.",
@@ -2457,10 +2548,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "rushoar_pork",
-          "leather",
-          "bone"
-      ],
+                {
+                    "name": "rushoar_pork",
+                    "image": require('../assets/images/items/rushoar-pork.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                }      ],
       "aura": {
           "name": "hard_head",
           "description": "Can be ridden. Increases efficiency of destroying boulders while mounted.",
@@ -2577,11 +2676,16 @@ export const pals =[
               "level": 1
           }
       ],
-      "drops": [
-          "leather",
-          "small_pal_soul"
-      ],
-      "aura": {
+        "drops": [
+            {
+              "neme": "leather",
+              "image": require('../assets/images/items/leather.png'),
+            },
+            {
+              "name": "small_pal_soul",
+              "image": require('../assets/images/items/small-pal-soul.png'),
+            }
+        ],      "aura": {
           "name": "kuudere",
           "description": "When fighting together, applies Dark damage to the player's attacks.",
           "tech": null
@@ -2707,7 +2811,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather"
+        {
+            "name":"leather",
+            "image":require("../assets/images/items/leather.png") 
+        }  
       ],
       "aura": {
           "name": "ore_detector",
@@ -2831,11 +2938,13 @@ export const pals =[
           }
       ],
       "drops": [
-          "venom_gland"
-      ],
-      "aura": {
+                {
+                    "name": "venom_gland",
+                    "image": require('../assets/images/items/venom-gland.png')
+                }
+            ],      
+    "aura": {
           "name": "fried_squid",
-          "description": "While in team, can be summoned and used instead of a glider.\nCan float for long periods of time while gliding.",
           "tech": "Killamari's Gloves"
       },
       "description": "It wraps itself around an enemy's head, sucking out their insides. Pal mummies are occasionally found, but these are in fact Killamari victims.",
@@ -2947,9 +3056,12 @@ export const pals =[
           }
       ],
       "drops": [
-          "gold_coin"
-      ],
-      "aura": {
+                {
+                    "name": "gold_coin",
+                    "image": require('../assets/images/items/gold-coin.png')
+                }
+            ],      
+    "aura": {
           "name": "gold_digger",
           "description": "Sometimes digs up Gold Coin when assigned to Ranch.",
           "tech": null
@@ -3068,8 +3180,12 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_fluids"
-      ],
+               
+                    {
+                        "name": "pal_fluids",
+                        "image": require('../assets/images/items/pal-fluids.png'),
+                    }
+                     ],
       "aura": {
           "name": "zephyr_glider",
           "description": "While in team, can be summoned and used instead of a glider.\nAllows you to move quickly for long periods of time while gliding with this Pal.",
@@ -3187,10 +3303,19 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "ruby",
-          "gold_coin"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "ruby",
+                    "image": require('../assets/images/items/ruby.png'),
+                },
+                {
+                    "name": "gold_coin",
+                    "image": require('../assets/images/items/gold-coin.png'),
+                }      
+            ],
       "aura": {
           "name": "direhowl_rider",
           "description": "Can be ridden.\nMoves slightly faster than most mounts.",
@@ -3308,9 +3433,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "gunpowder",
-          "tocotoco_feather"
-      ],
+                {
+                    "name": "gunpowder",
+                    "image": require('../assets/images/items/gunpowder.png')
+                },
+                {
+                    "name": "tocotoco_feather",
+                    "image": require('../assets/images/items/tocotoco-feather.png')
+                }      
+            ],
       "aura": {
           "name": "eggbomb_launcher",
           "description": "When activated, equips to the player and transforms into an egg launcher.",
@@ -3448,10 +3579,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "low_grade_medical_supplies",
-          "wheat_seeds"
-      ],
-      "aura": {
+                {
+                    "name": "low_grade_medical_supplies",
+                    "image": require('../assets/images/items/low-grade-medical-supplies.png')
+                },
+                {
+                    "name": "wheat_seeds",
+                    "image": require('../assets/images/items/wheat-seeds.png')
+                }
+            ],      "aura": {
           "name": "helper_bunny",
           "description": "While in team, appears nearby the player. Automatically picks up nearby items.",
           "tech": null
@@ -3568,9 +3704,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "mozzarina_meat",
-          "milk"
-      ],
+                {
+                    "name": "mozzarina_meat",
+                    "image": require('../assets/images/items/mozzarina-meat.png'),
+                },
+                {
+                    "name": "milk",
+                    "image": require('../assets/images/items/milk.png'),
+                }      
+            ],
       "aura": {
           "name": "milk_maker",
           "description": "Sometimes produces Milk when assigned to ranch.",
@@ -3708,9 +3850,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "wheat_seeds",
-          "lettuce_seeds"
-      ],
+                {
+                    "name": "wheat_seeds",
+                    "image": require('../assets/images/items/wheat-seeds.png')
+                },
+                {
+                    "name": "lettuce_seeds",
+                    "image": require('../assets/images/items/lettuce-seeds.png')
+                }      
+            ],
       "aura": {
           "name": "princess_gaze",
           "description": "While in team, increases attack power of Grass Pals.",
@@ -3838,8 +3986,11 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_fluids"
-      ],
+            {
+                "name": "pal_fluids",
+                "image": require('../assets/images/items/pal-fluids.png'),
+            }
+                ],
       "aura": {
           "name": "angry_shark",
           "description": "When activated, attacks targeted enemy with a powerful Aqua Gun. While in team, increases player's attack power.",
@@ -3967,8 +4118,11 @@ export const pals =[
           }
       ],
       "drops": [
-          "fiber"
-      ],
+                {
+                    "name": "fiber",
+                    "image": require('../assets/images/items/fiber.png'),
+                }     
+            ],
       "aura": {
           "name": "flying_trapeze",
           "description": "While in team, can be summoned and used instead of a glider. Carries the player up high while gliding.",
@@ -4101,10 +4255,19 @@ export const pals =[
           }
       ],
       "drops": [
-          "mushroom",
-          "leather",
-          "tomato_seeds"
-      ],
+                {
+                    "name": "mushroom",
+                    "image": require('../assets/images/items/mushroom.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "tomato_seeds",
+                    "image": require('../assets/images/items/tomato-seeds.png'),
+                }      
+            ],
       "aura": {
           "name": "grenadier_panda",
           "description": "Can be ridden. Can rapidly fire a grenade launcher while mounted.",
@@ -4222,9 +4385,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "cotton_candy",
-          "high_quality_pal_oil"
-      ],
+                {
+                    "name": "cotton_candy",
+                    "image": require('../assets/images/items/cotton-candy.png'),
+                },
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png'),
+                }      
+            ],
       "aura": {
           "name": "candy_pop",
           "description": "Sometimes drops Cotton Candy when assigned to ranch.",
@@ -4347,10 +4516,19 @@ export const pals =[
           }
       ],
       "drops": [
-          "caprity_meat",
-          "red_berries",
-          "horn"
-      ],
+                {
+                    "name": "caprity_meat",
+                    "image": require('../assets/images/items/caprity-meat.png'),
+                },
+                {
+                    "name": "red_berries",
+                    "image": require('../assets/images/items/red-berries.png'),
+                },
+                {
+                    "name": "horn",
+                    "image": require('../assets/images/items/horn.png'),
+                }      
+            ],
       "aura": {
           "name": "berry_picker",
           "description": "Sometimes drops Red Berries from its back when assigned to Ranch.",
@@ -4468,11 +4646,16 @@ export const pals =[
           }
       ],
       "drops": [
-          "wool",
-          "leather"
-      ],
-      "aura": {
-          "name": "pacapaca_wool",
+                {
+                    "name": "wool",
+                    "image": require('../assets/images/items/wool.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                }
+            ],
+            "aura": {          "name": "pacapaca_wool",
           "description": "Can be ridden.\nSometimes drops Wool when assigned to Ranch.",
           "tech": null
       },
@@ -4588,10 +4771,19 @@ export const pals =[
           }
       ],
       "drops": [
-          "eikthyrdeer_venison",
-          "leather",
-          "horn"
-      ],
+                {
+                    "name": "eikthyrdeer_venison",
+                    "image": require('../assets/images/items/eikthyrdeer-venison.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "horn",
+                    "image": require('../assets/images/items/horn.png'),
+                }      
+            ],
       "aura": {
           "name": "guardian_of_the_forest",
           "description": "Can be ridden.\nCan perform a double jump while mounted.\nIncreases efficiency of cutting trees.",
@@ -4709,8 +4901,11 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },      
+            ],
       "aura": {
           "name": "travel_companion",
           "description": "Can be ridden as a flying mount.",
@@ -4838,9 +5033,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "beautiful_flower"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "beautiful_flower",
+                    "image": require('../assets/images/items/beautiful-flower.png'),
+                }      
+            ],
       "aura": {
           "name": "skilled_fingers",
           "description": "While in team, increases attack power of Neutral Pals.\nWhile at base, increases work efficiency if working at Weapon Workbench.",
@@ -4977,9 +5178,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "horn",
-          "leather"
-      ],
+                {
+                    "name": "horn",
+                    "image": require('../assets/images/items/horn.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                }      
+            ],
       "aura": {
           "name": "flameclaw_hunter",
           "description": "When activated, attacks targeted enemy with a powerful Hellfire Claw.",
@@ -5102,11 +5309,20 @@ export const pals =[
           }
       ],
       "drops": [
-          "honey",
-          "lettuce_seeds",
-          "wheat_seeds"
-      ],
-      "aura": {
+                {
+                    "name": "honey",
+                    "image": require('../assets/images/items/honey.png'),
+                },
+                {
+                    "name": "lettuce_seeds",
+                    "image": require('../assets/images/items/lettuce-seeds.png'),
+                },
+                {
+                    "name": "wheat_seeds",
+                    "image": require('../assets/images/items/wheat-seeds.png'),
+                }
+            ],      
+    "aura": {
           "name": "mysterious_scales",
           "description": "When activated, attacks target enemy with Poison Fog.",
           "tech": null
@@ -5228,9 +5444,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "horn",
-          "flame_organ"
-      ],
+                {
+                    "name": "horn",
+                    "image": require('../assets/images/items/horn.png'),
+                },
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      
+            ],
       "aura": {
           "name": "warm_body",
           "description": "Can be ridden. Keeps the rider warm in cold environments.",
@@ -5358,9 +5580,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "raw_dumud",
-          "high_quality_pal_oil"
-      ],
+                {
+                    "name": "raw_dumud",
+                    "image": require('../assets/images/items/raw-dumud.png'),
+                },
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png'),
+                }      ],
       "aura": {
           "name": "soil_improver",
           "description": "While in team, increases attack power of Ground Pals.",
@@ -5421,10 +5648,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "bone",
-          "venom_gland",
-          "small_pal_soul"
-      ],
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                },
+                {
+                    "name": "venom_gland",
+                    "image": require('../assets/images/items/venom-gland.png'),
+                },
+                {
+                    "name": "small_pal_soul",
+                    "image": require('../assets/images/items/small-pal-soul.png'),
+                }      ],
       "aura": {
           "name": "telepeck",
           "description": "When activated, attacks targeted enemy with a powerful Phantom Peck.",
@@ -5551,9 +5786,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "copper_key",
-          "silver_key"
-      ],
+                {
+                    "name": "copper_key",
+                    "image": require('../assets/images/items/copper-key.png'),
+                },
+                {
+                    "name": "silver_key",
+                    "image": require('../assets/images/items/silver-key.png'),
+                }      ],
       "aura": {
           "name": "sixth_sense",
           "description": "When activated, utilizes its sixth sense to detect nearby dungeons.",
@@ -5671,9 +5911,12 @@ export const pals =[
           }
       ],
       "drops": [
-          "bone"
-      ],
-      "aura": {
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                }
+            ],     
+             "aura": {
           "name": "claws_glistening_in_the_dark",
           "description": "When activated, attacks targeted enemy with a powerful Jumping Claw.",
           "tech": null
@@ -5789,9 +6032,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "galeclaw_poultry",
-          "leather"
-      ],
+                {
+                    "name": "galeclaw_poultry",
+                    "image": require('../assets/images/items/galeclaw-poultry.png')
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png')
+                }      ],
       "aura": {
           "name": "galeclaw_rider",
           "description": "While in team, can be summoned and used instead of a glider. Allows you to fire a gun while gliding with this Pal.",
@@ -5934,9 +6182,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "wheat_seeds",
-          "arrow"
-      ],
+                {
+                    "name": "wheat_seeds",
+                    "image": require('../assets/images/items/wheat-seeds.png')
+                },
+                {
+                    "name": "arrow",
+                    "image": require('../assets/images/items/arrow.png')
+                }      ],
       "aura": {
           "name": "hawk_eye",
           "description": "While fighting together, allows you to deal more damage to weak points.",
@@ -6064,9 +6317,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "bone"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                }      ],
       "aura": {
           "name": "full-power_gorilla_mode",
           "description": "When activated, unleashes a primal fury that increases Gorirat's attack power.",
@@ -6214,8 +6472,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "honey"
-      ],
+                {
+                    "name": "honey",
+                    "image": require('../assets/images/items/honey.png'),
+                },      ],
       "aura": {
           "name": "worker_bee",
           "description": "Sometimes drops Honey when assigned to Ranch.\nWhile in team, Elizabee's stats will be increased.",
@@ -6353,9 +6613,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "honey",
-          "elizabee's_staff"
-      ],
+                {
+                    "name": "honey",
+                    "image": require('../assets/images/items/honey.png'),
+                },
+                {
+                    "name": "elizabee's_staff",
+                    "image": require('../assets/images/items/elizabee-s-staff.png'),
+                }      ],
       "aura": {
           "name": "queen_bee_command",
           "description": "While fighting together, stats will increase the more Beegarde are in your team.",
@@ -6473,7 +6738,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_pal_oil"
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png'),
+                }
       ],
       "aura": {
           "name": "plump_body",
@@ -6597,7 +6865,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "wool"
+                {
+                    "neme": 'wool',
+                    "image": require('../assets/images/items/wool.png'),
+                },
       ],
       "aura": {
           "name": "fluffy",
@@ -6721,8 +6992,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "wool"
-      ],
+                {
+                    "name": "wool",
+                    "image": require('../assets/images/items/wool.png'),
+                },      ],
       "aura": {
           "name": "king_of_fluff",
           "description": "While fighting together, stats will increase the more Swee are in your team.",
@@ -6849,8 +7122,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather"
-      ],
+                {
+                    "neme": "wool",
+                    "image": require('../assets/images/items/wool.png'),
+                },      ],
       "aura": {
           "name": "wriggling_weasel",
           "description": "Can be ridden.\nApplies Dragon Dragon damage to the player's attacks while mounted.",
@@ -6973,10 +7248,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "electric_organ",
-          "horn"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "electric_organ",
+                    "image": require('../assets/images/items/electric-organ.png'),
+                },
+                {
+                    "name": "horn",
+                    "image": require('../assets/images/items/horn.png'),
+                }      ],
       "aura": {
           "name": "swift_deity",
           "description": "Can be ridden. Applies Electric damage to the player's attacks while mounted.",
@@ -7094,9 +7377,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "ice_organ"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                }      ],
       "aura": {
           "name": "aurora_guide",
           "description": "While in a team, increases attack power of Ice pals.",
@@ -7219,9 +7507,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ",
-          "leather"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                }      ],
       "aura": {
           "name": "red_hare",
           "description": "Can be ridden. Applies Fire damage to the player's attacks while mounted.",
@@ -7344,11 +7637,22 @@ export const pals =[
           }
       ],
       "drops": [
-          "reindrix_venison",
-          "leather",
-          "horn",
-          "ice_organ"
-      ],
+                {
+                    "name": "reindrix_venison",
+                    "image": require('../assets/images/items/reindrix-venison.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "horn",
+                    "image": require('../assets/images/items/horn.png'),
+                },
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                }      ],
       "aura": {
           "name": "cool_body",
           "description": "Can be ridden.\nKeeps the rider cool in hot environments.",
@@ -7466,7 +7770,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "electric_organ"
+                {
+                    "name": "electric_organ",
+                    "image": require('../assets/images/items/electric-organ.png'),
+                }
       ],
       "aura": {
           "name": "jumping_force",
@@ -7585,9 +7892,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ",
-          "leather"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                }      ],
       "aura": {
           "name": "clear_mind",
           "description": "Can be ridden. Unaffected by the cold or heat while riding this Pal.",
@@ -7714,7 +8026,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "electric_organ"
+                {
+                    "name": "electric_organ",
+                    "image": require('../assets/images/items/electric-organ.png'),
+                }
       ],
       "aura": {
           "name": "lady_of_lightning",
@@ -7843,7 +8158,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "paldium_fragment"
+                {
+                    "name": "paldium_fragment",
+                    "image": require('../assets/images/items/paldium-fragment.png'),
+                }
       ],
       "aura": {
           "name": "antigravity",
@@ -7968,7 +8286,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "wheat_seeds"
+        {
+              "name": "wheat_seeds",
+              "image": require('../assets/images/items/wheat-seeds.png'),
+          },
       ],
       "aura": {
           "name": "fragrant_dragon",
@@ -8087,7 +8408,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_fluids"
+          {
+            "name": "pal_fluids",
+              "image": require('../assets/images/items/pal-fluids.png'),
+          },
       ],
       "aura": {
           "name": "swift_swimmer",
@@ -8211,8 +8535,15 @@ export const pals =[
           }
       ],
       "drops": [
-          "bone",
-          "small_pal_soul"
+        
+          {
+            "name": "bone",
+            "image": require('../assets/images/items/bone.png'),
+          },
+          {
+            "name": "small_pal_soul",
+            "image": require('../assets/images/items/small-pal-soul.png'),
+          },
       ],
       "aura": {
           "name": "messenger_of_death",
@@ -8331,7 +8662,16 @@ export const pals =[
       ],
       "drops": [
           "ore",
-          "high_quality_pal_oil"
+          "high_quality_pal_oil",
+          {
+            "name":'ore',
+            "image": require('../assets/images/items/ore.png'),
+          },
+          {
+            "name": "high_quality_pal_oil",
+            "image": require('../assets/images/items/high-quality-pal-oil.png'),
+          }
+
       ],
       "aura": {
           "name": "drill_crusher",
@@ -8460,9 +8800,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "small_pal_soul"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "small_pal_soul",
+                    "image": require('../assets/images/items/small-pal-soul.png'),
+                }      ],
       "aura": {
           "name": "ultrasonic_sensor",
           "description": "When activated, uses ultrasonic waves to detect the location of nearby Pals.",
@@ -8594,11 +8939,22 @@ export const pals =[
           }
       ],
       "drops": [
-          "mushroom",
-          "cake",
-          "suspicious_juice",
-          "strange_juice"
-      ],
+                {
+                    "name": "mushroom",
+                    "image": require('../assets/images/items/mushroom.png')
+                },
+                {
+                    "name": "cake",
+                    "image": require('../assets/images/items/cake.png')
+                },
+                {
+                    "name": "suspicious_juice",
+                    "image": require('../assets/images/items/suspicious-juice.png')
+                },
+                {
+                    "name": "strange_juice",
+                    "image": require('../assets/images/items/strange-juice.png')
+                }      ],
       "aura": {
           "name": "heart_drain",
           "description": "While fighting together, grants the player and Lovander the life steal effect which absorbs some of the received damage and restores HP.",
@@ -8730,9 +9086,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ",
-          "high_quality_pal_oil"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                },
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png'),
+                }      ],
       "aura": {
           "name": "magma_tears",
           "description": "Sometimes produces Flame Organ when assigned to Ranch.",
@@ -8859,10 +9220,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "bone",
-          "ruby",
-          "gold_coin"
-      ],
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                },
+                {
+                    "name": "ruby",
+                    "image": require('../assets/images/items/ruby.png'),
+                },
+                {
+                    "name": "gold_coin",
+                    "image": require('../assets/images/items/gold-coin.png'),
+                }      ],
       "aura": {
           "name": "aerial_marauder",
           "description": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted.",
@@ -9000,9 +9369,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "bone",
-          "ingot"
-      ],
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                },
+                {
+                    "name": "ingot",
+                    "image": require('../assets/images/items/ingot.png'),
+                }      ],
       "aura": {
           "name": "brandish_blade",
           "description": "When activated, attacks targeted enemy with a powerful Iaigiri.",
@@ -9130,8 +9504,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "electric_organ"
-      ],
+                {
+                    "name": "electric_organ",
+                    "image": require('../assets/images/items/electric-organ.png'),
+                }      ],
       "aura": {
           "name": "thunderous",
           "description": "Can be ridden as a flying mount. Applies Electric damage to the player's attacks while mounted.",
@@ -9254,7 +9630,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ"
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }
       ],
       "aura": {
           "name": "flame_wing",
@@ -9383,10 +9762,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "katress_hair",
-          "high_grade_technical_manual"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "katress_hair",
+                    "image": require('../assets/images/items/katress-hair.png'),
+                },
+                {
+                    "name": "high_grade_technical_manual",
+                    "image": require('../assets/images/items/high-grade-technical-manual.png'),
+                }      ],
       "aura": {
           "name": "grimoire_collector",
           "description": "While fighting together, Neutral Pals drop more items when defeated.",
@@ -9514,7 +9901,15 @@ export const pals =[
       ],
       "drops": [
           "flame_organ",
-          "high_grade_technical_manual"
+          "high_grade_technical_manual",
+          {
+            "name": 'flame_organ',
+            "image": require('../assets/images/items/flame-organ.png'),
+          },
+          {
+            "name": 'high_grade_technical_manual',
+            "image": require('../assets/images/items/high-grade-technical-manual.png'),
+          }      
       ],
       "aura": {
           "name": "lord_fox",
@@ -9653,9 +10048,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "bone"
-      ],
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                }      ],
       "aura": {
           "name": "grassland_speedster",
           "description": "When fighting together, increases player's movement speed and applies Grass damage to the player's attacks.",
@@ -9793,9 +10193,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "low_grade_medical_supplies",
-          "tomato_seeds"
-      ],
+                {
+                    "name": "low_grade_medical_supplies",
+                    "image": require('../assets/images/items/low-grade-medical-supplies.png')
+                },
+                {
+                    "name": "tomato_seeds",
+                    "image": require('../assets/images/items/tomato-seeds.png')
+                }      ],
       "aura": {
           "name": "purification_of_gaia",
           "description": "While fighting together, Ground Pals drop more items when defeated.",
@@ -9923,9 +10328,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_cloth",
-          "ice_organ"
-      ],
+                {
+                    "name": "high_quality_cloth",
+                    "image": require('../assets/images/items/high-quality-cloth.png'),
+                },
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                }      ],
       "aura": {
           "name": "silk_maker",
           "description": "When activated, attacks targeted enemy with a powerful Blizzard Spike. Sometimes produces High Quality Cloth when assigned to Ranch.",
@@ -10043,7 +10453,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_pal_oil"
+          {
+            "name": "high_quality_pal_oil",
+              "image": require('../assets/images/items/high-quality-pal-oil.png'),
+          }
       ],
       "aura": {
           "name": "amicable_holy_dragon",
@@ -10163,7 +10576,15 @@ export const pals =[
       ],
       "drops": [
           "raw_kelpsea",
-          "pal_fluids"
+          "pal_fluids",
+          {
+            "name": "raw_kelpsea",
+            "image": require('../assets/images/items/raw-kelpsea.png'),
+          },
+          {
+            "name": "pal_fluids",
+            "image": require('../assets/images/items/pal-fluids.png'),
+          }
       ],
       "aura": {
           "name": "aqua_spout",
@@ -10286,9 +10707,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "cloth",
-          "precious_dragon_stone"
-      ],
+                {
+                    "name": "cloth",
+                    "image": require('../assets/images/items/cloth.png'),
+                },
+                {
+                    "name": "precious_dragon_stone",
+                    "image": require('../assets/images/items/precious-dragon-stone.png'),
+                }      ],
       "aura": {
           "name": "waterwing_dance",
           "description": "Can be ridden to travel on water. Applies Water damage to the player's attacks while mounted.",
@@ -10416,8 +10842,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "ice_organ"
-      ],
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                },      ],
       "aura": {
           "name": "dragon_hunter",
           "description": "While fighting together, Dragon Pals drop more items when defeated.",
@@ -10540,8 +10968,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      ],
       "aura": {
           "name": "hellflame_lion",
           "description": "Can be ridden. While fighting together, Grass Pals drop more items when defeated.",
@@ -10669,7 +11099,15 @@ export const pals =[
       ],
       "drops": [
           "high_quality_pal_oil",
-          "ruby"
+          "ruby",
+          {
+            'name': 'high_quality_pal_oil',
+            'image': require('../assets/images/items/high-quality-pal-oil.png')
+          },
+          {
+            'name': 'ruby',
+            'image': require('../assets/images/items/ruby.png')
+          }
       ],
       "aura": {
           "name": "hungry_missile",
@@ -10788,9 +11226,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "broncherry_meat",
-          "tomato_seeds"
-      ],
+                {
+                    "name": "broncherry_meat",
+                    "image": require('../assets/images/items/broncherry-meat.png'),
+                },
+                {
+                    "name": "tomato_seeds",
+                    "image": require('../assets/images/items/tomato-seeds.png'),
+                }      ],
       "aura": {
           "name": "overaffectionate",
           "description": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity.",
@@ -10928,8 +11371,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "beautiful_flower"
-      ],
+                {
+                    "name": "beautiful_flower",
+                    "image": require('../assets/images/items/beautiful-flower.png'),
+                }      ],
       "aura": {
           "name": "blessing_of_the_flower_spirit",
           "description": "When activated, uses medicinal flowers to restore the player's HP.",
@@ -11056,8 +11501,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      ],
       "aura": {
           "name": "ore-loving_beast",
           "description": "Can be ridden. Improves efficiency of mining ores while mounted.",
@@ -11175,7 +11622,12 @@ export const pals =[
           }
       ],
       "drops": [
-          "wool"
+          "wool",
+          {
+            "name": "wool",
+            "image": require('../assets/images/items/wool.png'),
+          },
+          
       ],
       "aura": {
           "name": "king_of_muscles",
@@ -11304,10 +11756,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_pal_oil",
-          "leather",
-          "mammorest_meat"
-      ],
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "mammorest_meat",
+                    "image": require('../assets/images/items/mammorest-meat.png'),
+                }      ],
       "aura": {
           "name": "gaia_crusher",
           "description": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted.",
@@ -11440,9 +11900,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "ice_organ",
-          "beautiful_flower"
-      ],
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                },
+                {
+                    "name": "beautiful_flower",
+                    "image": require('../assets/images/items/beautiful-flower.png'),
+                }      ],
       "aura": {
           "name": "guardian_of_the_snowy_mountain",
           "description": "Can be ridden. While in team, Wumpo helps carry supplies, increasing the player's max carrying capacity.",
@@ -11579,7 +12044,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "honey"
+                {
+                    "neme": "honey",
+                    "image": require('../assets/images/items/honey.png'),
+                },
       ],
       "aura": {
           "name": "hard_armor",
@@ -11698,8 +12166,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "leather",
-          "horn"
+          {
+            "neme": 'leather',
+            "image": require('../assets/images/items/leather.png'),
+          },
+          {
+            "neme": 'horn',
+            "image": require('../assets/images/items/horn.png'),
+          }
       ],
       "aura": {
           "name": "wind_and_clouds",
@@ -11818,9 +12292,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "cloth",
-          "small_pal_soul"
-      ],
+                {
+                    "name": "cloth",
+                    "image": require('../assets/images/items/cloth.png'),
+                },
+                {
+                    "name": "small_pal_soul",
+                    "image": require('../assets/images/items/small-pal-soul.png'),
+                }      ],
       "aura": {
           "name": "life_steal",
           "description": "While fighting together, grants the player and Felbat the life steal effect which absorbs some of the received damage and restores HP.",
@@ -11950,8 +12429,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_pal_oil"
-      ],
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png')
+                }      ],
       "aura": {
           "name": "sky_dragon's_affection",
           "description": "Can be ridden as a flying mount. Enhances Dragon attacks while mounted.",
@@ -12074,9 +12555,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "coal",
-          "flame_organ"
-      ],
+                {
+                    "name": "coal",
+                    "image": require('../assets/images/items/coal.png'),
+                },
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      ],
       "aura": {
           "name": "magma_kaiser",
           "description": "Can be ridden. Enchances Fire attacks while mounted.",
@@ -12195,7 +12681,15 @@ export const pals =[
       ],
       "drops": [
           "venom_gland",
-          "medium_pal_soul"
+          "medium_pal_soul",
+          {
+            "name": 'venom_gland',
+            "image": require('../assets/images/items/venom-gland.png'),
+          },
+          {
+            "name": 'medium_pal_soul',
+            "image": require('../assets/images/items/medium-pal-soul.png'),
+          }
       ],
       "aura": {
           "name": "wings_of_death",
@@ -12322,9 +12816,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_metal_ingot",
-          "pure_quartz"
-      ],
+                {
+                    "name": "pal_metal_ingot",
+                    "image": require('../assets/images/items/pal-metal-ingot.png'),
+                },
+                {
+                    "name": "pure_quartz",
+                    "image": require('../assets/images/items/pure-quartz.png'),
+                }      ],
       "aura": {
           "name": "black_anklyosaur",
           "description": "Can be ridden a flying mount. Increases damage dealt to ore while mounted.",
@@ -12451,9 +12950,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "coal",
-          "venom_gland"
-      ],
+                {
+                    "name": "coal",
+                    "image": require('../assets/images/items/coal.png'),
+                },
+                {
+                    "name": "venom_gland",
+                    "image": require('../assets/images/items/venom-gland.png'),
+                }      ],
       "aura": {
           "name": "steel_scorpion",
           "description": "When fighting together, increases the player's defense and Electric Pals drop more items when defeated.",
@@ -12581,10 +13085,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "bone",
-          "large_pal_soul",
-          "innovative_technical_manual"
-      ],
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                },
+                {
+                    "name": "large_pal_soul",
+                    "image": require('../assets/images/items/large-pal-soul.png'),
+                },
+                {
+                    "name": "innovative_technical_manual",
+                    "image": require('../assets/images/items/innovative-technical-manual.png'),
+                }      ],
       "aura": {
           "name": "guardian_of_the_desert",
           "description": "When fighting together, applies Ground damage to the player's attacks. Sometimes dodges attacks with a high speed sidestep while in a battle.",
@@ -12703,7 +13215,11 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_fluids"
+       
+          {
+            "name": "pal_fluids",
+              "image": require('../assets/images/items/pal-fluids.png'),
+          }
       ],
       "aura": {
           "name": "stormbringer_sea_dragon",
@@ -12822,8 +13338,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                },      ],
       "aura": {
           "name": "wings_of_flame",
           "description": "Can be ridden as a flying mount. Enhances Fire attacks while mounted.",
@@ -12956,9 +13474,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "electric_organ",
-          "leather"
-      ],
+                {
+                    "name": "electric_organ",
+                    "image": require('../assets/images/items/electric-organ.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                }      ],
       "aura": {
           "name": "yellow_tank",
           "description": "Can be ridden. Can rapidly fire a minigun while mounted.",
@@ -13091,10 +13614,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "low_grade_medical_supplies",
-          "beautiful_flower",
-          "innovative_technical_manual"
-      ],
+                {
+                    "name": "low_grade_medical_supplies",
+                    "image": require('../assets/images/items/low-grade-medical-supplies.png')
+                },
+                {
+                    "name": "beautiful_flower",
+                    "image": require('../assets/images/items/beautiful-flower.png')
+                },
+                {
+                    "name": "innovative_technical_manual",
+                    "image": require('../assets/images/items/innovative-technical-manual.png')
+                }      ],
       "aura": {
           "name": "harvest_goddess",
           "description": "When activated, the queen's soothing graces greatly restore the player's HP.",
@@ -13217,8 +13748,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      ],
       "aura": {
           "name": "scorching_predator",
           "description": "Can be ridden as a flying mount. While fighting together, Ice Pals drop more items when defeated.",
@@ -13350,8 +13883,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "electric_organ"
-      ],
+                {
+                    "name": "electric_organ",
+                    "image": require('../assets/images/items/electric-organ.png'),
+                }      ],
       "aura": {
           "name": "ferocious_thunder_dragon",
           "description": "While fighting together, Water Pals drop more items when defeated.",
@@ -13469,10 +14004,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_metal_ingot",
-          "carbon_fiber",
-          "innovative_technical_manual"
-      ],
+                {
+                    "name": "pal_metal_ingot",
+                    "image": require('../assets/images/items/pal-metal-ingot.png'),
+                },
+                {
+                    "name": "carbon_fiber",
+                    "image": require('../assets/images/items/carbon-fiber.png'),
+                },
+                {
+                    "name": "innovative_technical_manual",
+                    "image": require('../assets/images/items/innovative-technical-manual.png'),
+                },],
       "aura": {
           "name": "modified_dna",
           "description": "Can be ridden as a flying mount. Enhances Dark attacks while mounted.",
@@ -13595,9 +14138,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_metal_ingot",
-          "diamond"
-      ],
+                {
+                    "name": "pal_metal_ingot",
+                    "image": require('../assets/images/items/pal-metal-ingot.png'),
+                },
+                {
+                    "name": "diamond",
+                    "image": require('../assets/images/items/diamond.png'),
+                }      ],
       "aura": {
           "name": "holy_knight_of_the_firmament",
           "description": "Can be ridden. Can triple jump while mounted.",
@@ -13720,9 +14268,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_metal_ingot",
-          "large_pal_soul"
-      ],
+                {
+                    "name": "pal_metal_ingot",
+                    "image": require('../assets/images/items/pal-metal-ingot.png')
+                },
+                {
+                    "name": "large_pal_soul",
+                    "image": require('../assets/images/items/large-pal-soul.png')
+                }      ],
       "aura": {
           "name": "dark_knight_of_the_abyss",
           "description": "Can be ridden. Can double jump while mounted.",
@@ -13840,9 +14393,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "ice_organ",
-          "diamond"
-      ],
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                },
+                {
+                    "name": "diamond",
+                    "image": require('../assets/images/items/diamond.png'),
+                }      ],
       "aura": {
           "name": "ice_steed",
           "description": "Can be ridden as a flying mount. Changes the player's attack type to Ice and enhances Ice attacks while mounted.",
@@ -13960,11 +14518,22 @@ export const pals =[
           }
       ],
       "drops": [
-          "pure_quartz",
-          "polymer",
-          "carbon_fiber",
-          "diamond"
-      ],
+                {
+                    "name": "pure_quartz",
+                    "image": require('../assets/images/items/pure-quartz.png'),
+                },
+                {
+                    "name": "polymer",
+                    "image": require('../assets/images/items/polymer.png'),
+                },
+                {
+                    "name": "carbon_fiber",
+                    "image": require('../assets/images/items/carbon-fiber.png'),
+                },
+                {
+                    "name": "diamond",
+                    "image": require('../assets/images/items/diamond.png'),
+                }      ],
       "aura": {
           "name": "aerial_missile",
           "description": "Can be ridden as a flying mount. Can rapidly fire a missile launcher while mounted.",
@@ -14082,7 +14651,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "ice_organ"
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                }
       ],
       "aura": {
           "name": "cold_bomb",
@@ -14203,8 +14775,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "ice_organ",
-          "sapphire"
+          {
+            "name": 'ice_organ',
+            "image": require('../assets/images/items/ice-organ.png'),
+          },
+          {
+            "name": 'sapphire',
+            "image": require('../assets/images/items/sapphire.png'),
+          }
       ],
       "aura": {
           "name": "gold_digger",
@@ -14333,8 +14911,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      ],
       "aura": {
           "name": "angry_shark",
           "description": "When activated, attacks targeted enemy with a powerful Spirit Fire. While in team, increases player's attack power.",
@@ -14466,9 +15046,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "fiber",
-          "ice_organ"
-      ],
+                {
+                    "name": "fiber",
+                    "image": require('../assets/images/items/fiber.png')
+                },
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png')
+                }      ],
       "aura": {
           "name": "winter_trapeze",
           "description": "While in team, can be summoned and used instead of a glider. Carries the player up high while gliding.",
@@ -14600,10 +15185,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "mushroom",
-          "electric_organ",
-          "leather"
-      ],
+                {
+                    "name": "mushroom",
+                    "image": require('../assets/images/items/mushroom.png')
+                },
+                {
+                    "name": "electric_organ",
+                    "image": require('../assets/images/items/electric-organ.png')
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png')
+                }      ],
       "aura": {
           "name": "plane_partner",
           "description": "Can be ridden. Can rapidly fire a grenade launcher while mounted.",
@@ -14721,9 +15314,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "eikthyrdeer_venison",
-          "leather",
-          "horn"
+          {
+            "name": "eikthyrdeer_venison",
+            "image": require('../assets/images/items/eikthyrdeer-venison.png'),
+          },
+          {
+            "name": "leather",
+            "image": require('../assets/images/items/leather.png'),
+          },
+          {
+            "name": "horn",
+            "image": require('../assets/images/items/horn.png'),
+          }
       ],
       "aura": {
           "name": "guardian_of_the_golden_forest",
@@ -14852,9 +15454,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "horn",
-          "leather"
-      ],
+                {
+                    "name": "horn",
+                    "image": require('../assets/images/items/horn.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                }      ],
       "aura": {
           "name": "darkclaw_hunter",
           "description": "When activated, attacks targeted enemy with a powerful Hellfire Claw.",
@@ -14987,9 +15594,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ",
-          "silver_key"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                },
+                {
+                    "name": "silver_key",
+                    "image": require('../assets/images/items/silver-key.png'),
+                }      ],
       "aura": {
           "name": "sixth_sense",
           "description": "When activated, utilizes its sixth sense to detect nearby dungeons.",
@@ -15131,9 +15743,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "wheat_seeds",
-          "arrow"
-      ],
+                {
+                    "name": "wheat_seeds",
+                    "image": require('../assets/images/items/wheat-seeds.png')
+                },
+                {
+                    "name": "arrow",
+                    "image": require('../assets/images/items/arrow.png')
+                }      ],
       "aura": {
           "name": "hawk_eye",
           "description": "While fighting together, allows you to deal more damage to weak points.",
@@ -15260,8 +15877,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ",
-          "leather"
+          {
+            "name":"flame_organ",
+            "image": require('../assets/images/items/flame-organ.png')
+          },
+          {
+            "name":"leather",
+            "image": require('../assets/images/items/leather.png')
+          }
       ],
       "aura": {
           "name": "black_hare",
@@ -15388,8 +16011,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "tomato_seeds"
-      ],
+                {
+                    "name": "tomato_seeds",
+                    "image": require('../assets/images/items/tomato-seeds.png')
+                }      ],
       "aura": {
           "name": "thunder_dragon",
           "description": "Can be ridden. Enhances Electric attacks while mounted.",
@@ -15507,7 +16132,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_fluids"
+                {
+                    "name": "pal_fluids",
+                    "image": require('../assets/images/items/pal-fluids.png'),
+                }
       ],
       "aura": {
           "name": "sand_swimmer",
@@ -15635,10 +16263,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "bone",
-          "ice_organ",
-          "sapphire"
-      ],
+                {
+                    "name": "bone",
+                    "image": require('../assets/images/items/bone.png'),
+                },
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                },
+                {
+                    "name": "sapphire",
+                    "image": require('../assets/images/items/sapphire.png'),
+                }      ],
       "aura": {
           "name": "aerial_marauder",
           "description": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted.",
@@ -15764,7 +16400,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_pal_oil"
+          {
+            "name": "high_quality_pal_oil",
+            "image": require('../assets/images/items/high-quality-pal-oil.png'),
+          }
       ],
       "aura": {
           "name": "amicable_water_dragon",
@@ -15880,9 +16519,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "raw_kelpsea",
-          "flame_organ"
-      ],
+                {
+                    "name": "raw_kelpsea",
+                    "image": require('../assets/images/items/raw-kelpsea.png'),
+                },
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      ],
       "aura": {
           "name": "lava_spout",
           "description": "While in team, increases attack power of Fire Pals.",
@@ -16009,8 +16653,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "flame_organ"
-      ],
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png'),
+                }      ],
       "aura": {
           "name": "darkflame_lion",
           "description": "Can be ridden. While fighting together, Neutral Pals drop more items when defeated.",
@@ -16136,10 +16782,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_pal_oil",
-          "electric_organ",
-          "sapphire"
-      ],
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png')
+                },
+                {
+                    "name": "electric_organ",
+                    "image": require('../assets/images/items/electric-organ.png')
+                },
+                {
+                    "name": "sapphire",
+                    "image": require('../assets/images/items/sapphire.png')
+                }      ],
       "aura": {
           "name": "missile_party",
           "description": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
@@ -16258,8 +16912,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "broncherry_meat",
-          "lettuce_seeds"
+          {
+            "name":"broncherry_meat",
+            "image": require('../assets/images/items/broncherry-meat.png')
+          },
+          {
+              "name": "lettuce_seeds",
+              "image": require('../assets/images/items/lettuce-seeds.png')
+          }
       ],
       "aura": {
           "name": "overaffectionate",
@@ -16387,8 +17047,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "ice_organ"
-      ],
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                }      ],
       "aura": {
           "name": "ice-loving_beast",
           "description": "Can be ridden. Improves efficiency of mining ores while mounted.",
@@ -16508,9 +17170,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "wool",
-          "ice_organ"
-      ],
+                {
+                    "name": "wool",
+                    "image": require('../assets/images/items/wool.png'),
+                },
+                {
+                    "name": "ice_organ",
+                    "image": require('../assets/images/items/ice-organ.png'),
+                }      ],
       "aura": {
           "name": "king_of_muscles",
           "description": "Can be ridden. While in team, Kingpaca helps carry supplies, increasing the player's max carrying capacity.",
@@ -16638,10 +17305,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_pal_oil",
-          "leather",
-          "mammorest_meat"
-      ],
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png'),
+                },
+                {
+                    "name": "leather",
+                    "image": require('../assets/images/items/leather.png'),
+                },
+                {
+                    "name": "mammorest_meat",
+                    "image": require('../assets/images/items/mammorest-meat.png'),
+                }      ],
       "aura": {
           "name": "ice_crusher",
           "description": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted.",
@@ -16774,10 +17449,18 @@ export const pals =[
           }
       ],
       "drops": [
-          "lettuce_seeds",
-          "tomato_seeds",
-          "beautiful_flower"
-      ],
+                {
+                    "name": "lettuce_seeds",
+                    "image": require('../assets/images/items/lettuce-seeds.png')
+                },
+                {
+                    "name": "tomato_seeds",
+                    "image": require('../assets/images/items/tomato-seeds.png')
+                },
+                {
+                    "name": "beautiful_flower",
+                    "image": require('../assets/images/items/beautiful-flower.png')
+                }      ],
       "aura": {
           "name": "guardian_of_the_grassy_fields",
           "description": "Can be ridden. While in team, Wumpo Botan helps carry supplies, increasing the player's max carrying capacity.",
@@ -16899,9 +17582,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "high_quality_pal_oil",
-          "flame_organ"
-      ],
+                {
+                    "name": "high_quality_pal_oil",
+                    "image": require('../assets/images/items/high-quality-pal-oil.png')
+                },
+                {
+                    "name": "flame_organ",
+                    "image": require('../assets/images/items/flame-organ.png')
+                }      ],
       "aura": {
           "name": "stormbringer_lava_dragon",
           "description": "Can be ridden. Enhances Fire attacks while mounted.",
@@ -17019,8 +17707,10 @@ export const pals =[
           }
       ],
       "drops": [
-          "pal_fluids"
-      ],
+                {
+                    "name": "pal_fluids",
+                    "image": require('../assets/images/items/pal-fluids.png'),
+                }      ],
       "aura": {
           "name": "wings_of_water",
           "description": "Can be ridden as a flying mount. Enhances Water attacks while mounted.",
@@ -17145,9 +17835,19 @@ export const pals =[
           }
       ],
       "drops": [
-          "low_grade_medical_supplies",
-          "beautiful_flower",
-          "innovative_technical_manual"
+
+          {
+            "name": "low_grade_medical_supplies",
+            "image": require('../assets/images/items/low-grade-medical-supplies.png'),
+          },
+          {
+            "name": "beautiful_flower",
+            "image": require('../assets/images/items/beautiful-flower.png'),
+          },
+          {
+            "name": "innovative_technical_manual",
+            "image": require('../assets/images/items/innovative-technical-manual.png'),
+          }
       ],
       "aura": {
           "name": "goddess_of_the_tranquil_light",
@@ -17266,9 +17966,14 @@ export const pals =[
           }
       ],
       "drops": [
-          "pure_quartz",
-          "large_pal_soul"
-      ],
+                {
+                    "name": "pure_quartz",
+                    "image": require('../assets/images/items/pure-quartz.png')
+                },
+                {
+                    "name": "large_pal_soul",
+                    "image": require('../assets/images/items/large-pal-soul.png')
+                }      ],
       "aura": {
           "name": "black_steed",
           "description": "Can be ridden as a flying mount. Changes the player's attack type to Dark and enhances Dark attacks while mounted.",
