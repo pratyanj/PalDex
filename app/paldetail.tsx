@@ -4,7 +4,6 @@ import { Image } from "expo-image";
 import { pals } from "../constants/pals";
 import { Colors } from "../constants/Colors";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import GeneralTab from "../components/general";
 import { WorkSkill } from "../components/Work_Suitability";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useState } from "react";
@@ -12,7 +11,9 @@ import { useLocalSearchParams } from 'expo-router';
 import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import { useNavigation } from '@react-navigation/native';
-import Stats from "../components/stats";
+import GeneralTab from "../components/general_screen";
+import Stats from "../components/stats_screen";
+import { MiscScreen } from "../components/other_screen";
 const Tab = createMaterialTopTabNavigator();
 
 function TabScreen({ title }: { title: string }) {
@@ -144,9 +145,9 @@ export default function paldetail() {
               children={() => <Stats pal_id={pal_id} />}
             />
             <Tab.Screen
-              name="Tab3"
-              options={{ title: "2.1-3MM" }}
-              children={() => <TabScreen title="2.1-3MM Content" />}
+              name="Other"
+              options={{ title: "Other" }}
+              children={() => <MiscScreen pal_id={pals[pal_id].key} />}
             />
           </Tab.Navigator>
         </View>
