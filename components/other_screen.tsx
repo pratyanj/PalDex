@@ -196,7 +196,6 @@ export function MiscScreen({ pal_id }: Props) {
           </BottomSheet>
         </GestureHandlerRootView>
       </Modal>
-      ;
     </GestureHandlerRootView>
   );
 }
