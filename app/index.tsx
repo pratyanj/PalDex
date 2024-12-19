@@ -12,10 +12,14 @@ import { pals } from "../constants/pals";
 import { imageMapping } from "../constants/imageMapping";
 import { useTheme } from "@react-navigation/native";
 import { router } from "expo-router";
+import { Colors } from "../constants/Colors";
+import { StatusBar } from 'expo-status-bar';
 export default function PalList() {
-  const Theme = useTheme();
+  const Theme = {mode: "dark"};
+  let actColor = Colors[Theme.mode];
+
   return (
-    <ScrollView style={{ backgroundColor: "#181818" }}>
+    <ScrollView style={{ backgroundColor: actColor.background }}>
       <View style={styles.mian}>
         {pals.map((pal) => (
           <React.Fragment key={pal.id}>
@@ -37,6 +41,7 @@ export default function PalList() {
           </React.Fragment>
         ))}
       </View>
+      <StatusBar style={Theme.mode === "dark" ? "light" : "dark"} />
     </ScrollView>
   );
 }

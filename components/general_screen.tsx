@@ -4,23 +4,25 @@ import { View, Text, ScrollView, StyleSheet } from "react-native";
 import { WorkSkill } from "./Work_Suitability";
 import { pals } from "../constants/pals";
 import { Image } from "expo-image";
+import { Colors } from "../constants/Colors";
 type Props = {
   pal_id: number;
 };
-
+const Theme = {mode: "dark"};
+let actColor = Colors[Theme.mode];
 const GeneralTab = ({
   pal_id,
 }: Props) => {
   // console.log(works)
   return (
     <ScrollView style={styles.container}>
-      <View style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}>
+      <View style={{ backgroundColor: actColor.inverseOnSurface, padding: 8, borderRadius: 8 }}>
         <Text style={styles.text}>{pals[pal_id].description}</Text>
       </View>
       <View style={styles.skill}>
         <Text style={styles.skillTitle}>Partner Skill</Text>
         <View
-          style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}
+          style={{ backgroundColor: actColor.inverseOnSurface, padding: 8, borderRadius: 8 }}
         >
           <Text style={styles.skillTitle}>{pals[pal_id].aura.name.charAt(0).toUpperCase() + pals[pal_id].aura.name.slice(1).replace("_", " ")}</Text>
           <View
@@ -33,7 +35,7 @@ const GeneralTab = ({
       <View style={styles.skill}>
         <Text style={styles.skillTitle}>Work Suitability</Text>
         <View
-          style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}
+          style={{ backgroundColor:actColor.inverseOnSurface, padding: 8, borderRadius: 8 }}
         >
           {pals[pal_id].suitability.map((i) => (
             <WorkSkill
@@ -52,7 +54,7 @@ const GeneralTab = ({
       <View style={[styles.skill, { marginBottom: 100 }]}>
         <Text style={styles.skillTitle}>Drop Item</Text>
         <View
-          style={{ backgroundColor: "#2b2b2b", padding: 8, borderRadius: 8 }}
+          style={{ backgroundColor:actColor.inverseOnSurface, padding: 8, borderRadius: 8 }}
         >
           {pals[pal_id].drops.map((i) => (
             <View
@@ -72,7 +74,7 @@ const GeneralTab = ({
                 style={{
                   width: 50,
                   height: 50,
-                  backgroundColor: "#2b2b2b",
+                  backgroundColor:actColor.inverseOnSurface,
                   borderRadius: 8,
                 }}
               />
@@ -90,7 +92,7 @@ const GeneralTab = ({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#151515",
+    backgroundColor: actColor.surface,
     padding: 16,
     // marginHorizontal: 8,
   },
@@ -100,7 +102,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    color: "white",
+    color: actColor.onSurface,
     fontWeight: "bold",
   },
   description: {
@@ -108,14 +110,14 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 16,
-    color: "white",
+    color: actColor.onSurface,
   },
   skill: {
     marginTop: 16,
   },
   skillTitle: {
     fontSize: 18,
-    color: "white",
+    color: actColor.onSurface,
     fontWeight: "bold",
     marginBottom: 8,
   },

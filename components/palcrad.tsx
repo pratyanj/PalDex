@@ -1,14 +1,17 @@
 import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 import { Image } from "expo-image";
+import { Colors } from "../constants/Colors";
 type Props = {
   name: string;
   image: string;
   number: string;
   element : string;
 };
-
+const Theme = {mode: "dark"};
+let actColor = Colors[Theme.mode];
 export default function Card11({ name, image, number,element }: Props) {
+  
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>
@@ -36,7 +39,7 @@ const styles = StyleSheet.create({
     width: 165,
     height: 165,
     borderRadius: 8,
-    backgroundColor: "#353b48",
+    backgroundColor: actColor.outlineVariant,
   },
   infoContainer: {
     display: "flex",

@@ -15,14 +15,8 @@ import GeneralTab from "../components/general_screen";
 import Stats from "../components/stats_screen";
 import { MiscScreen } from "../components/other_screen";
 const Tab = createMaterialTopTabNavigator();
-
-function TabScreen({ title }: { title: string }) {
-  return (
-    <View style={styles.tabScreen}>
-      <Text style={styles.text}>{title}</Text>
-    </View>
-  );
-}
+const Theme = {mode: "dark"};
+let actColor = Colors[Theme.mode];
 
 
 export default function paldetail() {
@@ -68,19 +62,19 @@ export default function paldetail() {
 
     return (
       <>
-        <View>
+        <View >
           <Image source={pal_image} style={styles.palImage} />
           <View style={styles.container1}>
             <View style={{ flex: 0, flexDirection: "row" }}>
-              <Text style={{ color: "white", paddingTop: 10 }}>No: </Text>
+              <Text style={ [styles.text,{ paddingTop: 10}] }>No: </Text>
               <Text style={styles.paklkey}>#{pal_key}</Text>
             </View>
             <View style={{ flex: 1, flexDirection: "row",paddingRight: 30 }}>
-              <Text style={{ color: "white", paddingTop: 6 }}>Name: </Text>
+              <Text style={[styles.text,{paddingTop: 6}] }>Name: </Text>
               <Text style={styles.palname}>{pal_name}</Text>
             </View>
             <View style={{ flex: 1, flexDirection: "row" }}>
-              <Text style={{ color: "white", paddingTop: 6 }}>Element: </Text>
+              <Text style={[styles.text,{ paddingTop: 6 }]}>Element: </Text>
               <Text style={styles.palname}>{pal_element_name}</Text>
               <Image
                 source={pal_element}
@@ -91,8 +85,8 @@ export default function paldetail() {
 
           <View
             style={{
-              backgroundColor: "#2b2b2b",
-              borderColor: "#1f1f1f",
+              backgroundColor: actColor.surfaceVariant,
+              borderColor: actColor.outline,
               borderWidth: 2,
               borderRadius: 15,
               flexDirection: "row",
@@ -110,7 +104,7 @@ export default function paldetail() {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: "#181818" }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: actColor.background }}>
       <View style={{ flex: 1 }}>
         <View style={{ alignItems: "center", marginTop: 10 }}>
           {pal_header(
@@ -130,8 +124,8 @@ export default function paldetail() {
               tabBarStyle: styles.tabBar,
               tabBarLabelStyle: styles.tabLabel,
               tabBarIndicatorStyle: styles.tabIndicator,
-              tabBarActiveTintColor: "white",
-              tabBarInactiveTintColor: "gray",
+              tabBarActiveTintColor: actColor.primary,
+              tabBarInactiveTintColor: actColor.onTertiaryContainer,
             }}
           >
             <Tab.Screen
@@ -160,11 +154,11 @@ export default function paldetail() {
   container: {
     flexDirection: "row",
     justifyContent: "center",
-    backgroundColor: "#1f1f1f",
+    backgroundColor: actColor.surface,
     padding: 16,
     paddingBottom: 10,
     marginBottom: 16,
-    shadowColor: "#000",
+    shadowColor: actColor.shadow,
     shadowOpacity: 0.2,
     shadowRadius: 4,
     elevation: 4,
@@ -179,12 +173,12 @@ export default function paldetail() {
     width: 250,
     paddingLeft: 70,
     flex: 1,
-    backgroundColor: "#2b2b2b",
+    backgroundColor: actColor.surfaceVariant,
     borderRadius: 12,
-    paddingVertical: 12,
+    paddingVertical: 16,
     paddingHorizontal: 16,
     justifyContent: "space-evenly",
-    shadowColor: "#fff",
+    shadowColor: actColor.shadow,
     shadowOpacity: 1,
     shadowRadius: 4,
     elevation: 5,
@@ -194,14 +188,14 @@ export default function paldetail() {
     height: 120,
     borderRadius: 60, // Circle image
     borderWidth: 8, // Slightly thicker for more emphasis
-    borderColor: "#2b2b2b",
+    borderColor: actColor.surfaceVariant,
     zIndex: 1, // Ensure it's above the image
-    backgroundColor: "#1f1f1f",
+    backgroundColor: actColor.surface,
   },
   palname: {
     fontSize: 18,
     fontWeight: "600",
-    color: "white",
+    color: actColor.onSurface,
     marginLeft: 8,
     flexWrap: "wrap",
     
@@ -209,14 +203,14 @@ export default function paldetail() {
   paklkey: {
     fontSize: 20,
     fontWeight: "bold",
-    color: "#4cd137", // Use a distinctive color for keys
+    color: actColor.secondary, // Use a distinctive color for keys
     marginLeft: 8, // Spacing for readability
   },
 
   tabBar: {
-    backgroundColor: "#2b2b2b", // Dark background for the tab bar
+    backgroundColor: actColor.surfaceVariant, // Dark background for the tab bar
     borderRadius: 8, // Rounded edges for the tab bar
-    marginHorizontal: 8, // Center alignment
+    marginHorizontal: 10, // Center alignment
     marginVertical: 6,
     height: 50, // Height for better visibility
     elevation: 0, // Remove shadow on Android
@@ -230,18 +224,12 @@ export default function paldetail() {
     textTransform: "none", // Disable uppercase labels
   },
   tabIndicator: {
-    backgroundColor: "#32a852", // Accent color for the indicator
+    backgroundColor: actColor.inversePrimary, // Accent color for the indicator
     height: 4,
     borderRadius: 2,
   },
-  tabScreen: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#f5f5f5",
-  },
   text: {
-    fontSize: 18,
-    color: "red",
+    fontSize: 16,
+    color: actColor.text,
   },
 });

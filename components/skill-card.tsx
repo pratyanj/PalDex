@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-
+import { Colors } from '../constants/Colors';
+const Theme = {mode: "dark"};
+let actColor = Colors[Theme.mode];
 type Skill = {
     name: string;
     level: number;
@@ -18,6 +20,7 @@ export function SkillCard({ name, level, power, cooldown, description }: Skill) 
           {name} <Text style={styles.skillLevel}>- Lv {level}</Text>
         </Text>
       </View>
+      <View style={{ backgroundColor:actColor.background,padding:5,borderRadius:10 }}>
       <View style={styles.statsContainer}>
         <View style={styles.stat}>
           <Text style={styles.statLabel}>Power:</Text>
@@ -34,28 +37,23 @@ export function SkillCard({ name, level, power, cooldown, description }: Skill) 
       </View>
       <Text style={styles.description}>{description}</Text>
     </View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#151515',
+      backgroundColor: actColor.background,
       padding: 16,
-    },
-    title: {
-      fontSize: 26,
-      fontWeight: 'bold',
-      color: '#00E5FF',
-      marginBottom: 10,
     },
     card: {
-      backgroundColor: '#2b2b2b',
+      backgroundColor: actColor.surfaceVariant,
       borderRadius: 12,
-      padding: 16,
+      padding: 10,
       marginBottom: 16,
       elevation: 2,
-      shadowColor: '#000',
+      shadowColor: actColor.shadow,
       shadowOpacity: 0.2,
       shadowRadius: 4,
     },
@@ -65,17 +63,21 @@ const styles = StyleSheet.create({
     skillName: {
       fontSize: 20,
       fontWeight: 'bold',
-      color: '#FFFFFF',
+      color: actColor.onSurface,
     },
     skillLevel: {
       fontSize: 18,
       fontWeight: 'normal',
-      color: '#B0BEC5',
+      color: actColor.onSurfaceVariant,
     },
     statsContainer: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      marginVertical: 8,
+      marginVertical: 4,
+      backgroundColor: actColor.surface,
+      paddingHorizontal: 8,
+      paddingVertical: 4,
+      borderRadius: 8,
     },
     stat: {
       flexDirection: 'row',
@@ -83,17 +85,17 @@ const styles = StyleSheet.create({
     },
     statLabel: {
       fontSize: 16,
-      color: '#FFCC80',
+      color: actColor.inverseSurface,
       marginRight: 6,
     },
     statValue: {
       fontSize: 16,
       fontWeight: 'bold',
-      color: '#FF7043',
+      color: actColor.secondary,
     },
     description: {
       fontSize: 14,
-      color: '#CFD8DC',
+      color: actColor.onSurface,
       marginTop: 8,
     },
   });

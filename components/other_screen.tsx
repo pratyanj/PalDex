@@ -13,7 +13,9 @@ import { breeding } from "./micro/breeding";
 import { Image } from "expo-image";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import BottomSheet, { BottomSheetScrollView } from "@gorhom/bottom-sheet";
-
+import { Colors } from "../constants/Colors";
+const Theme = {mode: "dark"};
+let actColor = Colors[Theme.mode];
 type Props = {
   pal_id: string;
 };
@@ -122,8 +124,8 @@ export function MiscScreen({ pal_id }: Props) {
             snapPoints={snapPoints}
             onChange={handleSheetChanges}
             enablePanDownToClose={true} // Enable slide down to close
-            backgroundStyle={{ backgroundColor: "#353535" }}
-            handleIndicatorStyle={{ backgroundColor: "#fff" }}
+            backgroundStyle={{ backgroundColor: actColor.surfaceVariant }}
+            handleIndicatorStyle={{ backgroundColor: actColor.outline }}
           >
             <BottomSheetScrollView
               contentContainerStyle={styles.sheetContentContainer}
@@ -166,7 +168,7 @@ export function MiscScreen({ pal_id }: Props) {
             snapPoints={snapPoints}
             onChange={handleSheetChanges}
             enablePanDownToClose={true} // Enable slide down to close
-            backgroundStyle={{ backgroundColor: "#353535" }}
+            backgroundStyle={{ backgroundColor: actColor.surfaceVariant }}
             handleIndicatorStyle={{ backgroundColor: "#fff" }}
           >
             <BottomSheetScrollView
@@ -203,7 +205,7 @@ export function MiscScreen({ pal_id }: Props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#151515",
+    backgroundColor: actColor.background,
     padding: 16,
   },
   header: {
@@ -215,7 +217,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 32,
     fontWeight: "bold",
-    color: "#fff",
+    color: actColor.onBackground,
   },
   menuContainer: {
     marginTop: 16,
@@ -223,7 +225,7 @@ const styles = StyleSheet.create({
   modalTitle: {
     fontSize: 20,
     fontWeight: "bold",
-    color: "#fff",
+    color: actColor.onBackground,
     textAlign: "center",
     marginBottom: 16,
   },
@@ -236,7 +238,7 @@ const styles = StyleSheet.create({
   breedingItem: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#2b2b2b",
+    backgroundColor:actColor.inverseOnSurface,
     borderRadius: 16,
     marginBottom: 16,
     width: "100%",
@@ -250,12 +252,12 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
   },
   palName: {
-    color: "white",
+    color: actColor.onBackground,
     fontSize: 16,
     fontWeight: "bold",
   },
   plus: {
-    color: "white",
+    color: actColor.onBackground,
     fontSize: 18,
   },
 });

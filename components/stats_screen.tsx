@@ -2,10 +2,12 @@ import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import React from 'react';
 import { pals } from '../constants/pals';
 import { SkillCard } from './skill-card';
+import { Colors } from '../constants/Colors';
 type Props = {
   pal_id: number;
 };
-
+const Theme = {mode: "dark"};
+let actColor = Colors[Theme.mode];
 interface StatBarProps {
   label: string;
   value: number;
@@ -58,7 +60,7 @@ export default function Stats({ pal_id }: Props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#151515',
+    backgroundColor: actColor.background,
     paddingHorizontal: 16,
     paddingTop: 20,
   },
@@ -69,7 +71,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#fff',
+    color: actColor.onBackground,
   },
   scrollView: {
     paddingBottom: 50,
@@ -78,24 +80,24 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: '#2b2b2b',
+    backgroundColor: actColor.surfaceVariant,
     borderRadius: 12,
     paddingVertical: 12,
     paddingHorizontal: 20,
     marginVertical: 8,
     elevation: 2,
-    shadowColor: '#000',
+    shadowColor: actColor.shadow,
     shadowOpacity: 0.2,
     shadowRadius: 4,
   },
   label: {
     fontSize: 18,
     fontWeight: '600',
-    color: '#ddd',
+    color: actColor.onSurface,
   },
   value: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#4caf50', // A clean green color for values
+    color: actColor.secondary, 
   },
 });
