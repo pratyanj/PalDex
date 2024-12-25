@@ -1,18 +1,54 @@
 // GeneralTab.js
-import React from "react";
+import React, { useContext } from "react";
 import { View, Text, ScrollView, StyleSheet } from "react-native";
 import { WorkSkill } from "./Work_Suitability";
 import { pals } from "../constants/pals";
 import { Image } from "expo-image";
 import { Colors } from "../constants/Colors";
+import { ThemeContext } from "../constants/ThemeContext";
 type Props = {
   pal_id: number;
 };
-const Theme = {mode: "dark"};
-let actColor = Colors[Theme.mode];
+
 const GeneralTab = ({
   pal_id,
 }: Props) => {
+  const { theme, updateTheme } = useContext(ThemeContext);
+  const actColor = Colors[theme.mode];
+  const styles = StyleSheet.create(
+    {
+    container: {
+      flex: 1,
+      backgroundColor: actColor.surface,
+      padding: 16,
+      // marginHorizontal: 8,
+    },
+    header: {
+      alignItems: "center",
+      marginBottom: 16,
+    },
+    title: {
+      fontSize: 24,
+      color: actColor.onSurface,
+      fontWeight: "bold",
+    },
+    description: {
+      marginBottom: 16,
+    },
+    text: {
+      fontSize: 16,
+      color: actColor.onSurface,
+    },
+    skill: {
+      marginTop: 16,
+    },
+    skillTitle: {
+      fontSize: 18,
+      color: actColor.onSurface,
+      fontWeight: "bold",
+      marginBottom: 8,
+    },
+  });
   // console.log(works)
   return (
     <ScrollView style={styles.container}>
@@ -26,7 +62,7 @@ const GeneralTab = ({
         >
           <Text style={styles.skillTitle}>{pals[pal_id].aura.name.charAt(0).toUpperCase() + pals[pal_id].aura.name.slice(1).replace("_", " ")}</Text>
           <View
-            style={{ backgroundColor: "#151515", padding: 8, borderRadius: 8 }}
+            style={{ backgroundColor: actColor.surface, padding: 8, borderRadius: 8 }}
           >
             <Text style={styles.text}>{pals[pal_id].aura.description}</Text>
           </View>
@@ -60,7 +96,7 @@ const GeneralTab = ({
             <View
             key={`${i.name}-${i}`}
               style={{
-                backgroundColor: "#151515",
+                backgroundColor: actColor.surface,
                 padding: 8,
                 borderRadius: 8,
                 flexDirection: "row",
@@ -89,38 +125,6 @@ const GeneralTab = ({
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: actColor.surface,
-    padding: 16,
-    // marginHorizontal: 8,
-  },
-  header: {
-    alignItems: "center",
-    marginBottom: 16,
-  },
-  title: {
-    fontSize: 24,
-    color: actColor.onSurface,
-    fontWeight: "bold",
-  },
-  description: {
-    marginBottom: 16,
-  },
-  text: {
-    fontSize: 16,
-    color: actColor.onSurface,
-  },
-  skill: {
-    marginTop: 16,
-  },
-  skillTitle: {
-    fontSize: 18,
-    color: actColor.onSurface,
-    fontWeight: "bold",
-    marginBottom: 8,
-  },
-});
+
 
 export default GeneralTab;

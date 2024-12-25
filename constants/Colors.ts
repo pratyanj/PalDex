@@ -81,7 +81,7 @@ export const Colors = {
     onErrorContainer: "rgb(255, 218, 214)",
     background: "rgb(25, 28, 30)",
     onBackground: "rgb(225, 226, 228)",
-    surface: "rgb(25, 28, 30)",
+    surface: "rgb(21, 21, 21)",
     onSurface: "rgb(225, 226, 228)",
     surfaceVariant: "rgb(60, 67, 70)",
     onSurfaceVariant: "rgb(192, 200, 205)",

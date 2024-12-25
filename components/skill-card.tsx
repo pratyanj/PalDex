@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Colors } from '../constants/Colors';
-const Theme = {mode: "dark"};
-let actColor = Colors[Theme.mode];
+import { ThemeContext } from '../constants/ThemeContext';
 type Skill = {
     name: string;
     level: number;
@@ -13,35 +12,9 @@ type Skill = {
   };
 
 export function SkillCard({ name, level, power, cooldown, description }: Skill) {
-  return (
-    <View style={styles.card}>
-      <View style={styles.header}>
-        <Text style={styles.skillName}>
-          {name} <Text style={styles.skillLevel}>- Lv {level}</Text>
-        </Text>
-      </View>
-      <View style={{ backgroundColor:actColor.background,padding:5,borderRadius:10 }}>
-      <View style={styles.statsContainer}>
-        <View style={styles.stat}>
-          <Text style={styles.statLabel}>Power:</Text>
-          <Text style={styles.statValue}>{power}</Text>
-        </View>
-        <View style={styles.stat}>
-          <Text style={styles.statLabel}>Cooldown:</Text>
-          <Text style={styles.statValue}>{cooldown}</Text>
-        </View>
-        <View style={styles.stat}>
-          <Text style={styles.statLabel}>Range:</Text>
-          <Text style={styles.statValue}>{cooldown}</Text>
-        </View>
-      </View>
-      <Text style={styles.description}>{description}</Text>
-    </View>
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
+  const { theme } = React.useContext(ThemeContext);
+  const actColor = Colors[theme.mode];
+  const styles = StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: actColor.background,
@@ -99,4 +72,32 @@ const styles = StyleSheet.create({
       marginTop: 8,
     },
   });
+  return (
+    <View style={styles.card}>
+      <View style={styles.header}>
+        <Text style={styles.skillName}>
+          {name} <Text style={styles.skillLevel}>- Lv {level}</Text>
+        </Text>
+      </View>
+      <View style={{ backgroundColor:actColor.background,padding:5,borderRadius:10 }}>
+      <View style={styles.statsContainer}>
+        <View style={styles.stat}>
+          <Text style={styles.statLabel}>Power:</Text>
+          <Text style={styles.statValue}>{power}</Text>
+        </View>
+        <View style={styles.stat}>
+          <Text style={styles.statLabel}>Cooldown:</Text>
+          <Text style={styles.statValue}>{cooldown}</Text>
+        </View>
+        <View style={styles.stat}>
+          <Text style={styles.statLabel}>Range:</Text>
+          <Text style={styles.statValue}>{cooldown}</Text>
+        </View>
+      </View>
+      <Text style={styles.description}>{description}</Text>
+    </View>
+    </View>
+  );
+}
+
 

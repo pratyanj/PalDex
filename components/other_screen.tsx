@@ -4,8 +4,8 @@ import {
   Text,
   StyleSheet,
   Modal,
-  FlatList,
   TouchableOpacity,
+  Alert
 } from "react-native";
 import { MenuItem } from "./menu-item";
 import { pals } from "../constants/pals";
@@ -14,21 +14,99 @@ import { Image } from "expo-image";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import BottomSheet, { BottomSheetScrollView ,BottomSheetFlatList } from "@gorhom/bottom-sheet";
 import { Colors } from "../constants/Colors";
-const Theme = {mode: "dark"};
-let actColor = Colors[Theme.mode];
+import { useContext } from "react";
+import { ThemeContext } from "../constants/ThemeContext";
 type Props = {
   pal_id: string;
 };
 
 export function MiscScreen({ pal_id }: Props) {
+  const { theme } = useContext(ThemeContext);
+  const actColor = Colors[theme.mode];
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: actColor.background,
+      padding: 16,
+    },
+    header: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: 32,
+    },
+    title: {
+      fontSize: 32,
+      fontWeight: "bold",
+      color: actColor.onBackground,
+    },
+
+    modalTitle: {
+      fontSize: 20,
+      fontWeight: "bold",
+      color: actColor.onBackground,
+      textAlign: "center",
+      marginBottom: 16,
+    },
+    sheetContentContainer: {
+      flexGrow: 1,
+      paddingHorizontal: 24,
+      paddingBottom: 36,
+      alignItems: "center",
+    },
+    breedingItem: {
+      flexDirection: "row",
+      alignItems: "center",
+      backgroundColor: actColor.inverseOnSurface,
+      borderRadius: 16,
+      marginBottom: 16,
+      width: "100%",
+      justifyContent: "space-between",
+      padding: 12,
+      shadowColor: actColor.shadow,
+      shadowOffset: { width: 0, height: 1 },
+      shadowOpacity: 0.2,
+      shadowRadius: 1.5,
+      elevation: 3, // For Android shadow
+    },
+    palImage: {
+      width: 40,
+      height: 40,
+      borderRadius: 12,
+      marginHorizontal: 8,
+    },
+    palName: {
+      color: actColor.onBackground,
+      fontSize: 16,
+      fontWeight: "bold",
+    },
+    plus: {
+      color: actColor.onBackground,
+      fontSize: 18,
+    },
+    loadingText: {
+      color: "white",
+      fontSize: 14,
+      textAlign: "center",
+      marginVertical: 12,
+    },
+    flatListContainer: {
+      // paddingHorizontal: 3,
+      paddingBottom: 36,
+    },
+  });
   const [modalVisible, setModalVisible] = useState(false);
-  const pla_key = pals[Number(pal_id) - 1].key;
+  const pla_key = pals[Number(pal_id) - 1].key|| '001';
   // Prepare breeding data
   const breedingData = useMemo(() => {
+    const formattedPalId = pal_id.padStart(3, '0'); // Ensure correct formatting
+    const breedingList = breeding[formattedPalId] || [];
+  
     const data = [];
-    for (let i = 0; i < breeding[pal_id]?.length; i++) {
-      const first = String(breeding[pal_id][i][0]);
-      const second = String(breeding[pal_id][i][1]);
+    for (let i = 0; i < breedingList.length; i++) {
+      const first = String(breedingList[i][0]);
+      const second = String(breedingList[i][1]);
+  
       const firstPal = pals.find((pal) => pal.key === first);
       const secondPal = pals.find((pal) => pal.key === second);
       if (firstPal && secondPal) {
@@ -102,30 +180,34 @@ export function MiscScreen({ pal_id }: Props) {
   // Create a memoized offspring item component
 const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
   <View style={styles.breedingItem}>
-    <Image
-      source={pals.find((pal) => pal.key === item[0])?.image}
-      style={styles.palImage}
-    />
-    <Text style={styles.palName}>
-      {pals.find((pal) => pal.key === item[0])?.name}
-    </Text>
-    <Text style={styles.plus}> = </Text>
-    <Image
-      source={pals.find((pal) => pal.key === item[1])?.image}
-      style={styles.palImage}
-    />
-    <Text style={styles.palName}>
-      {pals.find((pal) => pal.key === item[1])?.name}
-    </Text>
-  </View>
-));
+    <View style={{ flex: 1, flexDirection: 'row', alignItems: 'center' }}>
+      <Image
+        source={pals.find((pal) => pal.key === item[0])?.image}
+        style={styles.palImage}
+      />
+      <Text style={[styles.palName, { flexWrap: 'wrap', flex: 1 }]}>
+        {pals.find((pal) => pal.key === item[0])?.name}
+      </Text>
+    </View>
+    <Text style={[styles.plus, { alignSelf: 'center', marginHorizontal: 10 }]}> = </Text>
+    <View style={{ flex: 1, flexDirection: 'row', alignItems: 'center' }}>
+      <Image
+        source={pals.find((pal) => pal.key === item[1])?.image}
+        style={styles.palImage}
+      />
+      <Text style={[styles.palName, { flexWrap: 'wrap', flex: 1 }]}>
+        {pals.find((pal) => pal.key === item[1])?.name}
+      </Text>
+    </View>
+  </View>));
+  
 
   return (
     <GestureHandlerRootView style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Other</Text>
       </View>
-      <View style={styles.menuContainer}>
+      <View>
         <MenuItem
           icon="map-pin"
           title="Locations"
@@ -157,7 +239,7 @@ const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
             ref={breedingBottomSheetRef }
             index={0}
             snapPoints={snapPoints}
-            onChange={(index) => handleSheetChanges(index, true)}
+            onChange={(index) => handleSheetChanges(index)}
             enablePanDownToClose={true} // Enable slide down to close
             backgroundStyle={{ backgroundColor: actColor.surfaceVariant }}
             handleIndicatorStyle={{ backgroundColor: actColor.outline }}
@@ -168,23 +250,26 @@ const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
               <Text style={styles.modalTitle}>Pals That Can Breed</Text>
               {breedingData.map((item, index) => (
                 <View key={index} style={styles.breedingItem}>
-                  <Image
-                    source={pals.find((pal) => pal.id === item[0])?.image}
-                    style={styles.palImage}
-                  />
-                  <Text style={styles.palName}>
-                    {pals.find((pal) => pal.id === item[0])?.name}
-                  </Text>
-                  <Text style={styles.plus}> + </Text>
-                  <Text style={styles.palName}>
-                    {pals.find((pal) => pal.id === item[1])?.name}
-                  </Text>
-                  <Image
-                    source={pals.find((pal) => pal.id === item[1])?.image}
-                    style={styles.palImage}
-                  />
-                </View>
-              ))}
+                  <View style={{ flex: 1, flexDirection: 'row', alignItems: 'center' }}>
+                    <Image
+                      source={pals.find((pal) => pal.id === item[0])?.image}
+                      style={styles.palImage}
+                    />
+                    <Text style={[styles.palName, { flexWrap: 'wrap', flex: 1 }]}>
+                      {pals.find((pal) => pal.id === item[0])?.name}
+                    </Text>
+                  </View>
+                  <Text style={[styles.plus, { alignSelf: 'center', marginHorizontal: 10 }]}> + </Text>
+                  <View style={{ flex: 1, flexDirection: 'row', alignItems: 'center' }}>
+                    <Image
+                      source={pals.find((pal) => pal.id === item[1])?.image}
+                      style={styles.palImage}
+                    />
+                    <Text style={[styles.palName, { flexWrap: 'wrap', flex: 1 }]}>
+                      {pals.find((pal) => pal.id === item[1])?.name}
+                    </Text>
+                  </View>
+                </View>              ))}
             </BottomSheetScrollView>
           </BottomSheet>
         </GestureHandlerRootView>
@@ -201,17 +286,17 @@ const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
             ref={offspringBottomSheetRef }
             index={0}
             snapPoints={snapPoints}
-            onChange={(index) => handleSheetChanges(index, false)}
+            onChange={(index) => handleSheetChanges(index)}
             enablePanDownToClose={true} 
-            backgroundStyle={{ backgroundColor: "#353535" }}
-            handleIndicatorStyle={{ backgroundColor: "#fff" }}
+            backgroundStyle={{ backgroundColor: actColor.surfaceVariant }}
+            handleIndicatorStyle={{ backgroundColor: actColor.outline }}
           >
             <View style={styles.sheetContentContainer}>
               <Text style={styles.modalTitle}>Possible Offsprings</Text>
               <BottomSheetFlatList
               data={results.slice(0, currentPage * 15)} // Load items for the current page
               keyExtractor={(item, index) => `${item[0]}-${item[1]}-${index}`}
-              renderItem={({ item }) => <OffspringListItem item={item} />}
+              renderItem={({ item }) => <OffspringListItem item={[item[0], item[1]]} />}
               contentContainerStyle={styles.flatListContainer} // New wrapper style
               onEndReached={() => {
                 // Load next chunk when the end is reached
@@ -236,77 +321,3 @@ const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: actColor.background,
-    padding: 16,
-  },
-  header: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginBottom: 32,
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: "bold",
-    color: actColor.onBackground,
-  },
-  menuContainer: {
-    marginTop: 16,
-  },
-  modalTitle: {
-    fontSize: 20,
-    fontWeight: "bold",
-    color: actColor.onBackground,
-    textAlign: "center",
-    marginBottom: 16,
-  },
-  sheetContentContainer: {
-    flexGrow: 1,
-    paddingHorizontal: 24,
-    paddingBottom: 36,
-    alignItems: "center",
-  },
-  breedingItem: {
-    flexDirection: "row",
-    alignItems: "center",
-    backgroundColor: actColor.inverseOnSurface,
-    borderRadius: 16,
-    marginBottom: 16,
-    width: "100%",
-    justifyContent: "space-between",
-    padding: 12,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.2,
-    shadowRadius: 1.5,
-    elevation: 3, // For Android shadow
-  },
-  palImage: {
-    width: 40,
-    height: 40,
-    borderRadius: 12,
-    marginHorizontal: 8,
-  },
-  palName: {
-    color: actColor.onBackground,
-    fontSize: 16,
-    fontWeight: "bold",
-  },
-  plus: {
-    color: actColor.onBackground,
-    fontSize: 18,
-  },
-  loadingText: {
-    color: "white",
-    fontSize: 14,
-    textAlign: "center",
-    marginVertical: 12,
-  },
-  flatListContainer: {
-    // paddingHorizontal: 3,
-    paddingBottom: 36,
-  },
-});
