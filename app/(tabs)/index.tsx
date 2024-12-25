@@ -1,23 +1,20 @@
 import {
   View,
-  Text,
   ScrollView,
   TouchableOpacity,
   StyleSheet,
 } from "react-native";
-import React from "react";
-import Card11 from "../components/palcrad";
-// import pals from "../assets/json/pals.json";
-import { pals } from "../constants/pals";
-import { imageMapping } from "../constants/imageMapping";
-import { useTheme } from "@react-navigation/native";
+import React, { useContext } from "react";
+import Card11 from "../../components/palcrad";
+import { pals } from "../../constants/pals";
 import { router } from "expo-router";
-import { Colors } from "../constants/Colors";
+import { Colors } from "../../constants/Colors";
 import { StatusBar } from 'expo-status-bar';
-export default function PalList() {
-  const Theme = {mode: "dark"};
-  let actColor = Colors[Theme.mode];
+import { ThemeContext } from "../../constants/ThemeContext";
 
+export default function PalList() {
+  const { theme, updateTheme } = useContext(ThemeContext);
+  const actColor = Colors[theme.mode];
   return (
     <ScrollView style={{ backgroundColor: actColor.background }}>
       <View style={styles.mian}>
@@ -41,10 +38,11 @@ export default function PalList() {
           </React.Fragment>
         ))}
       </View>
-      <StatusBar style={Theme.mode === "dark" ? "light" : "dark"} />
+      <StatusBar style={theme.mode === "dark" ? "light" : "dark"} />
     </ScrollView>
   );
 }
+
 const styles = StyleSheet.create({
   mian: {
     flexDirection: "row",
