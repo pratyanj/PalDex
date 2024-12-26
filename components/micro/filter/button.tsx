@@ -8,8 +8,7 @@ interface FilterButtonProps {
   onPress: () => void;
 }
 
-export function FilterButton({ img, isSelected, onPress }: FilterButtonProps) {
-  console.log(isSelected);
+export  const FilterButton = React.memo(({ img, isSelected, onPress }: FilterButtonProps) => {
   return (
     <TouchableOpacity
       style={[
@@ -21,7 +20,7 @@ export function FilterButton({ img, isSelected, onPress }: FilterButtonProps) {
       <Image source={img} style={{ width: 24, height: 24 }} />
     </TouchableOpacity>
   );
-}
+});
 
 const styles = StyleSheet.create({
   container: {
