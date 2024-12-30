@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Image, ScrollView } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React, { useContext } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
@@ -6,26 +6,58 @@ import { ThemeContext } from "../../constants/ThemeContext";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
 import { WeaponCard } from "../../components/inv/weaponCard";
-
+import { Image } from "expo-image";
+import { weaponDataSet } from "../../components/inv/weapon";
+import { act } from "react-test-renderer";
 export default function Weapon() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
 
-  const weaponData = {
-    name: "Assault Rifle",
-    type: "Weapon",
-    rarity: "legendary",
-    stats: {
-      attack: 320,
-      technology: 45,
-      ammo: "Assault Rifle Ammo",
-    },
-    description:
-      "Mows down enemies with overwhelming force. It excels at rapid-fire and is well suited to taking down powerful foes.",
-    imageUrl:
-      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
-  };
-
+const getRarityColor = (rarity: string) => {
+    switch (rarity.toLowerCase()) {
+      case "common":
+        return actColor.onSurface
+      case "rare":
+        return  actColor.primary
+      case "epic":
+        return actColor.primary
+      case "legendary":
+        return  actColor.yellow
+      default:
+        return actColor.onSurface
+    }
+  }
+const itemCard = ( name:string,img:any,rarity:string) => {
+  const rarityColor = getRarityColor(rarity);
+  return (
+    <View
+      style={{
+        flexDirection: "row",
+        alignContent: "center",
+        alignItems: "center",
+        justifyContent: "space-between",
+        width: "100%",
+        backgroundColor: actColor.outlineVariant,
+        padding: 10,
+        borderRadius: 10,
+        marginBottom: 20,
+      }}
+    >
+      <View>
+        <Text style={{ fontSize: 18,color:actColor.onSurface }}>{name}</Text>
+        <View style={{ flexDirection: "row", alignItems: "center" ,gap: 5}}>
+        <Text style={{ fontSize: 12 ,color:actColor.onSurface}}>Weapon</Text>
+        <Text style={{ fontSize: 12 ,color:actColor.shadow,backgroundColor:rarityColor,borderRadius:10,padding:2,paddingHorizontal:12}}>{rarity}</Text>
+      </View>
+      </View>
+      <Image
+        source={img}
+        // source={{uri: img}}
+        style={{ width: 50, height: 50 ,backgroundColor: rarityColor,borderRadius: 10,}}
+      />
+    </View>
+  );
+}
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: actColor.background }]}>
       {/* Header */}
@@ -42,11 +74,11 @@ export default function Weapon() {
 
       {/* Content */}
       <ScrollView contentContainerStyle={styles.content}>
-        <WeaponCard {...weaponData} />
-        {/* Optional Placeholder */}
-        {/* <Text style={[styles.placeholderText, { color: actColor.onBackground }]}>
-          No weapons available. Start adding some!
-        </Text> */}
+        { weaponDataSet.map((item, index) => (
+          <View key={item.name+index}>
+            {itemCard(item.name, item.image, item.rarity)}
+          </View>
+        ))}
       </ScrollView>
     </SafeAreaView>
   );

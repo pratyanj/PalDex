@@ -7,6 +7,6 @@ type ThemeContextType = {
 
 export const ThemeContext = createContext<ThemeContextType>({
   theme: { mode: "dark" },
-//   theme: { mode: "light" },
+  // theme: { mode: "light" },
   updateTheme: () => {},
 });
