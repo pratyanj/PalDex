@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Pal Sphere",
+    "rarity": "Common",
+    "capture_power": "7",
+    "technology": "2",
+    "description": "An item that captures Pals when thrown.\r\nThis basic model is only effective on low level Pals.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere.webp"
+  },
+  {
+    "name": "Mega Sphere",
+    "rarity": "Common",
+    "capture_power": "14",
+    "technology": "14",
+    "description": "An item that captures Pals when thrown.\r\nIts capabilities have been improved, allowing it to catch a wider range of Pals.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Mega.webp"
+  },
+  {
+    "name": "Giga Sphere",
+    "rarity": "Uncommon",
+    "capture_power": "20",
+    "technology": "20",
+    "description": "An item that captures Pals when thrown.\r\nAble to capture moderately powerful Pals.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Giga.webp"
+  },
+  {
+    "name": "Hyper Sphere",
+    "rarity": "Rare",
+    "capture_power": "26",
+    "technology": "27",
+    "description": "An item that captures Pals when thrown.\r\nEnhanced capabilities allow it to capture even more powerful Pals.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Tera.webp"
+  },
+  {
+    "name": "Ultra Sphere",
+    "rarity": "Epic",
+    "capture_power": "32",
+    "technology": "35",
+    "description": "An item that captures Pals when thrown.\r\nNot many Pals can escape its highly efficient design.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Master.webp"
+  },
+  {
+    "name": "Legendary Sphere",
+    "rarity": "Legendary",
+    "capture_power": "37",
+    "technology": "44",
+    "description": "An item that captures Pals when thrown.\r\nVery few Pals can escape its perfected design.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Legend.webp"
+  },
+  {
+    "name": "Ultimate Sphere",
+    "rarity": "Legendary",
+    "capture_power": "43",
+    "technology": "51",
+    "description": "An item that captures Pals when thrown.\r\nAlmost no Pals can escape its flawless design.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ultimate.webp"
+  },
+  {
+    "name": "Exotic Sphere",
+    "rarity": "Legendary",
+    "capture_power": "48",
+    "technology": "56",
+    "description": "An item that captures Pals when thrown.\r\nBoasting incredible performance, it can capture Pals that fall outside regular standards.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Exotic.webp"
+  }
+]

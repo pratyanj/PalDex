@@ -90,6 +90,26 @@ export default function Layout() {
               ),
             })}
           />
+          <Tabs.Screen
+          name="Inventory"
+          options={{
+            headerShown: false,
+            title: "Inventory",
+            tabBarLabel: ({ color }) => (
+              <Text style={{ color, fontSize: 14, fontWeight: "500" }}>
+                Inventory
+              </Text>
+            ),
+            tabBarIcon: ({ focused }) => (
+              <AntDesign
+              name="inbox"
+                size={24}
+                color={focused ? actColor.primary : actColor.onSurfaceVariant}
+              />
+            ),
+          }}
+          />
+
         </Tabs>
       </GestureHandlerRootView>
     </SafeAreaView>

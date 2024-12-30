@@ -1,0 +1,794 @@
+[
+  {
+    "name": "Gold Coin",
+    "rarity": "Common",
+    "description": "Currency traded on Palpagos Island.\r\nCan be exchanged for items or Pals with merchants.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp"
+  },
+  {
+    "name": "Charcoal",
+    "rarity": "Common",
+    "description": "Charcoal made from burning Wood.\r\nIt can be combined with Sulfur to create Gunpowder.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Charcoal.webp"
+  },
+  {
+    "name": "Cloth",
+    "rarity": "Common",
+    "technology": "3",
+    "description": "Cloth woven from Wool.\r\nRequired to create armor.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+  },
+  {
+    "name": "High Quality Cloth",
+    "rarity": "Uncommon",
+    "technology": "36",
+    "description": "High Quality Cloth woven from a large amount of Wool.\r\nRequired to create high quality armor.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+  },
+  {
+    "name": "Coal",
+    "rarity": "Common",
+    "description": "Coal often found in caves and other places.\r\nRequired to create high quality metal.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp"
+  },
+  {
+    "name": "Ingot",
+    "rarity": "Common",
+    "description": "A material required to create metal weapons and armor.\r\nRefined from Ore using a furnace.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp"
+  },
+  {
+    "name": "Ore",
+    "rarity": "Common",
+    "description": "Becomes an ingot when refined using a furnace.\r\nCan be found in caves and other places.\r\nThere are rumors of Pals capable of detecting ore.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp"
+  },
+  {
+    "name": "Fiber",
+    "rarity": "Common",
+    "description": "Fiber collected from trees.\r\nA material used when creating bows, etc.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp"
+  },
+  {
+    "name": "Gunpowder",
+    "rarity": "Common",
+    "technology": "21",
+    "description": "Gunpowder used to fire ammunition.\r\nRequired to make bullets.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp"
+  },
+  {
+    "name": "Beautiful Flower",
+    "rarity": "Common",
+    "nutrition": "1",
+    "san": "5",
+    "description": "A plant that blooms colorful flowers.\r\nCan be used to make Suspicious Juice and Strange Juice.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp"
+  },
+  {
+    "name": "Refined Ingot",
+    "rarity": "Common",
+    "description": "A material required to create high quality metal weapons and armor.\r\nRefined from Ore and Coal using a furnace.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp"
+  },
+  {
+    "name": "Leather",
+    "rarity": "Common",
+    "description": "Leather taken from a Pal, it serves as a defensive material.\r\nIt can be obtained from certain Pals.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp"
+  },
+  {
+    "name": "Nail",
+    "rarity": "Common",
+    "technology": "10",
+    "description": "Necessary for building various facilities.\r\nCan be made with a Primitive Workbench.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp"
+  },
+  {
+    "name": "Circuit Board",
+    "rarity": "Common",
+    "technology": "35",
+    "description": "Required to create precision equipment.\r\nCan be made with a Production Assembly Line.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp"
+  },
+  {
+    "name": "Pal Metal Ingot",
+    "rarity": "Common",
+    "description": "Material required to create weapons and armor using Pal Metal.\r\nMade stronger by creating an alloy from metal and Paldium.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp"
+  },
+  {
+    "name": "Stone",
+    "rarity": "Common",
+    "description": "Material for structures and items.\r\nCan be obtained by mining rocks.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp"
+  },
+  {
+    "name": "Paldium Fragment",
+    "rarity": "Common",
+    "description": "Crystallized energy from the World Tree.\r\nCapable of creating supernatural items and structures.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+  },
+  {
+    "name": "Berry Seeds",
+    "rarity": "Common",
+    "description": "Seeds that produce Red Berries.\r\nNecessary for starting a farm.\r\nCan be obtained when picking Red Berries.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp"
+  },
+  {
+    "name": "Tomato Seeds",
+    "rarity": "Common",
+    "description": "Seeds that produce Tomato.\r\nNecessary for starting a farm.\r\nCan be purchased from a merchant.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp"
+  },
+  {
+    "name": "Lettuce Seeds",
+    "rarity": "Common",
+    "description": "Seeds that produce Lettuce.\r\nNecessary for starting a farm.\r\nCan be purchased from a merchant.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp"
+  },
+  {
+    "name": "Wheat Seeds",
+    "rarity": "Common",
+    "description": "Seeds that produce Wheat.\r\nNecessary for starting a farm.\r\nCan be purchased from a merchant.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp"
+  },
+  {
+    "name": "Wood",
+    "rarity": "Common",
+    "description": "Material for structures and items.\r\nCan be obtained by cutting trees.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp"
+  },
+  {
+    "name": "Wool",
+    "rarity": "Common",
+    "description": "Material sheared from sheep Pals.\r\nA necessity for creating bedding, Cloth and more.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp"
+  },
+  {
+    "name": "Crude Oil",
+    "rarity": "Common",
+    "description": "A material that can be processed into various products.\r\nObtained by installing a Crude Oil Extractor in an oil field.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp"
+  },
+  {
+    "name": "Plasteel",
+    "rarity": "Common",
+    "technology": "50",
+    "description": "Plasteel created by processing Crude Oil and metal.\r\nCan be produced in a Electric Furnace.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
+  },
+  {
+    "name": "Ruby",
+    "rarity": "Rare",
+    "description": "A gemstone that glows red.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp"
+  },
+  {
+    "name": "Sapphire",
+    "rarity": "Rare",
+    "description": "A gemstone that glows blue.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp"
+  },
+  {
+    "name": "Emerald",
+    "rarity": "Epic",
+    "description": "A gemstone that glows green.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Eemerald.webp"
+  },
+  {
+    "name": "Diamond",
+    "rarity": "Epic",
+    "description": "A rare gemstone that glows brilliantly.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp"
+  },
+  {
+    "name": "Common Egg",
+    "rarity": "Common",
+    "description": "A Common Egg.\r\nSomething gentle moves within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp"
+  },
+  {
+    "name": "Common Egg",
+    "rarity": "Uncommon",
+    "description": "A Common Egg.\r\nSomething gentle moves within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp"
+  },
+  {
+    "name": "Large Common Egg",
+    "rarity": "Rare",
+    "description": "A Large Common Egg.\r\nA calm rhythm beats within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp"
+  },
+  {
+    "name": "Large Common Egg",
+    "rarity": "Epic",
+    "description": "A Large Common Egg.\r\nA calm rhythm beats within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp"
+  },
+  {
+    "name": "Huge Common Egg",
+    "rarity": "Legendary",
+    "description": "A Huge Common Egg.\r\nA gentle spirit throbs within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp"
+  },
+  {
+    "name": "Scorching Egg",
+    "rarity": "Common",
+    "description": "A Scorching Egg.\r\nSomething hot moves within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp"
+  },
+  {
+    "name": "Scorching Egg",
+    "rarity": "Uncommon",
+    "description": "A Scorching Egg.\r\nSomething hot moves within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp"
+  },
+  {
+    "name": "Large Scorching Egg",
+    "rarity": "Rare",
+    "description": "A Large Scorching Egg.\r\nPassion burns from within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp"
+  },
+  {
+    "name": "Large Scorching Egg",
+    "rarity": "Epic",
+    "description": "A Large Scorching Egg.\r\nPassion burns from within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp"
+  },
+  {
+    "name": "Huge Scorching Egg",
+    "rarity": "Legendary",
+    "description": "A Huge Scorching Egg.\r\nA blazing spirit burns within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp"
+  },
+  {
+    "name": "Damp Egg",
+    "rarity": "Common",
+    "description": "A Damp Egg.\r\nSomething swims within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp"
+  },
+  {
+    "name": "Damp Egg",
+    "rarity": "Uncommon",
+    "description": "A Damp Egg.\r\nSomething swims within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp"
+  },
+  {
+    "name": "Large Damp Egg",
+    "rarity": "Rare",
+    "description": "A Large Damp Egg.\r\nPurity swirls within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp"
+  },
+  {
+    "name": "Large Damp Egg",
+    "rarity": "Epic",
+    "description": "A Large Damp Egg.\r\nPurity swirls within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp"
+  },
+  {
+    "name": "Huge Damp Egg",
+    "rarity": "Legendary",
+    "description": "A Huge Damp Egg.\r\nA tranquil spirit sways within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp"
+  },
+  {
+    "name": "Verdant Egg",
+    "rarity": "Common",
+    "description": "A Verdant Egg.\r\nSomething lively moves within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp"
+  },
+  {
+    "name": "Verdant Egg",
+    "rarity": "Uncommon",
+    "description": "A Verdant Egg.\r\nSomething lively moves within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp"
+  },
+  {
+    "name": "Large Verdant Egg",
+    "rarity": "Rare",
+    "description": "A Large Verdant Egg.\r\nA strong life force dwells within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp"
+  },
+  {
+    "name": "Large Verdant Egg",
+    "rarity": "Epic",
+    "description": "A Large Verdant Egg.\r\nA strong life force dwells within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp"
+  },
+  {
+    "name": "Huge Verdant Egg",
+    "rarity": "Legendary",
+    "description": "A Huge Verdant Egg.\r\nA verdant spirit grows within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp"
+  },
+  {
+    "name": "Electric Egg",
+    "rarity": "Common",
+    "description": "An Electric Egg.\r\nSomething energetic moves within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp"
+  },
+  {
+    "name": "Electric Egg",
+    "rarity": "Uncommon",
+    "description": "An Electric Egg.\r\nSomething energetic moves within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp"
+  },
+  {
+    "name": "Large Electric Egg",
+    "rarity": "Rare",
+    "description": "An Large Electric Egg.\r\nA pulsing energy stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp"
+  },
+  {
+    "name": "Large Electric Egg",
+    "rarity": "Epic",
+    "description": "An Large Electric Egg.\r\nA pulsing energy stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp"
+  },
+  {
+    "name": "Huge Electric Egg",
+    "rarity": "Legendary",
+    "description": "An Huge Electric Egg.\r\nA raging spirit grows within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp"
+  },
+  {
+    "name": "Frozen Egg",
+    "rarity": "Common",
+    "description": "An Frozen Egg.\r\nSomething cold stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp"
+  },
+  {
+    "name": "Frozen Egg",
+    "rarity": "Uncommon",
+    "description": "An Frozen Egg.\r\nSomething cold stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp"
+  },
+  {
+    "name": "Large Frozen Egg",
+    "rarity": "Rare",
+    "description": "An Large Frozen Egg.\r\nAn icy pulse pounds within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp"
+  },
+  {
+    "name": "Large Frozen Egg",
+    "rarity": "Epic",
+    "description": "An Large Frozen Egg.\r\nAn icy pulse pounds within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp"
+  },
+  {
+    "name": "Huge Frozen Egg",
+    "rarity": "Legendary",
+    "description": "An Huge Frozen Egg.\r\nA frigid spirit stirs within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp"
+  },
+  {
+    "name": "Rocky Egg",
+    "rarity": "Common",
+    "description": "An Rocky Egg.\r\nSomething calm stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp"
+  },
+  {
+    "name": "Rocky Egg",
+    "rarity": "Uncommon",
+    "description": "An Rocky Egg.\r\nSomething calm stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp"
+  },
+  {
+    "name": "Large Rocky Egg",
+    "rarity": "Rare",
+    "description": "An Large Rocky Egg.\r\nA dignified rumble drums within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp"
+  },
+  {
+    "name": "Large Rocky Egg",
+    "rarity": "Epic",
+    "description": "An Large Rocky Egg.\r\nA dignified rumble drums within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp"
+  },
+  {
+    "name": "Huge Rocky Egg",
+    "rarity": "Legendary",
+    "description": "An Huge Rocky Egg.\r\nAn earthly spirit resounds within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp"
+  },
+  {
+    "name": "Dark Egg",
+    "rarity": "Common",
+    "description": "A Dark Egg.\r\nSomething chaotic stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp"
+  },
+  {
+    "name": "Dark Egg",
+    "rarity": "Uncommon",
+    "description": "A Dark Egg.\r\nSomething chaotic stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp"
+  },
+  {
+    "name": "Large Dark Egg",
+    "rarity": "Rare",
+    "description": "A Large Dark Egg.\r\nA vicious wail howls within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp"
+  },
+  {
+    "name": "Large Dark Egg",
+    "rarity": "Epic",
+    "description": "A Large Dark Egg.\r\nA vicious wail howls within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp"
+  },
+  {
+    "name": "Huge Dark Egg",
+    "rarity": "Legendary",
+    "description": "A Huge Dark Egg.\r\nA shadowy spirit cries within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp"
+  },
+  {
+    "name": "Dragon Egg",
+    "rarity": "Common",
+    "description": "A Dragon Egg.\r\nSomething mischievous stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp"
+  },
+  {
+    "name": "Dragon Egg",
+    "rarity": "Uncommon",
+    "description": "A Dragon Egg.\r\nSomething mischievous stirs within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp"
+  },
+  {
+    "name": "Large Dragon Egg",
+    "rarity": "Rare",
+    "description": "An Large Dragon Egg.\r\nA strange movement pulses within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp"
+  },
+  {
+    "name": "Large Dragon Egg",
+    "rarity": "Epic",
+    "description": "An Large Dragon Egg.\r\nA strange movement pulses within.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp"
+  },
+  {
+    "name": "Huge Dragon Egg",
+    "rarity": "Legendary",
+    "description": "A Huge Dragon Egg.\r\nA solemn spirit echoes within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp"
+  },
+  {
+    "name": "Ancient Civilization Parts",
+    "rarity": "Rare",
+    "description": "Debris excavated from ancient ruins.\r\nContains abundant information on lost technology.\r\nExtremely valuable, people from all walks of life are now seeking such crystals.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp"
+  },
+  {
+    "name": "Small Pal Soul",
+    "rarity": "Uncommon",
+    "description": "A spirit left behind by a small Pal.\r\nIt can draw out hidden abilities if offered to a Statue of Power.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp"
+  },
+  {
+    "name": "Medium Pal Soul",
+    "rarity": "Rare",
+    "description": "A spirit left behind by a Pal.\r\nIt can draw out hidden abilities if offered to a Statue of Power.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp"
+  },
+  {
+    "name": "Large Pal Soul",
+    "rarity": "Epic",
+    "description": "A spirit left behind by a large Pal.\r\nIt can draw out hidden abilities if offered to a Statue of Power.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp"
+  },
+  {
+    "name": "Sulfur",
+    "rarity": "Common",
+    "description": "Sulfur that can be found in volcanoes and such.\r\nNecessary for making Gunpowder.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp"
+  },
+  {
+    "name": "Pure Quartz",
+    "rarity": "Common",
+    "description": "Pure Quartz often found in snowy fields and similar places.\r\nRequired to create Circuit Board.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Quartz.webp"
+  },
+  {
+    "name": "High Quality Pal Oil",
+    "rarity": "Uncommon",
+    "description": "High-quality oil that can be extracted from Pal.\r\nNecessary for making Polymer.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp"
+  },
+  {
+    "name": "Polymer",
+    "rarity": "Common",
+    "technology": "33",
+    "description": "Made from refined oil.\r\nRequired for producing various advanced items such as rifles.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp"
+  },
+  {
+    "name": "Electric Organ",
+    "rarity": "Common",
+    "description": "Material obtainable from Electric Pals.\r\nIt stores electricity, but requires caution when used.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp"
+  },
+  {
+    "name": "Venom Gland",
+    "rarity": "Common",
+    "description": "Material obtainable from poisonous Pals.\r\nCan be used to make Poison Arrow and more.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp"
+  },
+  {
+    "name": "Flame Organ",
+    "rarity": "Common",
+    "description": "Material obtainable from Fire Pals.\r\nCan be used to make Fire Arrow and more.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp"
+  },
+  {
+    "name": "Ice Organ",
+    "rarity": "Common",
+    "description": "Material obtainable from Ice Pals.\r\nCan be used to make Ice Mine and more.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp"
+  },
+  {
+    "name": "Bone",
+    "rarity": "Common",
+    "description": "Bone collected from Pals.\r\nUsed in the creation of high quality Paldium.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp"
+  },
+  {
+    "name": "Cement",
+    "rarity": "Common",
+    "technology": "19",
+    "description": "Cement used for creating structures and more.\r\nCan be produced in a High Quality Workbench.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp"
+  },
+  {
+    "name": "Carbon Fiber",
+    "rarity": "Common",
+    "technology": "35",
+    "description": "A lightweight yet sturdy material.\r\nUsed to create armor among other equipment.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
+  },
+  {
+    "name": "Horn",
+    "rarity": "Common",
+    "description": "Horn collected from Pals.\r\nUsed to create medicines and more.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp"
+  },
+  {
+    "name": "Pal Fluids",
+    "rarity": "Common",
+    "description": "Body fluids taken from a Pal.\r\nUseful for its high viscosity.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp"
+  },
+  {
+    "name": "Tocotoco Feather",
+    "rarity": "Common",
+    "description": "Feathers dropped from a Tocotoco.\r\nUsed to make clothing, as the beautifully vivid colors are quite popular.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ColorfulBird.webp"
+  },
+  {
+    "name": "Gumoss Leaf",
+    "rarity": "Common",
+    "description": "Leaf dropped from a Gumoss.\r\nFresh and sticky, it is used to make clothing.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PlantSlime.webp"
+  },
+  {
+    "name": "Penking Plume",
+    "rarity": "Common",
+    "description": "Plume dropped from a Penking.\r\nBright and colorful, it is used to make clothing.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CaptainPenguin.webp"
+  },
+  {
+    "name": "Katress Hair",
+    "rarity": "Common",
+    "description": "Hair dropped from a Katress.\r\nSoft and supple, it is used to make clothing.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CatMage.webp"
+  },
+  {
+    "name": "Precious Dragon Stone",
+    "rarity": "Rare",
+    "description": "A gemstone-like ball collected from Pals.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_01.webp"
+  },
+  {
+    "name": "Precious Plume",
+    "rarity": "Rare",
+    "description": "Glittering feathers collected from Pals.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_02.webp"
+  },
+  {
+    "name": "Precious Entrails",
+    "rarity": "Rare",
+    "description": "A heart that never stops beating collected from Pals.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_03.webp"
+  },
+  {
+    "name": "Precious Claw",
+    "rarity": "Rare",
+    "description": "Extremely sharp claws collected from Pals.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_04.webp"
+  },
+  {
+    "name": "Precious Pelt",
+    "rarity": "Rare",
+    "description": "Fluffy fur collected from Pals.\r\nCan be sold to a merchant for a high price.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_05.webp"
+  },
+  {
+    "name": "Ancient Civilization Core",
+    "rarity": "Legendary",
+    "description": "Core from technology that was lost long ago.\r\nNearly impossible to find on the Palpagos Islands, it contains a wealth of forgotten knowledge.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp"
+  },
+  {
+    "name": "Life Lotus (S)",
+    "rarity": "Epic",
+    "description": "Small green flower that is extremely difficult to obtain.\r\nNeeded to make Vital Remedy.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_hp_01.webp"
+  },
+  {
+    "name": "Stamina Lotus (S)",
+    "rarity": "Epic",
+    "description": "Small yellow flower that is extremely difficult to obtain.\r\nNeeded to make Stamina Remedy.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_stamina_01.webp"
+  },
+  {
+    "name": "Power Lotus (S)",
+    "rarity": "Epic",
+    "description": "Small red flower that is extremely difficult to obtain.\r\nNeeded to make Might Remedy.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_attack_01.webp"
+  },
+  {
+    "name": "Speed Lotus (S)",
+    "rarity": "Epic",
+    "description": "Small orange flower that is extremely difficult to obtain.\r\nNeeded to make Speed Remedy.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_workspeed_01.webp"
+  },
+  {
+    "name": "Carrying Lotus (S)",
+    "rarity": "Epic",
+    "description": "Small purple flower that is extremely difficult to obtain.\r\nNeeded to make Burden Remedy.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_weight_01.webp"
+  },
+  {
+    "name": "Ribbuny Ribbon",
+    "rarity": "Common",
+    "description": "Ribbon dropped from a Ribbuny.\r\nCute in color and design, it is used to make clothing.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PinkRabbit.webp"
+  },
+  {
+    "name": "Swee Hair",
+    "rarity": "Common",
+    "description": "Hair dropped from a Swee.\r\nFluffy and soft, it is used to make clothing.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_MopBaby.webp"
+  },
+  {
+    "name": "Killamari Tentacle",
+    "rarity": "Common",
+    "description": "Tentacle dropped from a Killamari.\r\nStrange in texture, it is used to make clothing.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_NegativeOctopus.webp"
+  },
+  {
+    "name": "Dazzi Cloud",
+    "rarity": "Common",
+    "description": "Cloud dropped from a Dazzi.\r\nSoft and fluffy, it is used to make clothing.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp"
+  },
+  {
+    "name": "Leezpunk Crest",
+    "rarity": "Common",
+    "description": "Crest dropped from a Leezpunk.\r\nSharp and pointy, it is used to make clothing.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_LizardMan.webp"
+  },
+  {
+    "name": "Life Lotus (L)",
+    "rarity": "Legendary",
+    "description": "Large green flower that is extremely difficult to obtain.\r\nNeeded to make Vital Elixir.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_hp_02.webp"
+  },
+  {
+    "name": "Stamina Lotus (L)",
+    "rarity": "Legendary",
+    "description": "Large yellow flower that is extremely difficult to obtain.\r\nNeeded to make Stamina Elixir.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_stamina_02.webp"
+  },
+  {
+    "name": "Power Lotus (L)",
+    "rarity": "Legendary",
+    "description": "Large red flower that is extremely difficult to obtain.\r\nNeeded to make Might Elixir.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_attack_02.webp"
+  },
+  {
+    "name": "Speed Lotus (L)",
+    "rarity": "Legendary",
+    "description": "Large orange flower that is extremely difficult to obtain.\r\nNeeded to make Speed Elixir.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_workspeed_02.webp"
+  },
+  {
+    "name": "Carrying Lotus (L)",
+    "rarity": "Legendary",
+    "description": "Large purple flower that is extremely difficult to obtain.\r\nNeeded to make Burden Elixir.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_weight_02.webp"
+  },
+  {
+    "name": "Meteorite Fragment",
+    "rarity": "Common",
+    "description": "Fragment of a rock from outer space.\r\nContains large amounts of Paldium Fragment,\r\nwhich can be extracted by placing it in a Crusher.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp"
+  },
+  {
+    "name": "Dog Coin",
+    "rarity": "Epic",
+    "description": "A mysterious coin. Apparently there are people who collect these.\r\nA Mimog will usually have them, but\r\nfor some reason, they cannot be obtained by butchering it.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_DogCoin.webp"
+  },
+  {
+    "name": "Giant Pal Soul",
+    "rarity": "Legendary",
+    "description": "The soul left behind by a highly trained Pal.\r\nIt can draw out hidden abilities if offered to a Statue of Power.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp"
+  },
+  {
+    "name": "Potato Seeds",
+    "rarity": "Common",
+    "description": "Seeds that produce Potato.\r\nNecessary for starting a farm.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp"
+  },
+  {
+    "name": "Carrot Seeds",
+    "rarity": "Common",
+    "description": "Seeds that produce Carrot>.\r\nNecessary for starting a farm.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp"
+  },
+  {
+    "name": "Onion Seeds",
+    "rarity": "Common",
+    "description": "Seeds that produce Onion.\r\nNecessary for starting a farm.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp"
+  },
+  {
+    "name": "Predator Core",
+    "rarity": "Epic",
+    "description": "Core dropped by Predator Pals.\r\nIt is filled with mysterious energy.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PredatorCrystal.webp"
+  },
+  {
+    "name": "Successful Bounty Token",
+    "rarity": "Epic",
+    "description": "A token of having defeated a bounty target.\r\nBy giving it to a Vigilante Bounty Officer in villages or towns, it can be exchanged for a reward.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_icon_item_Jewelry_BountyProof_1.webp"
+  },
+  {
+    "name": "Ancient Pal Manuscript",
+    "rarity": "Rare",
+    "description": "An ancient manuscript written on Pal hide. It may be found by Pals during expeditions. \r\nRequired for advancing research.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts3.webp"
+  },
+  {
+    "name": "Chromite",
+    "rarity": "Common",
+    "description": "A type of metal buried underground. \r\nIt can be detected with a Metal Detector on certain islands.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp"
+  },
+  {
+    "name": "Hexolite",
+    "rarity": "Common",
+    "technology": "56",
+    "description": "An alloy of Chromite, Ingot, and Hexolite Quartz. \r\nUsed as materials for advanced equipment and structures.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
+  },
+  {
+    "name": "Nightstar Sand",
+    "rarity": "Common",
+    "description": "Sand that can be found in the desert at night. \r\nUsed as a material for crafting certain accessories and other items.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp"
+  },
+  {
+    "name": "Dark Fragment",
+    "rarity": "Common",
+    "description": "Dropped by some powerful Dark Pals. \r\nUsed as a material for crafting powerful accessories and other items.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp"
+  },
+  {
+    "name": "Hexolite Quartz",
+    "rarity": "Common",
+    "description": "A rare crystal found only in Feybreak. \r\nOver many years, Paladium has condensed and transformed, now shining with a rainbow-like glow.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_RainbowCrystal.webp"
+  }
+]

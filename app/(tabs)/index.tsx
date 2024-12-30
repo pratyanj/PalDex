@@ -117,6 +117,7 @@ export default function PalList() {
 
 
   // Handle search
+  
   const handleShowsearchbar = () => {
     if (showSearchBar) {
       setShowSearchBar(false);
@@ -168,8 +169,8 @@ export default function PalList() {
                 autoFocus={true}
               />
             ) : (
-              <Text style={[styles.title, { color: actColor.primary }]}>
-                PalDex
+              <Text style={{ fontSize:30,color:actColor.primary,textAlign:"center" ,fontFamily:"Inter-Black"}}>
+                Paldex
               </Text>
             )}
             <View style={{ flexDirection: "row", gap: 10 }}>

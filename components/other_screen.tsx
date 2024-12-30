@@ -1,12 +1,5 @@
 import React, { useState, useCallback, useMemo, useRef } from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  Modal,
-  TouchableOpacity,
-  Alert
-} from "react-native";
+import { View,Text,StyleSheet, Modal,} from "react-native";
 import { MenuItem } from "./menu-item";
 import { pals } from "../constants/pals";
 import { breeding } from "./micro/breeding";
@@ -97,6 +90,9 @@ export function MiscScreen({ pal_id }: Props) {
   });
   const [modalVisible, setModalVisible] = useState(false);
   const pla_key = pals[Number(pal_id) - 1].key|| '001';
+  const [parentCode, setParentCode] = useState(pla_key || "001");
+  const [totalOffspring, setTotalOffspring] = useState(0);
+  const [totalBreeding, setTotalBreeding] = useState(0);
   // Prepare breeding data
   const breedingData = useMemo(() => {
     const formattedPalId = pal_id.padStart(3, '0'); // Ensure correct formatting
@@ -113,70 +109,60 @@ export function MiscScreen({ pal_id }: Props) {
         data.push([firstPal.id, secondPal.id]);
       }
     }
+    setTotalBreeding(data.length);
     return data;
   }, [pal_id]);
-    // Create separate refs for each bottom sheet
-    const breedingBottomSheetRef = useRef<BottomSheet>(null);
-    const offspringBottomSheetRef = useRef<BottomSheet>(null);
-
-    // Bottom sheet snap points (sheet heights)
-    const snapPoints = useMemo(() => ["50%", "80%"], []);
-  
-    // Update the handleSheetChanges callback
-    const handleSheetChanges = useCallback((index: number) => {
-      if (index === -1) {
-        setModalVisible(false); // Close the breeding modal
-        setOffspringModalVisible(false); // Close the offspring modal
-      }
-    }, []);
-  const handlePress = (action: string) => {
-    if (action === "breeding") {
-      setModalVisible(true); // Open the modal
-    } else {
-      console.log(`Pressed: ${action}`); 
-    }
-  };
-  const [parentCode, setParentCode] = useState(pla_key || "001");
-  // const [results, setResults] = useState([]);
-  const [offspringModalVisible, setOffspringModalVisible] = useState(false); // New state for offspring modal
-  const [currentPage, setCurrentPage] = useState(1); // Tracks the current page for pagination
-
-  const [results, setResults] = useState<string[][]>([]); // Store offspring data
-  const [chunkedResults, setChunkedResults] = useState<string[][]>([]); // Data to display
-  const [currentChunk, setCurrentChunk] = useState(0); // Current chunk index
-  const CHUNK_SIZE = 15; // Number of items per chunk
-
-  const findOffspring = () => {
+  const findOffspring = useMemo(() => {
     const offspringList = [];
     for (const key in breeding) {
       breeding[key].forEach((pair) => {
         if (pair.includes(parentCode)) {
-          const otherPal =
-            pair[0] === pair[1]
-              ? key
-              : pair.find((p: string) => p !== parentCode);
+          const otherPal = pair.find((p) => p !== parentCode);
           if (otherPal) {
             offspringList.push([otherPal, key]);
+            
           }
         }
       });
     }
-    setResults(offspringList);
-    setChunkedResults(offspringList.slice(0, CHUNK_SIZE)); // Load the first chunk
-    setOffspringModalVisible(true);
-  };
+    setTotalOffspring(offspringList.length);
+    return offspringList;
+  }, [parentCode]);
+    // Create separate refs for each bottom sheet
+    const breedingBottomSheetRef = useRef<BottomSheet>(null);
+    const offspringBottomSheetRef = useRef<BottomSheet>(null);
 
-  // Function to load the next chunk
-  const loadMoreData = () => {
-    const nextChunk = currentChunk + 1;
-    const start = nextChunk * CHUNK_SIZE;
-    const end = start + CHUNK_SIZE;
-    const nextData = results.slice(start, end);
-    if (nextData.length > 0) {
-      setChunkedResults((prev) => [...prev, ...nextData]);
-      setCurrentChunk(nextChunk);
+    // breedingBottomSheetRef.current?.close();
+    // breedingBottomSheetRef.current?.expand();
+
+    // Bottom sheet snap points (sheet heights)
+    const snapPoints = useMemo(() => ["50%", "80%"], []);
+  
+    const handleSheetChanges = useCallback((index: number) => {
+      if (index === -1) {
+        // setModalVisible(false); // Close the breeding modal
+        // setOffspringModalVisible(false); // Close the offspring modal
+        breedingBottomSheetRef.current?.close();
+        offspringBottomSheetRef.current?.close();
+      }
+    }, []);
+  const handlePress = (action: string) => {
+    if (action === "breeding") {
+      breedingBottomSheetRef.current?.expand();
+      // setModalVisible(true); // Open the modal
+    } 
+    else if (action === "offspring") {
+      offspringBottomSheetRef.current?.expand();
+      
+    }
+    else {
+      console.log(`Pressed: ${action}`); 
     }
   };
+  
+
+
+
   // Create a memoized offspring item component
 const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
   <View style={styles.breedingItem}>
@@ -217,8 +203,9 @@ const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
           icon="star"
           title={`See possible offsprings of ${pals[Number(pal_id) - 1].name}`}
           onPress={() => {
-            setParentCode(pal_id); // Set parent code dynamically
-            findOffspring(); // Find offspring for the selected pal_id
+            handlePress("offspring");
+            
+
           }}
         />
         <MenuItem
@@ -228,16 +215,10 @@ const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
         />
       </View>
       {/* Breeding Modal */}
-      <Modal
-        animationType="fade"
-        transparent={true}
-        visible={modalVisible}
-        onRequestClose={() => setModalVisible(false)}
-      >
-        <GestureHandlerRootView style={{ flex: 1 }}>
+     
           <BottomSheet
             ref={breedingBottomSheetRef }
-            index={0}
+            index={-1}
             snapPoints={snapPoints}
             onChange={(index) => handleSheetChanges(index)}
             enablePanDownToClose={true} // Enable slide down to close
@@ -272,50 +253,56 @@ const OffspringListItem = React.memo(({ item }: { item: [string, string] }) => (
                 </View>              ))}
             </BottomSheetScrollView>
           </BottomSheet>
-        </GestureHandlerRootView>
-      </Modal>
+        
       {/* Offspring Modal */}
-      <Modal
-        animationType="fade"
-        transparent={true}
-        visible={offspringModalVisible}
-        onRequestClose={() => setOffspringModalVisible(false)}
-      >
-        <GestureHandlerRootView style={{ flex: 1 }}>
+      
+        
           <BottomSheet
-            ref={offspringBottomSheetRef }
-            index={0}
+            ref={offspringBottomSheetRef}
+            index={-1}
             snapPoints={snapPoints}
             onChange={(index) => handleSheetChanges(index)}
-            enablePanDownToClose={true} 
+            enablePanDownToClose={true}
             backgroundStyle={{ backgroundColor: actColor.surfaceVariant }}
             handleIndicatorStyle={{ backgroundColor: actColor.outline }}
           >
-            <View style={styles.sheetContentContainer}>
-              <Text style={styles.modalTitle}>Possible Offsprings</Text>
-              <BottomSheetFlatList
-              data={results.slice(0, currentPage * 15)} // Load items for the current page
-              keyExtractor={(item, index) => `${item[0]}-${item[1]}-${index}`}
-              renderItem={({ item }) => <OffspringListItem item={[item[0], item[1]]} />}
-              contentContainerStyle={styles.flatListContainer} // New wrapper style
-              onEndReached={() => {
-                // Load next chunk when the end is reached
-                if (currentPage * 15 < results.length) {
-                  setCurrentPage((prev) => prev + 1);
-                }
-              }}
-              onEndReachedThreshold={0.5} // Trigger when the user scrolls near the end
-              ListFooterComponent={
-                currentPage * 15 < results.length ? (
-                  <Text style={styles.loadingText}>Loading more...</Text>
-                ) : null
-              }
-            />
-
-            </View>
+            <BottomSheetScrollView contentContainerStyle={styles.sheetContentContainer}>
+              <Text style={styles.modalTitle}>Possible total Offsprings {totalOffspring}</Text>
+              {findOffspring.map((item, index) => (
+                <View key={index} style={[styles.breedingItem,{padding:10}]}>
+                  <View style={{ flex: 1, alignItems: "center",flexDirection: "row", }}>
+                    <Text style={{fontSize:20,color:actColor.onBackground}}>+</Text>
+                    <Image
+                      source={pals.find((pal) => pal.key === item[0])?.image}
+                      style={styles.palImage}
+                    />
+                    <Text style={[styles.palName, { flexWrap: "wrap", flex: 1 ,}]}>
+                      {pals.find((pal) => pal.key === item[0])?.name}
+                    </Text>
+                    
+                  </View>
+                  <Text
+                    style={[styles.plus, { alignSelf: "center", marginHorizontal: 10 }]}
+                  >
+                    {" "}
+                    ={" "}
+                  </Text>
+                  <View style={{ flex: 1, flexDirection: "row", alignItems: "center" }}>
+                    <Image
+                      source={pals.find((pal) => pal.key === item[1])?.image}
+                      style={styles.palImage}
+                    />
+                    <Text style={[styles.palName, { flexWrap: "wrap", flex: 1 }]}>
+                      {pals.find((pal) => pal.key === item[1])?.name}
+                    </Text>
+                  </View>
+                </View>
+              ))}
+            </BottomSheetScrollView>
           </BottomSheet>
-        </GestureHandlerRootView>
-      </Modal>
+
+        
+      
 
     </GestureHandlerRootView>
   );

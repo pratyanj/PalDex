@@ -1,0 +1,2113 @@
+[
+  {
+    "name": "Cloth Outfit",
+    "rarity": "Common",
+    "defense": "15",
+    "health": "70",
+    "technology": "4",
+    "description": "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp"
+  },
+  {
+    "name": "Metal Armor",
+    "rarity": "Common",
+    "defense": "70",
+    "health": "250",
+    "technology": "23",
+    "description": "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp"
+  },
+  {
+    "name": "Metal Helm",
+    "rarity": "Common",
+    "defense": "50",
+    "health": "100",
+    "technology": "23",
+    "description": "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp"
+  },
+  {
+    "name": "Pelt Armor",
+    "rarity": "Common",
+    "defense": "35",
+    "health": "140",
+    "technology": "12",
+    "description": "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp"
+  },
+  {
+    "name": "Feathered Hair Band",
+    "rarity": "Common",
+    "defense": "15",
+    "health": "60",
+    "technology": "10",
+    "description": "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp"
+  },
+  {
+    "name": "Refined Metal Armor",
+    "rarity": "Common",
+    "defense": "150",
+    "health": "500",
+    "technology": "37",
+    "description": "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp"
+  },
+  {
+    "name": "Refined Metal Helm",
+    "rarity": "Common",
+    "defense": "100",
+    "health": "250",
+    "technology": "37",
+    "description": "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp"
+  },
+  {
+    "name": "Pal Metal Armor",
+    "rarity": "Common",
+    "defense": "220",
+    "health": "750",
+    "technology": "46",
+    "description": "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp"
+  },
+  {
+    "name": "Pal Metal Helm",
+    "rarity": "Common",
+    "defense": "150",
+    "health": "350",
+    "technology": "46",
+    "description": "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp"
+  },
+  {
+    "name": "Common Shield",
+    "rarity": "Common",
+    "technology": "4",
+    "description": "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_01.webp"
+  },
+  {
+    "name": "Mega Shield",
+    "rarity": "Uncommon",
+    "technology": "16",
+    "description": "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.\r\nThe new model has been improved, enhancing its defense.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_02.webp"
+  },
+  {
+    "name": "Giga Shield",
+    "rarity": "Rare",
+    "technology": "28",
+    "description": "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.\r\nModifications have enhanced its effectiveness even further.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_03.webp"
+  },
+  {
+    "name": "Hyper Shield",
+    "rarity": "Epic",
+    "technology": "43",
+    "description": "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.\r\nThrough repeated testing, the highest quality has been achieved.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_04.webp"
+  },
+  {
+    "name": "Monarch's Crown",
+    "rarity": "Common",
+    "defense": "30",
+    "health": "80",
+    "description": "A crown for those who possess a high ranking.\r\nBeing quite heavy, it's not suited for practical use.Dragon Damage Reduction Lv. 1",
+    "effects": [
+      "Dragon Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head001.webp"
+  },
+  {
+    "name": "Golden Crown",
+    "rarity": "Common",
+    "defense": "30",
+    "health": "80",
+    "description": "A rare golden crown.\r\nJust wearing it makes you feel like royalty.Ice Damage Reduction Lv. 1",
+    "effects": [
+      "Ice Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head002.webp"
+  },
+  {
+    "name": "Long-Eared Headband",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "A cute headband with ears modeled after a Ribbuny.\r\nIt doesn't provide much head protection.Grass Damage Reduction Lv. 1",
+    "effects": [
+      "Grass Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head003.webp"
+  },
+  {
+    "name": "Witch Hat",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "A hat modeled after a Wixen or Katress.\r\nIt makes you feel like you can use Pal skills.Dark Damage Reduction Lv. 1",
+    "effects": [
+      "Dark Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head004.webp"
+  },
+  {
+    "name": "Soft Hat",
+    "rarity": "Common",
+    "defense": "25",
+    "health": "70",
+    "description": "A light and flexible cap perfect for everyday use.\r\nFashionable, it was once a\r\npopular item on the island.Earth Damage Reduction Lv. 1",
+    "effects": [
+      "Earth Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head005.webp"
+  },
+  {
+    "name": "Helmet",
+    "rarity": "Common",
+    "defense": "30",
+    "health": "80",
+    "description": "A tough helmet that protects its wearer's head.\r\nIt was apparently made after a number of people injured their heads\r\nafter taking a tumble off a Eikthyrdeer.Electric Damage Reduction Lv. 1",
+    "effects": [
+      "Electric Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head006.webp"
+  },
+  {
+    "name": "Silk Hat",
+    "rarity": "Common",
+    "defense": "25",
+    "health": "70",
+    "description": "A gentleman's hat.\r\nThose made from Sibelyx materials are considered luxury items,\r\nbut those made from Swee materials are of poor quality, and more commonly found.Fire Damage Reduction Lv. 1",
+    "effects": [
+      "Fire Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head007.webp"
+  },
+  {
+    "name": "Tricorne",
+    "rarity": "Common",
+    "defense": "25",
+    "health": "70",
+    "description": "A cap for those who love to fight.\r\nIts previous owner nearly drove Azurobe\r\nto extinction.Water Damage Reduction Lv. 1",
+    "effects": [
+      "Water Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head008.webp"
+  },
+  {
+    "name": "Explorer Cap",
+    "rarity": "Common",
+    "defense": "25",
+    "health": "70",
+    "description": "A hat for explorers.\r\nIt protects from the bright rays of the sun.Heat Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head009.webp"
+  },
+  {
+    "name": "Graduation Cap",
+    "rarity": "Common",
+    "defense": "30",
+    "health": "80",
+    "description": "A cap that makes its wearer feel smarter.\r\nWas there once a school on this island?Speedy Worker Lv. 1",
+    "effects": [
+      "Speedy Worker Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head010.webp"
+  },
+  {
+    "name": "Farming Hat",
+    "rarity": "Common",
+    "defense": "10",
+    "health": "30",
+    "description": "A hat for working in the fields.\r\nIt protects from the bright rays of the sun.Heat Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head011.webp"
+  },
+  {
+    "name": "Bowler Hat",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "A tough, round hat.\r\nIt was sold with the guarantee that it wouldn't break\r\neven if a Mammorest stepped on it.Neutral Damage Reduction Lv. 1",
+    "effects": [
+      "Neutral Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head012.webp"
+  },
+  {
+    "name": "Tocotoco Cap",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Cap shaped like a Tocotoco.\r\nIts gaudy design is visible from far away.Neutral Damage Reduction Lv. 1",
+    "effects": [
+      "Neutral Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head013.webp"
+  },
+  {
+    "name": "Grinning Tocotoco Cap",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Cap shaped like a Tocotoco.\r\nIt makes those who wear it smile uncontrollably.Neutral Damage Reduction Lv. 1",
+    "effects": [
+      "Neutral Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head014.webp"
+  },
+  {
+    "name": "Gumoss Cap",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Cap shaped like a Gumoss.Grass Damage Reduction Lv. 1",
+    "effects": [
+      "Grass Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head015.webp"
+  },
+  {
+    "name": "Penking Cap",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Hat shaped like a Penking.Ice Damage Reduction Lv. 1",
+    "effects": [
+      "Ice Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head016.webp"
+  },
+  {
+    "name": "Katress Cap",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Hat shaped like a Katress.Dark Damage Reduction Lv. 1",
+    "effects": [
+      "Dark Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head017.webp"
+  },
+  {
+    "name": "Cloth Outfit",
+    "rarity": "Uncommon",
+    "defense": "19",
+    "health": "91",
+    "description": "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp"
+  },
+  {
+    "name": "Cloth Outfit",
+    "rarity": "Rare",
+    "defense": "21",
+    "health": "98",
+    "description": "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp"
+  },
+  {
+    "name": "Cloth Outfit",
+    "rarity": "Epic",
+    "defense": "22",
+    "health": "105",
+    "description": "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp"
+  },
+  {
+    "name": "Cloth Outfit",
+    "rarity": "Legendary",
+    "defense": "24",
+    "health": "112",
+    "description": "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp"
+  },
+  {
+    "name": "Pelt Armor",
+    "rarity": "Uncommon",
+    "defense": "45",
+    "health": "182",
+    "description": "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp"
+  },
+  {
+    "name": "Pelt Armor",
+    "rarity": "Rare",
+    "defense": "49",
+    "health": "196",
+    "description": "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp"
+  },
+  {
+    "name": "Pelt Armor",
+    "rarity": "Epic",
+    "defense": "52",
+    "health": "210",
+    "description": "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp"
+  },
+  {
+    "name": "Pelt Armor",
+    "rarity": "Legendary",
+    "defense": "56",
+    "health": "224",
+    "description": "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp"
+  },
+  {
+    "name": "Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "91",
+    "health": "325",
+    "description": "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp"
+  },
+  {
+    "name": "Metal Armor",
+    "rarity": "Rare",
+    "defense": "98",
+    "health": "350",
+    "description": "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp"
+  },
+  {
+    "name": "Metal Armor",
+    "rarity": "Epic",
+    "defense": "105",
+    "health": "375",
+    "description": "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp"
+  },
+  {
+    "name": "Metal Armor",
+    "rarity": "Legendary",
+    "defense": "112",
+    "health": "400",
+    "description": "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp"
+  },
+  {
+    "name": "Refined Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "195",
+    "health": "650",
+    "description": "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp"
+  },
+  {
+    "name": "Refined Metal Armor",
+    "rarity": "Rare",
+    "defense": "210",
+    "health": "700",
+    "description": "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp"
+  },
+  {
+    "name": "Refined Metal Armor",
+    "rarity": "Epic",
+    "defense": "225",
+    "health": "750",
+    "description": "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp"
+  },
+  {
+    "name": "Refined Metal Armor",
+    "rarity": "Legendary",
+    "defense": "240",
+    "health": "800",
+    "description": "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp"
+  },
+  {
+    "name": "Pal Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "286",
+    "health": "975",
+    "description": "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp"
+  },
+  {
+    "name": "Pal Metal Armor",
+    "rarity": "Rare",
+    "defense": "308",
+    "health": "1050",
+    "description": "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp"
+  },
+  {
+    "name": "Pal Metal Armor",
+    "rarity": "Epic",
+    "defense": "330",
+    "health": "1125",
+    "description": "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp"
+  },
+  {
+    "name": "Pal Metal Armor",
+    "rarity": "Legendary",
+    "defense": "352",
+    "health": "1200",
+    "description": "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp"
+  },
+  {
+    "name": "Feathered Hair Band",
+    "rarity": "Uncommon",
+    "defense": "19",
+    "health": "78",
+    "description": "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp"
+  },
+  {
+    "name": "Feathered Hair Band",
+    "rarity": "Rare",
+    "defense": "21",
+    "health": "84",
+    "description": "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp"
+  },
+  {
+    "name": "Feathered Hair Band",
+    "rarity": "Epic",
+    "defense": "22",
+    "health": "90",
+    "description": "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp"
+  },
+  {
+    "name": "Feathered Hair Band",
+    "rarity": "Legendary",
+    "defense": "24",
+    "health": "96",
+    "description": "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp"
+  },
+  {
+    "name": "Metal Helm",
+    "rarity": "Uncommon",
+    "defense": "65",
+    "health": "130",
+    "description": "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp"
+  },
+  {
+    "name": "Metal Helm",
+    "rarity": "Rare",
+    "defense": "70",
+    "health": "140",
+    "description": "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp"
+  },
+  {
+    "name": "Metal Helm",
+    "rarity": "Epic",
+    "defense": "75",
+    "health": "150",
+    "description": "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp"
+  },
+  {
+    "name": "Metal Helm",
+    "rarity": "Legendary",
+    "defense": "80",
+    "health": "160",
+    "description": "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp"
+  },
+  {
+    "name": "Refined Metal Helm",
+    "rarity": "Uncommon",
+    "defense": "130",
+    "health": "325",
+    "description": "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp"
+  },
+  {
+    "name": "Refined Metal Helm",
+    "rarity": "Rare",
+    "defense": "140",
+    "health": "350",
+    "description": "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp"
+  },
+  {
+    "name": "Refined Metal Helm",
+    "rarity": "Epic",
+    "defense": "150",
+    "health": "375",
+    "description": "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp"
+  },
+  {
+    "name": "Refined Metal Helm",
+    "rarity": "Legendary",
+    "defense": "160",
+    "health": "400",
+    "description": "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp"
+  },
+  {
+    "name": "Pal Metal Helm",
+    "rarity": "Uncommon",
+    "defense": "195",
+    "health": "455",
+    "description": "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp"
+  },
+  {
+    "name": "Pal Metal Helm",
+    "rarity": "Rare",
+    "defense": "210",
+    "health": "490",
+    "description": "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp"
+  },
+  {
+    "name": "Pal Metal Helm",
+    "rarity": "Epic",
+    "defense": "225",
+    "health": "525",
+    "description": "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp"
+  },
+  {
+    "name": "Pal Metal Helm",
+    "rarity": "Legendary",
+    "defense": "240",
+    "health": "560",
+    "description": "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp"
+  },
+  {
+    "name": "Tropical Outfit",
+    "rarity": "Common",
+    "defense": "25",
+    "health": "70",
+    "technology": "9",
+    "description": "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp"
+  },
+  {
+    "name": "Tropical Outfit",
+    "rarity": "Uncommon",
+    "defense": "32",
+    "health": "91",
+    "description": "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp"
+  },
+  {
+    "name": "Tropical Outfit",
+    "rarity": "Rare",
+    "defense": "35",
+    "health": "98",
+    "description": "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp"
+  },
+  {
+    "name": "Tropical Outfit",
+    "rarity": "Epic",
+    "defense": "37",
+    "health": "105",
+    "description": "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp"
+  },
+  {
+    "name": "Tropical Outfit",
+    "rarity": "Legendary",
+    "defense": "40",
+    "health": "112",
+    "description": "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp"
+  },
+  {
+    "name": "Tundra Outfit",
+    "rarity": "Common",
+    "defense": "25",
+    "health": "70",
+    "technology": "9",
+    "description": "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp"
+  },
+  {
+    "name": "Tundra Outfit",
+    "rarity": "Uncommon",
+    "defense": "32",
+    "health": "91",
+    "description": "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp"
+  },
+  {
+    "name": "Tundra Outfit",
+    "rarity": "Rare",
+    "defense": "35",
+    "health": "98",
+    "description": "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp"
+  },
+  {
+    "name": "Tundra Outfit",
+    "rarity": "Epic",
+    "defense": "37",
+    "health": "105",
+    "description": "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp"
+  },
+  {
+    "name": "Tundra Outfit",
+    "rarity": "Legendary",
+    "defense": "40",
+    "health": "112",
+    "description": "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp"
+  },
+  {
+    "name": "Heat Resistant Pelt Armor",
+    "rarity": "Common",
+    "defense": "45",
+    "health": "140",
+    "technology": "16",
+    "description": "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Pelt Armor",
+    "rarity": "Uncommon",
+    "defense": "58",
+    "health": "182",
+    "description": "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Pelt Armor",
+    "rarity": "Rare",
+    "defense": "63",
+    "health": "196",
+    "description": "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Pelt Armor",
+    "rarity": "Epic",
+    "defense": "67",
+    "health": "210",
+    "description": "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Pelt Armor",
+    "rarity": "Legendary",
+    "defense": "72",
+    "health": "224",
+    "description": "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp"
+  },
+  {
+    "name": "Cold Resistant Pelt Armor",
+    "rarity": "Common",
+    "defense": "45",
+    "health": "140",
+    "technology": "18",
+    "description": "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Pelt Armor",
+    "rarity": "Uncommon",
+    "defense": "58",
+    "health": "182",
+    "description": "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Pelt Armor",
+    "rarity": "Rare",
+    "defense": "63",
+    "health": "196",
+    "description": "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Pelt Armor",
+    "rarity": "Epic",
+    "defense": "67",
+    "health": "210",
+    "description": "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Pelt Armor",
+    "rarity": "Legendary",
+    "defense": "72",
+    "health": "224",
+    "description": "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp"
+  },
+  {
+    "name": "Heat Resistant Metal Armor",
+    "rarity": "Common",
+    "defense": "105",
+    "health": "250",
+    "technology": "25",
+    "description": "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "136",
+    "health": "325",
+    "description": "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Metal Armor",
+    "rarity": "Rare",
+    "defense": "147",
+    "health": "350",
+    "description": "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Metal Armor",
+    "rarity": "Epic",
+    "defense": "157",
+    "health": "375",
+    "description": "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Metal Armor",
+    "rarity": "Legendary",
+    "defense": "168",
+    "health": "400",
+    "description": "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp"
+  },
+  {
+    "name": "Cold Resistant Metal Armor",
+    "rarity": "Common",
+    "defense": "105",
+    "health": "250",
+    "technology": "27",
+    "description": "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "136",
+    "health": "325",
+    "description": "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Metal Armor",
+    "rarity": "Rare",
+    "defense": "147",
+    "health": "350",
+    "description": "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Metal Armor",
+    "rarity": "Epic",
+    "defense": "157",
+    "health": "375",
+    "description": "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Metal Armor",
+    "rarity": "Legendary",
+    "defense": "168",
+    "health": "400",
+    "description": "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp"
+  },
+  {
+    "name": "Heat Resistant Refined Metal Armor",
+    "rarity": "Common",
+    "defense": "180",
+    "health": "500",
+    "technology": "40",
+    "description": "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Refined Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "234",
+    "health": "650",
+    "description": "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Refined Metal Armor",
+    "rarity": "Rare",
+    "defense": "252",
+    "health": "700",
+    "description": "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Refined Metal Armor",
+    "rarity": "Epic",
+    "defense": "270",
+    "health": "750",
+    "description": "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Refined Metal Armor",
+    "rarity": "Legendary",
+    "defense": "288",
+    "health": "800",
+    "description": "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp"
+  },
+  {
+    "name": "Cold Resistant Refined Metal Armor",
+    "rarity": "Common",
+    "defense": "180",
+    "health": "500",
+    "technology": "41",
+    "description": "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Refined Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "234",
+    "health": "650",
+    "description": "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Refined Metal Armor",
+    "rarity": "Rare",
+    "defense": "252",
+    "health": "700",
+    "description": "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Refined Metal Armor",
+    "rarity": "Epic",
+    "defense": "270",
+    "health": "750",
+    "description": "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Refined Metal Armor",
+    "rarity": "Legendary",
+    "defense": "288",
+    "health": "800",
+    "description": "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp"
+  },
+  {
+    "name": "Heat Resistant Pal Metal Armor",
+    "rarity": "Common",
+    "defense": "250",
+    "health": "750",
+    "technology": "48",
+    "description": "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Pal Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "325",
+    "health": "975",
+    "description": "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Pal Metal Armor",
+    "rarity": "Rare",
+    "defense": "350",
+    "health": "1050",
+    "description": "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Pal Metal Armor",
+    "rarity": "Epic",
+    "defense": "375",
+    "health": "1125",
+    "description": "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Pal Metal Armor",
+    "rarity": "Legendary",
+    "defense": "400",
+    "health": "1200",
+    "description": "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 2",
+      "Cold Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp"
+  },
+  {
+    "name": "Cold Resistant Pal Metal Armor",
+    "rarity": "Common",
+    "defense": "250",
+    "health": "750",
+    "technology": "50",
+    "description": "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Pal Metal Armor",
+    "rarity": "Uncommon",
+    "defense": "325",
+    "health": "975",
+    "description": "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Pal Metal Armor",
+    "rarity": "Rare",
+    "defense": "350",
+    "health": "1050",
+    "description": "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Pal Metal Armor",
+    "rarity": "Epic",
+    "defense": "375",
+    "health": "1125",
+    "description": "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Pal Metal Armor",
+    "rarity": "Legendary",
+    "defense": "400",
+    "health": "1200",
+    "description": "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp"
+  },
+  {
+    "name": "Lyleen Floral Cap",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Floral cap shaped like a Lyleen.Grass Damage Reduction Lv. 1",
+    "effects": [
+      "Grass Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip023.webp"
+  },
+  {
+    "name": "Sibelyx Hat",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Hat shaped like a Sibelyx.Ice Damage Reduction Lv. 1",
+    "effects": [
+      "Ice Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip024.webp"
+  },
+  {
+    "name": "Leezpunk Hood",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Hood shaped like a Leezpunk.Dark Damage Reduction Lv. 1",
+    "effects": [
+      "Dark Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip025.webp"
+  },
+  {
+    "name": "Killamari Cap",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Cap shaped like a Killamari.Dark Damage Reduction Lv. 1",
+    "effects": [
+      "Dark Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip026.webp"
+  },
+  {
+    "name": "Cawgnito Hat",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Hat shaped like a Cawgnito.Dark Damage Reduction Lv. 1",
+    "effects": [
+      "Dark Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip027.webp"
+  },
+  {
+    "name": "Ribbuny Headband",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Headband shaped like a Ribbuny.Neutral Damage Reduction Lv. 1",
+    "effects": [
+      "Neutral Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip028.webp"
+  },
+  {
+    "name": "Lamball Helm",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Helm shaped like a Lamball.Neutral Damage Reduction Lv. 1",
+    "effects": [
+      "Neutral Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip029.webp"
+  },
+  {
+    "name": "Dumud Helm",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Helm shaped like a Dumud.Earth Damage Reduction Lv. 1",
+    "effects": [
+      "Earth Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip030.webp"
+  },
+  {
+    "name": "Swee Cap",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Cap shaped like a Swee.Ice Damage Reduction Lv. 1",
+    "effects": [
+      "Ice Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip031.webp"
+  },
+  {
+    "name": "Dazzi Hat",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Hat shaped like a Dazzi.Electric Damage Reduction Lv. 1",
+    "effects": [
+      "Electric Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip032.webp"
+  },
+  {
+    "name": "Cattiva Hat",
+    "rarity": "Common",
+    "defense": "20",
+    "health": "60",
+    "description": "Hat shaped like a Cattiva.Neutral Damage Reduction Lv. 1",
+    "effects": [
+      "Neutral Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip033.webp"
+  },
+  {
+    "name": "Plasteel Armor",
+    "rarity": "Common",
+    "defense": "385",
+    "health": "1300",
+    "technology": "50",
+    "description": "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp"
+  },
+  {
+    "name": "Plasteel Helmet",
+    "rarity": "Common",
+    "defense": "260",
+    "health": "600",
+    "technology": "51",
+    "description": "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp"
+  },
+  {
+    "name": "Ultra Shield",
+    "rarity": "Legendary",
+    "technology": "55",
+    "description": "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.\r\nAs a result of further experiments, ultimate quality has been achieved.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_05.webp"
+  },
+  {
+    "name": "Witch's Crown (Ultra)",
+    "rarity": "Legendary",
+    "defense": "30",
+    "health": "80",
+    "description": "Imbued with the ominous power of Bellanoir Libero (Ultra).\r\nExtremely difficult to obtain.Dragon Damage Reduction Lv. 1",
+    "effects": [
+      "Dragon Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head001_purple.webp"
+  },
+  {
+    "name": "Zoe Hat",
+    "rarity": "Legendary",
+    "defense": "20",
+    "health": "60",
+    "description": "Dress up like Zoe using this special headpiece!",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Grass.webp"
+  },
+  {
+    "name": "Axel Hat",
+    "rarity": "Legendary",
+    "defense": "20",
+    "health": "60",
+    "description": "Dress up like Axel using this special headpiece!",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Electric.webp"
+  },
+  {
+    "name": "Lily Hat",
+    "rarity": "Legendary",
+    "defense": "20",
+    "health": "60",
+    "description": "Dress up like Lily using this special headpiece!",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Forest.webp"
+  },
+  {
+    "name": "Victor Hat",
+    "rarity": "Legendary",
+    "defense": "20",
+    "health": "60",
+    "description": "Dress up like Victor using this special headpiece!",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Snow.webp"
+  },
+  {
+    "name": "Marcus Hat",
+    "rarity": "Legendary",
+    "defense": "20",
+    "health": "60",
+    "description": "Dress up like Marcus using this special headpiece!",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Desert.webp"
+  },
+  {
+    "name": "Horns of Supremacy",
+    "rarity": "Legendary",
+    "defense": "30",
+    "health": "80",
+    "description": "Bursts with the ominous power of Blazamut Ryu (Ultra).\r\nTo possess this is exceedingly rare.Water Damage Reduction Lv. 1",
+    "effects": [
+      "Water Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip041.webp"
+  },
+  {
+    "name": "Heat Resistant Plasteel Armor",
+    "rarity": "Common",
+    "defense": "400",
+    "health": "1300",
+    "technology": "53",
+    "description": "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp"
+  },
+  {
+    "name": "Cold Resistant Plasteel Armor",
+    "rarity": "Common",
+    "defense": "400",
+    "health": "1300",
+    "technology": "54",
+    "description": "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp"
+  },
+  {
+    "name": "Lightweight Plasteel Armor",
+    "rarity": "Common",
+    "defense": "400",
+    "health": "1300",
+    "technology": "55",
+    "description": "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp"
+  },
+  {
+    "name": "Saya Hat",
+    "rarity": "Legendary",
+    "defense": "20",
+    "health": "60",
+    "description": "Dress up like Saya using this special headpiece!",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Sakurajima.webp"
+  },
+  {
+    "name": "Plasteel Armor",
+    "rarity": "Uncommon",
+    "defense": "500",
+    "health": "1560",
+    "description": "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp"
+  },
+  {
+    "name": "Plasteel Armor",
+    "rarity": "Rare",
+    "defense": "539",
+    "health": "1690",
+    "description": "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp"
+  },
+  {
+    "name": "Plasteel Armor",
+    "rarity": "Epic",
+    "defense": "577",
+    "health": "1820",
+    "description": "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp"
+  },
+  {
+    "name": "Plasteel Armor",
+    "rarity": "Legendary",
+    "defense": "616",
+    "health": "1950",
+    "description": "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp"
+  },
+  {
+    "name": "Heat Resistant Plasteel Armor",
+    "rarity": "Uncommon",
+    "defense": "520",
+    "health": "1560",
+    "description": "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Plasteel Armor",
+    "rarity": "Rare",
+    "defense": "560",
+    "health": "1690",
+    "description": "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Plasteel Armor",
+    "rarity": "Epic",
+    "defense": "600",
+    "health": "1820",
+    "description": "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Plasteel Armor",
+    "rarity": "Legendary",
+    "defense": "640",
+    "health": "1950",
+    "description": "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp"
+  },
+  {
+    "name": "Cold Resistant Plasteel Armor",
+    "rarity": "Uncommon",
+    "defense": "520",
+    "health": "1560",
+    "description": "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Plasteel Armor",
+    "rarity": "Rare",
+    "defense": "560",
+    "health": "1690",
+    "description": "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Plasteel Armor",
+    "rarity": "Epic",
+    "defense": "600",
+    "health": "1820",
+    "description": "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Plasteel Armor",
+    "rarity": "Legendary",
+    "defense": "640",
+    "health": "1950",
+    "description": "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp"
+  },
+  {
+    "name": "Lightweight Plasteel Armor",
+    "rarity": "Uncommon",
+    "defense": "520",
+    "health": "1560",
+    "description": "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp"
+  },
+  {
+    "name": "Lightweight Plasteel Armor",
+    "rarity": "Rare",
+    "defense": "560",
+    "health": "1690",
+    "description": "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp"
+  },
+  {
+    "name": "Lightweight Plasteel Armor",
+    "rarity": "Epic",
+    "defense": "600",
+    "health": "1820",
+    "description": "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp"
+  },
+  {
+    "name": "Lightweight Plasteel Armor",
+    "rarity": "Legendary",
+    "defense": "640",
+    "health": "1950",
+    "description": "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp"
+  },
+  {
+    "name": "Plasteel Helmet",
+    "rarity": "Uncommon",
+    "defense": "312",
+    "health": "720",
+    "description": "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp"
+  },
+  {
+    "name": "Plasteel Helmet",
+    "rarity": "Rare",
+    "defense": "338",
+    "health": "780",
+    "description": "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp"
+  },
+  {
+    "name": "Plasteel Helmet",
+    "rarity": "Epic",
+    "defense": "364",
+    "health": "840",
+    "description": "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp"
+  },
+  {
+    "name": "Plasteel Helmet",
+    "rarity": "Legendary",
+    "defense": "390",
+    "health": "900",
+    "description": "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp"
+  },
+  {
+    "name": "Hexolite Armor",
+    "rarity": "Common",
+    "defense": "580",
+    "health": "1750",
+    "technology": "57",
+    "description": "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
+  },
+  {
+    "name": "Xenolord's head",
+    "rarity": "Legendary",
+    "defense": "30",
+    "health": "80",
+    "description": "A headgear designed to resemble a Xenolord.Ice Damage Reduction Lv. 1",
+    "effects": [
+      "Ice Damage Reduction Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip044.webp"
+  },
+  {
+    "name": "Heat Resistant Hexolite Armor",
+    "rarity": "Common",
+    "defense": "600",
+    "health": "1750",
+    "technology": "59",
+    "description": "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
+  },
+  {
+    "name": "Cold Resistant Hexolite Armor",
+    "rarity": "Common",
+    "defense": "600",
+    "health": "1750",
+    "technology": "59",
+    "description": "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
+  },
+  {
+    "name": "Lightweight Hexolite Armor",
+    "rarity": "Common",
+    "defense": "600",
+    "health": "1750",
+    "technology": "60",
+    "description": "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
+  },
+  {
+    "name": "Hexolite Helmet",
+    "rarity": "Common",
+    "defense": "350",
+    "health": "800",
+    "technology": "58",
+    "description": "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp"
+  },
+  {
+    "name": "Bjorn Hat",
+    "rarity": "Legendary",
+    "defense": "20",
+    "health": "60",
+    "description": "Dress up like Bjorm using this special headpiece!",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Viking.webp"
+  },
+  {
+    "name": "Hexolite Helmet",
+    "rarity": "Uncommon",
+    "defense": "385",
+    "health": "880",
+    "description": "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp"
+  },
+  {
+    "name": "Hexolite Helmet",
+    "rarity": "Rare",
+    "defense": "402",
+    "health": "920",
+    "description": "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp"
+  },
+  {
+    "name": "Hexolite Helmet",
+    "rarity": "Epic",
+    "defense": "420",
+    "health": "960",
+    "description": "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp"
+  },
+  {
+    "name": "Hexolite Helmet",
+    "rarity": "Legendary",
+    "defense": "455",
+    "health": "1040",
+    "description": "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp"
+  },
+  {
+    "name": "Hexolite Armor",
+    "rarity": "Uncommon",
+    "defense": "638",
+    "health": "1925",
+    "description": "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
+  },
+  {
+    "name": "Hexolite Armor",
+    "rarity": "Rare",
+    "defense": "667",
+    "health": "2012",
+    "description": "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
+  },
+  {
+    "name": "Hexolite Armor",
+    "rarity": "Epic",
+    "defense": "696",
+    "health": "2100",
+    "description": "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
+  },
+  {
+    "name": "Hexolite Armor",
+    "rarity": "Legendary",
+    "defense": "754",
+    "health": "2275",
+    "description": "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
+  },
+  {
+    "name": "Heat Resistant Hexolite Armor",
+    "rarity": "Uncommon",
+    "defense": "660",
+    "health": "1925",
+    "description": "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Hexolite Armor",
+    "rarity": "Rare",
+    "defense": "690",
+    "health": "2012",
+    "description": "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Hexolite Armor",
+    "rarity": "Epic",
+    "defense": "720",
+    "health": "2100",
+    "description": "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
+  },
+  {
+    "name": "Heat Resistant Hexolite Armor",
+    "rarity": "Legendary",
+    "defense": "780",
+    "health": "2275",
+    "description": "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
+  },
+  {
+    "name": "Cold Resistant Hexolite Armor",
+    "rarity": "Uncommon",
+    "defense": "660",
+    "health": "1925",
+    "description": "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Hexolite Armor",
+    "rarity": "Rare",
+    "defense": "690",
+    "health": "2012",
+    "description": "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Hexolite Armor",
+    "rarity": "Epic",
+    "defense": "720",
+    "health": "2100",
+    "description": "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
+  },
+  {
+    "name": "Cold Resistant Hexolite Armor",
+    "rarity": "Legendary",
+    "defense": "780",
+    "health": "2275",
+    "description": "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 2",
+      "Heat Resistant Lv. 1"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
+  },
+  {
+    "name": "Lightweight Hexolite Armor",
+    "rarity": "Uncommon",
+    "defense": "660",
+    "health": "1925",
+    "description": "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
+  },
+  {
+    "name": "Lightweight Hexolite Armor",
+    "rarity": "Rare",
+    "defense": "690",
+    "health": "2012",
+    "description": "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
+  },
+  {
+    "name": "Lightweight Hexolite Armor",
+    "rarity": "Epic",
+    "defense": "720",
+    "health": "2100",
+    "description": "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
+  },
+  {
+    "name": "Lightweight Hexolite Armor",
+    "rarity": "Legendary",
+    "defense": "780",
+    "health": "2275",
+    "description": "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
+  },
+  {
+    "name": "Advanced Shield",
+    "rarity": "Legendary",
+    "technology": "60",
+    "description": "Strange shield made with advanced technology.\r\nIt automatically repair itself after not taking damage for a while.",
+    "effects": [],
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_06.webp"
+  }
+]
