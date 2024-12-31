@@ -55,42 +55,6 @@ export default function Layout() {
             }}
           />
           <Tabs.Screen
-            name="paldetail"
-            options={({ route, navigation }) => ({
-              headerShown: true,
-              headerStyle: {
-                backgroundColor: actColor.background,
-              },
-              headerTitleStyle: {
-                color: actColor.primary,
-                textAlign: "center",
-              },
-              headerTitleAlign: "center",
-              headerLeft: () => (
-                <AntDesign
-                  name="arrowleft"
-                  size={24}
-                  color={actColor.primary}
-                  onPress={() => navigation.navigate("index")}
-                  style={{ marginLeft: 10 }}
-                />
-              ),
-              title: (route.params as { palName?: string })?.palName || "Pal Detail",
-              tabBarLabel: ({ color }) => (
-                <Text style={{ color, fontSize: 14, fontWeight: "500" }}>
-                  Detail
-                </Text>
-              ),
-              tabBarIcon: ({ focused }) => (
-                <AntDesign
-                  name="tablet1"
-                  size={24}
-                  color={focused ? actColor.primary : actColor.onSurfaceVariant}
-                />
-              ),
-            })}
-          />
-          <Tabs.Screen
           name="Inventory"
           options={{
             headerShown: false,

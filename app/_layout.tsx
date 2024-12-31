@@ -5,6 +5,7 @@ export default function Layout() {
     <Stack>
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="inventory" options={{ headerShown: false }} />
+      <Stack.Screen name="paldetail" options={{ headerShown: false }} />
     </Stack>
   );
 }
