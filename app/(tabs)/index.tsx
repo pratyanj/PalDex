@@ -1,4 +1,4 @@
-import React, { act, useContext, useState } from "react";
+import React, { useContext, useMemo, useState } from "react";
 import {
   View,
   ScrollView,
@@ -23,8 +23,10 @@ import { Dropdown } from "react-native-element-dropdown";
 export default function PalList() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
+  
   const [searchQuery, setSearchQuery] = useState("");
-  const [filteredPals, setFilteredPals] = useState(pals);
+  // const [filteredPals, setFilteredPals] = useState(palsMemoized);
+  const palsMemoized = useMemo(() => pals, []);
   const [showSearchBar, setShowSearchBar] = useState(false);
 
   const [ filterVisible, setFilterVisible ] = useState(false);
@@ -32,9 +34,27 @@ export default function PalList() {
   // const [selectedRarity, setSelectedRarity] = useState("All");
   // const [sortOrder, setSortOrder] = useState("Name");
   // const [orderDirection, setOrderDirection] = useState("Descending");
-
+  
   const [selectedElements, setSelectedElements] = useState<string[]>([]);
   const [selectedWorks, setSelectedWorks] = useState<string[]>([]);
+
+  const filteredPals = useMemo(() => {
+    // Apply filters based on selected elements and works
+    return pals.filter((pal) => {
+      const matchesElements =
+        selectedElements.length === 0 ||
+        pal.types.some((element) => selectedElements.includes(element.name));
+      const matchesWorks =
+        selectedWorks.length === 0 ||
+        pal.suitability.some((work) => selectedWorks.includes(work.type));
+      const matchesSearch =
+        searchQuery.trim() === "" ||
+        pal.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        pal.key.toLowerCase().includes(searchQuery.toLowerCase());
+
+      return matchesElements && matchesWorks && matchesSearch;
+    });
+  }, [searchQuery, selectedElements, selectedWorks]);
 
   const handle_filter_visible = () => {
     if (filterVisible) {
@@ -50,7 +70,7 @@ export default function PalList() {
     { label: "Epic (8 → 10)", value: "epic" },
     { label: "Legendary (10+) ", value: "Legendary (10+)" },
   ];
-  const elements = [
+  const elements = useMemo(() =>[
     { img: require("../../assets/images/elements/dark.png"), value: "dark" },
     { img: require("../../assets/images/elements/dragon.png"), value: "dragon"},
     { img: require("../../assets/images/elements/electric.png"),value: "electric"},
@@ -60,7 +80,7 @@ export default function PalList() {
     { img: require("../../assets/images/elements/ice.png"), value: "ice" },
     { img: require("../../assets/images/elements/neutral.png"),value: "neutral"},
     { img: require("../../assets/images/elements/water.png"), value: "water" },
-  ];
+  ], [])
 
   const handle_element = ( value: string) => {
     setSelectedElements((prevElements) => {
@@ -68,11 +88,10 @@ export default function PalList() {
         ? prevElements.filter((item) => item !== value) // Remove if already selected
         : [...prevElements, value]; // Add if not selected
   
-      const filtered = pals.filter(
+      const filtered = palsMemoized.filter(
         (pal) =>
           (updatedElements.length === 0 || pal.types.some(element => updatedElements.includes(element.name)))
       );
-      setFilteredPals(filtered);
 
       console.log(`Selected Element: ${value}`);
       console.log(`Updated List of Selected Elements: ${updatedElements}`);
@@ -80,16 +99,16 @@ export default function PalList() {
 
       return updatedElements;
     });
-  };  const handle_work = ( value: string) => {
+  };  
+  const handle_work = ( value: string) => {
     setSelectedWorks((prevWorks) => {
       const updatedWorks = prevWorks.includes(value)
         ? prevWorks.filter((item) => item !== value) // Remove if already selected
         : [...prevWorks, value]; // Add if not selected
-        const filtered = pals.filter(
+        const filtered = palsMemoized.filter(
           (pal) =>
             (updatedWorks.length === 0 || pal.suitability.some(work => updatedWorks.includes(work.type)))
         );
-        setFilteredPals(filtered);
 
       console.log(`Selected Work: ${value}`);
       console.log(`Updated List of Selected Works: ${updatedWorks}`);
@@ -99,7 +118,7 @@ export default function PalList() {
   };
   
 
-  const works = [
+  const works = useMemo(() =>[
     { img: require("../../assets/images/works/handiwork.png"), value: "handiwork" },
     { img: require("../../assets/images/works/cooling.png"), value: "cooling" },
     { img: require("../../assets/images/works/farming.png"), value: "farming" },
@@ -112,7 +131,7 @@ export default function PalList() {
     { img: require("../../assets/images/works/planting.png"), value: "planting" },
     { img: require("../../assets/images/works/transporting.png"), value: "transporting" },
     { img: require("../../assets/images/works/watering.png"), value: "watering" },
-  ];
+  ], [])
   
 
 
@@ -127,17 +146,6 @@ export default function PalList() {
   };
   const handleSearch = (text: string) => {
     setSearchQuery(text);
-
-    if (text.trim() === "") {
-      setFilteredPals(pals);
-    } else {
-      const filtered = pals.filter(
-        (pal) =>
-          pal.name.toLowerCase().includes(text.toLowerCase()) ||
-          pal.key.toLowerCase().includes(text.toLowerCase())
-      );
-      setFilteredPals(filtered);
-    }
   };
   
     
