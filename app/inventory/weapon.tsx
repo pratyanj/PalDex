@@ -1,14 +1,12 @@
-import { View, Text, StyleSheet, ScrollView } from "react-native";
+import { View, Text, StyleSheet, ScrollView,TouchableOpacity } from "react-native";
 import React, { useContext } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
-import { WeaponCard } from "../../components/inv/weaponCard";
 import { Image } from "expo-image";
 import { weaponDataSet } from "../../components/inv/weapon";
-import { act } from "react-test-renderer";
 export default function Weapon() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
@@ -20,7 +18,7 @@ const getRarityColor = (rarity: string) => {
       case "rare":
         return  actColor.primary
       case "epic":
-        return actColor.primary
+        return actColor.inversePrimary
       case "legendary":
         return  actColor.yellow
       default:
@@ -75,9 +73,9 @@ const itemCard = ( name:string,img:any,rarity:string) => {
       {/* Content */}
       <ScrollView contentContainerStyle={styles.content}>
         { weaponDataSet.map((item, index) => (
-          <View key={item.name+index}>
+          <TouchableOpacity key={item.name+index} onPress={() => router.push({ pathname: "/inventory/weaponDetail",params: { id:item.ID - 1 }, })}>
             {itemCard(item.name, item.image, item.rarity)}
-          </View>
+          </TouchableOpacity>
         ))}
       </ScrollView>
     </SafeAreaView>
