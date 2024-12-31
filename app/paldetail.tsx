@@ -1,19 +1,18 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
-import React ,{ useEffect ,useContext,useState}from "react";
+import React, { useEffect, useContext, useState } from "react";
 import { Image } from "expo-image";
-import { pals } from "../../constants/pals";
-import { Colors } from "../../constants/Colors";
+import { pals } from "../constants/pals";
+import { Colors } from "../constants/Colors";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useLocalSearchParams } from 'expo-router';
-import { useNavigation } from '@react-navigation/native';
-import GeneralTab from "../../components/general_screen";
-import Stats from "../../components/stats_screen";
-import { MiscScreen } from "../../components/other_screen";
-import { ThemeContext } from "../../constants/ThemeContext";
+import { router, useLocalSearchParams } from "expo-router";
+import { useNavigation } from "@react-navigation/native";
+import GeneralTab from "../components/general_screen";
+import Stats from "../components/stats_screen";
+import { MiscScreen } from "../components/other_screen";
+import { ThemeContext } from "../constants/ThemeContext";
+import AntDesign from "@expo/vector-icons/AntDesign";
 const Tab = createMaterialTopTabNavigator();
-
-
 
 export default function paldetail() {
   const { theme } = useContext(ThemeContext);
@@ -45,6 +44,7 @@ export default function paldetail() {
       paddingLeft: 70,
       flex: 1,
       backgroundColor: actColor.surfaceVariant,
+      paddingTop: 30,
       borderRadius: 12,
       paddingVertical: 16,
       paddingHorizontal: 16,
@@ -69,7 +69,6 @@ export default function paldetail() {
       color: actColor.onSurface,
       marginLeft: 8,
       flexWrap: "wrap",
-      
     },
     paklkey: {
       fontSize: 20,
@@ -77,7 +76,7 @@ export default function paldetail() {
       color: actColor.secondary, // Use a distinctive color for keys
       marginLeft: 8, // Spacing for readability
     },
-  
+
     tabBar: {
       backgroundColor: actColor.surfaceVariant, // Dark background for the tab bar
       borderRadius: 8, // Rounded edges for the tab bar
@@ -104,13 +103,13 @@ export default function paldetail() {
       color: actColor.surface,
     },
   });
-  
+
   useEffect(() => {
     const numId = Number(id) || 0;
     const validPal = pals[numId];
     setPalId(numId);
     navigation.setOptions({
-      title: validPal?.name || 'Pal Details'
+      title: validPal?.name || "Pal Details",
     });
   }, [id]);
   const pal_header = (
@@ -127,7 +126,7 @@ export default function paldetail() {
         foodIcons.push(
           <Image
             key={`food-on-${i}`}
-            source={require("../../assets/images/items/Food_on_icon.png")}
+            source={require("../assets/images/items/Food_on_icon.png")}
             style={{ width: 20, height: 20, marginLeft: 8 }}
           />
         );
@@ -135,7 +134,7 @@ export default function paldetail() {
         foodIcons.push(
           <Image
             key={`food-off-${i}`}
-            source={require("../../assets/images/items/Food_off_icon.png")}
+            source={require("../assets/images/items/Food_off_icon.png")}
             style={{ width: 20, height: 20, marginLeft: 8 }}
           />
         );
@@ -144,19 +143,58 @@ export default function paldetail() {
 
     return (
       <>
-        <View >
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: 'space-between',
+            paddingVertical: 10,
+            paddingHorizontal: 15,
+            elevation: 4, // Adds depth
+            shadowColor: "#000",
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 0.2,
+            shadowRadius: 4,
+          }}
+        >
+          <AntDesign
+            name="arrowleft"
+            size={24}
+            color={actColor.primary}
+            style={{ backgroundColor: actColor.surfaceVariant,
+              borderRadius: 5,padding: 5}}
+              onPress={() => router.replace("/(tabs)")}
+          />
+          <Text
+            style={{
+              color: actColor.primary,
+              fontSize: 22,
+              fontFamily: "Inter-Black",
+              textAlign: "center",
+              flex: 1,
+              marginLeft: 10,
+              backgroundColor: actColor.surfaceVariant,
+              borderRadius: 15,
+              
+            }}
+          >
+            {pal_name}
+          </Text>
+          <View style={{ width: 24 }} />
+        </View>
+        <View>
           <Image source={pal_image} style={styles.palImage} />
           <View style={styles.container1}>
             <View style={{ flex: 0, flexDirection: "row" }}>
-              <Text style={ [styles.text,{ paddingTop: 10}] }>No: </Text>
+              <Text style={[styles.text, { paddingTop: 10 }]}>No: </Text>
               <Text style={styles.paklkey}>#{pal_key}</Text>
             </View>
-            <View style={{ flex: 1, flexDirection: "row",paddingRight: 30 }}>
+            {/* <View style={{ flex: 1, flexDirection: "row",paddingRight: 30 }}>
               <Text style={[styles.text,{paddingTop: 6}] }>Name: </Text>
               <Text style={styles.palname}>{pal_name}</Text>
-            </View>
+            </View> */}
             <View style={{ flex: 1, flexDirection: "row" }}>
-              <Text style={[styles.text,{ paddingTop: 6 }]}>Element: </Text>
+              <Text style={[styles.text, { paddingTop: 6 }]}>Element: </Text>
               <Text style={styles.palname}>{pal_element_name}</Text>
               <Image
                 source={pal_element}
@@ -198,10 +236,10 @@ export default function paldetail() {
             pals[pal_id].stats.food
           )}
         </View>
-          
-        <View style={{ flex: 1 ,height: 1000}}>
+
+        <View style={{ flex: 1, height: 1000 }}>
           <Tab.Navigator
-           id = {undefined}
+            id={undefined}
             screenOptions={{
               tabBarStyle: styles.tabBar,
               tabBarLabelStyle: styles.tabLabel,
@@ -213,8 +251,8 @@ export default function paldetail() {
             <Tab.Screen
               name="General"
               options={{ title: "General" }}
-              children={() => ( <GeneralTab pal_id={pal_id} /> )} 
-              />
+              children={() => <GeneralTab pal_id={pal_id} />}
+            />
             <Tab.Screen
               name="Stats"
               options={{ title: "Stats" }}
@@ -227,9 +265,7 @@ export default function paldetail() {
             />
           </Tab.Navigator>
         </View>
-          
       </View>
     </SafeAreaView>
   );
-
 }
