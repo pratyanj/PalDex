@@ -1036,7 +1036,7 @@ export const pals = [
     ],
     drops: [
       {
-        neme: "mushroom",
+        name: "mushroom",
         image: require("../assets/images/items/mushroom.png"),
       },
     ],
@@ -1166,7 +1166,7 @@ export const pals = [
     ],
     drops: [
       {
-        neme: "flame_organ",
+        name: "flame_organ",
         image: require("../assets/images/items/flame-organ.png"),
       },
       {
@@ -2418,7 +2418,7 @@ export const pals = [
     ],
     drops: [
       {
-        neme: "wool",
+        name: "wool",
         image: require("../assets/images/items/wool.png"),
       },
     ],
@@ -2826,7 +2826,7 @@ export const pals = [
     ],
     drops: [
       {
-        neme: "leather",
+        name: "leather",
         image: require("../assets/images/items/leather.png"),
       },
       {
@@ -7247,7 +7247,7 @@ export const pals = [
     ],
     drops: [
       {
-        neme: "wool",
+        name: "wool",
         image: require("../assets/images/items/wool.png"),
       },
     ],
@@ -7518,7 +7518,7 @@ export const pals = [
     ],
     drops: [
       {
-        neme: "wool",
+        name: "wool",
         image: require("../assets/images/items/wool.png"),
       },
     ],
@@ -12751,7 +12751,7 @@ export const pals = [
     ],
     drops: [
       {
-        neme: "honey",
+        name: "honey",
         image: require("../assets/images/items/honey.png"),
       },
     ],
@@ -12880,11 +12880,11 @@ export const pals = [
     ],
     drops: [
       {
-        neme: "leather",
+        name: "leather",
         image: require("../assets/images/items/leather.png"),
       },
       {
-        neme: "horn",
+        name: "horn",
         image: require("../assets/images/items/horn.png"),
       },
     ],
