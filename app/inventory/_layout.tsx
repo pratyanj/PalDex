@@ -7,7 +7,7 @@ export default function Layout() {
     const actColor = Colors[theme.mode];
   return (
     <Stack>
-      <Stack.Screen name="weapon" options={({ route, navigation }) => ({
+      <Stack.Screen name="weapon" options={() => ({
         title: "Weapon",
         headerStyle: {
           backgroundColor: actColor.surface,
@@ -19,7 +19,7 @@ export default function Layout() {
         headerShown: false,
         
       })} /> 
-      <Stack.Screen name="weaponDetail" options={({ route, navigation }) => ({
+      <Stack.Screen name="weaponDetail" options={() => ({
         title: "weaponDetail",
         headerStyle: {
           backgroundColor: actColor.surface,
@@ -31,5 +31,29 @@ export default function Layout() {
         headerShown: false,
         
       })} />
+      <Stack.Screen name="sphereScreen" options={() => ({
+        title: "sphereScreen",
+        headerStyle: {
+          backgroundColor: actColor.surface,
+        },
+        headerTintColor: actColor.primary,
+        headerTitleStyle: {
+          fontWeight: "bold",
+        },
+        headerShown: false,
+
+      })} />
+      <Stack.Screen name="sphereDetail" options={() => ({
+        title: "sphereDetail",
+        headerStyle: {
+          backgroundColor: actColor.surface,
+        },
+        headerTintColor: actColor.primary,
+        headerTitleStyle: {
+          fontWeight: "bold",
+        },
+        headerShown: false,
+        })} />
+
     </Stack>  );
 }

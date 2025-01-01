@@ -11,48 +11,45 @@ import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { Image } from "expo-image";
-import { weaponDataSet } from "../../components/inv/weapon";
+import { spheres } from "../../constants/spheres";
 import { router, useLocalSearchParams } from "expo-router";
+import { BorderlessButton } from "react-native-gesture-handler";
 
-export default function WeaponDetail() {
+export default function sphereDetail() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
 
   const { id } = useLocalSearchParams();
   const [weaponID, setWeaponID] = useState(id || 0);
 
-  const [ammo, setAmmo] = useState(false);
-  const [attack, setAttack] = useState(false);
+  const [capturePower, setcapturePower] = useState(false);
   const [technology, setTechnology] = useState(false);
 
   const dataCheck = () => {
-    if (weaponDataSet[Number(weaponID)].attack) {
-      setAttack(true);
+    if (spheres[Number(weaponID)].capture_power) {
+      setcapturePower(true);
     }
-    if (weaponDataSet[Number(weaponID)].ammo) {
-      setAmmo(true);
-    }
-    if (weaponDataSet[Number(weaponID)].technology) {
+    if (spheres[Number(weaponID)].technology) {
       setTechnology(true);
     }
-  }
+  };
   useEffect(() => {
     dataCheck();
   }, []);
   const getRarityColor = (rarity: string) => {
     switch (rarity.toLowerCase()) {
       case "common":
-        return actColor.onSurface
+        return actColor.onSurface;
       case "rare":
-        return  actColor.primary
+        return actColor.primary;
       case "epic":
-        return actColor.inversePrimary
+        return actColor.parpleContainer;
       case "legendary":
-        return  actColor.yellow
+        return actColor.yellow;
       default:
-        return actColor.onSurface
+        return actColor.onSurface;
     }
-  }
+  };
 
   return (
     <SafeAreaView
@@ -63,10 +60,10 @@ export default function WeaponDetail() {
           name="arrowleft"
           size={24}
           color={actColor.primary}
-          onPress={() => router.push({ pathname: "/inventory/weapon" })}
+          onPress={() => router.push({ pathname: "/inventory/sphereScreen" })}
         />
         <Text style={[styles.headerTitle, { color: actColor.primary }]}>
-          Weapon Details
+          Sphere Details
         </Text>
         <View style={{ width: 24 }} />
       </View>
@@ -76,30 +73,30 @@ export default function WeaponDetail() {
           style={[styles.card, { backgroundColor: actColor.surfaceVariant }]}
         >
           <Image
-            source={weaponDataSet[Number(weaponID)].image}
+            source={spheres[Number(weaponID)].image}
             style={styles.weaponImage}
           />
           <Text style={[styles.title, { color: actColor.primary }]}>
-            {weaponDataSet[Number(weaponID)].name}
+            {spheres[Number(weaponID)].name}
           </Text>
           <View style={styles.typeContainer}>
             <Text style={[styles.type, { color: actColor.onBackground }]}>
-              Weapon
+              Sphere
             </Text>
             <Text
               style={[
                 styles.rarity,
                 {
-                  color: actColor.surfaceVariant,
+                  color: actColor.shadow,
                   backgroundColor: getRarityColor(
-                    weaponDataSet[Number(weaponID)].rarity
+                    spheres[Number(weaponID)].rarity
                   ),
                   borderRadius: 10,
                   paddingHorizontal: 8,
                 },
               ]}
             >
-              {weaponDataSet[Number(weaponID)].rarity}
+              {spheres[Number(weaponID)].rarity}
             </Text>
           </View>
           <View
@@ -110,7 +107,7 @@ export default function WeaponDetail() {
               gap: 20,
             }}
           >
-            {attack && (
+            {capturePower && (
               <View style={{
                 flexDirection: "row",
                 justifyContent: "space-between",
@@ -119,14 +116,16 @@ export default function WeaponDetail() {
                 borderWidth: 2,
                 borderRadius: 8,
               }}>
-                <Text style={{
+                <Text
+                  style={{
                     fontSize: 16,
                     color: actColor.outline,
                     fontWeight: "500",
                     backgroundColor: actColor.surface,
                     padding: 3,
-                  }}>
-                  Attack
+                  }}
+                >
+                  Capture Power
                 </Text>
                 <Text style={{
                         fontSize: 16,
@@ -136,65 +135,45 @@ export default function WeaponDetail() {
                         borderTopRightRadius: 6,
                         borderBottomRightRadius: 6,
                     }}>
-                  {weaponDataSet[Number(weaponID)].attack}
+                  {spheres[Number(weaponID)].capture_power}
                 </Text>
               </View>
             )}
             {technology && (
-              <View style={{
-                flexDirection: "row",
-                justifyContent: "space-between",
-                alignItems: "center",
-                borderColor: actColor.shadow,
-                borderWidth: 2,
-                borderRadius: 8,
-              }}>
-                <Text style={{
+              <View
+                style={
+                  {
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    borderColor: actColor.shadow,
+                    borderWidth: 2,
+                    borderRadius: 8,
+                  }
+                }
+              >
+                <Text
+                  style={{
                     fontSize: 16,
                     color: actColor.outline,
                     fontWeight: "500",
                     backgroundColor: actColor.surface,
                     padding: 3,
-                  }}>
+                  }}
+                >
                   Technology
                 </Text>
-                <Text style={{
+                <Text
+                  style={{
                         fontSize: 16,
                         fontWeight: "bold",
                         padding: 2,
                         backgroundColor: actColor.inverseSurface,
                         borderTopRightRadius: 6,
                         borderBottomRightRadius: 6,
-                    }}>
-                  {weaponDataSet[Number(weaponID)].technology}
-                </Text>
-              </View>
-            )}
-            {ammo && (
-              <View style={{
-                flexDirection: "row",
-                justifyContent: "space-between",
-                alignItems: "center",
-                borderColor: actColor.shadow,
-                borderWidth: 2,
-                borderRadius: 8,
-              }}>
-                <Text style={{
-                    fontSize: 16,
-                    color: actColor.outline,
-                    fontWeight: "500",
-                    backgroundColor: actColor.surface,
-                    padding: 3,
-                  }}>Ammo</Text>
-                <Text style={{
-                        fontSize: 16,
-                        fontWeight: "bold",
-                        padding: 2,
-                        backgroundColor: actColor.inverseSurface,
-                        borderTopRightRadius: 6,
-                        borderBottomRightRadius: 6,
-                    }}>
-                  {weaponDataSet[Number(weaponID)].ammo}
+                    }}
+                >
+                  {spheres[Number(weaponID)].technology}
                 </Text>
               </View>
             )}
@@ -208,7 +187,7 @@ export default function WeaponDetail() {
           ]}
         >
           <Text style={{ fontSize: 16, color: actColor.onBackground }}>
-            {weaponDataSet[Number(weaponID)].description}
+            {spheres[Number(weaponID)].description}
           </Text>
         </View>
         <Text style={{ color: actColor.outline, fontSize: 30, marginTop: 10 }}>
@@ -222,7 +201,7 @@ export default function WeaponDetail() {
               borderRadius: 8,
             }}
           >
-            {weaponDataSet[Number(weaponID)].recipe.map((i) => (
+            {spheres[Number(weaponID)].recipe.map((i) => (
               <View
                 key={`${i.name}-${i}`}
                 style={{
@@ -244,15 +223,28 @@ export default function WeaponDetail() {
                     borderRadius: 8,
                   }}
                 />
-                <View style={{ flexDirection: "row", gap: 10 ,justifyContent: "space-between",flex:1}}>
-                <Text style={{ fontSize: 16, color: actColor.onSurface }}>
-                {i.name.charAt(0).toUpperCase() +
-                    i.name.slice(1).toLowerCase().replace(/_/g, " ")}
-                </Text>
-                <Text style={{ fontSize: 16, color: actColor.onSurface ,fontWeight:"bold" }}>
+                <View
+                  style={{
+                    flexDirection: "row",
+                    gap: 10,
+                    justifyContent: "space-between",
+                    flex: 1,
+                  }}
+                >
+                  <Text style={{ fontSize: 16, color: actColor.onSurface }}>
+                    {i.name.charAt(0).toUpperCase() +
+                      i.name.slice(1).toLowerCase().replace(/_/g, " ")}
+                  </Text>
+                  <Text
+                    style={{
+                      fontSize: 16,
+                      color: actColor.onSurface,
+                      fontWeight: "bold",
+                    }}
+                  >
                     {i.quantity}
-                </Text>
-              </View>
+                  </Text>
+                </View>
               </View>
             ))}
           </View>
@@ -346,28 +338,3 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
   },
 });
-
-// {attack && (
-//   <View style={styles.statRow}>
-//     <Text style={styles.statLabel}>Attack</Text>
-//     <Text style={styles.statValue}>
-//       {weaponDataSet[Number(weaponID)].attack}
-//     </Text>
-//   </View>
-// )}
-// {ammo && (
-//   <View style={styles.statRow}>
-//     <Text style={styles.statLabel}>Ammo</Text>
-//     <Text style={styles.statValue}>
-//       {weaponDataSet[Number(weaponID)].ammo}
-//     </Text>
-//   </View>
-// )}
-// {technology && (
-//   <View style={styles.statRow}>
-//     <Text style={styles.statLabel}>Technology</Text>
-//     <Text style={styles.statValue}>
-//       {weaponDataSet[Number(weaponID)].technology}
-//     </Text>
-//   </View>
-// )}

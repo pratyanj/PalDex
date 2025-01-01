@@ -9,14 +9,19 @@ export default function Inventory() {
   const actColor = Colors[theme.mode];
 
   const inv = [
-    "Weapon",
-    "Armor",
-    "Accessory",
-    "Spheres",
-    "shpere Modules",
-    "Consumables",
-    "Materials",
+    {name:"Weapon",path:"/inventory/weapon"},
+    {name:"Armor",path:"/inventory/armor"},
+    {name:"Accessory",path:"/inventory/accessory"},
+    {name:"Spheres",path:"/inventory/sphereScreen"},
+    {name:"Sphere Modules",path:"/inventory/sphereModules"},
+    {name:"Consumables",path:"/inventory/consumables"},
+    {name:"Materials",path:"/inventory/materials"},
   ];
+  const inventory = [
+    {name:"Weapon",path:"/inventory/weapon"},
+    {name:"Spheres",path:"/inventory/sphereScreen"},
+  ];
+    
   return (
     <SafeAreaView
       style={{ flex: 1, paddingTop: 25, backgroundColor: actColor.background }}
@@ -48,7 +53,7 @@ export default function Inventory() {
           paddingHorizontal: 10,
         }}
       >
-        {inv.map((item, index) => (
+        {inventory.map((item, index) => (
           <TouchableOpacity
             key={index}
             style={{
@@ -62,7 +67,7 @@ export default function Inventory() {
             }}
             onPress={() =>
               router.push({
-                pathname: "/inventory/weapon",
+                pathname: item.path,
               })
             }
           >
@@ -73,7 +78,7 @@ export default function Inventory() {
                 fontFamily: "Inter-Black",
               }}
             >
-              {item}
+              {item.name}
             </Text>
           </TouchableOpacity>
         ))}
