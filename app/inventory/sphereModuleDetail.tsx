@@ -12,10 +12,10 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import { Image } from "expo-image";
 import { sphereModule } from "../../constants/sphereModules";
 import { router, useLocalSearchParams } from "expo-router";
-import { CreateStatRow } from "../../components/inv/createStatRow";
+import { CreateStatRow } from "../../components/inv/CreateStatRow";
 import InvHeader from "../../components/inv/Header";
 import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/getRarityColor";
+import { GetRarityColor } from "../../components/inv/GetRarityColor";
 export default function sphereModuleDetail() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];

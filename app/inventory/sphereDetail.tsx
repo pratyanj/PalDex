@@ -12,7 +12,7 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import { Image } from "expo-image";
 import { spheres } from "../../constants/spheres";
 import { router, useLocalSearchParams } from "expo-router";
-import { CreateStatRow } from "../../components/inv/createStatRow";
+import { CreateStatRow } from "../../components/inv/CreateStatRow";
 import InvHeader from "../../components/inv/Header";
 import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
 

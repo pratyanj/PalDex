@@ -31,7 +31,7 @@ export default function Weapon() {
                       key={index}
                       onPress={() =>
                         router.push({
-                          pathname: "/inventory/weaponDetail",
+                          pathname: "/inventory/WeaponDetail",
                           params: { id: item.ID - 1 },
                         })
                       }

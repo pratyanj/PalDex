@@ -12,10 +12,10 @@ import { Image } from "expo-image";
 import { weaponDataSet } from "../../constants/weapon";
 import { useLocalSearchParams } from "expo-router";
 
-import { CreateStatRow } from "../../components/inv/createStatRow";
+import { CreateStatRow } from "../../components/inv/CreateStatRow";
 import InvHeader from "../../components/inv/Header";
 import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/getRarityColor";
+import { GetRarityColor } from "../../components/inv/GetRarityColor";
 
 export default function WeaponDetail() {
   const { theme } = useContext(ThemeContext);

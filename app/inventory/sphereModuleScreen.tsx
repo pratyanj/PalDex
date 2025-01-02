@@ -18,7 +18,7 @@ export default function sphereModuleScreen() {
       {/* Content */}
       <ScrollView contentContainerStyle={styles.content}>
         { sphereModule.map((item, index) => (
-          <TouchableOpacity key={item.name+index} onPress={() => router.push({ pathname: "/inventory/sphereModuleDetail",params: { id:item.ID - 1 }, })}>
+          <TouchableOpacity key={item.name+index} onPress={() => router.push({ pathname: "/inventory/SphereModuleDetail",params: { id:item.ID - 1 }, })}>
             {/* {itemCard(item.name, item.image, item.rarity,"Sphere Module",actColor)} */}
             <ItemCard name={item.name} img={item.image} type="Sphere Module" rarity={item.rarity} actColor={actColor} />
           </TouchableOpacity>

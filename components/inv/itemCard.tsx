@@ -1,6 +1,6 @@
 import { View,Text } from "react-native";
 import { Image } from "expo-image";
-import { GetRarityColor } from "./getRarityColor"
+import { GetRarityColor } from "./GetRarityColor"
 type props ={
   name: string;
   img: any;
@@ -30,8 +30,8 @@ export const ItemCard = ({ name, img, type, rarity, actColor }:props) => (
             </View>
             </View>
             <Image
-              source={img}
-              // source={{uri: img}}
+              // source={img}
+              source={{uri: img}}
               style={{ width: 50, height: 50 ,backgroundColor: GetRarityColor(actColor,rarity),borderRadius: 10,}}
             />
           </View>

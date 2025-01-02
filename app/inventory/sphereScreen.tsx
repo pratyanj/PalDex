@@ -37,7 +37,7 @@ export default function sphereScreen() {
               key={index}
               onPress={() =>
                 router.push({
-                  pathname: "/inventory/sphereDetail",
+                  pathname: "/inventory/SphereDetail",
                   params: { id: item.ID - 1 },
                 })
               }
