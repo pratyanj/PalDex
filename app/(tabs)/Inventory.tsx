@@ -18,8 +18,9 @@ export default function Inventory() {
     {name:"Materials",path:"/inventory/materials"},
   ];
   const inventory = [
-    {name:"Weapon",path:"/inventory/weapon"},
+    {name:"Weapon",path:"/inventory/weaponScreen"},
     {name:"Spheres",path:"/inventory/sphereScreen"},
+    {name:"Sphere Modules",path:"/inventory/sphereModuleScreen"},
   ];
     
   return (
