@@ -1,6 +1,6 @@
 import { View,Text } from "react-native";
 import { Image } from "expo-image";
-import { getRarityColor } from "./getRarityColor";
+import { GetRarityColor } from "./getRarityColor"
 type props ={
   name: string;
   img: any;
@@ -26,13 +26,13 @@ export const ItemCard = ({ name, img, type, rarity, actColor }:props) => (
               <Text style={{ fontSize: 18,color:actColor.onSurface }}>{name}</Text>
               <View style={{ flexDirection: "row", alignItems: "center" ,gap: 5}}>
               <Text style={{ fontSize: 12 ,color:actColor.onSurface,backgroundColor:actColor.background,borderRadius:10,padding:2,paddingHorizontal:12}}>{type}</Text>
-              <Text style={{ fontSize: 12 ,color:actColor.shadow,backgroundColor:getRarityColor(actColor,rarity),borderRadius:10,padding:2,paddingHorizontal:12}}>{rarity}</Text>
+              <Text style={{ fontSize: 12 ,color:actColor.shadow,backgroundColor:GetRarityColor(actColor,rarity),borderRadius:10,padding:2,paddingHorizontal:12}}>{rarity}</Text>
             </View>
             </View>
             <Image
               source={img}
               // source={{uri: img}}
-              style={{ width: 50, height: 50 ,backgroundColor: getRarityColor(actColor,rarity),borderRadius: 10,}}
+              style={{ width: 50, height: 50 ,backgroundColor: GetRarityColor(actColor,rarity),borderRadius: 10,}}
             />
           </View>
     

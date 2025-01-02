@@ -5,8 +5,8 @@ import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import { router } from "expo-router";
 import { sphereModule } from "../../constants/sphereModules";
-import { ItemCard } from "../../components/inv/itemCard";
-import { ListHeader } from "../../components/inv/listHeader";
+import { ItemCard } from "../../components/inv/ItemCard";
+import { ListHeader } from "../../components/inv/ListHeader";
 export default function sphereModuleScreen() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];

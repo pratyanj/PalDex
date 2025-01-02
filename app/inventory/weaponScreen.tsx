@@ -5,8 +5,8 @@ import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import { router } from "expo-router";
 import { weaponDataSet } from "../../constants/weapon";
-import { ItemCard } from "../../components/inv/itemCard";
-import { ListHeader } from "../../components/inv/listHeader";
+import { ItemCard } from "../../components/inv/ItemCard";
+import { ListHeader } from "../../components/inv/ListHeader";
 import { ItemsData } from "../../constants/allItems";
 export default function Weapon() {
   const { theme } = useContext(ThemeContext);

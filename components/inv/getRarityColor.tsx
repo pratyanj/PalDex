@@ -1,4 +1,4 @@
-export const getRarityColor = (actColor,rarity: string) => {
+export const GetRarityColor = (actColor,rarity: string) => {
     switch (rarity.toLowerCase()) {
       case "common":
         return actColor.onSurface;

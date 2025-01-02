@@ -1,7 +1,7 @@
 import { View,Text } from "react-native";
 
 
-export const createStatRow = (label, value, actColor) => (
+export const CreateStatRow = (label, value, actColor) => (
     <View
       style={{
         flexDirection: "row",

@@ -12,10 +12,10 @@ import { Image } from "expo-image";
 import { weaponDataSet } from "../../constants/weapon";
 import { useLocalSearchParams } from "expo-router";
 
-import { createStatRow } from "../../components/inv/createStatRow";
-import InvHeader from "../../components/inv/header";
+import { CreateStatRow } from "../../components/inv/createStatRow";
+import InvHeader from "../../components/inv/Header";
 import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { getRarityColor } from "../../components/inv/getRarityColor";
+import { GetRarityColor } from "../../components/inv/getRarityColor";
 
 export default function WeaponDetail() {
   const { theme } = useContext(ThemeContext);
@@ -79,9 +79,7 @@ export default function WeaponDetail() {
                 styles.rarity,
                 {
                   color: actColor.surfaceVariant,
-                  backgroundColor: getRarityColor(
-                    actColor,weaponD.rarity
-                  ),
+                  backgroundColor: GetRarityColor(actColor,weaponD.rarity),
                   borderRadius: 10,
                   paddingHorizontal: 8,
                 },
@@ -98,9 +96,9 @@ export default function WeaponDetail() {
               gap: 20,
             }}
           >
-            {attack && createStatRow("Attack", weaponD.attack, actColor)}
-            {technology && (createStatRow("Technology", weaponD.technology, actColor))}
-            {ammo && (createStatRow("Ammo", weaponD.ammo, actColor))}
+            {attack && CreateStatRow("Attack", weaponD.attack, actColor)}
+            {technology && CreateStatRow("Technology", weaponD.technology, actColor)}
+            {ammo && CreateStatRow("Ammo", weaponD.ammo, actColor)}
           </View>
         </View>
         {/* </View> */}

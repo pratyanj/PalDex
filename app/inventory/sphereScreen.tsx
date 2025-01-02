@@ -13,8 +13,8 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
 import { Image } from "expo-image";
 import { spheres } from "../../constants/spheres";
-import { ItemCard } from "../../components/inv/itemCard";
-import { ListHeader } from "../../components/inv/listHeader";
+import { ItemCard } from "../../components/inv/ItemCard";
+import { ListHeader } from "../../components/inv/ListHeader";
 import { ItemsData } from "../../constants/allItems";
 export default function sphereScreen() {
   const { theme } = useContext(ThemeContext);

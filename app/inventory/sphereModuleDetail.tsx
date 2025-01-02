@@ -12,10 +12,10 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import { Image } from "expo-image";
 import { sphereModule } from "../../constants/sphereModules";
 import { router, useLocalSearchParams } from "expo-router";
-import { createStatRow } from "../../components/inv/createStatRow";
-import InvHeader from "../../components/inv/header";
+import { CreateStatRow } from "../../components/inv/createStatRow";
+import InvHeader from "../../components/inv/Header";
 import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { getRarityColor } from "../../components/inv/getRarityColor";
+import { GetRarityColor } from "../../components/inv/getRarityColor";
 export default function sphereModuleDetail() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
@@ -63,7 +63,7 @@ export default function sphereModuleDetail() {
                 styles.rarity,
                 {
                   color: actColor.shadow,
-                  backgroundColor: getRarityColor( actColor,sphereModule[Number(weaponID)].rarity ),
+                  backgroundColor: GetRarityColor( actColor,sphereModule[Number(weaponID)].rarity ),
                   borderRadius: 10,
                   paddingHorizontal: 8,
                 },
@@ -80,7 +80,7 @@ export default function sphereModuleDetail() {
               gap: 20,
             }}
           >
-            {createStatRow("Technology", sphereModule[weaponID].technology, actColor )}
+            {CreateStatRow("Technology", sphereModule[weaponID].technology, actColor )}
           </View>
         </View>
         {/* </View> */}

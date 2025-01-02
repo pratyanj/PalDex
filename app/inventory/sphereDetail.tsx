@@ -12,8 +12,8 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import { Image } from "expo-image";
 import { spheres } from "../../constants/spheres";
 import { router, useLocalSearchParams } from "expo-router";
-import { createStatRow } from "../../components/inv/createStatRow";
-import InvHeader from "../../components/inv/header";
+import { CreateStatRow } from "../../components/inv/createStatRow";
+import InvHeader from "../../components/inv/Header";
 import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
 
 export default function sphereDetail() {
@@ -98,10 +98,10 @@ export default function sphereDetail() {
         }}
       >
         {capturePower && (
-          createStatRow("Capture Power", spheres[Number(weaponID)].capture_power, actColor)
+          CreateStatRow("Capture Power", spheres[Number(weaponID)].capture_power, actColor)
         )}
         {technology && (
-          createStatRow("Technology", spheres[Number(weaponID)].technology, actColor)
+          CreateStatRow("Technology", spheres[Number(weaponID)].technology, actColor)
         )}
       </View>
     </View>
