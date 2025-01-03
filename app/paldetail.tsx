@@ -100,7 +100,7 @@ export default function paldetail() {
     },
     text: {
       fontSize: 16,
-      color: actColor.surface,
+      color: actColor.outline,
     },
   });
 
