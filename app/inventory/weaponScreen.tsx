@@ -25,7 +25,7 @@ export default function Weapon() {
                   // console.log("Item: ",item.name);
                   // var gold = ItemsData.find((i) => i.name === item.name);
                   // console.log("Price",gold.gold);
-                  console.log("---------------------")
+                  // console.log("---------------------")
                   return (
                     <TouchableOpacity
                       key={index}

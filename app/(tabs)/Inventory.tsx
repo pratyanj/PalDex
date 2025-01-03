@@ -17,10 +17,11 @@ export default function Inventory() {
     {name:"Consumables",path:"/inventory/consumables"},
     {name:"Materials",path:"/inventory/materials"},
   ];
-  const inventory = [
-    {name:"Weapon",path:"/inventory/weaponScreen"},
-    {name:"Spheres",path:"/inventory/sphereScreen"},
-    {name:"Sphere Modules",path:"/inventory/sphereModuleScreen"},
+  const inventory:{name:string,path:any}[] = [
+    {name:"Weapon",path:'/inventory/WeaponScreen'},
+    {name:"Spheres",path:'/inventory/SphereScreen'},
+    {name:"Sphere Modules",path:'/inventory/SphereModuleScreen'},
+    {name:"Armor",path:"/inventory/ArmorScreen"},
   ];
     
   return (
@@ -67,9 +68,7 @@ export default function Inventory() {
               alignItems: "center",
             }}
             onPress={() =>
-              router.push({
-                pathname: item.path,
-              })
+              router.push(item.path)
             }
           >
             <Text

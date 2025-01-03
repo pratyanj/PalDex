@@ -8,7 +8,6 @@ import React, { useContext, useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
-import AntDesign from "@expo/vector-icons/AntDesign";
 import { Image } from "expo-image";
 import { sphereModule } from "../../constants/sphereModules";
 import { router, useLocalSearchParams } from "expo-router";
@@ -38,7 +37,7 @@ export default function sphereModuleDetail() {
     <SafeAreaView
       style={[styles.container, { backgroundColor: actColor.background }]}
     >
-      <InvHeader name='Sphere Module' actColor={actColor} path="/inventory/sphereModuleScreen" />
+      <InvHeader name='Sphere Module' actColor={actColor} path="/inventory/SphereModuleScreen" />
 
       <ScrollView
         contentContainerStyle={{ paddingBottom: 50 }}

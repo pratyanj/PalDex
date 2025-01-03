@@ -57,7 +57,7 @@ export default function WeaponDetail() {
     <SafeAreaView
       style={[styles.container, { backgroundColor: actColor.background }]}
     >
-      <InvHeader name="Weapon" actColor={actColor} path="/inventory/weaponScreen" />
+      <InvHeader name="Weapon" actColor={actColor} path="/inventory/WeaponScreen" />
 
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View
