@@ -7,29 +7,14 @@ export default function Layout() {
     const actColor = Colors[theme.mode];
   return (
     <Stack>
-      <Stack.Screen name="weapon" options={({ route, navigation }) => ({
-        title: "Weapon",
-        headerStyle: {
-          backgroundColor: actColor.surface,
-        },
-        headerTintColor: actColor.primary,
-        headerTitleStyle: {
-          fontWeight: "bold",
-        },
-        headerShown: false,
-        
-      })} /> 
-      <Stack.Screen name="weaponDetail" options={({ route, navigation }) => ({
-        title: "weaponDetail",
-        headerStyle: {
-          backgroundColor: actColor.surface,
-        },
-        headerTintColor: actColor.primary,
-        headerTitleStyle: {
-          fontWeight: "bold",
-        },
-        headerShown: false,
-        
-      })} />
+        <Stack.Screen name="WeaponScreen" options={() => ({headerShown: false})} /> 
+        <Stack.Screen name="WeaponDetail" options={() => ({headerShown: false})} />
+        <Stack.Screen name="SphereScreen" options={() => ({headerShown: false})} />
+        <Stack.Screen name="SphereDetail" options={() => ({headerShown: false})} />
+        <Stack.Screen name="SphereModuleDetail" options={() => ({headerShown: false, })} />
+        <Stack.Screen name="SphereModuleScreen" options={() => ({headerShown: false, })} />
+        <Stack.Screen name="ArmorScreen" options={() => ({headerShown: false, })} />
+        <Stack.Screen name="ArmorDetails" options={() => ({headerShown: false, })} />
+
     </Stack>  );
 }

@@ -8,28 +8,28 @@ export const weaponDataSet = [
     ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../../assets/images/items/assault-rifle.png"),
+    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 40,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 30,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
@@ -43,21 +43,21 @@ export const weaponDataSet = [
     technology: 1,
     description:
       "An axe for cutting wood.\r\nMade from stone, it's not very sharp.",
-    image: require("../../assets/images/items/stone-axe.png"),
+    image: require("../assets/images/items/stone-axe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 5,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 5,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
@@ -71,28 +71,28 @@ export const weaponDataSet = [
     technology: 11,
     description:
       "An axe for cutting wood.\r\nMade from metal, its sharpness has improved.",
-    image: require("../../assets/images/items/metal-axe.png"),
+    image: require("../assets/images/items/metal-axe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 15,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ingot",
         quantity: 5,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
@@ -106,28 +106,28 @@ export const weaponDataSet = [
     technology: 34,
     description:
       "An axe for cutting wood.\r\nMade from high quality metal, its sharpness has improved even further.",
-    image: require("../../assets/images/items/refined-metal-axe.png"),
+    image: require("../assets/images/items/refined-metal-axe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 30,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 40,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Refined Ingot",
         quantity: 10,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
@@ -140,35 +140,35 @@ export const weaponDataSet = [
     technology: 56,
     description:
       "Holding it allows you to detect hidden ores nearby.\r\nIt marks the metal when close to the ore, but the mark disappears if you move away.",
-    image: require("../../assets/images/items/metal-detector.png"),
+    image: require("../assets/images/items/metal-detector.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_MetalDetector.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 30,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 100,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Circuit Board",
         quantity: 30,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Nightstar Sand",
         quantity: 20,
-        image: require("../../assets/images/items/nightstar-sand.png"),
+        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
       },
@@ -182,14 +182,14 @@ export const weaponDataSet = [
     technology: 1,
     description:
       "A Wooden Club for close range combat.\r\nCan beat a small Pal to a pulp if need be.",
-    image: require("../../assets/images/items/wooden-club.png"),
+    image: require("../assets/images/items/wooden-club.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 5,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
@@ -203,21 +203,21 @@ export const weaponDataSet = [
     technology: 7,
     description:
       "Baseball bat for close-range combat.\r\nMight be tough to get a home run with a Pal.",
-    image: require("../../assets/images/items/bat.png"),
+    image: require("../assets/images/items/bat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Bat2.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 30,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
@@ -231,28 +231,28 @@ export const weaponDataSet = [
     technology: 12,
     description:
       "Knife for butchering Pals.\r\nWhen equipped, the Pet command becomes Butcher.\r\nButchered Pals will be gone for good.",
-    image: require("../../assets/images/items/meat-cleaver.png"),
+    image: require("../assets/images/items/meat-cleaver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MeatCutterKnife.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 5,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 5,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
@@ -266,21 +266,21 @@ export const weaponDataSet = [
     technology: 22,
     description:
       "Close range weapon that sends out an electric jolt upon contact.\r\nPals are easier to capture when electrocuted.",
-    image: require("../../assets/images/items/stun-baton.png"),
+    image: require("../assets/images/items/stun-baton.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ElecBaton.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 20,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Electric Organ",
         quantity: 20,
-        image: require("../../assets/images/items/electric-organ.png"),
+        image: require("../assets/images/items/electric-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
       },
@@ -294,35 +294,35 @@ export const weaponDataSet = [
     technology: 13,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../../assets/images/items/crossbow.png"),
+    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 40,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 10,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 5,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
@@ -337,21 +337,21 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../../assets/images/items/double-barreled-shotgun.png"),
+    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 7,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
@@ -366,21 +366,21 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../../assets/images/items/handgun.png"),
+    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 50,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 15,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
@@ -394,35 +394,35 @@ export const weaponDataSet = [
     ammo: "Decal Ink",
     description:
       "Strange gun that paints a picture of Cattiva where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../../assets/images/items/decal-gun-1.png"),
+    image: require("../assets/images/items/decal-gun-1.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -436,35 +436,35 @@ export const weaponDataSet = [
     ammo: "Decal Ink",
     description:
       "Strange gun that paints a picture of Lamball where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../../assets/images/items/decal-gun-2.png"),
+    image: require("../assets/images/items/decal-gun-2.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -478,35 +478,35 @@ export const weaponDataSet = [
     ammo: "Decal Ink",
     description:
       "Strange gun that paints a picture of Melpaca where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../../assets/images/items/decal-gun-3.png"),
+    image: require("../assets/images/items/decal-gun-3.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -520,35 +520,35 @@ export const weaponDataSet = [
     ammo: "Decal Ink",
     description:
       "Strange gun that paints a picture of Anubis where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../../assets/images/items/decal-gun-4.png"),
+    image: require("../assets/images/items/decal-gun-4.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -562,35 +562,35 @@ export const weaponDataSet = [
     ammo: "Decal Ink",
     description:
       "Strange gun that paints a picture of Relaxaurus where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../../assets/images/items/decal-gun-5.png"),
+    image: require("../assets/images/items/decal-gun-5.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -603,42 +603,42 @@ export const weaponDataSet = [
     technology: 55,
     description:
       "A launcher for firing spheres.\r\nFired spheres home in on Pals.",
-    image: require("../../assets/images/items/homing-sphere-launcher.png"),
+    image: require("../assets/images/items/homing-sphere-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HomingSphereLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 100,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 50,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 200,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 50,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -653,28 +653,28 @@ export const weaponDataSet = [
     ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../../assets/images/items/laser-rifle.png"),
+    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 50,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 60,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 40,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
@@ -689,28 +689,28 @@ export const weaponDataSet = [
     ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../../assets/images/items/rocket-launcher.png"),
+    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 75,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 30,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 50,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
@@ -724,21 +724,21 @@ export const weaponDataSet = [
     technology: 1,
     description:
       "A pickaxe used for mining.\r\nMade from stone, the efficiency is questionable.",
-    image: require("../../assets/images/items/stone-pickaxe.png"),
+    image: require("../assets/images/items/stone-pickaxe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 5,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 5,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
@@ -752,28 +752,28 @@ export const weaponDataSet = [
     technology: 11,
     description:
       "A pickaxe used for mining.\r\nMade from metal, its durability and efficiency have improved.",
-    image: require("../../assets/images/items/metal-pickaxe.png"),
+    image: require("../assets/images/items/metal-pickaxe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 15,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ingot",
         quantity: 5,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
@@ -787,28 +787,28 @@ export const weaponDataSet = [
     technology: 34,
     description:
       "A pickaxe used for mining.\r\nIts durability and efficiency have further improved.",
-    image: require("../../assets/images/items/refined-metal-pickaxe.png"),
+    image: require("../assets/images/items/refined-metal-pickaxe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 30,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 40,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Refined Ingot",
         quantity: 10,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
@@ -823,28 +823,28 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../../assets/images/items/pump-action-shotgun.png"),
+    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 40,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
@@ -859,21 +859,21 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../../assets/images/items/single-shot-rifle.png"),
+    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 20,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 5,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
@@ -886,42 +886,42 @@ export const weaponDataSet = [
     technology: 37,
     description:
       "A new type of launcher that fires a large number of spheres.\r\nIt can easily capture a herd of Pals.",
-    image: require("../../assets/images/items/scatter-sphere-launcher.png"),
+    image: require("../assets/images/items/scatter-sphere-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 50,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 15,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 50,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 30,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -934,35 +934,35 @@ export const weaponDataSet = [
     technology: 27,
     description:
       "A launcher that fires spheres.\r\nIt can capture Pals fom a greater distance.",
-    image: require("../../assets/images/items/single-shot-sphere-launcher.png"),
+    image: require("../assets/images/items/single-shot-sphere-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher_Once.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 50,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Stone",
         quantity: 100,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 50,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -976,28 +976,28 @@ export const weaponDataSet = [
     technology: 44,
     description:
       "Sword for close-range combat.\r\nThe blade is extremely sharp! Mightier than a pen, for sure.\r\nRequires Weapon Workbench to craft.",
-    image: require("../../assets/images/items/sword.png"),
+    image: require("../assets/images/items/sword.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Sword.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 20,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
@@ -1011,28 +1011,28 @@ export const weaponDataSet = [
     technology: 25,
     description:
       "A Frag Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing damage to enemies.",
-    image: require("../../assets/images/items/frag-grenade.png"),
+    image: require("../assets/images/items/frag-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Gunpowder",
         quantity: 1,
-        image: require("../../assets/images/items/gunpowder.png"),
+        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
       },
@@ -1046,28 +1046,28 @@ export const weaponDataSet = [
     technology: 31,
     description:
       "A Incendiary Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, setting the surrounding area on fire.",
-    image: require("../../assets/images/items/incendiary-grenade.png"),
+    image: require("../assets/images/items/incendiary-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Fire.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Flame Organ",
         quantity: 1,
-        image: require("../../assets/images/items/flame-organ.png"),
+        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
       },
@@ -1081,28 +1081,28 @@ export const weaponDataSet = [
     technology: 27,
     description:
       "A Shock Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, electrocuting everything in the blast radius.",
-    image: require("../../assets/images/items/shock-grenade.png"),
+    image: require("../assets/images/items/shock-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Elec.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Electric Organ",
         quantity: 1,
-        image: require("../../assets/images/items/electric-organ.png"),
+        image: require("../assets/images/items/electric-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
       },
@@ -1116,28 +1116,28 @@ export const weaponDataSet = [
     technology: 29,
     description:
       "A Ice Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, freezing the surrounding area.",
-    image: require("../../assets/images/items/ice-grenade.png"),
+    image: require("../assets/images/items/ice-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ice.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ice Organ",
         quantity: 1,
-        image: require("../../assets/images/items/ice-organ.png"),
+        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
       },
@@ -1152,28 +1152,28 @@ export const weaponDataSet = [
     ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../../assets/images/items/old-bow.png"),
+    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 30,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 5,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
         quantity: 15,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
@@ -1187,35 +1187,35 @@ export const weaponDataSet = [
     technology: 8,
     description:
       "Frightening bow that poisons its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../../assets/images/items/poison-bow.png"),
+    image: require("../assets/images/items/poison-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow_Poison.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 40,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 8,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
         quantity: 20,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Venom Gland",
         quantity: 2,
-        image: require("../../assets/images/items/venom-gland.png"),
+        image: require("../assets/images/items/venom-gland.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
       },
@@ -1230,35 +1230,35 @@ export const weaponDataSet = [
     ammo: "Fire Arrow",
     description:
       "A bow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../../assets/images/items/fire-bow.png"),
+    image: require("../assets/images/items/fire-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow_Fire.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 40,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 8,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
         quantity: 20,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Flame Organ",
         quantity: 2,
-        image: require("../../assets/images/items/flame-organ.png"),
+        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
       },
@@ -1272,42 +1272,42 @@ export const weaponDataSet = [
     technology: 17,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../../assets/images/items/poison-arrow-crossbow.png"),
+    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 50,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 15,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 5,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Venom Gland",
         quantity: 5,
-        image: require("../../assets/images/items/venom-gland.png"),
+        image: require("../assets/images/items/venom-gland.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
       },
@@ -1321,42 +1321,42 @@ export const weaponDataSet = [
     technology: 15,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../../assets/images/items/fire-arrow-crossbow.png"),
+    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 50,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 15,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 5,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Flame Organ",
         quantity: 5,
-        image: require("../../assets/images/items/flame-organ.png"),
+        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
       },
@@ -1371,28 +1371,28 @@ export const weaponDataSet = [
     ammo: "Arrow",
     description:
       "An enhanced bow that allows three arrows to be fired simultaneously.\r\nBy some strange mechanism, it only consumes a single Arrow when fired.",
-    image: require("../../assets/images/items/three-shot-bow.png"),
+    image: require("../assets/images/items/three-shot-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 12,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
@@ -1406,21 +1406,21 @@ export const weaponDataSet = [
     technology: 1,
     description:
       "Lights up dark areas and keeps you warm.\r\nCan also be used for close range combat in a pinch.",
-    image: require("../../assets/images/items/hand-held-torch.png"),
+    image: require("../assets/images/items/hand-held-torch.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Torch.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 2,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 2,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
@@ -1435,28 +1435,28 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../../assets/images/items/makeshift-handgun.png"),
+    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 35,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 10,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
@@ -1470,21 +1470,21 @@ export const weaponDataSet = [
     technology: 4,
     description:
       "Useful for close-range combat.\r\nIts length allows you to stand further away when attacking.",
-    image: require("../../assets/images/items/stone-spear.png"),
+    image: require("../assets/images/items/stone-spear.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 18,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 6,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
@@ -1498,28 +1498,28 @@ export const weaponDataSet = [
     technology: 13,
     description:
       "Useful for close-range combat.\r\nThe metal tip give it an increased attack power.\r\nIts length allows you to stand further away when attacking.",
-    image: require("../../assets/images/items/metal-spear.png"),
+    image: require("../assets/images/items/metal-spear.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 27,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 12,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 10,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
@@ -1533,28 +1533,28 @@ export const weaponDataSet = [
     technology: 34,
     description:
       "Useful for close-range combat.\r\nThe high-quality metal tip give it an increased attack power.\r\nIts length allows you to stand further away when attacking.",
-    image: require("../../assets/images/items/refined-metal-spear.png"),
+    image: require("../assets/images/items/refined-metal-spear.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 36,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 18,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Refined Ingot",
         quantity: 10,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
@@ -1567,7 +1567,7 @@ export const weaponDataSet = [
     attack: 150,
     description:
       "A spear made from Elizabee's staff, altered for human use.\r\nIt is imbued with Elizabee's indomitable spirit.",
-    image: require("../../assets/images/items/elizabee-s-staff.png"),
+    image: require("../assets/images/items/elizabee-s-staff.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_QueenBee.webp",
     recipe: [],
@@ -1580,42 +1580,42 @@ export const weaponDataSet = [
     technology: 43,
     description:
       "The spear cherished by Lily.\r\nPunishes those who neglect their Pals.",
-    image: require("../../assets/images/items/lily's-spear.png"),
+    image: require("../assets/images/items/lily's-spear.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss.webp",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 20,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../../assets/images/items/high-quality-cloth.png"),
+        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
       },
       {
         name: "Wood",
         quantity: 50,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -1628,35 +1628,35 @@ export const weaponDataSet = [
     technology: 12,
     description:
       "It fires a hook that latches on to distant targets, pulling the user's body towards the target.\r\nIt allows for easy movement between places with varying elevation.",
-    image: require("../../assets/images/items/grappling-gun.png"),
+    image: require("../assets/images/items/grappling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 10,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
         quantity: 10,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 1,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -1669,35 +1669,35 @@ export const weaponDataSet = [
     technology: 17,
     description:
       "It fires a hook that latches on to distant targets, pulling the user's body towards the target.\r\nSince it's upgraded, it now has greater range.",
-    image: require("../../assets/images/items/grappling-gun.png"),
+    image: require("../assets/images/items/grappling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 20,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
         quantity: 20,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 50,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -1710,35 +1710,35 @@ export const weaponDataSet = [
     technology: 31,
     description:
       "It fires a hook that latches on to distant targets, pulling the user's body towards the target.\r\nUsing data from prototype versions, its capabilities have been further increased.",
-    image: require("../../assets/images/items/grappling-gun.png"),
+    image: require("../assets/images/items/grappling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 30,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 80,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -1751,42 +1751,42 @@ export const weaponDataSet = [
     technology: 48,
     description:
       "It fires a hook that latches on to distant targets, pulling the user's body towards the target.\r\nAs a result of research, it has achieved overwhelming mobility.",
-    image: require("../../assets/images/items/grappling-gun.png"),
+    image: require("../assets/images/items/grappling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 40,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 20,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -1801,28 +1801,28 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../../assets/images/items/musket.png"),
+    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 25,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 5,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
         quantity: 30,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
@@ -1836,35 +1836,35 @@ export const weaponDataSet = [
     ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../../assets/images/items/old-bow.png"),
+    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 60,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 1,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -1878,35 +1878,35 @@ export const weaponDataSet = [
     ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../../assets/images/items/old-bow.png"),
+    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 90,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 15,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
         quantity: 45,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -1920,35 +1920,35 @@ export const weaponDataSet = [
     ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../../assets/images/items/old-bow.png"),
+    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 135,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 22,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
         quantity: 67,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -1962,35 +1962,35 @@ export const weaponDataSet = [
     ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../../assets/images/items/old-bow.png"),
+    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 202,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 33,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
         quantity: 100,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2003,42 +2003,42 @@ export const weaponDataSet = [
     attack: 364,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../../assets/images/items/crossbow.png"),
+    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 100,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 80,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 20,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 10,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2051,42 +2051,42 @@ export const weaponDataSet = [
     attack: 406,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../../assets/images/items/crossbow.png"),
+    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 150,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 120,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 15,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2099,42 +2099,42 @@ export const weaponDataSet = [
     attack: 448,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../../assets/images/items/crossbow.png"),
+    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 225,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 180,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 45,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 22,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2147,42 +2147,42 @@ export const weaponDataSet = [
     attack: 490,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../../assets/images/items/crossbow.png"),
+    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 337,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 270,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 67,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 33,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2196,35 +2196,35 @@ export const weaponDataSet = [
     ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../../assets/images/items/assault-rifle.png"),
+    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 80,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 60,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2238,35 +2238,35 @@ export const weaponDataSet = [
     ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../../assets/images/items/assault-rifle.png"),
+    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 120,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 30,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 90,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2280,35 +2280,35 @@ export const weaponDataSet = [
     ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../../assets/images/items/assault-rifle.png"),
+    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 180,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 45,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 135,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2322,35 +2322,35 @@ export const weaponDataSet = [
     ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../../assets/images/items/assault-rifle.png"),
+    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 270,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 67,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 202,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2364,35 +2364,35 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../../assets/images/items/pump-action-shotgun.png"),
+    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 60,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 40,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 80,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2406,35 +2406,35 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../../assets/images/items/pump-action-shotgun.png"),
+    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 90,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 60,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2448,35 +2448,35 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../../assets/images/items/pump-action-shotgun.png"),
+    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 135,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 90,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 180,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2490,35 +2490,35 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../../assets/images/items/pump-action-shotgun.png"),
+    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 202,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 135,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 270,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2532,28 +2532,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../../assets/images/items/handgun.png"),
+    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 100,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 30,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2567,28 +2567,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../../assets/images/items/handgun.png"),
+    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 150,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 45,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2602,28 +2602,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../../assets/images/items/handgun.png"),
+    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 225,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 67,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2637,28 +2637,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../../assets/images/items/handgun.png"),
+    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 337,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 100,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 14,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2672,35 +2672,35 @@ export const weaponDataSet = [
     ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../../assets/images/items/rocket-launcher.png"),
+    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 60,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 100,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2714,35 +2714,35 @@ export const weaponDataSet = [
     ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../../assets/images/items/rocket-launcher.png"),
+    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 225,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 90,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 150,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2756,35 +2756,35 @@ export const weaponDataSet = [
     ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../../assets/images/items/rocket-launcher.png"),
+    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 337,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 135,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 225,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2798,35 +2798,35 @@ export const weaponDataSet = [
     ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../../assets/images/items/rocket-launcher.png"),
+    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 505,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 202,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 337,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2840,35 +2840,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../../assets/images/items/musket.png"),
+    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 50,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 10,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
         quantity: 60,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2882,35 +2882,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../../assets/images/items/musket.png"),
+    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 75,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 15,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
         quantity: 90,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2924,35 +2924,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../../assets/images/items/musket.png"),
+    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 112,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 22,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
         quantity: 135,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -2966,35 +2966,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../../assets/images/items/musket.png"),
+    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 168,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 33,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
         quantity: 202,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 14,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3008,28 +3008,28 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../../assets/images/items/double-barreled-shotgun.png"),
+    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 60,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 14,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3043,28 +3043,28 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../../assets/images/items/double-barreled-shotgun.png"),
+    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 90,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 21,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3078,28 +3078,28 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../../assets/images/items/double-barreled-shotgun.png"),
+    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 135,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 31,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3113,28 +3113,28 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../../assets/images/items/double-barreled-shotgun.png"),
+    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 202,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 46,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3148,28 +3148,28 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../../assets/images/items/single-shot-rifle.png"),
+    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 40,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3183,28 +3183,28 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../../assets/images/items/single-shot-rifle.png"),
+    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 60,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 15,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3218,28 +3218,28 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../../assets/images/items/single-shot-rifle.png"),
+    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 90,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 22,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3253,28 +3253,28 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../../assets/images/items/single-shot-rifle.png"),
+    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 135,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 33,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3289,28 +3289,28 @@ export const weaponDataSet = [
     ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../../assets/images/items/gatling-gun.png"),
+    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 140,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
@@ -3325,35 +3325,35 @@ export const weaponDataSet = [
     ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../../assets/images/items/flamethrower.png"),
+    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 40,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 35,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
         quantity: 30,
-        image: require("../../assets/images/items/flame-organ.png"),
+        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
       },
@@ -3368,28 +3368,28 @@ export const weaponDataSet = [
     ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../../assets/images/items/grenade-launcher.png"),
+    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 75,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 80,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 60,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
@@ -3404,35 +3404,35 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../../assets/images/items/guided-missile-launcher.png"),
+    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 100,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 100,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 20,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
@@ -3446,35 +3446,35 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../../assets/images/items/multi-guided-missile-launcher.png"),
+    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 80,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 30,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
@@ -3489,28 +3489,28 @@ export const weaponDataSet = [
     ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../../assets/images/items/laser-gatling-gun.png"),
+    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 100,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 200,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
@@ -3524,35 +3524,35 @@ export const weaponDataSet = [
     technology: 53,
     description:
       "An improved frag grenade.\r\nIt explodes a few seconds after being thrown, dealing massive damage to enemies.",
-    image: require("../../assets/images/items/frag-grenade-mk2.png"),
+    image: require("../assets/images/items/frag-grenade-mk2.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Super.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 20,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 3,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Gunpowder",
         quantity: 3,
-        image: require("../../assets/images/items/gunpowder.png"),
+        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
       },
       {
         name: "Crude Oil",
         quantity: 3,
-        image: require("../../assets/images/items/crude-oil.png"),
+        image: require("../assets/images/items/crude-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
       },
@@ -3566,35 +3566,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../../assets/images/items/makeshift-handgun.png"),
+    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 70,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 60,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3608,35 +3608,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../../assets/images/items/makeshift-handgun.png"),
+    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 105,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 30,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 90,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3650,35 +3650,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../../assets/images/items/makeshift-handgun.png"),
+    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 157,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 45,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 135,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3692,35 +3692,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../../assets/images/items/makeshift-handgun.png"),
+    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 235,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 67,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 202,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3734,35 +3734,35 @@ export const weaponDataSet = [
     ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../../assets/images/items/laser-rifle.png"),
+    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 100,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 120,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 80,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3776,35 +3776,35 @@ export const weaponDataSet = [
     ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../../assets/images/items/laser-rifle.png"),
+    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 180,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3818,35 +3818,35 @@ export const weaponDataSet = [
     ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../../assets/images/items/laser-rifle.png"),
+    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 225,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 270,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 180,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3860,35 +3860,35 @@ export const weaponDataSet = [
     ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../../assets/images/items/laser-rifle.png"),
+    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 337,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 405,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 270,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3902,42 +3902,42 @@ export const weaponDataSet = [
     ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../../assets/images/items/flamethrower.png"),
+    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 80,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 70,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
         quantity: 60,
-        image: require("../../assets/images/items/flame-organ.png"),
+        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -3951,42 +3951,42 @@ export const weaponDataSet = [
     ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../../assets/images/items/flamethrower.png"),
+    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 120,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 105,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
         quantity: 90,
-        image: require("../../assets/images/items/flame-organ.png"),
+        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4000,42 +4000,42 @@ export const weaponDataSet = [
     ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../../assets/images/items/flamethrower.png"),
+    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 180,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 225,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 157,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
         quantity: 135,
-        image: require("../../assets/images/items/flame-organ.png"),
+        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4049,42 +4049,42 @@ export const weaponDataSet = [
     ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../../assets/images/items/flamethrower.png"),
+    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 270,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 337,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 235,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
         quantity: 202,
-        image: require("../../assets/images/items/flame-organ.png"),
+        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4098,35 +4098,35 @@ export const weaponDataSet = [
     ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../../assets/images/items/grenade-launcher.png"),
+    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 160,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4140,35 +4140,35 @@ export const weaponDataSet = [
     ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../../assets/images/items/grenade-launcher.png"),
+    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 225,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 240,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 180,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4182,35 +4182,35 @@ export const weaponDataSet = [
     ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../../assets/images/items/grenade-launcher.png"),
+    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 337,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 360,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 270,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4224,35 +4224,35 @@ export const weaponDataSet = [
     ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../../assets/images/items/grenade-launcher.png"),
+    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 505,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 540,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 405,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4266,42 +4266,42 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../../assets/images/items/guided-missile-launcher.png"),
+    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 200,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 200,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 40,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4315,42 +4315,42 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../../assets/images/items/guided-missile-launcher.png"),
+    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 300,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 300,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 60,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4364,42 +4364,42 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../../assets/images/items/guided-missile-launcher.png"),
+    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 450,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 225,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 450,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 90,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4413,42 +4413,42 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../../assets/images/items/guided-missile-launcher.png"),
+    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 675,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 337,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 675,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 135,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4462,42 +4462,42 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../../assets/images/items/multi-guided-missile-launcher.png"),
+    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 300,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 160,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 240,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 60,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4511,42 +4511,42 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../../assets/images/items/multi-guided-missile-launcher.png"),
+    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 450,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 240,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 360,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 90,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4560,42 +4560,42 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../../assets/images/items/multi-guided-missile-launcher.png"),
+    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 675,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 360,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 540,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 135,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4609,42 +4609,42 @@ export const weaponDataSet = [
     ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../../assets/images/items/multi-guided-missile-launcher.png"),
+    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 1012,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 540,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 810,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 202,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 50,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4658,35 +4658,35 @@ export const weaponDataSet = [
     ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../../assets/images/items/gatling-gun.png"),
+    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 300,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 200,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 280,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4700,35 +4700,35 @@ export const weaponDataSet = [
     ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../../assets/images/items/gatling-gun.png"),
+    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 450,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 300,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 420,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4742,35 +4742,35 @@ export const weaponDataSet = [
     ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../../assets/images/items/gatling-gun.png"),
+    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 675,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 450,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 630,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4784,35 +4784,35 @@ export const weaponDataSet = [
     ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../../assets/images/items/gatling-gun.png"),
+    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 1012,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
         quantity: 675,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 945,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -4827,28 +4827,28 @@ export const weaponDataSet = [
     ammo: "Meteorite Ammo",
     description:
       "A phenomenal weapon that fires a meteor.\r\nUpon striking its target, it creates an explosion similar to a meteorite impact.",
-    image: require("../../assets/images/items/meteor-launcher.png"),
+    image: require("../assets/images/items/meteor-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Meteor.webp",
     recipe: [
       {
         name: "Meteorite Fragment",
         quantity: 100,
-        image: require("../../assets/images/items/meteorite-fragment.png"),
+        image: require("../assets/images/items/meteorite-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp",
       },
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 20,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
@@ -4862,28 +4862,28 @@ export const weaponDataSet = [
     technology: 40,
     description:
       "A Dark Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Dark damage to enemies.",
-    image: require("../../assets/images/items/dark-grenade.png"),
+    image: require("../assets/images/items/dark-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dark.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Venom Gland",
         quantity: 1,
-        image: require("../../assets/images/items/venom-gland.png"),
+        image: require("../assets/images/items/venom-gland.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
       },
@@ -4897,28 +4897,28 @@ export const weaponDataSet = [
     technology: 42,
     description:
       "A Dragon Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Dragon damage to enemies.",
-    image: require("../../assets/images/items/dragon-grenade.png"),
+    image: require("../assets/images/items/dragon-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dragon.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Horn",
         quantity: 1,
-        image: require("../../assets/images/items/horn.png"),
+        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
       },
@@ -4932,28 +4932,28 @@ export const weaponDataSet = [
     technology: 38,
     description:
       "A Ground Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Ground damage to enemies.",
-    image: require("../../assets/images/items/ground-grenade.png"),
+    image: require("../assets/images/items/ground-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ground.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ore",
         quantity: 1,
-        image: require("../../assets/images/items/ore.png"),
+        image: require("../assets/images/items/ore.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
       },
@@ -4967,28 +4967,28 @@ export const weaponDataSet = [
     technology: 35,
     description:
       "A Grass Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Grass damage to enemies.",
-    image: require("../../assets/images/items/grass-grenade.png"),
+    image: require("../assets/images/items/grass-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Leaf.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 10,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
@@ -5002,28 +5002,28 @@ export const weaponDataSet = [
     technology: 33,
     description:
       "A Water Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Water damage to enemies.",
-    image: require("../../assets/images/items/water-grenade.png"),
+    image: require("../assets/images/items/water-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Water.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 1,
-        image: require("../../assets/images/items/pal-fluids.png"),
+        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
       },
@@ -5037,28 +5037,28 @@ export const weaponDataSet = [
     technology: 29,
     description:
       "Katana for close-range combat.\r\nSlices through with razor-sharp precision, cutting cleanly in one strike.",
-    image: require("../../assets/images/items/katana.png"),
+    image: require("../assets/images/items/katana.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Katana.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 20,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
@@ -5072,35 +5072,35 @@ export const weaponDataSet = [
     technology: 57,
     description:
       "Beam Sword for close-range combat.\r\nSlices through opponents, burning them with a high-output laser.",
-    image: require("../../assets/images/items/beam-sword.png"),
+    image: require("../assets/images/items/beam-sword.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamSword.webp",
     recipe: [
       {
         name: "Hexolite",
         quantity: 30,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 100,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Nightstar Sand",
         quantity: 20,
-        image: require("../../assets/images/items/nightstar-sand.png"),
+        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5115,28 +5115,28 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../../assets/images/items/semi-auto-shotgun.png"),
+    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 50,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 40,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
@@ -5151,35 +5151,35 @@ export const weaponDataSet = [
     ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../../assets/images/items/plasma-cannon.png"),
+    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 200,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 130,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 200,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 100,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
@@ -5192,42 +5192,42 @@ export const weaponDataSet = [
     attack: 364,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../../assets/images/items/poison-arrow-crossbow.png"),
+    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 100,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 100,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 10,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5240,42 +5240,42 @@ export const weaponDataSet = [
     attack: 406,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../../assets/images/items/poison-arrow-crossbow.png"),
+    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 150,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 150,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 45,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 15,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5288,42 +5288,42 @@ export const weaponDataSet = [
     attack: 448,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../../assets/images/items/poison-arrow-crossbow.png"),
+    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 225,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 225,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 67,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 22,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5336,42 +5336,42 @@ export const weaponDataSet = [
     attack: 490,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../../assets/images/items/poison-arrow-crossbow.png"),
+    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 337,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 337,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 100,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 33,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5384,42 +5384,42 @@ export const weaponDataSet = [
     attack: 364,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../../assets/images/items/fire-arrow-crossbow.png"),
+    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 100,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 100,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 10,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5432,42 +5432,42 @@ export const weaponDataSet = [
     attack: 406,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../../assets/images/items/fire-arrow-crossbow.png"),
+    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 150,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 150,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 45,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 15,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5480,42 +5480,42 @@ export const weaponDataSet = [
     attack: 448,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../../assets/images/items/fire-arrow-crossbow.png"),
+    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 225,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 225,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 67,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 22,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5528,42 +5528,42 @@ export const weaponDataSet = [
     attack: 490,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../../assets/images/items/fire-arrow-crossbow.png"),
+    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 337,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 337,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
         quantity: 100,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
         quantity: 33,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5578,21 +5578,21 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../../assets/images/items/old-revolver.png"),
+    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 60,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
@@ -5606,28 +5606,28 @@ export const weaponDataSet = [
     technology: 44,
     description:
       "A pickaxe for mining. It has achieved extraordinary efficiency thanks to Pal Metal.",
-    image: require("../../assets/images/items/pal-metal-pickaxe.png"),
+    image: require("../assets/images/items/pal-metal-pickaxe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_03.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 50,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 100,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 10,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
@@ -5641,28 +5641,28 @@ export const weaponDataSet = [
     technology: 44,
     description:
       "An axe for chopping wood. It has achieved extraordinary sharpness thanks to Pal Metal.",
-    image: require("../../assets/images/items/pal-metal-axe.png"),
+    image: require("../assets/images/items/pal-metal-axe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_03.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 50,
-        image: require("../../assets/images/items/stone.png"),
+        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
         quantity: 100,
-        image: require("../../assets/images/items/wood.png"),
+        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 10,
-        image: require("../../assets/images/items/pal-metal-ingot.png"),
+        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
       },
@@ -5677,28 +5677,28 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-assault-rifle.png"),
+    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 70,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 60,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
@@ -5713,21 +5713,21 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../../assets/images/items/semi-auto-rifle.png"),
+    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 35,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
@@ -5742,28 +5742,28 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-smg.png"),
+    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 40,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 10,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
@@ -5778,21 +5778,21 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../../assets/images/items/smg.png"),
+    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 25,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 6,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
@@ -5807,28 +5807,28 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../../assets/images/items/makeshift-shotgun.png"),
+    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 60,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 15,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 50,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
@@ -5842,35 +5842,35 @@ export const weaponDataSet = [
     ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../../assets/images/items/laser-gatling-gun.png"),
+    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 300,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 200,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 400,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5884,35 +5884,35 @@ export const weaponDataSet = [
     ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../../assets/images/items/laser-gatling-gun.png"),
+    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 450,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 300,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 600,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5926,35 +5926,35 @@ export const weaponDataSet = [
     ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../../assets/images/items/laser-gatling-gun.png"),
+    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 675,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 450,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 900,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -5968,35 +5968,35 @@ export const weaponDataSet = [
     ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../../assets/images/items/laser-gatling-gun.png"),
+    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 1012,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 675,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 1350,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6010,42 +6010,42 @@ export const weaponDataSet = [
     ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../../assets/images/items/plasma-cannon.png"),
+    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 400,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 260,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 400,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 200,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6059,42 +6059,42 @@ export const weaponDataSet = [
     ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../../assets/images/items/plasma-cannon.png"),
+    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 600,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 390,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 600,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 300,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6108,42 +6108,42 @@ export const weaponDataSet = [
     ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../../assets/images/items/plasma-cannon.png"),
+    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 900,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 585,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 900,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 450,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6157,42 +6157,42 @@ export const weaponDataSet = [
     ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../../assets/images/items/plasma-cannon.png"),
+    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
         quantity: 1350,
-        image: require("../../assets/images/items/plasteel.png"),
+        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
         quantity: 877,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 1350,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
         quantity: 675,
-        image: require("../../assets/images/items/circuit-board.png"),
+        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6207,28 +6207,28 @@ export const weaponDataSet = [
     ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../../assets/images/items/compound-bow.png"),
+    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 50,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 40,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
         quantity: 20,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
@@ -6243,28 +6243,28 @@ export const weaponDataSet = [
     ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../../assets/images/items/advanced-bow.png"),
+    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
         quantity: 40,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 100,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
         quantity: 20,
-        image: require("../../assets/images/items/nightstar-sand.png"),
+        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
       },
@@ -6278,35 +6278,35 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../../assets/images/items/semi-auto-shotgun.png"),
+    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 100,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 40,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 80,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6320,35 +6320,35 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../../assets/images/items/semi-auto-shotgun.png"),
+    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 150,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 60,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6362,35 +6362,35 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../../assets/images/items/semi-auto-shotgun.png"),
+    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 225,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 90,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 180,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6404,35 +6404,35 @@ export const weaponDataSet = [
     ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../../assets/images/items/semi-auto-shotgun.png"),
+    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 337,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 135,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 270,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6446,28 +6446,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../../assets/images/items/old-revolver.png"),
+    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 120,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 40,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6481,28 +6481,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../../assets/images/items/old-revolver.png"),
+    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 240,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 80,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6516,28 +6516,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../../assets/images/items/old-revolver.png"),
+    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 480,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 160,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6551,28 +6551,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../../assets/images/items/old-revolver.png"),
+    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 960,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 320,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6586,35 +6586,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-assault-rifle.png"),
+    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 140,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 40,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 120,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6628,35 +6628,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-assault-rifle.png"),
+    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 210,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 60,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 180,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6670,35 +6670,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-assault-rifle.png"),
+    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 315,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 90,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 270,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6712,35 +6712,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-assault-rifle.png"),
+    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 472,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 135,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 405,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 32,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6754,28 +6754,28 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../../assets/images/items/semi-auto-rifle.png"),
+    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 70,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6789,28 +6789,28 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../../assets/images/items/semi-auto-rifle.png"),
+    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 105,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 30,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6824,28 +6824,28 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../../assets/images/items/semi-auto-rifle.png"),
+    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 157,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 45,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6859,28 +6859,28 @@ export const weaponDataSet = [
     ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../../assets/images/items/semi-auto-rifle.png"),
+    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 235,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 67,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6894,35 +6894,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-smg.png"),
+    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 80,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 60,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6936,35 +6936,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-smg.png"),
+    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 120,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 30,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 90,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -6978,35 +6978,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-smg.png"),
+    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 180,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 45,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 135,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7020,35 +7020,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../../assets/images/items/makeshift-smg.png"),
+    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 270,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 67,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 202,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 24,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7062,28 +7062,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../../assets/images/items/smg.png"),
+    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 50,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 12,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7097,28 +7097,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../../assets/images/items/smg.png"),
+    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 75,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 18,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7132,28 +7132,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../../assets/images/items/smg.png"),
+    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 112,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 27,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7167,28 +7167,28 @@ export const weaponDataSet = [
     ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../../assets/images/items/smg.png"),
+    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 168,
-        image: require("../../assets/images/items/refined-ingot.png"),
+        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
         quantity: 40,
-        image: require("../../assets/images/items/polymer.png"),
+        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7202,35 +7202,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../../assets/images/items/makeshift-shotgun.png"),
+    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 120,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 30,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 100,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7244,35 +7244,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../../assets/images/items/makeshift-shotgun.png"),
+    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 180,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 45,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 150,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7286,35 +7286,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../../assets/images/items/makeshift-shotgun.png"),
+    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 270,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 67,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 225,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7328,35 +7328,35 @@ export const weaponDataSet = [
     ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../../assets/images/items/makeshift-shotgun.png"),
+    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 405,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 100,
-        image: require("../../assets/images/items/high-quality-pal-oil.png"),
+        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
         quantity: 337,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 32,
-        image: require("../../assets/images/items/ancient-civilization-parts.png"),
+        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
       },
@@ -7370,35 +7370,35 @@ export const weaponDataSet = [
     technology: 30,
     description:
       "[Terraria Collab]\r\nAccording to the legend, this sword was brought back from a distant land by Croajiro.\r\nWhy? We have no idea...",
-    image: require("../../assets/images/items/meowmere.png"),
+    image: require("../assets/images/items/meowmere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_YakushimaBlade.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 22,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 22,
-        image: require("../../assets/images/items/paldium-fragment.png"),
+        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Coal",
         quantity: 22,
-        image: require("../../assets/images/items/coal.png"),
+        image: require("../assets/images/items/coal.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
       },
       {
         name: "Predator Core",
         quantity: 3,
-        image: require("../../assets/images/items/predator-core.png"),
+        image: require("../assets/images/items/predator-core.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PredatorCrystal.webp",
       },
@@ -7412,28 +7412,28 @@ export const weaponDataSet = [
     ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../../assets/images/items/advanced-bow.png"),
+    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
         quantity: 80,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 200,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
         quantity: 40,
-        image: require("../../assets/images/items/nightstar-sand.png"),
+        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
       },
@@ -7447,28 +7447,28 @@ export const weaponDataSet = [
     ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../../assets/images/items/advanced-bow.png"),
+    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
         quantity: 120,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 300,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
         quantity: 60,
-        image: require("../../assets/images/items/nightstar-sand.png"),
+        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
       },
@@ -7482,28 +7482,28 @@ export const weaponDataSet = [
     ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../../assets/images/items/advanced-bow.png"),
+    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
         quantity: 180,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 450,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
         quantity: 90,
-        image: require("../../assets/images/items/nightstar-sand.png"),
+        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
       },
@@ -7517,28 +7517,28 @@ export const weaponDataSet = [
     ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../../assets/images/items/advanced-bow.png"),
+    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
         quantity: 270,
-        image: require("../../assets/images/items/hexolite.png"),
+        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
         quantity: 675,
-        image: require("../../assets/images/items/carbon-fiber.png"),
+        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
         quantity: 135,
-        image: require("../../assets/images/items/nightstar-sand.png"),
+        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
       },
@@ -7552,28 +7552,28 @@ export const weaponDataSet = [
     ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../../assets/images/items/compound-bow.png"),
+    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 100,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 80,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
         quantity: 40,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
@@ -7587,28 +7587,28 @@ export const weaponDataSet = [
     ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../../assets/images/items/compound-bow.png"),
+    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 200,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 160,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
         quantity: 80,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
@@ -7622,28 +7622,28 @@ export const weaponDataSet = [
     ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../../assets/images/items/compound-bow.png"),
+    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 400,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 320,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
         quantity: 160,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },
@@ -7657,28 +7657,28 @@ export const weaponDataSet = [
     ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../../assets/images/items/compound-bow.png"),
+    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 800,
-        image: require("../../assets/images/items/ingot.png"),
+        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 640,
-        image: require("../../assets/images/items/fiber.png"),
+        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
         quantity: 320,
-        image: require("../../assets/images/items/nail.png"),
+        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
       },

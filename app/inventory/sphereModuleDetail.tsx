@@ -9,83 +9,66 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import { Image } from "expo-image";
-import { weaponDataSet } from "../../constants/weapon";
-import { useLocalSearchParams } from "expo-router";
-
+import { sphereModule } from "../../constants/sphereModules";
+import { router, useLocalSearchParams } from "expo-router";
 import { CreateStatRow } from "../../components/inv/CreateStatRow";
 import InvHeader from "../../components/inv/Header";
 import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
 import { GetRarityColor } from "../../components/inv/GetRarityColor";
-
-export default function WeaponDetail() {
+export default function sphereModuleDetail() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
 
   const { id } = useLocalSearchParams();
-  const [weaponID, setWeaponID] = useState(id || 0);
+  const [weaponID, setWeaponID] = useState(Number(id || 0));
 
-  const [ammo, setAmmo] = useState(false);
-  const [attack, setAttack] = useState(false);
-  const [technology, setTechnology] = useState(false);
-
-  const dataCheck = () => {
-    if (weaponDataSet[Number(weaponID)].attack) {
-      setAttack(true);
-    }
-    if (weaponDataSet[Number(weaponID)].ammo) {
-      setAmmo(true);
-    }
-    if (weaponDataSet[Number(weaponID)].technology) {
-      setTechnology(true);
-    }
+ 
+  if (!sphereModule[weaponID]) {
+    return (
+      <SafeAreaView
+        style={[styles.container, { backgroundColor: actColor.background }]}
+      >
+        <Text style={styles.errorText}>Sphere module data not found.</Text>
+      </SafeAreaView>
+    );
   }
-  useEffect(() => {
-    dataCheck();
-  }, []);
-  const weaponD = weaponDataSet[Number(weaponID)]
-  if (!weaponDataSet[Number(weaponID)]) {
-      return (
-        <SafeAreaView
-          style={[styles.container, { backgroundColor: actColor.background }]}
-        >
-          <Text style={styles.errorText}>Sphere module data not found.</Text>
-        </SafeAreaView>
-      );
-    }
 
   return (
     <SafeAreaView
       style={[styles.container, { backgroundColor: actColor.background }]}
     >
-      <InvHeader name="Weapon" actColor={actColor} path="/inventory/WeaponScreen" />
+      <InvHeader name='Sphere Module' actColor={actColor} path="/inventory/SphereModuleScreen" />
 
-      <ScrollView contentContainerStyle={styles.scrollView}>
+      <ScrollView
+        contentContainerStyle={{ paddingBottom: 50 }}
+        showsVerticalScrollIndicator={false}
+      >
         <View
           style={[styles.card, { backgroundColor: actColor.surfaceVariant }]}
         >
           <Image
-            source={weaponD.image}
+            source={sphereModule[Number(weaponID)].image}
             style={styles.weaponImage}
           />
           <Text style={[styles.title, { color: actColor.primary }]}>
-            {weaponD.name}
+            {sphereModule[Number(weaponID)].name}
           </Text>
           <View style={styles.typeContainer}>
             <Text style={[styles.type, { color: actColor.onBackground }]}>
-              Weapon
+              Sphere module
             </Text>
             <Text
               style={[
                 styles.rarity,
                 {
-                  color: actColor.surfaceVariant,
-                  backgroundColor: GetRarityColor(actColor,weaponD.rarity),
+                  color: actColor.shadow,
+                  backgroundColor: GetRarityColor( actColor,sphereModule[Number(weaponID)].rarity ),
                   borderRadius: 10,
                   paddingHorizontal: 8,
                 },
               ]}
             >
-              {weaponD.rarity}
+              {sphereModule[Number(weaponID)].rarity}
             </Text>
           </View>
           <View
@@ -96,9 +79,7 @@ export default function WeaponDetail() {
               gap: 20,
             }}
           >
-            {attack && CreateStatRow("Attack", weaponD.attack, actColor)}
-            {technology && CreateStatRow("Technology", weaponD.technology, actColor)}
-            {ammo && CreateStatRow("Ammo", weaponD.ammo, actColor)}
+            {CreateStatRow("Technology", sphereModule[weaponID].technology, actColor )}
           </View>
         </View>
         {/* </View> */}
@@ -109,16 +90,17 @@ export default function WeaponDetail() {
           ]}
         >
           <Text style={{ fontSize: 16, color: actColor.onBackground }}>
-            {weaponD.description}
+            {sphereModule[Number(weaponID)].description}
           </Text>
         </View>
         <Text style={{ color: actColor.outline, fontSize: 30, marginTop: 10 }}>
           Crafting
         </Text>
+        
         <CraftingRecipe
-          recipe={weaponD.recipe}
-          actColor={actColor}
-        />
+          recipe={sphereModule[Number(weaponID)].recipe}
+          actColor={actColor} 
+          />
       </ScrollView>
     </SafeAreaView>
   );
@@ -129,7 +111,16 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
   },
- 
+  header: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingVertical: 10,
+  },
+  headerTitle: {
+    fontSize: 20,
+    fontWeight: "bold",
+  },
   card: {
     borderRadius: 16,
     padding: 16,
@@ -164,14 +155,23 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 16,
   },
-
+  statRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  statLabel: {
+    fontSize: 16,
+    color: "#9CA3AF",
+  },
+  statValue: {
+    fontSize: 16,
+    fontWeight: "bold",
+  },
   errorText: {
     color: "red",
     fontSize: 16,
     textAlign: "center",
     marginTop: 50,
   },
-  scrollView: {
-    paddingBottom: 20,
-  },
+  
 });
