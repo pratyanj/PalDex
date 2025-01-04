@@ -5,7 +5,7 @@ import { GetRarityColor } from "./GetRarityColor";
 type props = {
   name: string;
   img: any;
-  type: string;
+  type: any;
   rarity: string;
   actColor: any;
 };
@@ -35,19 +35,32 @@ export const ItemCard = ({ name, img, type, rarity, actColor }: props) => (
       >
         {name}
       </Text>
+      
       <View style={{ flexDirection: "row", alignItems: "center", gap: 5, marginTop: 5 }}>
-        <Text
+      <View
           style={{
-            fontSize: 12,
-            color: actColor.onSurface,
+            flexDirection: "row",
+            alignItems: "center",
+            paddingHorizontal: 8,
             backgroundColor: actColor.background,
             borderRadius: 10,
-            padding: 2,
-            paddingHorizontal: 12,
           }}
         >
-          {type}
-        </Text>
+          <Image
+            source={require("../../assets/images/items/gold-coin.png")}
+            style={{ width: 18, height: 18}}
+          />
+          <Text
+            style={{
+              fontSize: 12,
+              color: actColor.onSurface,
+              borderRadius: 10,
+              padding: 2,
+            }}
+          >
+            {type}
+          </Text>
+        </View>
         <Text
           style={{
             fontSize: 12,

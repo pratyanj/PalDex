@@ -3,7 +3,7 @@ import { router } from "expo-router";
 import { View,Text } from "react-native";
 
 const InvHeader = ({ name,actColor ,path}) => (
-      <View style={{ backgroundColor: actColor.background,flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingVertical: 10, }}>
+      <View style={{ backgroundColor: actColor.background,flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingVertical: 10, marginBottom: 10, }}> 
         <AntDesign
           name="arrowleft"
           size={24}
