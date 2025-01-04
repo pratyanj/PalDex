@@ -33,6 +33,24 @@ export const spheres = [
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
     ],
+    "stats": {
+      "Rarity": 99,
+      "Type": "Sphere",
+      "Rank": 99,
+      "Gold Coin": 120,
+      "Weight": "0.1",
+      "MaxStackCount": 9999,
+      "Code": "PalSphere_Debug",
+      "IconName": "CapturePrism",
+      "TypeA": "SpecialWeapon",
+      "TypeB": "SPWeaponCaptureBall",
+      "SortID": 9,
+      "ItemStaticClass": "CommonWeapon",
+      "ItemActorClass": "PalSphere_Debug",
+      "ItemStaticMeshName": "PalSphere_Debug",
+      "VisualBlueprintClassName": "BP_Item_PalSphere_Debug",
+      "SneakAttackRate": 100
+    }
   },
   {
     ID: 2,
@@ -75,6 +93,24 @@ export const spheres = [
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
     ],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Sphere",
+      "Rank": 2,
+      "Gold Coin": 920,
+      "Weight": "0.1",
+      "MaxStackCount": 9999,
+      "Code": "PalSphere_Mega",
+      "IconName": "PalSphere_Mega",
+      "TypeA": "SpecialWeapon",
+      "TypeB": "SPWeaponCaptureBall",
+      "SortID": 2,
+      "ItemStaticClass": "CommonWeapon",
+      "ItemActorClass": "PalSphereMega",
+      "ItemStaticMeshName": "PalSphereMega",
+      "VisualBlueprintClassName": "BP_Item_PalSphereMega",
+      "SneakAttackRate": 100
+    }
   },
   {
     ID: 3,
@@ -117,6 +153,24 @@ export const spheres = [
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
       },
     ],
+    "stats": {
+      "Rarity": 1,
+      "Type": "Sphere",
+      "Rank": 3,
+      "Gold Coin": 1520,
+      "Weight": "0.1",
+      "MaxStackCount": 9999,
+      "Code": "PalSphere_Giga",
+      "IconName": "PalSphere_Giga",
+      "TypeA": "SpecialWeapon",
+      "TypeB": "SPWeaponCaptureBall",
+      "SortID": 3,
+      "ItemStaticClass": "CommonWeapon",
+      "ItemActorClass": "PalSphereGiga",
+      "ItemStaticMeshName": "PalSphereGiga",
+      "VisualBlueprintClassName": "BP_Item_PalSphereGiga",
+      "SneakAttackRate": 100
+    }
   },
   {
     ID: 4,
@@ -159,6 +213,24 @@ export const spheres = [
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
       },
     ],
+    "stats": {
+      "Rarity": 2,
+      "Type": "Sphere",
+      "Rank": 4,
+      "Gold Coin": 4240,
+      "Weight": "0.1",
+      "MaxStackCount": 9999,
+      "Code": "PalSphere_Tera",
+      "IconName": "PalSphere_Tera",
+      "TypeA": "SpecialWeapon",
+      "TypeB": "SPWeaponCaptureBall",
+      "SortID": 4,
+      "ItemStaticClass": "CommonWeapon",
+      "ItemActorClass": "PalSphereTera",
+      "ItemStaticMeshName": "PalSphereTera",
+      "VisualBlueprintClassName": "BP_Item_PalSphereTera",
+      "SneakAttackRate": 100
+    }
   },
   {
     ID: 5,
@@ -201,6 +273,24 @@ export const spheres = [
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
       },
     ],
+    "stats": {
+      "Rarity": 3,
+      "Type": "Sphere",
+      "Rank": 5,
+      "Gold Coin": 9880,
+      "Weight": "0.1",
+      "MaxStackCount": 9999,
+      "Code": "PalSphere_Master",
+      "IconName": "PalSphere_Master",
+      "TypeA": "SpecialWeapon",
+      "TypeB": "SPWeaponCaptureBall",
+      "SortID": 5,
+      "ItemStaticClass": "CommonWeapon",
+      "ItemActorClass": "PalSphere_Master",
+      "ItemStaticMeshName": "PalSphere_Master",
+      "VisualBlueprintClassName": "BP_Item_PalSphere_Master",
+      "SneakAttackRate": 100
+    }
   },
   {
     ID: 6,
@@ -243,6 +333,24 @@ export const spheres = [
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
       },
     ],
+    "stats": {
+      "Rarity": 4,
+      "Type": "Sphere",
+      "Rank": 6,
+      "Gold Coin": 45200,
+      "Weight": "0.1",
+      "MaxStackCount": 9999,
+      "Code": "PalSphere_Legend",
+      "IconName": "PalSphere_Legend",
+      "TypeA": "SpecialWeapon",
+      "TypeB": "SPWeaponCaptureBall",
+      "SortID": 6,
+      "ItemStaticClass": "CommonWeapon",
+      "ItemActorClass": "PalSphere_Legend",
+      "ItemStaticMeshName": "PalSphere_Legend",
+      "VisualBlueprintClassName": "BP_Item_PalSphere_Legend",
+      "SneakAttackRate": 100
+    }
   },
   {
     ID: 7,
@@ -285,6 +393,24 @@ export const spheres = [
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
       },
     ],
+    "stats": {
+      "Rarity": 4,
+      "Type": "Sphere",
+      "Rank": 6,
+      "Gold Coin": 45200,
+      "Weight": "0.1",
+      "MaxStackCount": 9999,
+      "Code": "PalSphere_Ultimate",
+      "IconName": "PalSphere_Ultimate",
+      "TypeA": "SpecialWeapon",
+      "TypeB": "SPWeaponCaptureBall",
+      "SortID": 7,
+      "ItemStaticClass": "CommonWeapon",
+      "ItemActorClass": "PalSphere_Ultimate",
+      "ItemStaticMeshName": "PalSphere_Ultimate",
+      "VisualBlueprintClassName": "BP_Item_PalSphere_Ultimate",
+      "SneakAttackRate": 100
+    }
   },
   {
     ID: 8,
@@ -327,5 +453,23 @@ export const spheres = [
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
       },
     ],
+    "stats": {
+      "Rarity": 4,
+      "Type": "Sphere",
+      "Rank": 7,
+      "Gold Coin": 45200,
+      "Weight": "0.1",
+      "MaxStackCount": 9999,
+      "Code": "PalSphere_Exotic",
+      "IconName": "PalSphere_Exotic",
+      "TypeA": "SpecialWeapon",
+      "TypeB": "SPWeaponCaptureBall",
+      "SortID": 8,
+      "ItemStaticClass": "CommonWeapon",
+      "ItemActorClass": "PalSphere_Exotic",
+      "ItemStaticMeshName": "PalSphere_Exotic",
+      "VisualBlueprintClassName": "BP_Item_PalSphere_Exotic",
+      "SneakAttackRate": 100
+    }
   },
 ];
