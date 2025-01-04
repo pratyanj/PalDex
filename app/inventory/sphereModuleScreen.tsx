@@ -1,4 +1,4 @@
-import { StyleSheet, ScrollView,TouchableOpacity } from "react-native";
+import { StyleSheet, ScrollView, TouchableOpacity } from "react-native";
 import React, { useContext } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
@@ -12,15 +12,31 @@ export default function sphereModuleScreen() {
   const actColor = Colors[theme.mode];
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: actColor.background }]}>
+    <SafeAreaView
+      style={[styles.container, { backgroundColor: actColor.background }]}
+    >
       {ListHeader("Sphere Modules", actColor)}
 
       {/* Content */}
       <ScrollView contentContainerStyle={styles.content}>
-        { sphereModule.map((item, index) => (
-          <TouchableOpacity key={item.name+index} onPress={() => router.push({ pathname: "/inventory/SphereModuleDetail",params: { id:item.ID - 1 }, })}>
+        {sphereModule.map((item, index) => (
+          <TouchableOpacity
+            key={item.name + index}
+            onPress={() =>
+              router.push({
+                pathname: "/inventory/SphereModuleDetail",
+                params: { id: item.ID - 1 },
+              })
+            }
+          >
             {/* {itemCard(item.name, item.image, item.rarity,"Sphere Module",actColor)} */}
-            <ItemCard name={item.name} img={item.image} type="Sphere Module" rarity={item.rarity} actColor={actColor} />
+            <ItemCard
+              name={item.name}
+              img={item.image}
+              type={item.stats["Gold Coin"]}
+              rarity={item.rarity}
+              actColor={actColor}
+            />
           </TouchableOpacity>
         ))}
       </ScrollView>
@@ -32,7 +48,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  
+
   content: {
     flexGrow: 1,
     padding: 15,

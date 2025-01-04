@@ -19,6 +19,7 @@ export default function ArmorDetails() {
 
   const [defense, setDefense] = useState(false);
   const [durability, setDurability] = useState(false);
+  const [technology, setTechnology] = useState(false);
 
   const dataCheck = () => {
     if (Armors[Number(armorID)].defense) {
@@ -26,6 +27,9 @@ export default function ArmorDetails() {
     }
     if (Armors[Number(armorID)].health) {
       setDurability(true);
+    }
+    if (Armors[Number(armorID)].technology) {
+      setTechnology(true);
     }
   };
   useEffect(() => {
@@ -89,10 +93,9 @@ export default function ArmorDetails() {
           gap: 20,
         }}
       >
-        {defense &&
-          CreateStatRow("Defense", Armors[Number(armorID)].defense, actColor)}
-        {durability &&
-          CreateStatRow("Durability", Armors[Number(armorID)].health, actColor)}
+        {defense &&CreateStatRow("Defense", Armors[Number(armorID)].defense, actColor)}
+        {durability &&CreateStatRow("Durability", Armors[Number(armorID)].stats.Durability, actColor)}
+        {technology && CreateStatRow("Technology", Armors[Number(armorID)].technology, actColor )}
       </View>
     </View>
   );

@@ -45,7 +45,7 @@ export default function sphereScreen() {
               <ItemCard
                 name={item.name}
                 img={item.image}
-                type='Sphere'
+                type={item.stats["Gold Coin"]}
                 rarity={item.rarity}
                 actColor={actColor}
               />
