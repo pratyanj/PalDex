@@ -2,10 +2,10 @@ import {
     View,
     Text,
     StyleSheet,
-    ScrollView,
+    FlatList,
     TouchableOpacity,
 } from "react-native";
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
@@ -17,9 +17,34 @@ import { ItemsData } from "../../constants/allItems";
 import { Armors } from "../../constants/Armors";
 import { ItemCard } from "../../components/inv/ItemCard";
 
-export default function armorScreen() {
+export default function ArmorScreen() {
     const { theme } = useContext(ThemeContext);
     const actColor = Colors[theme.mode];
+    const [visibleItems, setVisibleItems] = useState(15);
+
+    const loadMoreItems = () => {
+        setVisibleItems((prev) => prev + 15);
+    };
+
+    const renderItem = ({ item, index }) => (
+        <TouchableOpacity
+            key={index}
+            onPress={() =>
+                router.push({
+                    pathname: "/inventory/ArmorDetails",
+                    params: { id: item.ID - 1 },
+                })
+            }
+        >
+            <ItemCard
+                name={item.name}
+                img={item.image}
+                type={item.stats ? item.stats["Gold Coin"] : 123456789}
+                rarity={item.rarity}
+                actColor={actColor}
+            />
+        </TouchableOpacity>
+    );
 
     return (
         <SafeAreaView
@@ -27,32 +52,15 @@ export default function armorScreen() {
         >
             {ListHeader("Armors", actColor)}
 
-            <ScrollView contentContainerStyle={styles.content}>
-                {
-                    Armors.length == 0 ? <Text style={styles.placeholderText}>No Armors Found</Text> :
-                    Armors.map((item, index) => {
-                        return (
-                            <TouchableOpacity
-                                key={index}
-                                onPress={() =>
-                                    router.push({
-                                        pathname: "/inventory/ArmorDetails",
-                                        params: { id: item.ID - 1 },
-                                    })
-                                }
-                            >
-                                <ItemCard
-                                    name={item.name}
-                                    img={item.image}
-                                    type='Armor'
-                                    rarity={item.rarity}
-                                    actColor={actColor}
-                                />
-                            </TouchableOpacity>
-                        );
-                    })
-                }
-            </ScrollView>
+            <FlatList
+                contentContainerStyle={styles.content}
+                data={Armors.slice(0, visibleItems)}
+                renderItem={renderItem}
+                keyExtractor={(item, index) => index.toString()}
+                ListEmptyComponent={<Text style={styles.placeholderText}>No Armors Found</Text>}
+                onEndReached={loadMoreItems}
+                onEndReachedThreshold={0.5}
+            />
         </SafeAreaView>
     );
 }
