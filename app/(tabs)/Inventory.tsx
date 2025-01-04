@@ -4,26 +4,27 @@ import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import { Divider } from "react-native-paper";
 import { router } from "expo-router";
+
 export default function Inventory() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
 
   const inv = [
-    {name:"Weapon",path:"/inventory/weapon"},
-    {name:"Armor",path:"/inventory/armor"},
-    {name:"Accessory",path:"/inventory/accessory"},
-    {name:"Spheres",path:"/inventory/sphereScreen"},
-    {name:"Sphere Modules",path:"/inventory/sphereModules"},
-    {name:"Consumables",path:"/inventory/consumables"},
-    {name:"Materials",path:"/inventory/materials"},
+    { name: "Weapon", path: "/inventory/weapon" },
+    { name: "Armor", path: "/inventory/armor" },
+    { name: "Accessory", path: "/inventory/accessory" },
+    { name: "Spheres", path: "/inventory/sphereScreen" },
+    { name: "Sphere Modules", path: "/inventory/sphereModules" },
+    { name: "Consumables", path: "/inventory/consumables" },
+    { name: "Materials", path: "/inventory/materials" },
   ];
-  const inventory:{name:string,path:any}[] = [
-    {name:"Weapon",path:'/inventory/WeaponScreen'},
-    {name:"Spheres",path:'/inventory/SphereScreen'},
-    {name:"Sphere Modules",path:'/inventory/SphereModuleScreen'},
-    {name:"Armor",path:"/inventory/ArmorScreen"},
+  const inventory: { name: string, path: any }[] = [
+    { name: "Weapon", path: '/inventory/WeaponScreen' },
+    { name: "Spheres", path: '/inventory/SphereScreen' },
+    { name: "Sphere Modules", path: '/inventory/SphereModuleScreen' },
+    { name: "Armor", path: "/inventory/ArmorScreen" },
   ];
-    
+
   return (
     <SafeAreaView
       style={{ flex: 1, paddingTop: 25, backgroundColor: actColor.background }}
@@ -76,7 +77,10 @@ export default function Inventory() {
                 fontSize: 20,
                 color: actColor.primary,
                 fontFamily: "Inter-Black",
+                textAlign: "center",
               }}
+              numberOfLines={2}
+              ellipsizeMode="tail"
             >
               {item.name}
             </Text>
