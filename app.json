@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.PalDex"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "afc56200-5830-40a2-87ac-c71d820382ae"
+      }
+    },
+    "owner": "pratyanj"
   }
 }
