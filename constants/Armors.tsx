@@ -7,7 +7,7 @@ export const Armors = [
     health: 70,
     technology: 4,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+      "Clothes made from Cloth.\r\nProtects against cold nights.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/cloth-outfit.png"),
     // image: require("../assets/images/items/cloth-outfit.png"),
@@ -52,7 +52,7 @@ export const Armors = [
     health: 250,
     technology: 23,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/metal-armor.png"),
     image_url:
@@ -161,7 +161,7 @@ export const Armors = [
     health: 140,
     technology: 12,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/pelt-armor.png"),
     image_url:
@@ -255,7 +255,7 @@ export const Armors = [
     health: 500,
     technology: 37,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/refined-metal-armor.png"),
     image_url:
@@ -364,7 +364,7 @@ export const Armors = [
     health: 750,
     technology: 46,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/pal-metal-armor.png"),
     image_url:
@@ -670,7 +670,7 @@ export const Armors = [
     defense: 19,
     health: 91,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+      "Clothes made from Cloth.\r\nProtects against cold nights.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/cloth-outfit.png"),
     image_url:
@@ -720,7 +720,7 @@ export const Armors = [
     defense: 21,
     health: 98,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+      "Clothes made from Cloth.\r\nProtects against cold nights.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/cloth-outfit.png"),
     image_url:
@@ -770,7 +770,7 @@ export const Armors = [
     defense: 22,
     health: 105,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+      "Clothes made from Cloth.\r\nProtects against cold nights.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/cloth-outfit.png"),
     image_url:
@@ -820,7 +820,7 @@ export const Armors = [
     defense: 24,
     health: 112,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+      "Clothes made from Cloth.\r\nProtects against cold nights.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/cloth-outfit.png"),
     image_url:
@@ -870,7 +870,7 @@ export const Armors = [
     defense: 45,
     health: 182,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/pelt-armor.png"),
     image_url:
@@ -920,7 +920,7 @@ export const Armors = [
     defense: 49,
     health: 196,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/pelt-armor.png"),
     image_url:
@@ -970,7 +970,7 @@ export const Armors = [
     defense: 52,
     health: 210,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/pelt-armor.png"),
     image_url:
@@ -1020,7 +1020,7 @@ export const Armors = [
     defense: 56,
     health: 224,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
     effects: ["Cold Resistant Lv. 1"],
     image: require("../assets/images/items/pelt-armor.png"),
     image_url:
@@ -1070,7 +1070,7 @@ export const Armors = [
     defense: 91,
     health: 325,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/metal-armor.png"),
     image_url:
@@ -1135,7 +1135,7 @@ export const Armors = [
     defense: 98,
     health: 350,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/metal-armor.png"),
     image_url:
@@ -1200,7 +1200,7 @@ export const Armors = [
     defense: 105,
     health: 375,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/metal-armor.png"),
     image_url:
@@ -1265,7 +1265,7 @@ export const Armors = [
     defense: 112,
     health: 400,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/metal-armor.png"),
     image_url:
@@ -1330,7 +1330,7 @@ export const Armors = [
     defense: 195,
     health: 650,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/refined-metal-armor.png"),
     image_url:
@@ -1395,7 +1395,7 @@ export const Armors = [
     defense: 210,
     health: 700,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/refined-metal-armor.png"),
     image_url:
@@ -1460,7 +1460,7 @@ export const Armors = [
     defense: 225,
     health: 750,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/refined-metal-armor.png"),
     image_url:
@@ -1525,7 +1525,7 @@ export const Armors = [
     defense: 240,
     health: 800,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/refined-metal-armor.png"),
     image_url:
@@ -1590,7 +1590,7 @@ export const Armors = [
     defense: 286,
     health: 975,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/pal-metal-armor.png"),
     image_url:
@@ -1655,7 +1655,7 @@ export const Armors = [
     defense: 308,
     health: 1050,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/pal-metal-armor.png"),
     image_url:
@@ -1720,7 +1720,7 @@ export const Armors = [
     defense: 330,
     health: 1125,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/pal-metal-armor.png"),
     image_url:
@@ -1785,7 +1785,7 @@ export const Armors = [
     defense: 352,
     health: 1200,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/pal-metal-armor.png"),
     image_url:
@@ -2747,7 +2747,7 @@ export const Armors = [
     health: 70,
     technology: 9,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/tropical-outfit.png"),
     image_url:
@@ -2797,7 +2797,7 @@ export const Armors = [
     defense: 32,
     health: 91,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/tropical-outfit.png"),
     image_url:
@@ -2854,7 +2854,7 @@ export const Armors = [
     defense: 35,
     health: 98,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/tropical-outfit.png"),
     image_url:
@@ -2911,7 +2911,7 @@ export const Armors = [
     defense: 37,
     health: 105,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/tropical-outfit.png"),
     image_url:
@@ -2968,7 +2968,7 @@ export const Armors = [
     defense: 40,
     health: 112,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/tropical-outfit.png"),
     image_url:
@@ -3026,7 +3026,7 @@ export const Armors = [
     health: 70,
     technology: 9,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/tundra-outfit.png"),
     image_url:
@@ -3076,7 +3076,7 @@ export const Armors = [
     defense: 32,
     health: 91,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/tundra-outfit.png"),
     image_url:
@@ -3133,7 +3133,7 @@ export const Armors = [
     defense: 35,
     health: 98,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/tundra-outfit.png"),
     image_url:
@@ -3190,7 +3190,7 @@ export const Armors = [
     defense: 37,
     health: 105,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/tundra-outfit.png"),
     image_url:
@@ -3247,7 +3247,7 @@ export const Armors = [
     defense: 40,
     health: 112,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/tundra-outfit.png"),
     image_url:
@@ -3305,7 +3305,7 @@ export const Armors = [
     health: 140,
     technology: 16,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
     image_url:
@@ -3355,7 +3355,7 @@ export const Armors = [
     defense: 58,
     health: 182,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
     image_url:
@@ -3412,7 +3412,7 @@ export const Armors = [
     defense: 63,
     health: 196,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
     image_url:
@@ -3469,7 +3469,7 @@ export const Armors = [
     defense: 67,
     health: 210,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
     image_url:
@@ -3526,7 +3526,7 @@ export const Armors = [
     defense: 72,
     health: 224,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
     effects: ["Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
     image_url:
@@ -3584,7 +3584,7 @@ export const Armors = [
     health: 140,
     technology: 18,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
     image_url:
@@ -3634,7 +3634,7 @@ export const Armors = [
     defense: 58,
     health: 182,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
     image_url:
@@ -3691,7 +3691,7 @@ export const Armors = [
     defense: 63,
     health: 196,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
     image_url:
@@ -3748,7 +3748,7 @@ export const Armors = [
     defense: 67,
     health: 210,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
     image_url:
@@ -3805,7 +3805,7 @@ export const Armors = [
     defense: 72,
     health: 224,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2"],
     image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
     image_url:
@@ -3863,7 +3863,7 @@ export const Armors = [
     health: 250,
     technology: 25,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-metal-armor.png"),
     image_url:
@@ -3928,7 +3928,7 @@ export const Armors = [
     defense: 136,
     health: 325,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-metal-armor.png"),
     image_url:
@@ -4000,7 +4000,7 @@ export const Armors = [
     defense: 147,
     health: 350,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-metal-armor.png"),
     image_url:
@@ -4072,7 +4072,7 @@ export const Armors = [
     defense: 157,
     health: 375,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-metal-armor.png"),
     image_url:
@@ -4144,7 +4144,7 @@ export const Armors = [
     defense: 168,
     health: 400,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-metal-armor.png"),
     image_url:
@@ -4217,7 +4217,7 @@ export const Armors = [
     health: 250,
     technology: 27,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-metal-armor.png"),
     image_url:
@@ -4282,7 +4282,7 @@ export const Armors = [
     defense: 136,
     health: 325,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-metal-armor.png"),
     image_url:
@@ -4354,7 +4354,7 @@ export const Armors = [
     defense: 147,
     health: 350,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-metal-armor.png"),
     image_url:
@@ -4426,7 +4426,7 @@ export const Armors = [
     defense: 157,
     health: 375,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-metal-armor.png"),
     image_url:
@@ -4498,7 +4498,7 @@ export const Armors = [
     defense: 168,
     health: 400,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-metal-armor.png"),
     image_url:
@@ -4571,7 +4571,7 @@ export const Armors = [
     health: 500,
     technology: 40,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
     image_url:
@@ -4636,7 +4636,7 @@ export const Armors = [
     defense: 234,
     health: 650,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
     image_url:
@@ -4708,7 +4708,7 @@ export const Armors = [
     defense: 252,
     health: 700,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
     image_url:
@@ -4780,7 +4780,7 @@ export const Armors = [
     defense: 270,
     health: 750,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
     image_url:
@@ -4852,7 +4852,7 @@ export const Armors = [
     defense: 288,
     health: 800,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
     image_url:
@@ -4925,7 +4925,7 @@ export const Armors = [
     health: 500,
     technology: 41,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
     image_url:
@@ -4990,7 +4990,7 @@ export const Armors = [
     defense: 234,
     health: 650,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
     image_url:
@@ -5062,7 +5062,7 @@ export const Armors = [
     defense: 252,
     health: 700,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
     image_url:
@@ -5134,7 +5134,7 @@ export const Armors = [
     defense: 270,
     health: 750,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
     image_url:
@@ -5206,7 +5206,7 @@ export const Armors = [
     defense: 288,
     health: 800,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
     image_url:
@@ -5279,7 +5279,7 @@ export const Armors = [
     health: 750,
     technology: 48,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
     image_url:
@@ -5344,7 +5344,7 @@ export const Armors = [
     defense: 325,
     health: 975,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
     image_url:
@@ -5416,7 +5416,7 @@ export const Armors = [
     defense: 350,
     health: 1050,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
     image_url:
@@ -5488,7 +5488,7 @@ export const Armors = [
     defense: 375,
     health: 1125,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
     image_url:
@@ -5560,7 +5560,7 @@ export const Armors = [
     defense: 400,
     health: 1200,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
     effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
     image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
     image_url:
@@ -5633,7 +5633,7 @@ export const Armors = [
     health: 750,
     technology: 50,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
     image_url:
@@ -5698,7 +5698,7 @@ export const Armors = [
     defense: 325,
     health: 975,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
     image_url:
@@ -5770,7 +5770,7 @@ export const Armors = [
     defense: 350,
     health: 1050,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
     image_url:
@@ -5842,7 +5842,7 @@ export const Armors = [
     defense: 375,
     health: 1125,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
     image_url:
@@ -5914,7 +5914,7 @@ export const Armors = [
     defense: 400,
     health: 1200,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
     image_url:
@@ -6240,7 +6240,7 @@ export const Armors = [
     health: 1300,
     technology: 50,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/plasteel-armor.png"),
     image_url:
@@ -6700,7 +6700,7 @@ export const Armors = [
     health: 1300,
     technology: 53,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
     image_url:
@@ -6766,7 +6766,7 @@ export const Armors = [
     health: 1300,
     technology: 54,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
     image_url:
@@ -6832,7 +6832,7 @@ export const Armors = [
     health: 1300,
     technology: 55,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -6936,7 +6936,7 @@ export const Armors = [
     defense: 500,
     health: 1560,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/plasteel-armor.png"),
     image_url:
@@ -7001,7 +7001,7 @@ export const Armors = [
     defense: 539,
     health: 1690,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/plasteel-armor.png"),
     image_url:
@@ -7066,7 +7066,7 @@ export const Armors = [
     defense: 577,
     health: 1820,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/plasteel-armor.png"),
     image_url:
@@ -7131,7 +7131,7 @@ export const Armors = [
     defense: 616,
     health: 1950,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/plasteel-armor.png"),
     image_url:
@@ -7196,7 +7196,7 @@ export const Armors = [
     defense: 520,
     health: 1560,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
     image_url:
@@ -7268,7 +7268,7 @@ export const Armors = [
     defense: 560,
     health: 1690,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
     image_url:
@@ -7340,7 +7340,7 @@ export const Armors = [
     defense: 600,
     health: 1820,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
     image_url:
@@ -7412,7 +7412,7 @@ export const Armors = [
     defense: 640,
     health: 1950,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
     image_url:
@@ -7484,7 +7484,7 @@ export const Armors = [
     defense: 520,
     health: 1560,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
     image_url:
@@ -7556,7 +7556,7 @@ export const Armors = [
     defense: 560,
     health: 1690,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
     image_url:
@@ -7628,7 +7628,7 @@ export const Armors = [
     defense: 600,
     health: 1820,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
     image_url:
@@ -7700,7 +7700,7 @@ export const Armors = [
     defense: 640,
     health: 1950,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
     image_url:
@@ -7772,7 +7772,7 @@ export const Armors = [
     defense: 520,
     health: 1560,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -7842,7 +7842,7 @@ export const Armors = [
     defense: 560,
     health: 1690,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -7912,7 +7912,7 @@ export const Armors = [
     defense: 600,
     health: 1820,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -7982,7 +7982,7 @@ export const Armors = [
     defense: 640,
     health: 1950,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -8277,7 +8277,7 @@ export const Armors = [
     health: 1750,
     technology: 57,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/hexolite-armor.png"),
     image_url:
@@ -8372,7 +8372,7 @@ export const Armors = [
     health: 1750,
     technology: 59,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
     image_url:
@@ -8438,7 +8438,7 @@ export const Armors = [
     health: 1750,
     technology: 59,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
     image_url:
@@ -8504,7 +8504,7 @@ export const Armors = [
     health: 1750,
     technology: 60,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -8882,7 +8882,7 @@ export const Armors = [
     defense: 638,
     health: 1925,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/hexolite-armor.png"),
     image_url:
@@ -8947,7 +8947,7 @@ export const Armors = [
     defense: 667,
     health: 2012,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/hexolite-armor.png"),
     image_url:
@@ -9012,7 +9012,7 @@ export const Armors = [
     defense: 696,
     health: 2100,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/hexolite-armor.png"),
     image_url:
@@ -9077,7 +9077,7 @@ export const Armors = [
     defense: 754,
     health: 2275,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/hexolite-armor.png"),
     image_url:
@@ -9142,7 +9142,7 @@ export const Armors = [
     defense: 660,
     health: 1925,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
     image_url:
@@ -9214,7 +9214,7 @@ export const Armors = [
     defense: 690,
     health: 2012,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
     image_url:
@@ -9286,7 +9286,7 @@ export const Armors = [
     defense: 720,
     health: 2100,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
     image_url:
@@ -9358,7 +9358,7 @@ export const Armors = [
     defense: 780,
     health: 2275,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
     effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
     image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
     image_url:
@@ -9430,7 +9430,7 @@ export const Armors = [
     defense: 660,
     health: 1925,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
     image_url:
@@ -9502,7 +9502,7 @@ export const Armors = [
     defense: 690,
     health: 2012,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
     image_url:
@@ -9574,7 +9574,7 @@ export const Armors = [
     defense: 720,
     health: 2100,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
     image_url:
@@ -9646,7 +9646,7 @@ export const Armors = [
     defense: 780,
     health: 2275,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
     effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
     image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
     image_url:
@@ -9718,7 +9718,7 @@ export const Armors = [
     defense: 660,
     health: 1925,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -9788,7 +9788,7 @@ export const Armors = [
     defense: 690,
     health: 2012,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -9858,7 +9858,7 @@ export const Armors = [
     defense: 720,
     health: 2100,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
@@ -9928,7 +9928,7 @@ export const Armors = [
     defense: 780,
     health: 2275,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
     effects: [
       "Cold Resistant Lv. 1",
       "Heat Resistant Lv. 1",
