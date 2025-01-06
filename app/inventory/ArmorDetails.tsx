@@ -20,6 +20,7 @@ export default function ArmorDetails() {
   const [defense, setDefense] = useState(false);
   const [durability, setDurability] = useState(false);
   const [technology, setTechnology] = useState(false);
+  const [armorEffect, setArmorEffect] = useState(false);
 
   const dataCheck = () => {
     if (Armors[Number(armorID)].defense) {
@@ -30,6 +31,9 @@ export default function ArmorDetails() {
     }
     if (Armors[Number(armorID)].technology) {
       setTechnology(true);
+    }
+    if (Armors[Number(armorID)].effects.length > 0) {
+      setArmorEffect(true);
     }
   };
   useEffect(() => {
@@ -128,35 +132,37 @@ export default function ArmorDetails() {
             {Armors[Number(armorID)].description}
           </Text>
         </View>
-
-        <View
-          style={[
-            styles.statsContainer,
-            { backgroundColor: actColor.surfaceDisabled , marginTop: 10 },
-          ]}
-        >
-          <Text style={{ fontSize: 16, fontWeight: 'bold', color: actColor.onBackground, marginBottom: 8 }}>
-            Effects:
-          </Text>
-          {Armors[Number(armorID)].effects?.map((effect, index) => (
-            <Text 
-              key={index} 
-              style={{ 
-                fontSize: 14, 
-                color: actColor.onBackground,
-                marginLeft: 16,
-                marginBottom: 4,
-                backgroundColor: actColor.background,
-                width: 'auto',
-                padding: 3,
-                borderRadius: 50,
-                
-              }}
-            >
-              💠{effect}
-            </Text>
-          ))}
-        </View>
+         {armorEffect &&
+    <View
+    style={[
+      styles.statsContainer,
+      { backgroundColor: actColor.surfaceDisabled , marginTop: 10 },
+    ]}
+  >
+    <Text style={{ fontSize: 16, fontWeight: 'bold', color: actColor.onBackground, marginBottom: 8 }}>
+      Effects:
+    </Text>
+    {Armors[Number(armorID)].effects?.map((effect, index) => (
+      <Text 
+        key={index} 
+        style={{ 
+          fontSize: 14, 
+          color: actColor.onBackground,
+          marginLeft: 16,
+          marginBottom: 4,
+          backgroundColor: actColor.background,
+          width: 'auto',
+          padding: 3,
+          borderRadius: 50,
+          
+        }}
+      >
+        💠{effect}
+      </Text>
+    ))}
+  </View>
+         }
+        
 
         <View
           style={{
