@@ -182,28 +182,20 @@ export default function PalList() {
               </Text>
             )}
             <View style={{ flexDirection: "row", gap: 10 }}>
+              <TouchableOpacity onPress={() => handleShowsearchbar()} style={{padding: 6,borderRadius: 5,backgroundColor: actColor.surfaceVariant,}}>
               <AntDesign
                 name="search1"
                 size={22}
                 color={actColor.primary}
-                onPress={() => handleShowsearchbar()}
-                style={{
-                  padding: 6,
-                  borderRadius: 5,
-                  backgroundColor: actColor.surfaceVariant,
-                }}
               />
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => handle_filter_visible()} style={{ padding: 6, borderRadius: 5, backgroundColor: actColor.surfaceVariant, }}>
               <AntDesign
                 name="filter"
                 size={22}
                 color={actColor.primary}
-                onPress={() => handle_filter_visible()}
-                style={{
-                  padding: 6,
-                  borderRadius: 5,
-                  backgroundColor: actColor.surfaceVariant,
-                }}
               />
+              </TouchableOpacity>
             </View>
           </View>
         </View>
