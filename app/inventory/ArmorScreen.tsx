@@ -33,6 +33,7 @@ export default function ArmorScreen() {
                 router.push({
                     pathname: "/inventory/ArmorDetails",
                     params: { id: item.ID - 1 },
+
                 })
             }
         >

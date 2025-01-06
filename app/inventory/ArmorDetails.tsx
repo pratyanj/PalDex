@@ -128,6 +128,36 @@ export default function ArmorDetails() {
             {Armors[Number(armorID)].description}
           </Text>
         </View>
+
+        <View
+          style={[
+            styles.statsContainer,
+            { backgroundColor: actColor.surfaceDisabled , marginTop: 10 },
+          ]}
+        >
+          <Text style={{ fontSize: 16, fontWeight: 'bold', color: actColor.onBackground, marginBottom: 8 }}>
+            Effects:
+          </Text>
+          {Armors[Number(armorID)].effects?.map((effect, index) => (
+            <Text 
+              key={index} 
+              style={{ 
+                fontSize: 14, 
+                color: actColor.onBackground,
+                marginLeft: 16,
+                marginBottom: 4,
+                backgroundColor: actColor.background,
+                width: 'auto',
+                padding: 3,
+                borderRadius: 50,
+                
+              }}
+            >
+              💠{effect}
+            </Text>
+          ))}
+        </View>
+
         <View
           style={{
             flexDirection: "row",
@@ -142,8 +172,8 @@ export default function ArmorDetails() {
           }}
         >
           {[
-            { label: "Health", value: Armors[Number(armorID)].stats.Health },
-            { label: "Defense", value: Armors[Number(armorID)].stats.Defense },
+            { label: "Health", value: Armors[Number(armorID)].stats.Health?Armors[Number(armorID)].stats.Health:0 },
+            { label: "Defense", value: Armors[Number(armorID)].stats.Defense?Armors[Number(armorID)].stats.Defense:0 },
             {
               label: "Gold Coin",
               value: Armors[Number(armorID)].stats["Gold Coin"],
