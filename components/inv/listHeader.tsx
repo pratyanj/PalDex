@@ -18,12 +18,12 @@ export const ListHeader = (name: string, actColor) => (
       shadowRadius: 4,
     }}
   >
-    <TouchableOpacity style={{padding: 6,borderRadius: 5,backgroundColor: actColor.background,}}> 
+    <TouchableOpacity onPress={() => router.push("/Inventory")} style={{padding: 6,borderRadius: 5,backgroundColor: actColor.background,}}> 
     <AntDesign
       name="arrowleft"
       size={24}
       color={actColor.secondary}
-      onPress={() => router.push({ pathname: "/(tabs)/Inventory" })}
+      
     />
     </TouchableOpacity>
     <Text
