@@ -16,7 +16,6 @@ import { ListHeader } from "../../components/inv/ListHeader";
 import { ItemsData } from "../../constants/allItems";
 import { Armors } from "../../constants/Armors";
 import { ItemCard } from "../../components/inv/ItemCard";
-
 export default function ArmorScreen() {
     const { theme } = useContext(ThemeContext);
     const actColor = Colors[theme.mode];
@@ -33,7 +32,6 @@ export default function ArmorScreen() {
                 router.push({
                     pathname: "/inventory/ArmorDetails",
                     params: { id: item.ID - 1 },
-
                 })
             }
         >
@@ -61,7 +59,10 @@ export default function ArmorScreen() {
                 ListEmptyComponent={<Text style={styles.placeholderText}>No Armors Found</Text>}
                 onEndReached={loadMoreItems}
                 onEndReachedThreshold={0.5}
+                ListFooterComponent={<Text style={styles.placeholderText}>Loading data...</Text>}
             />
+            
+            
         </SafeAreaView>
     );
 }

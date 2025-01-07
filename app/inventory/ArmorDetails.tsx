@@ -9,6 +9,7 @@ import { router, useLocalSearchParams } from "expo-router";
 import { CreateStatRow } from "../../components/inv/CreateStatRow";
 import InvHeader from "../../components/inv/Header";
 import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
+import { GetRarityColor } from "../../components/inv/GetRarityColor";
 
 export default function ArmorDetails() {
   const { theme } = useContext(ThemeContext);
@@ -39,20 +40,6 @@ export default function ArmorDetails() {
   useEffect(() => {
     dataCheck();
   }, []);
-  const getRarityColor = (rarity: string) => {
-    switch (rarity.toLowerCase()) {
-      case "common":
-        return actColor.onSurface;
-      case "rare":
-        return actColor.primary;
-      case "epic":
-        return actColor.parpleContainer;
-      case "legendary":
-        return actColor.yellow;
-      default:
-        return actColor.onSurface;
-    }
-  };
 
   type ItemViewProps = {
     name: string;
@@ -80,7 +67,7 @@ export default function ArmorDetails() {
             styles.rarity,
             {
               color: actColor.shadow,
-              backgroundColor: getRarityColor(raritytpye),
+              backgroundColor: GetRarityColor(actColor,raritytpye),
               borderRadius: 10,
               paddingHorizontal: 8,
             },

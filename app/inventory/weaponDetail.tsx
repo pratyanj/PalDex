@@ -112,6 +112,78 @@ export default function WeaponDetail() {
             {weaponD.description}
           </Text>
         </View>
+        <View
+                  style={{
+                    flexDirection: "row",
+                    flexWrap: "wrap",
+                    justifyContent: "space-between",
+                    backgroundColor: actColor.outlineVariant,
+                    gap: 10,
+                    padding: 10,
+                    borderRadius: 10,
+                    marginVertical: 10,
+                    marginHorizontal: 2,
+                  }}
+                >
+                  {[
+                  
+                    {
+                      label: "Gold Coin",
+                      value: weaponD.stats.GoldCoin,
+                    },
+                    {
+                      label: "Weight",
+                      value: weaponD.stats.Weight,
+                    },
+                    {
+                      label: "Durability",
+                      value: weaponD.stats.SortID,
+                    },
+                    {
+                      label: "Max Stack Count",
+                      value: weaponD.stats.MaxStackCount,
+                    },
+                    ,
+                  ].map((stat, index) => (
+                    <View
+                      key={index}
+                      style={{
+                        flexDirection: "row",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        backgroundColor: actColor.surface,
+                        borderRadius: 8,
+                        paddingVertical: 10,
+                        paddingHorizontal: 12,
+                        width: "48%",
+                        shadowColor: "#000",
+                        shadowOffset: { width: 0, height: 2 },
+                        shadowOpacity: 0.1,
+                        shadowRadius: 4,
+                        elevation: 2,
+                      }}
+                    >
+                      <Text
+                        style={{
+                          color: actColor.onBackground,
+                          fontSize: 16,
+                          fontWeight: "500",
+                        }}
+                      >
+                        {stat.label}:
+                      </Text>
+                      <Text
+                        style={{
+                          color: actColor.primary,
+                          fontSize: 16,
+                          fontWeight: "bold",
+                        }}
+                      >
+                        {stat.value}
+                      </Text>
+                    </View>
+                  ))}
+                </View>
         <Text style={{ color: actColor.outline, fontSize: 30, marginTop: 10 }}>
           Crafting
         </Text>
