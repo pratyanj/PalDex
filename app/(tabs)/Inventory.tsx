@@ -39,6 +39,7 @@ export default function Inventory() {
           color: actColor.primary,
           textAlign: "center",
           fontFamily: "Inter-Black",
+          fontWeight: "bold",
         }}
       >
         Inventory
@@ -65,7 +66,8 @@ export default function Inventory() {
             style={{
               width: "45%",
               height: 100,
-              backgroundColor: actColor.surfaceVariant,         
+              backgroundColor: actColor.surfaceVariant, 
+              backgroundImage:item.image,        
               marginVertical: 10,
               borderRadius: 10,
               justifyContent: "center",
@@ -78,12 +80,13 @@ export default function Inventory() {
             <Image
             source={item.image} 
             style={{ width: 110, height: 110,position: 'absolute', opacity: 0.4 }}
-            />
+            /> 
             <Text
               style={{
-                fontSize: 20,
+                fontSize: 22,
                 color: actColor.primary,
                 fontFamily: "Inter-Black",
+                fontWeight: "bold",
                 textAlign: "center",
               }}
               numberOfLines={2}

@@ -7,7 +7,7 @@ export const sphereModule = [
     description:
       "Equipping it makes the sphere heavier, reducing its range but increasing its capture power.Sphere Weight +1 Capture Strength +1",
     effects: ["Sphere Weight +1", "Capture Strength +1"],
-    image: require("../assets/images/items/heavy-weight-module.png"),
+    image: require("../assets/images/SphereModule/heavy-weight-module.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Heavy.webp",
     recipe: [
@@ -60,7 +60,7 @@ export const sphereModule = [
     description:
       "Equipping it causes the sphere to spin with a curved trajectory. \r\nIt becomes easier to catch Pals off guard, and increases capture power.Sphere Curve +1 Capture Strength +2",
     effects: ["Sphere Curve +1", "Capture Strength +2"],
-    image: require("../assets/images/items/curve-module.png"),
+    image: require("../assets/images/SphereModule/curve-module.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve.webp",
     recipe: [
@@ -120,7 +120,7 @@ export const sphereModule = [
     description:
       "Equipping it increases the sphere's range, allowing it to sharply capture Pals and enhancing capture power.Sphere Range +1 Capture Strength +2",
     effects: ["Sphere Range +1", "Capture Strength +2"],
-    image: require("../assets/images/items/sniper-module.png"),
+    image: require("../assets/images/SphereModule/sniper-module.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Spiper.webp",
     recipe: [
@@ -180,7 +180,7 @@ export const sphereModule = [
     description:
       "Equipping it adds a slider spin to the sphere. \r\nThe sphere curves at a sharp angle, making it easier to catch Pals off guard and increasing capture power.Sphere Slider Capture Strength +3",
     effects: ["Sphere Slider", "Capture Strength +3"],
-    image: require("../assets/images/items/slider-module.png"),
+    image: require("../assets/images/SphereModule/slider-module.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve2.webp",
     recipe: [
@@ -240,7 +240,7 @@ export const sphereModule = [
     description:
       "Equipping it significantly increases the sphere's range, allowing it to sharply capture Pals and enhancing capture power.Sphere Range +2 Capture Strength +3",
     effects: ["Sphere Range +2", "Capture Strength +3"],
-    image: require("../assets/images/items/sniper-module-Ⅱ.png"),
+    image: require("../assets/images/SphereModule/sniper-module-Ⅱ.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Sniper2.webp",
     recipe: [
@@ -307,7 +307,7 @@ export const sphereModule = [
     description:
       "Equipping it makes the sphere home in on Pals, further increasing capture power.Sphere Homing Capture Strength +3",
     effects: ["Sphere Homing", "Capture Strength +3"],
-    image: require("../assets/images/items/homing-module.png"),
+    image: require("../assets/images/SphereModule/homing-module.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Homing.webp",
     recipe: [

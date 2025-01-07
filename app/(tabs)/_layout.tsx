@@ -58,6 +58,7 @@ export default function Layout() {
           name="Inventory"
           options={{
             headerShown: false,
+            animation:"fade",
             title: "Inventory",
             tabBarLabel: ({ color }) => (
               <Text style={{ color, fontSize: 14, fontWeight: "500" }}>
