@@ -2,6 +2,8 @@ export const GetRarityColor = (actColor,rarity: string) => {
     switch (rarity.toLowerCase()) {
       case "common":
         return actColor.onSurface;
+      case "uncommon":
+        return actColor.succes;
       case "rare":
         return actColor.primary;
       case "epic":
