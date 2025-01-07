@@ -15,5 +15,6 @@ export default function Layout() {
         <Stack.Screen name="SphereModuleScreen" options={() => ({headerShown: false, animation: 'slide_from_left'})} />
         <Stack.Screen name="ArmorScreen" options={() => ({headerShown: false, animation: 'slide_from_left'})} />
         <Stack.Screen name="ArmorDetails" options={() => ({headerShown: false, animation: 'slide_from_right'})} />
-
+        <Stack.Screen name="AccessoryScreen" options={() => ({headerShown: false, animation: 'slide_from_left'})} />
+        <Stack.Screen name="AccessoryDetail" options={() => ({headerShown: false, animation: 'slide_from_right'})} />
     </Stack>  );}

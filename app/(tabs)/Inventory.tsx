@@ -23,6 +23,7 @@ export default function Inventory() {
     { name: "Spheres", path: '/inventory/SphereScreen' },
     { name: "Sphere Modules", path: '/inventory/SphereModuleScreen' },
     { name: "Armor", path: "/inventory/ArmorScreen" },
+    { name: "Accessory", path: "/inventory/AccessoryScreen" },
   ];
 
   return (
