@@ -240,7 +240,7 @@ export default function PalList() {
           )}
           
           <View style={styles.main}>
-            {filteredPals.map((pal) => (
+            {filteredPals.slice(0,20).map((pal) => (
               <React.Fragment key={pal.id}>
                 <TouchableOpacity
                   onPress={() =>
