@@ -4,6 +4,7 @@ import {
     StyleSheet,
     FlatList,
     TouchableOpacity,
+    TextInput,
 } from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -21,6 +22,14 @@ export default function ArmorScreen() {
     const actColor = Colors[theme.mode];
     const [visibleItems, setVisibleItems] = useState(15);
 
+    const [searchQuery, setSearchQuery] = useState("");
+        const handleSearch = (text: string) => {
+            setSearchQuery(text);
+          };
+    
+        const filteredItems = Armors.filter((item) =>
+            item.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
     const loadMoreItems = () => {
         setVisibleItems((prev) => prev + 15);
     };
@@ -50,16 +59,29 @@ export default function ArmorScreen() {
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
             {ListHeader("Armors", actColor)}
-
+            <TextInput
+                style={[
+                    styles.searchInput,
+                    {
+                    backgroundColor: actColor.backdrop,
+                    color: actColor.onSurface,
+                    },
+                ]}
+                placeholder="Search Pal..."
+                placeholderTextColor={actColor.onSurfaceVariant}
+                value={searchQuery}
+                onChangeText={handleSearch}
+                
+            />
             <FlatList
                 contentContainerStyle={styles.content}
-                data={Armors.slice(0, visibleItems)}
+                data={filteredItems.slice(0, visibleItems)}
                 renderItem={renderItem}
                 keyExtractor={(item, index) => index.toString()}
                 ListEmptyComponent={<Text style={styles.placeholderText}>No Armors Found</Text>}
                 onEndReached={loadMoreItems}
                 onEndReachedThreshold={0.5}
-                ListFooterComponent={<Text style={styles.placeholderText}>Loading data...</Text>}
+
             />
             
             
@@ -82,4 +104,12 @@ const styles = StyleSheet.create({
         textAlign: "center",
         marginTop: 20,
     },
+    searchInput: {
+        height: 40,
+        borderRadius: 8,
+        paddingHorizontal: 10,
+        fontSize: 16,
+        marginHorizontal: 16,
+        marginVertical: 10,
+      },
 });

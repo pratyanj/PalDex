@@ -1,4 +1,4 @@
-import { StyleSheet, FlatList, TouchableOpacity, Text } from "react-native";
+import { StyleSheet, FlatList, TouchableOpacity, Text, TextInput } from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
@@ -13,6 +13,14 @@ export default function WeaponScreen() {
   const actColor = Colors[theme.mode];
   const [visibleItems, setVisibleItems] = useState(20);
 
+  const [searchQuery, setSearchQuery] = useState("");
+          const handleSearch = (text: string) => {
+              setSearchQuery(text);
+            };
+      
+          const filteredItems = weaponDataSet.filter((item) =>
+              item.name.toLowerCase().includes(searchQuery.toLowerCase())
+          );
   const loadMoreItems = () => {
     setVisibleItems((prev) => prev + 20);
   };
@@ -40,10 +48,24 @@ export default function WeaponScreen() {
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: actColor.background }]}>
       {ListHeader("Weapons", actColor)}
-
+      
+      <TextInput
+          style={[
+              styles.searchInput,
+              {
+              backgroundColor: actColor.backdrop,
+              color: actColor.onSurface,
+              },
+          ]}
+          placeholder="Search Pal..."
+          placeholderTextColor={actColor.onSurfaceVariant}
+          value={searchQuery}
+          onChangeText={handleSearch}
+          
+      />
       <FlatList
         contentContainerStyle={styles.content}
-        data={weaponDataSet.slice(0, visibleItems)}
+        data={filteredItems.slice(0, visibleItems)}
         renderItem={renderItem}
         keyExtractor={(item, index) => index.toString()}
         ListEmptyComponent={<Text style={styles.placeholderText}>No Weapons Found</Text>}
@@ -68,5 +90,13 @@ const styles = StyleSheet.create({
     fontFamily: "Inter-Regular",
     textAlign: "center",
     marginTop: 20,
+  },
+  searchInput: {
+    height: 40,
+    borderRadius: 8,
+    paddingHorizontal: 10,
+    fontSize: 16,
+    marginHorizontal: 16,
+    marginVertical: 10,
   },
 });
