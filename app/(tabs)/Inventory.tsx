@@ -4,6 +4,7 @@ import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import { Divider } from "react-native-paper";
 import { router } from "expo-router";
+import { Image } from "expo-image";
 
 export default function Inventory() {
   const { theme } = useContext(ThemeContext);
@@ -18,12 +19,13 @@ export default function Inventory() {
     { name: "Consumables", path: "/inventory/consumables" },
     { name: "Materials", path: "/inventory/materials" },
   ];
-  const inventory: { name: string, path: any }[] = [
-    { name: "Weapon", path: '/inventory/WeaponScreen' },
-    { name: "Spheres", path: '/inventory/SphereScreen' },
-    { name: "Sphere Modules", path: '/inventory/SphereModuleScreen' },
-    { name: "Armor", path: "/inventory/ArmorScreen" },
-    { name: "Accessory", path: "/inventory/AccessoryScreen" },
+  const inventory: { name: string, path: any ,image?: any }[] = [
+    { name: "Weapon", path: '/inventory/WeaponScreen',image: require('../../assets/images/background/weaponBG.png') },
+    { name: "Spheres", path: '/inventory/SphereScreen' ,image: require('../../assets/images/background/sphereBG.png')},
+    { name: "Sphere Modules", path: '/inventory/SphereModuleScreen',image: require('../../assets/images/background/sphereModule.png') },
+    { name: "Armor", path: "/inventory/ArmorScreen",image: require('../../assets/images/background/armorBG.png') },
+    { name: "Accessory", path: "/inventory/AccessoryScreen" ,image: require('../../assets/images/background/accessoryBG.png')},
+    { name: "Materials", path: "/inventory/MaterialScreen",image: require('../../assets/images/background/materialsBG.png') },
   ];
 
   return (
@@ -63,7 +65,7 @@ export default function Inventory() {
             style={{
               width: "45%",
               height: 100,
-              backgroundColor: actColor.surfaceVariant,
+              backgroundColor: actColor.surfaceVariant,         
               marginVertical: 10,
               borderRadius: 10,
               justifyContent: "center",
@@ -73,6 +75,10 @@ export default function Inventory() {
               router.push(item.path)
             }
           >
+            <Image
+            source={item.image} 
+            style={{ width: 110, height: 110,position: 'absolute', opacity: 0.4 }}
+            />
             <Text
               style={{
                 fontSize: 20,
