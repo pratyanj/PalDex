@@ -9,6 +9,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -153,6 +154,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -297,6 +299,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -435,6 +438,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -589,6 +593,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -721,7 +726,8 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -864,6 +870,7 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -1003,6 +1010,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -1153,6 +1161,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -1285,11 +1294,13 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
       {
         name: "ice",
-        image: "../assets/images/elements/ice.png",
+        image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -1436,11 +1447,13 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
       {
         name: "ice",
-        image: "../assets/images/elements/ice.png",
+        image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -1595,6 +1608,7 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -1725,10 +1739,12 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
       {
         name: "ground",
-        image: "../assets/images/elements/ground.png",
+        image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -1862,6 +1878,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -2132,7 +2149,8 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -2400,6 +2418,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -2677,6 +2696,7 @@ export const pals = [
       {
         name: "ground",
         image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -2947,6 +2967,7 @@ export const pals = [
       {
         name: "ground",
         image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -3340,7 +3361,8 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -3474,6 +3496,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -3609,6 +3632,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -3743,6 +3767,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -3896,6 +3921,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -4026,6 +4052,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -4179,7 +4206,8 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -4317,6 +4345,7 @@ export const pals = [
       {
         name: "ground",
         image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -4455,6 +4484,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -4608,6 +4638,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -4739,6 +4770,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -4881,6 +4913,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -5014,6 +5047,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -5150,6 +5184,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -5280,6 +5315,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -5423,10 +5459,12 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
       {
         name: "dark",
-        image: "../assets/images/elements/dark.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -5577,6 +5615,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -5720,6 +5759,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -5858,6 +5898,7 @@ export const pals = [
       {
         name: "ground",
         image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -6351,6 +6392,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -6485,6 +6527,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -6645,6 +6688,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -6788,6 +6832,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -6948,6 +6993,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -7102,6 +7148,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -7229,6 +7276,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -7362,6 +7410,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -7496,10 +7545,12 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
       {
         name: "dragon",
-        image: "../assets/images/elements/dragon.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -7636,6 +7687,7 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -7781,6 +7833,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -7913,6 +7966,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -8052,6 +8106,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -8197,6 +8252,7 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -8325,6 +8381,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -8459,6 +8516,7 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -8600,6 +8658,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -8736,10 +8795,12 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
       {
         name: "dragon",
-        image: "../assets/images/elements/dragon.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -8875,7 +8936,8 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -9144,6 +9206,7 @@ export const pals = [
       {
         name: "ground",
         image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -9156,8 +9219,6 @@ export const pals = [
       },
     ],
     drops: [
-      "ore",
-      "high_quality_pal_oil",
       {
         name: "ore",
         image: require("../assets/images/items/ore.png"),
@@ -9421,6 +9482,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -9577,6 +9639,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -9726,10 +9789,12 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
       {
         name: "dark",
-        image: "../assets/images/elements/dark.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -9872,6 +9937,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -10025,6 +10091,7 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -10166,6 +10233,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -10449,6 +10517,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -10471,8 +10540,6 @@ export const pals = [
       },
     ],
     drops: [
-      "flame_organ",
-      "high_grade_technical_manual",
       {
         name: "flame_organ",
         image: require("../assets/images/items/flame-organ.png"),
@@ -10596,6 +10663,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -10750,6 +10818,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -10905,6 +10974,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -11049,6 +11119,7 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
     ],
     imageWiki:
@@ -11175,12 +11246,13 @@ export const pals = [
     id: 81,
     key: "081",
     image: require("../assets/images/paldeck/081.png"),
-    name: "Kelpsea",
+    name: "kelpsea",
     wiki: "https://palworld.fandom.com/wiki/Kelpsea",
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -11193,8 +11265,6 @@ export const pals = [
       },
     ],
     drops: [
-      "raw_kelpsea",
-      "pal_fluids",
       {
         name: "raw_kelpsea",
         image: require("../assets/images/items/raw-kelpsea.png"),
@@ -11314,11 +11384,13 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
       {
         name: "dragon",
-        image: "../assets/images/elements/dragon.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -11453,6 +11525,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -11591,6 +11664,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -11725,10 +11799,12 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
       {
         name: "water",
-        image: "../assets/images/elements/water.png",
+        image: require("../assets/images/elements/water.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -11746,8 +11822,7 @@ export const pals = [
       },
     ],
     drops: [
-      "high_quality_pal_oil",
-      "ruby",
+      
       {
         name: "high_quality_pal_oil",
         image: require("../assets/images/items/high-quality-pal-oil.png"),
@@ -11870,6 +11945,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -12005,6 +12081,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -12155,10 +12232,12 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
       {
         name: "ground",
-        image: "../assets/images/elements/ground.png",
+        image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -12291,6 +12370,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -12303,7 +12383,7 @@ export const pals = [
       },
     ],
     drops: [
-      "wool",
+     
       {
         name: "wool",
         image: require("../assets/images/items/wool.png"),
@@ -12421,6 +12501,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -12570,6 +12651,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -12719,10 +12801,12 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
       {
         name: "ground",
-        image: "../assets/images/elements/ground.png",
+        image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -12867,6 +12951,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -13132,6 +13217,7 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
     ],
     imageWiki:
@@ -13279,6 +13365,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -13426,8 +13513,7 @@ export const pals = [
       },
     ],
     drops: [
-      "venom_gland",
-      "medium_pal_soul",
+      
       {
         name: "venom_gland",
         image: require("../assets/images/items/venom-gland.png"),
@@ -13551,10 +13637,12 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
       {
         name: "dark",
-        image: "../assets/images/elements/dark.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -13699,7 +13787,8 @@ export const pals = [
       },
       {
         name: "ground",
-        image: "../assets/images/elements/ground.png",
+        image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -13837,6 +13926,7 @@ export const pals = [
       {
         name: "ground",
         image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -13982,10 +14072,12 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
       {
         name: "water",
-        image: "../assets/images/elements/water.png",
+        image: require("../assets/images/elements/water.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -14117,6 +14209,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -14246,6 +14339,7 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -14396,6 +14490,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -14551,6 +14646,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -14686,10 +14782,12 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
       {
         name: "electric",
-        image: "../assets/images/elements/electric.png",
+        image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -14971,6 +15069,7 @@ export const pals = [
       {
         name: "neutral",
         image: require("../assets/images/elements/neutral.png"),
+        profile:require("../assets/images/elements/neutral-type.png"),
       },
     ],
     imageWiki:
@@ -15248,6 +15347,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -15381,6 +15481,7 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
     ],
     imageWiki:
@@ -15525,6 +15626,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -15651,6 +15753,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -15787,6 +15890,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -15926,6 +16030,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -16072,6 +16177,7 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -16227,6 +16333,7 @@ export const pals = [
       {
         name: "ground",
         image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -16508,6 +16615,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -16656,10 +16764,12 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
       {
         name: "ground",
-        image: "../assets/images/elements/ground.png",
+        image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -16813,10 +16923,12 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
       {
         name: "dark",
-        image: "../assets/images/elements/dark.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -16955,10 +17067,12 @@ export const pals = [
       {
         name: "electric",
         image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
       {
         name: "dragon",
-        image: "../assets/images/elements/dragon.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -17095,6 +17209,7 @@ export const pals = [
       {
         name: "ground",
         image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -17222,10 +17337,12 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
       {
         name: "dark",
-        image: "../assets/images/elements/dark.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -17368,10 +17485,12 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
       {
         name: "water",
-        image: "../assets/images/elements/water.png",
+        image: require("../assets/images/elements/water.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -17505,6 +17624,7 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -17638,10 +17758,12 @@ export const pals = [
       {
         name: "fire",
         image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
       {
         name: "dark",
-        image: "../assets/images/elements/dark.png",
+        image: require("../assets/images/elements/dark.png"),
+        profile:require("../assets/images/elements/dark-type.png"),
       },
     ],
     imageWiki:
@@ -17777,10 +17899,12 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
       {
         name: "electric",
-        image: "../assets/images/elements/electric.png",
+        image: require("../assets/images/elements/electric.png"),
+        profile:require("../assets/images/elements/electric-type.png"),
       },
     ],
     imageWiki:
@@ -17923,10 +18047,12 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
       {
         name: "water",
-        image: "../assets/images/elements/water.png",
+        image: require("../assets/images/elements/water.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
@@ -18061,10 +18187,12 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
       {
         name: "ground",
-        image: "../assets/images/elements/ground.png",
+        image: require("../assets/images/elements/ground.png"),
+        profile:require("../assets/images/elements/ground-type.png"),
       },
     ],
     imageWiki:
@@ -18196,6 +18324,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -18335,6 +18464,7 @@ export const pals = [
       {
         name: "ice",
         image: require("../assets/images/elements/ice.png"),
+        profile:require("../assets/images/elements/ice-type.png"),
       },
     ],
     imageWiki:
@@ -18482,6 +18612,7 @@ export const pals = [
       {
         name: "grass",
         image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/grass-type.png"),
       },
     ],
     imageWiki:
@@ -18636,10 +18767,12 @@ export const pals = [
       {
         name: "dragon",
         image: require("../assets/images/elements/dragon.png"),
+        profile:require("../assets/images/elements/dragon-type.png"),
       },
       {
         name: "fire",
-        image: "../assets/images/elements/fire.png",
+        image: require("../assets/images/elements/fire.png"),
+        profile:require("../assets/images/elements/fire-type.png"),
       },
     ],
     imageWiki:
@@ -18772,7 +18905,8 @@ export const pals = [
     types: [
       {
         name: "water",
-        image: require("../assets/images/elements/water.png"),
+        image: require("../assets/images/elements/grass.png"),
+        profile:require("../assets/images/elements/water-type.png"),
       },
     ],
     imageWiki:
