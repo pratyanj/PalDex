@@ -5,6 +5,7 @@ import { useColorScheme, SafeAreaView, View, Text } from "react-native";
 import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import { useContext } from "react";
+import { Ionicons } from "@expo/vector-icons";
 
 
 export default function Layout() {
@@ -58,7 +59,7 @@ export default function Layout() {
           name="Inventory"
           options={{
             headerShown: false,
-            animation:"fade",
+            
             title: "Inventory",
             tabBarLabel: ({ color }) => (
               <Text style={{ color, fontSize: 14, fontWeight: "500" }}>
@@ -71,6 +72,26 @@ export default function Layout() {
                 size={24}
                 color={focused ? actColor.primary : actColor.onSurfaceVariant}
               />
+            ),
+          }}
+          />
+          <Tabs.Screen
+           name="Breeding"
+           options={{
+            headerShown: false,
+            animation:"fade",
+            title: "Breeding",
+            tabBarLabel: ({ color }) => (
+              <Text style={{ color, fontSize: 14, fontWeight: "500" }}>
+                Breeding
+              </Text>
+            ),
+            tabBarIcon: ({ focused }) => (
+              <Ionicons
+                name="egg" 
+                  size={24}
+                  color={focused ? actColor.primary : actColor.onSurfaceVariant}
+                />
             ),
           }}
           />
