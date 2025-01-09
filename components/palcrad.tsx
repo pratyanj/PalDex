@@ -7,9 +7,10 @@ type Props = {
   name: string;
   image: string;
   number: string;
-  element : string;
+  element1 : string;
+  element2? : string;
 };
-export default function Card11({ name, image, number,element }: Props) {
+export default function Card11({ name, image, number,element1,element2 }: Props) {
   const { theme } = React.useContext(ThemeContext);
   const actColor = Colors[theme.mode];
 
@@ -71,7 +72,8 @@ export default function Card11({ name, image, number,element }: Props) {
           <Text style={[styles.number, { color: 'white' }]}>#{number}</Text>
         </View>
         <View>
-        <Image source = {element} style={styles.iconimg} />
+        <Image source = {element1} style={styles.iconimg} />
+        { element2 && <Image source = {element2} style={[styles.iconimg, { left: 28 }]} />}
         </View>
       </View>
     </View>
