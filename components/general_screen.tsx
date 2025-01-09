@@ -115,7 +115,7 @@ const GeneralTab = ({
                 }}
               />
               <Text style={styles.text}>
-                {i.name.charAt(0).toUpperCase() + i.name.slice(1).toLowerCase().replace(/_/g, " ")}
+                {i.name?i.name.charAt(0).toUpperCase() + i.name.slice(1).toLowerCase().replace(/_/g, " "):"Not Found"}
               </Text>
             </View>
           ))}
