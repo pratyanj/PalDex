@@ -1,4 +1,4 @@
-import React, { useContext, useMemo, useState } from "react";
+import React, { useContext, useMemo, useState, useCallback } from "react";
 import {
   View,
   ScrollView,
@@ -7,7 +7,9 @@ import {
   Text,
   TextInput,
   SafeAreaView,
-  Animated
+  Animated,
+  NativeSyntheticEvent,
+  NativeScrollEvent
 } from "react-native";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import Card11 from "../../components/palcrad";
@@ -20,26 +22,20 @@ import { Button, Menu, Divider, PaperProvider } from "react-native-paper";
 import { SearchInput } from "../../components/micro/filter/search_input";
 import { FilterButton } from "../../components/micro/filter/button";
 import { Dropdown } from "react-native-element-dropdown";
+
 export default function PalList() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
-  
+
   const [searchQuery, setSearchQuery] = useState("");
-  // const [filteredPals, setFilteredPals] = useState(palsMemoized);
   const palsMemoized = useMemo(() => pals, []);
   const [showSearchBar, setShowSearchBar] = useState(false);
-
-  const [ filterVisible, setFilterVisible ] = useState(false);
-  // Sorting and Filtering States
-  // const [selectedRarity, setSelectedRarity] = useState("All");
-  // const [sortOrder, setSortOrder] = useState("Name");
-  // const [orderDirection, setOrderDirection] = useState("Descending");
-  
+  const [filterVisible, setFilterVisible] = useState(false);
   const [selectedElements, setSelectedElements] = useState<string[]>([]);
   const [selectedWorks, setSelectedWorks] = useState<string[]>([]);
+  const [visiblePals, setVisiblePals] = useState(20);
 
   const filteredPals = useMemo(() => {
-    // Apply filters based on selected elements and works
     return pals.filter((pal) => {
       const matchesElements =
         selectedElements.length === 0 ||
@@ -57,12 +53,9 @@ export default function PalList() {
   }, [searchQuery, selectedElements, selectedWorks]);
 
   const handle_filter_visible = () => {
-    if (filterVisible) {
-      setFilterVisible(false);
-    } else {
-      setFilterVisible(true);
-    }
+    setFilterVisible(!filterVisible);
   };
+
   const rarity = [
     { label: "all", value: "all" },
     { label: "Common (1 → 4)", value: "common" },
@@ -70,55 +63,40 @@ export default function PalList() {
     { label: "Epic (8 → 10)", value: "epic" },
     { label: "Legendary (10+) ", value: "Legendary (10+)" },
   ];
-  const elements = useMemo(() =>[
+
+  const elements = useMemo(() => [
     { img: require("../../assets/images/elements/dark.png"), value: "dark" },
-    { img: require("../../assets/images/elements/dragon.png"), value: "dragon"},
-    { img: require("../../assets/images/elements/electric.png"),value: "electric"},
+    { img: require("../../assets/images/elements/dragon.png"), value: "dragon" },
+    { img: require("../../assets/images/elements/electric.png"), value: "electric" },
     { img: require("../../assets/images/elements/fire.png"), value: "fire" },
     { img: require("../../assets/images/elements/grass.png"), value: "grass" },
-    { img: require("../../assets/images/elements/ground.png"),value: "ground"},
+    { img: require("../../assets/images/elements/ground.png"), value: "ground" },
     { img: require("../../assets/images/elements/ice.png"), value: "ice" },
-    { img: require("../../assets/images/elements/neutral.png"),value: "neutral"},
+    { img: require("../../assets/images/elements/neutral.png"), value: "neutral" },
     { img: require("../../assets/images/elements/water.png"), value: "water" },
-  ], [])
+  ], []);
 
-  const handle_element = ( value: string) => {
+  const handle_element = (value: string) => {
     setSelectedElements((prevElements) => {
       const updatedElements = prevElements.includes(value)
-        ? prevElements.filter((item) => item !== value) // Remove if already selected
-        : [...prevElements, value]; // Add if not selected
-  
-      const filtered = palsMemoized.filter(
-        (pal) =>
-          (updatedElements.length === 0 || pal.types.some(element => updatedElements.includes(element.name)))
-      );
-
-      console.log(`Selected Element: ${value}`);
-      console.log(`Updated List of Selected Elements: ${updatedElements}`);
-      console.log(`Filtered Pals: ${filtered}`);
+        ? prevElements.filter((item) => item !== value)
+        : [...prevElements, value];
 
       return updatedElements;
     });
-  };  
-  const handle_work = ( value: string) => {
+  };
+
+  const handle_work = (value: string) => {
     setSelectedWorks((prevWorks) => {
       const updatedWorks = prevWorks.includes(value)
-        ? prevWorks.filter((item) => item !== value) // Remove if already selected
-        : [...prevWorks, value]; // Add if not selected
-        const filtered = palsMemoized.filter(
-          (pal) =>
-            (updatedWorks.length === 0 || pal.suitability.some(work => updatedWorks.includes(work.type)))
-        );
+        ? prevWorks.filter((item) => item !== value)
+        : [...prevWorks, value];
 
-      console.log(`Selected Work: ${value}`);
-      console.log(`Updated List of Selected Works: ${updatedWorks}`);
-     
       return updatedWorks;
     });
   };
-  
 
-  const works = useMemo(() =>[
+  const works = useMemo(() => [
     { img: require("../../assets/images/works/handiwork.png"), value: "handiwork" },
     { img: require("../../assets/images/works/cooling.png"), value: "cooling" },
     { img: require("../../assets/images/works/farming.png"), value: "farming" },
@@ -131,35 +109,28 @@ export default function PalList() {
     { img: require("../../assets/images/works/planting.png"), value: "planting" },
     { img: require("../../assets/images/works/transporting.png"), value: "transporting" },
     { img: require("../../assets/images/works/watering.png"), value: "watering" },
-  ], [])
-  
+  ], []);
 
-
-  // Handle search
-  
   const handleShowsearchbar = () => {
-    if (showSearchBar) {
-      setShowSearchBar(false);
-    } else {
-      setShowSearchBar(true);
-    }
+    setShowSearchBar(!showSearchBar);
   };
+
   const handleSearch = (text: string) => {
     setSearchQuery(text);
   };
-  
-    
-  // Apply Filters and Sorting
 
+  const handleScroll = useCallback((event: NativeSyntheticEvent<NativeScrollEvent>) => {
+    const { layoutMeasurement, contentOffset, contentSize } = event.nativeEvent;
+    const isCloseToBottom = layoutMeasurement.height + contentOffset.y >= contentSize.height - 20;
+    if (isCloseToBottom) {
+      setVisiblePals((prev) => prev + 20);
+    }
+  }, []);
 
   return (
     <PaperProvider>
       <SafeAreaView style={{ flex: 1, backgroundColor: actColor.background }}>
-        {/* Header with Paldex and Search */}
         <View style={[styles.header, { backgroundColor: actColor.background }]}>
-          {/* Paldex Title */}
-
-          {/* Search Icon / Bar */}
           <View style={styles.searchContainer}>
             {showSearchBar ? (
               <TextInput
@@ -177,42 +148,26 @@ export default function PalList() {
                 autoFocus={true}
               />
             ) : (
-              <Text style={{ fontSize:30,color:actColor.primary,textAlign:"center" ,fontFamily:"Inter-Black"}}>
+              <Text style={{ fontSize: 30, color: actColor.primary, textAlign: "center", fontFamily: "Inter-Black" }}>
                 Paldex
               </Text>
             )}
             <View style={{ flexDirection: "row", gap: 10 }}>
-              <TouchableOpacity onPress={() => handleShowsearchbar()} style={{padding: 6,borderRadius: 5,backgroundColor: actColor.surfaceVariant,}}>
-              <AntDesign
-                name="search1"
-                size={22}
-                color={actColor.primary}
-              />
+              <TouchableOpacity onPress={handleShowsearchbar} style={{ padding: 6, borderRadius: 5, backgroundColor: actColor.surfaceVariant }}>
+                <AntDesign name="search1" size={22} color={actColor.primary} />
               </TouchableOpacity>
-              <TouchableOpacity onPress={() => handle_filter_visible()} style={{ padding: 6, borderRadius: 5, backgroundColor: actColor.surfaceVariant, }}>
-              <AntDesign
-                name="filter"
-                size={22}
-                color={actColor.primary}
-              />
+              <TouchableOpacity onPress={handle_filter_visible} style={{ padding: 6, borderRadius: 5, backgroundColor: actColor.surfaceVariant }}>
+                <AntDesign name="filter" size={22} color={actColor.primary} />
               </TouchableOpacity>
             </View>
           </View>
         </View>
 
-        {/* Scrollable List */}
-        <ScrollView style={{ backgroundColor: actColor.background }}>
-          {/* ----------------------------------------------------------------- */}
-          
-          
-          
+        <ScrollView style={{ backgroundColor: actColor.background }} onScroll={handleScroll} scrollEventThrottle={16}>
           {filterVisible && (
-            <Animated.View style={{ flex: 1 , backgroundColor: actColor.surfaceVariant,marginHorizontal: 10,padding:5,borderRadius: 10}}>
-              {/* add animetion later */}
-              
+            <Animated.View style={{ flex: 1, backgroundColor: actColor.surfaceVariant, marginHorizontal: 10, padding: 5, borderRadius: 10 }}>
               <Text style={styles.sectionTitle}>Filter by element</Text>
-              <View style={[styles.filterGrid,{backgroundColor: actColor.onSurfaceDisabled,borderRadius: 10}]}>
-              
+              <View style={[styles.filterGrid, { backgroundColor: actColor.onSurfaceDisabled, borderRadius: 10 }]}>
                 {elements.map((element, index) => (
                   <FilterButton
                     key={index}
@@ -224,7 +179,7 @@ export default function PalList() {
               </View>
 
               <Text style={styles.sectionTitle}>Filter by work</Text>
-              <View style={[styles.filterGrid,{backgroundColor: actColor.onSurfaceDisabled,borderRadius: 10}]}>
+              <View style={[styles.filterGrid, { backgroundColor: actColor.onSurfaceDisabled, borderRadius: 10 }]}>
                 {works.map((work, index) => (
                   <FilterButton
                     key={index}
@@ -234,13 +189,11 @@ export default function PalList() {
                   />
                 ))}
               </View>
-
-              {/* Sorting and Filtering */}
             </Animated.View>
           )}
-          
+
           <View style={styles.main}>
-            {filteredPals.slice(0,20).map((pal) => (
+            {filteredPals.slice(0, visiblePals).map((pal) => (
               <React.Fragment key={pal.id}>
                 <TouchableOpacity
                   onPress={() =>
@@ -254,7 +207,8 @@ export default function PalList() {
                     name={pal.name}
                     image={pal.image}
                     number={pal.key}
-                    element={pal.types[0].image}
+                    element1={pal.types[0].image}
+                    element2={pal.types[1]?.image}
                   />
                 </TouchableOpacity>
               </React.Fragment>
@@ -303,7 +257,6 @@ const styles = StyleSheet.create({
     padding: 10,
     maxWidth: "100%",
   },
-
   container: {
     flex: 1,
     backgroundColor: "#0f1721",
@@ -318,8 +271,8 @@ const styles = StyleSheet.create({
   dropdowns: {
     flexDirection: "row",
     marginHorizontal: -4,
-    backgroundColor:"red",
-    justifyContent:"space-around"
+    backgroundColor: "red",
+    justifyContent: "space-around",
   },
   sectionTitle: {
     fontSize: 16,
@@ -335,11 +288,9 @@ const styles = StyleSheet.create({
     marginBottom: 11,
   },
   dropdown: {
-    
     height: 50,
     backgroundColor: "white",
     borderRadius: 12,
-
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -347,7 +298,6 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.2,
     shadowRadius: 1.41,
-
     elevation: 2,
   },
   icon: {
