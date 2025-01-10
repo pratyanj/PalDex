@@ -116,8 +116,8 @@ export default function paldetail() {
     pal_image: String,
     pal_name: string,
     pal_key: string,
-    pal_element: String,
-    pal_element_name: string,
+    pal_element1_img: String,
+    pal_element2_img: String,
     pal_food: number
   ) => {
     const foodIcons = [];
@@ -173,6 +173,7 @@ export default function paldetail() {
               textAlign: "center",
               flex: 1,
               marginLeft: 10,
+              paddingVertical: 5,
               backgroundColor: actColor.surfaceVariant,
               borderRadius: 15,
               
@@ -195,11 +196,25 @@ export default function paldetail() {
             </View> */}
             <View style={{ flex: 1, flexDirection: "row" }}>
               <Text style={[styles.text, { paddingTop: 6 }]}>Element: </Text>
-              <Text style={styles.palname}>{pal_element_name}</Text>
+              {/* <Text style={styles.palname}>{pal_element_name}</Text>
               <Image
                 source={pal_element}
                 style={{ width: 20, height: 20, marginLeft: 8, marginTop: 2 }}
+              /> */}
+              <View style={{ flexDirection: "column" }}>
+              <Image
+                source={pal_element1_img}
+                style={{ width: 90, height: 25, marginTop: 2 }}
               />
+              {pal_element2_img &&<Image
+                source={pal_element2_img}
+                style={{ width: 90, height: 25,  marginTop: 2 }}
+              />
+
+              }
+              
+            
+            </View> 
             </View>
           </View>
 
@@ -231,8 +246,8 @@ export default function paldetail() {
             pals[pal_id].image,
             pals[pal_id].name,
             pals[pal_id].key,
-            pals[pal_id].types[0].image,
-            pals[pal_id].types[0].name,
+            pals[pal_id].types[0].profile,
+            pals[pal_id].types[1]?.profile,
             pals[pal_id].stats.food
           )}
         </View>

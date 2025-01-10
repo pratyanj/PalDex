@@ -15,8 +15,8 @@ export default function Breeding() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
 
-  const Card = ({ icon, title, description }) => (
-    <TouchableOpacity onPress={()=>router.push('/breeding/FindPerent')}
+  const Card = ({ icon, title, description,path }) => (
+    <TouchableOpacity onPress={()=>router.push(path)}
       style={[
         styles.card,
         {
@@ -67,6 +67,7 @@ export default function Breeding() {
           Breeding Guide
         </Text>
         <Card
+          path="/breeding/KnowOffspring"
           icon={
             <Ionicons name="git-branch" size={24} color={actColor.primary} />
           }
@@ -74,6 +75,7 @@ export default function Breeding() {
           description="Pick two parents to explore their possible offspring."
         />
         <Card
+          path="/breeding/FindPerent"
           icon={<Ionicons name="search" size={24} color={actColor.primary} />}
           title="Find My Parents"
           description="Select an offspring to find the necessary parent combinations."
