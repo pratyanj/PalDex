@@ -26,6 +26,8 @@ export default function Inventory() {
     { name: "Armor", path: "/inventory/ArmorScreen",image: require('../../assets/images/background/armorBG.png') },
     { name: "Accessory", path: "/inventory/AccessoryScreen" ,image: require('../../assets/images/background/accessoryBG.png')},
     { name: "Materials", path: "/inventory/MaterialScreen",image: require('../../assets/images/background/materialsBG.png') },
+    { name: "Consumables", path: "/inventory/ConsumableScreen",image: require('../../assets/images/background/consumableBG.png') },
+
   ];
 
   return (

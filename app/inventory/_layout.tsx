@@ -19,4 +19,6 @@ export default function Layout() {
         <Stack.Screen name="AccessoryDetail" options={() => ({headerShown: false, animation: 'slide_from_right'})} />
         <Stack.Screen name="MaterialScreen" options={() => ({headerShown: false, animation: 'slide_from_left'})} />
         <Stack.Screen name="MaterialDetail" options={() => ({headerShown: false, animation: 'slide_from_right'})} />
+        <Stack.Screen name='ConsumableDetail' options={() => ({headerShown: false, animation: 'slide_from_right'})} />
+        <Stack.Screen name='ConsumableScreen' options={() => ({headerShown: false, animation: 'slide_from_left'})}/>
     </Stack>  );}
