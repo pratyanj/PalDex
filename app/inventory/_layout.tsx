@@ -23,4 +23,6 @@ export default function Layout() {
         <Stack.Screen name='ConsumableScreen' options={() => ({headerShown: false, animation: 'slide_from_left'})}/>
         <Stack.Screen name='AmmoDetail' options={() => ({headerShown: false, animation: 'slide_from_right'})} />
         <Stack.Screen name='AmmoScreen' options={() => ({headerShown: false, animation: 'slide_from_left'})}/>
+        <Stack.Screen name='IngredientDetail' options={() => ({headerShown: false, animation: 'slide_from_right'})} />
+        <Stack.Screen name='IngredientScreen' options={() => ({headerShown: false, animation: 'slide_from_left'})} />
     </Stack>  );}

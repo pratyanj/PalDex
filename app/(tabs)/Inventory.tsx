@@ -28,6 +28,7 @@ export default function Inventory() {
     { name: "Materials", path: "/inventory/MaterialScreen",image: require('../../assets/images/background/materialsBG.png') },
     { name: "Consumables", path: "/inventory/ConsumableScreen",image: require('../../assets/images/background/consumableBG.png') },
     { name: "Ammo", path: "/inventory/AmmoScreen",image: require('../../assets/images/background/ammoBG.png') },
+    { name: "Ingredients", path: "/inventory/IngredientScreen",image: require('../../assets/images/background/ingredientBG.png') },
   ];
 
   return (
