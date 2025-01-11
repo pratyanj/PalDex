@@ -7,7 +7,7 @@ export const spheres = [
     technology: 2,
     description:
       "An item that captures Pals when thrown.\r\nThis basic model is only effective on low level Pals.",
-    image: require("../assets/images/items/pal-sphere.png"),
+    image: require("../assets/images/spheres/pal-sphere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere.webp",
     recipe: [
@@ -60,7 +60,7 @@ export const spheres = [
     technology: 14,
     description:
       "An item that captures Pals when thrown.\r\nIts capabilities have been improved, allowing it to catch a wider range of Pals.",
-    image: require("../assets/images/items/mega-sphere.png"),
+    image: require("../assets/images/spheres/mega-sphere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Mega.webp",
     recipe: [
@@ -120,7 +120,7 @@ export const spheres = [
     technology: 20,
     description:
       "An item that captures Pals when thrown.\r\nAble to capture moderately powerful Pals.",
-    image: require("../assets/images/items/giga-sphere.png"),
+    image: require("../assets/images/spheres/giga-sphere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Giga.webp",
     recipe: [
@@ -180,7 +180,7 @@ export const spheres = [
     technology: 27,
     description:
       "An item that captures Pals when thrown.\r\nEnhanced capabilities allow it to capture even more powerful Pals.",
-    image: require("../assets/images/items/hyper-sphere.png"),
+    image: require("../assets/images/spheres/hyper-sphere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Tera.webp",
     recipe: [
@@ -240,7 +240,7 @@ export const spheres = [
     technology: 35,
     description:
       "An item that captures Pals when thrown.\r\nNot many Pals can escape its highly efficient design.",
-    image: require("../assets/images/items/ultra-sphere.png"),
+    image: require("../assets/images/spheres/ultra-sphere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Master.webp",
     recipe: [
@@ -300,7 +300,7 @@ export const spheres = [
     technology: 44,
     description:
       "An item that captures Pals when thrown.\r\nVery few Pals can escape its perfected design.",
-    image: require("../assets/images/items/legendary-sphere.png"),
+    image: require("../assets/images/spheres/legendary-sphere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Legend.webp",
     recipe: [
@@ -360,7 +360,7 @@ export const spheres = [
     technology: 51,
     description:
       "An item that captures Pals when thrown.\r\nAlmost no Pals can escape its flawless design.",
-    image: require("../assets/images/items/ultimate-sphere.png"),
+    image: require("../assets/images/spheres/ultimate-sphere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ultimate.webp",
     recipe: [
@@ -420,7 +420,7 @@ export const spheres = [
     technology: 56,
     description:
       "An item that captures Pals when thrown.\r\nBoasting incredible performance, it can capture Pals that fall outside regular standards.",
-    image: require("../assets/images/items/exotic-sphere.png"),
+    image: require("../assets/images/spheres/exotic-sphere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Exotic.webp",
     recipe: [
