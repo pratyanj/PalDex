@@ -95,7 +95,26 @@ export default function Layout() {
             ),
           }}
           />
-
+          <Tabs.Screen
+          name="Map"
+          options={{
+            headerShown: false,
+            animation:"fade",
+            title: "Breeding",
+            tabBarLabel: ({ color }) => (
+              <Text style={{ color, fontSize: 14, fontWeight: "500" }}>
+                Map
+              </Text>
+            ),
+            tabBarIcon: ({ focused }) => (
+              <Ionicons
+                name="egg" 
+                  size={24}
+                  color={focused ? actColor.primary : actColor.onSurfaceVariant}
+                />
+            ),
+          }}
+          />
         </Tabs>
       </GestureHandlerRootView>
     </SafeAreaView>
