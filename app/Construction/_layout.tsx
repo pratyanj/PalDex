@@ -7,6 +7,6 @@ export default function Layout() {
     const actColor = Colors[theme.mode];
   return (
     <Stack >
-        <Stack.Screen name="ProductionDetail" options={() => ({headerShown: false, animation: 'slide_from_left'})} /> 
-        <Stack.Screen name="ProductionScreen" options={() => ({headerShown: false, animation: 'slide_from_right'})} />
+        <Stack.Screen name="ProductionDetail" options={() => ({headerShown: false, animation: 'slide_from_right'})} /> 
+        <Stack.Screen name="ProductionScreen" options={() => ({headerShown: false, animation: 'slide_from_left'})} />
     </Stack>  );}

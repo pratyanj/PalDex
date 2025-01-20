@@ -7,7 +7,7 @@ export default function Layout() {
       <Stack.Screen name="inventory" options={{ headerShown: false ,animation: 'fade',animationDuration: 2000,}} />
       <Stack.Screen name="paldetail" options={{ headerShown: false }} />
       <Stack.Screen name="breeding" options={{ headerShown: false }} />
-      <Stack.Screen name="Construction" options={{ headerShown: false }} />
+      <Stack.Screen name="Construction" options={{ headerShown: false ,animation: 'flip',animationDuration: 2000,}} />
     </Stack>
   );
 }
