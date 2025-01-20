@@ -6,6 +6,7 @@ import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
 import { useContext } from "react";
 import { Ionicons } from "@expo/vector-icons";
+import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
 
 export default function Layout() {
@@ -95,7 +96,27 @@ export default function Layout() {
             ),
           }}
           />
-          <Tabs.Screen
+          <Tabs.Screen 
+          name="Construction"
+          options={{
+            headerShown: false,
+            animation:"fade",
+            title: "Construction",
+            tabBarLabel: ({ color }) => (
+              <Text style={{ color, fontSize: 14, fontWeight: "500" }}>
+                Construction
+              </Text>
+            ),
+            tabBarIcon: ({ focused }) => (
+              <Ionicons
+                name="build"
+                  size={24}
+                  color={focused ? actColor.primary : actColor.onSurfaceVariant}
+                />
+            ),
+          }}
+          />
+          {/* <Tabs.Screen
           name="Map"
           options={{
             headerShown: false,
@@ -107,14 +128,10 @@ export default function Layout() {
               </Text>
             ),
             tabBarIcon: ({ focused }) => (
-              <Ionicons
-                name="egg" 
-                  size={24}
-                  color={focused ? actColor.primary : actColor.onSurfaceVariant}
-                />
+              <FontAwesome6 name="map-location-dot" size={24} color={focused ? actColor.primary : actColor.onSurfaceVariant} />
             ),
           }}
-          />
+          /> */}
         </Tabs>
       </GestureHandlerRootView>
     </SafeAreaView>
