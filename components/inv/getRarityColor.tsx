@@ -1,7 +1,7 @@
 export const GetRarityColor = (actColor,rarity: string) => {
     switch (rarity.toLowerCase()) {
       case "common":
-        return actColor.onSurface;
+        return '#999999';
       case "uncommon":
         return actColor.succes;
       case "rare":
@@ -11,6 +11,6 @@ export const GetRarityColor = (actColor,rarity: string) => {
       case "legendary":
         return actColor.yellow;
       default:
-        return actColor.onSurface;
+        return '#999999';
     }
   };
