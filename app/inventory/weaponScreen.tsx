@@ -47,7 +47,7 @@ export default function WeaponScreen() {
 
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: actColor.background }]}>
-      {ListHeader("Weapons", actColor)}
+      {ListHeader("Weapons", actColor,"/Inventory")}
       
       <TextInput
           style={[

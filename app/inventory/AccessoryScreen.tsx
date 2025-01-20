@@ -57,7 +57,7 @@ export default function AccessoryScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Accessory ", actColor)}
+            {ListHeader("Accessory ", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,

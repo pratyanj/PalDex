@@ -60,7 +60,7 @@ export default function AmmoScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Ammo", actColor)}
+            {ListHeader("Ammo", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,

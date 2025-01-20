@@ -61,7 +61,7 @@ export default function MaterialScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Material ", actColor)}
+            {ListHeader("Material ", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,

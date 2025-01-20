@@ -10,11 +10,8 @@ import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
-import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
-import { Image } from "expo-image";
 import { ListHeader } from "../../components/inv/ListHeader";
-import { ItemsData } from "../../constants/allItems";
 import { Productions } from "../../constants/Productions";
 import { ItemCard } from "../../components/inv/ItemCard";
 
@@ -60,7 +57,7 @@ export default function ProductionScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Productions", actColor)}
+            {ListHeader("Productions", actColor,'/Construction')}
             <TextInput
                 style={[
                     styles.searchInput,

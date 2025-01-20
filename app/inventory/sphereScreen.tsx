@@ -25,7 +25,7 @@ export default function sphereScreen() {
     <SafeAreaView
       style={[styles.container, { backgroundColor: actColor.background }]}
     >
-      {ListHeader("Spheres", actColor)}
+      {ListHeader("Spheres", actColor,"/Inventory")}
 
       <ScrollView contentContainerStyle={styles.content}>
         {

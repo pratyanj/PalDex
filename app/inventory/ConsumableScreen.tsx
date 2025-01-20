@@ -60,7 +60,7 @@ export default function ConsumableScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Consumables", actColor)}
+            {ListHeader("Consumables", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,

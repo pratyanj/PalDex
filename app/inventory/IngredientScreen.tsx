@@ -60,7 +60,7 @@ export default function IngredientScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Ingredients", actColor)}
+            {ListHeader("Ingredients", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,

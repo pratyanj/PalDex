@@ -2,7 +2,7 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
 import { View, Text,TouchableOpacity } from "react-native";
 
-export const ListHeader = (name: string, actColor) => (
+export const ListHeader = (name: string, actColor,path:any) => (
   <View
     style={{
       backgroundColor: actColor.surfaceVariant,
@@ -18,7 +18,12 @@ export const ListHeader = (name: string, actColor) => (
       shadowRadius: 4,
     }}
   >
-    <TouchableOpacity onPress={() => router.push("/Inventory")} style={{padding: 6,borderRadius: 5,backgroundColor: actColor.background,}}> 
+    {/* 
+    "/Inventory"
+    /Construction
+    
+    */}
+    <TouchableOpacity onPress={() => router.push(path)} style={{padding: 6,borderRadius: 5,backgroundColor: actColor.background,}}> 
     <AntDesign
       name="arrowleft"
       size={24}

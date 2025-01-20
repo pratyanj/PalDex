@@ -58,7 +58,7 @@ export default function ArmorScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Armors", actColor)}
+            {ListHeader("Armors", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,
