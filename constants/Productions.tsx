@@ -7,12 +7,16 @@ export const Productions = [
       "A Primitive Workbench for producing simple items.\r\nRequires a Pal that can work with their hands.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/primitive-workbench.png",
     recipe: [
       {
         name: "Wood",
         quantity: 2,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
     ],
     stats: {
@@ -46,18 +50,24 @@ export const Productions = [
       "Workbench for repairing broken tools.\r\nMaterials are needed to make repairs.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_RepairBench.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/repair-bench.png",
     recipe: [
       {
         name: "Wood",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
     ],
     stats: {
@@ -88,24 +98,32 @@ export const Productions = [
       "A Primitive Workbench for producing Pal tools.\r\nMake a saddle to ride Pals, or make a gun for Pals to use.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench_SkillUnlock.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/pal-gear-workbench.png",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Wood",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Cloth",
         quantity: 2,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
@@ -138,24 +156,32 @@ export const Productions = [
       "A facility for producing Stone.\r\nMining Stone is hard work that requires much physical endurance.\r\nLeave it to Pals skilled at mining.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StonePit.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/stone-pit.png",
     recipe: [
       {
         name: "Stone",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -184,24 +210,32 @@ export const Productions = [
       "A facility for producing Wood.\r\nCutting wood is hard work that requires much physical endurance.\r\nLeave it to Pals skilled in logging.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/logging-site.png",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -233,24 +267,32 @@ export const Productions = [
       "Facility for breaking down Stone and Wood to exchange them for other materials.\r\nRequires Pal with the Watering trait to spin the water turbine.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Crusher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/crusher.png",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -282,24 +324,32 @@ export const Productions = [
       "Allows refinement of Ingot.\r\nThe quality leaves much to desire, and processing is slow.\r\nRequires a Fire Pal to light a flame.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/primitive-furnace.png",
     recipe: [
       {
         name: "Wood",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Flame Organ",
         quantity: 3,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -331,24 +381,32 @@ export const Productions = [
       "An Assembly Line for producing items and gear.\r\nA small workspace limits production speeds.\r\nRequires Pals that can work with their hands.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/high-quality-workbench.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 15,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Wood",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Nail",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
@@ -383,24 +441,32 @@ export const Productions = [
       "A facility for making Pal medicine.\r\nIt can only produce simple medicines.\r\nLeave its operation to a Pal that can make medicine.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/medieval-medicine-workbench.png",
     recipe: [
       {
         name: "Wood",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Nail",
         quantity: 5,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -433,18 +499,24 @@ export const Productions = [
       "Facility for milling Wheat to produce Flour.\r\nRequires Pal with the Watering trait to spin the water turbine.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FlourMill.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/mill.png",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
     ],
     stats: {
@@ -476,24 +548,32 @@ export const Productions = [
       "A Primitive Workbench for producing weapons and ammunition.\r\nA small workspace prevents the production of high quality weapons.\r\nRequires Pals that can work with their hands.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/weapon-workbench.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 15,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Wood",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Nail",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
@@ -528,24 +608,32 @@ export const Productions = [
       "Facility for producing Ore.\r\nMining Ore is hard work that requires physical endurance.\r\nLeave it to Pals skilled at mining.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/ore-mining-site.png",
     recipe: [
       {
         name: "Stone",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 25,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -575,30 +663,40 @@ export const Productions = [
       "An Assembly Line for producing items and gear.\r\nBy splitting Pals into groups, production speeds have somewhat increased.\r\nRequires Pals that can work with their hands.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/production-assembly-line.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Wood",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Nail",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Cement",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png",
       },
     ],
     stats: {
@@ -634,30 +732,40 @@ export const Productions = [
       "An Assembly Line for producing weapons and ammunition.\r\nBy splitting Pals into groups, production speeds have somewhat increased.\r\nRequires Pals that can work with their hands.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/weapon-assembly-line.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Wood",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Nail",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
     ],
     stats: {
@@ -693,24 +801,32 @@ export const Productions = [
       "Allows refinement of Refined Ingot.\r\nThe quality has improved, but the processing speed is still unsatisfactory.\r\nRequires a Fire Pal to light a flame.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace_2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/improved-furnace.png",
     recipe: [
       {
         name: "Stone",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Cement",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png",
       },
       {
         name: "Flame Organ",
         quantity: 15,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -743,24 +859,32 @@ export const Productions = [
       "Facility for producing large quantities of Ore.\r\nMining Ore is hard work that requires physical endurance.\r\nLeave it to Pals skilled at mining.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit_2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/ore-mining-site-ii.png",
     recipe: [
       {
         name: "Stone",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -790,24 +914,32 @@ export const Productions = [
       "Facility for producing Coal.\r\nDigging Coal is grueling physical work.\r\nLeave it to a Pal that is good at mining.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoalPit.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/coal-mine.png",
     recipe: [
       {
         name: "Stone",
         quantity: 70,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Coal",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/coal.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -837,24 +969,32 @@ export const Productions = [
       "An Assembly Line for producing items and gear.\r\nThrough clever management, production speeds have greatly increased.\r\nRequires Pals that can work with their hands.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/production-assembly-line-ii.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Circuit Board",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Nail",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
@@ -890,24 +1030,32 @@ export const Productions = [
       "A facility for making Pal medicine.\r\nIt requires electricity, but can produce high quality medicine.\r\nLeave its operation to a Pal that can make medicine.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/electric-medicine-workbench.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Circuit Board",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
@@ -943,30 +1091,40 @@ export const Productions = [
       "Allows refinement of Pal Metal Ingot.\r\nIt requires electricity to use, but is quicker to process.\r\nRequires a Fire Pal to light a flame.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace3.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/electric-furnace.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Circuit Board",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Polymer",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
@@ -1001,24 +1159,32 @@ export const Productions = [
       "Facility for producing Sulfur.\r\nDigging Sulfur is grueling physical work.\r\nLeave it to a Pal that is good at mining.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SulfurPit.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/sulfur-mine.png",
     recipe: [
       {
         name: "Stone",
         quantity: 70,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Sulfur",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/sulfur.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -1048,24 +1214,32 @@ export const Productions = [
       "An Assembly Line for producing weapons and ammunition.\r\nThrough clever management, production speeds have greatly increased.\r\nRequires Pals that can work with their hands.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/weapon-assembly-line-ii.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Circuit Board",
         quantity: 10,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Nail",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
@@ -1101,30 +1275,40 @@ export const Productions = [
       "An Assemby Line that manufactures Money. \r\nThe work puts a strain on the mind, causing a decrease in Pal's SAN value.\r\nRequires Pals that can work with their hands.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Money.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/gold-coin-assembly-line.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Nail",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Circuit Board",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Cement",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png",
       },
     ],
     stats: {
@@ -1159,18 +1343,24 @@ export const Productions = [
       "Equipment required to extract Crude Oil from oil fields.\r\nRequires a power supply to operate.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/crude-oil-extractor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 250,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Circuit Board",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
     ],
     stats: {
@@ -1200,24 +1390,32 @@ export const Productions = [
       "A facility for producing Pure Quartz. \r\nMining Pure Quartz is hard work that requires physical endurance.\r\nLeave it to Pals skilled at mining.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_QuartzPit.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/pure-quartz-mine.png",
     recipe: [
       {
         name: "Stone",
         quantity: 70,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Pure Quartz",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Quartz.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pure-quartz.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -1247,24 +1445,32 @@ export const Productions = [
       "Facility that crushes Ore and\r\nconverts it into other materials.\r\nRequires a power supply and a Pal with Cooling suitability, but it's very efficient.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceCrusher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/refrigerated-crusher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Ice Organ",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
@@ -1299,30 +1505,40 @@ export const Productions = [
       "Allows refinement of Hexolite.\r\nBy growing in size, multiple Pals can collaborate to perform smelting.\r\nRequires a Fire Pal to light a flame.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace4.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/gigantic-furnace.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 150,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Polymer",
         quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Flame Organ",
         quantity: 200,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
@@ -1357,24 +1573,32 @@ export const Productions = [
       "A facility for making medicine to cure Pals' illnesses. \r\nWith advanced technology, it can also create unknown medicines. \r\nAssign the task to a Pal capable of pharmacy work.",
     image_url:
       "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/productions/advanced-medicine-workbench.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 50,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Circuit Board",
         quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
     ],
     stats: {

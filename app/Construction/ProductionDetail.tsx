@@ -95,7 +95,7 @@ export default function ProductionDetail() {
             <ScrollView contentContainerStyle={styles.scrollView}>
                 <ItemView
                     name={Productions[Number(productionID)].name}
-                    img={Productions[Number(productionID)].image_url}
+                    img={Productions[Number(productionID)].image_github_url}
                     type="Production"
                     raritytpye={Productions[Number(productionID)].rarity}
                     actColor={actColor}

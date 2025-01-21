@@ -45,7 +45,7 @@ export default function ProductionScreen() {
         >
             <ItemCard
                 name={item.name}
-                img={item.image_url}
+                img={item.image_github_url}
                 type={item.stats ? item.stats["Gold Coin"] : 0}
                 rarity={item.rarity}
                 actColor={actColor}

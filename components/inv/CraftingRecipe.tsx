@@ -24,7 +24,7 @@ export const CraftingRecipe = ({ recipe, actColor }) => (
             }}
           >
             <Image
-              source={i.image}
+              source={i.image_github_url}
               style={{
                 width: 50,
                 height: 50,

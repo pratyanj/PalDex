@@ -101,7 +101,7 @@ export default function sphereDetail() {
       <ScrollView contentContainerStyle={styles.scrollView}>
         <ItemView 
             name={spheres[Number(weaponID)].name} 
-            img={spheres[Number(weaponID)].image} 
+            img={spheres[Number(weaponID)].image_github_url} 
             type="Sphere" 
             raritytpye={spheres[Number(weaponID)].rarity} 
             actColor={actColor} 
