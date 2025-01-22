@@ -30,7 +30,7 @@ export const ItemCard = ({ name, img, type, rarity, actColor }: props) => (
           color: actColor.onSurface,
           flexWrap: "wrap",
         }}
-        numberOfLines={2} // Limits text to 2 lines
+        numberOfLines={5} // Limits text to 2 lines
         ellipsizeMode="tail" // Adds "..." if text overflows
       >
         {name}
@@ -76,7 +76,9 @@ export const ItemCard = ({ name, img, type, rarity, actColor }: props) => (
       </View>
     </View>
     <Image
-      source={img}
+      source={{
+        uri: img,
+      }}
       style={{
         width: 50,
         height: 50,

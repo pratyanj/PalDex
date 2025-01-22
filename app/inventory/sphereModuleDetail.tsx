@@ -47,7 +47,7 @@ export default function sphereModuleDetail() {
           style={[styles.card, { backgroundColor: actColor.surfaceVariant }]}
         >
           <Image
-            source={sphereModule[Number(weaponID)].image}
+            source={sphereModule[Number(weaponID)].image_github_url}
             style={styles.weaponImage}
           />
           <Text style={[styles.title, { color: actColor.primary }]}>
