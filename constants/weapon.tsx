@@ -1,44 +1,45 @@
 export const weaponDataSet = [
   {
-    ID: 1,
+    id: 1,
     name: "Assault Rifle",
     rarity: "Common",
-    attack: 320,
-    technology: 45,
-    ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 40,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 30,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 320,
       Weight: 15,
       MaxStackCount: 1,
@@ -51,43 +52,47 @@ export const weaponDataSet = [
       ItemStaticClass: "CommonWeapon",
       ItemDynamicClass: "CommonWeapon",
       ItemActorClass: "NormalRifle",
-      VisualBlueprintClassName: "BP_Item_AssaultRifle_Default1",
+      VisualBlueprintClassName: "BP_Item_Weapon_AssaultRifle_001",
       MagazineSize: 20,
       SneakAttackRate: 1,
     },
+    attack: 320,
+    technology: 45,
+    ammo: "Assault Rifle Ammo",
   },
   {
-    ID: 2,
+    id: 2,
     name: "Stone Axe",
     rarity: "Common",
-    attack: 20,
-    technology: 1,
     description:
       "An axe for cutting wood.\r\nMade from stone, it's not very sharp.",
-    image: require("../assets/images/items/stone-axe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/stone-axe.png",
     recipe: [
       {
         name: "Stone",
         quantity: 5,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 5,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 200,
+      "Gold Coin": 200,
       Attack: 20,
       Weight: 10,
       MaxStackCount: 1,
@@ -102,46 +107,50 @@ export const weaponDataSet = [
       ItemActorClass: "Axe_Tier_00",
       SneakAttackRate: 1,
     },
+    attack: 20,
+    technology: 1,
   },
   {
-    ID: 3,
+    id: 3,
     name: "Metal Axe",
     rarity: "Common",
-    attack: 30,
-    technology: 11,
     description:
       "An axe for cutting wood.\r\nMade from metal, its sharpness has improved.",
-    image: require("../assets/images/items/metal-axe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/metal-axe.png",
     recipe: [
       {
         name: "Stone",
         quantity: 15,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Ingot",
         quantity: 5,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 2800,
+      "Gold Coin": 2800,
       Attack: 30,
       Weight: 15,
       MaxStackCount: 1,
@@ -156,46 +165,50 @@ export const weaponDataSet = [
       ItemActorClass: "Axe_Tier_01",
       SneakAttackRate: 1,
     },
+    attack: 30,
+    technology: 11,
   },
   {
-    ID: 4,
+    id: 4,
     name: "Refined Metal Axe",
     rarity: "Common",
-    attack: 60,
-    technology: 34,
     description:
       "An axe for cutting wood.\r\nMade from high quality metal, its sharpness has improved even further.",
-    image: require("../assets/images/items/refined-metal-axe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/refined-metal-axe.png",
     recipe: [
       {
         name: "Stone",
         quantity: 30,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 40,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Refined Ingot",
         quantity: 10,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 7000,
+      "Gold Coin": 7000,
       Attack: 60,
       Weight: 20,
       MaxStackCount: 1,
@@ -210,52 +223,58 @@ export const weaponDataSet = [
       ItemActorClass: "Axe_Tier_02",
       SneakAttackRate: 1,
     },
+    attack: 60,
+    technology: 34,
   },
   {
-    ID: 5,
+    id: 5,
     name: "Metal Detector",
     rarity: "Common",
-    technology: 56,
     description:
       "Holding it allows you to detect hidden ores nearby.\r\nIt marks the metal when close to the ore, but the mark disappears if you move away.",
-    image: require("../assets/images/items/metal-detector.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_MetalDetector.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/metal-detector.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 30,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 100,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Circuit Board",
         quantity: 30,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Nightstar Sand",
         quantity: 20,
-        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Weight: 25,
       MaxStackCount: 1,
       Durability: 400,
@@ -269,32 +288,33 @@ export const weaponDataSet = [
       ItemActorClass: "MetalDetector",
       SneakAttackRate: 1,
     },
+    technology: 56,
   },
   {
-    ID: 6,
+    id: 6,
     name: "Wooden Club",
     rarity: "Common",
-    attack: 25,
-    technology: 1,
     description:
       "A Wooden Club for close range combat.\r\nCan beat a small Pal to a pulp if need be.",
-    image: require("../assets/images/items/wooden-club.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/wooden-club.png",
     recipe: [
       {
         name: "Wood",
         quantity: 5,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 80,
+      "Gold Coin": 80,
       Attack: 25,
       Weight: 5,
       MaxStackCount: 1,
@@ -309,39 +329,42 @@ export const weaponDataSet = [
       ItemActorClass: "Bat",
       SneakAttackRate: 1,
     },
+    attack: 25,
+    technology: 1,
   },
   {
-    ID: 7,
+    id: 7,
     name: "Bat",
     rarity: "Common",
-    attack: 50,
-    technology: 7,
     description:
       "Baseball bat for close-range combat.\r\nMight be tough to get a home run with a Pal.",
-    image: require("../assets/images/items/bat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Bat2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/bat.png",
     recipe: [
       {
         name: "Wood",
         quantity: 30,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 80,
+      "Gold Coin": 80,
       Attack: 50,
       Weight: 3,
       MaxStackCount: 1,
@@ -356,46 +379,50 @@ export const weaponDataSet = [
       ItemActorClass: "Bat2",
       SneakAttackRate: 1,
     },
+    attack: 50,
+    technology: 7,
   },
   {
-    ID: 8,
+    id: 8,
     name: "Meat Cleaver",
     rarity: "Common",
-    attack: 25,
-    technology: 12,
     description:
       "Knife for butchering Pals.\r\nWhen equipped, the Pet command becomes Butcher.\r\nButchered Pals will be gone for good.",
-    image: require("../assets/images/items/meat-cleaver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MeatCutterKnife.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/meat-cleaver.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 5,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 5,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 100,
+      "Gold Coin": 100,
       Attack: 25,
       Weight: 10,
       MaxStackCount: 1,
@@ -410,39 +437,42 @@ export const weaponDataSet = [
       ItemActorClass: "MeatCutterKnife",
       SneakAttackRate: 1,
     },
+    attack: 25,
+    technology: 12,
   },
   {
-    ID: 9,
+    id: 9,
     name: "Stun Baton",
     rarity: "Common",
-    attack: 10,
-    technology: 22,
     description:
       "Close range weapon that sends out an electric jolt upon contact.\r\nPals are easier to capture when electrocuted.",
-    image: require("../assets/images/items/stun-baton.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ElecBaton.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/stun-baton.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 20,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Electric Organ",
         quantity: 20,
-        image: require("../assets/images/items/electric-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/electric-organ.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 19000,
+      "Gold Coin": 19000,
       Attack: 10,
       Weight: 10,
       MaxStackCount: 1,
@@ -457,53 +487,58 @@ export const weaponDataSet = [
       ItemActorClass: "ElecBaton",
       SneakAttackRate: 1,
     },
+    attack: 10,
+    technology: 22,
   },
   {
-    ID: 10,
+    id: 10,
     name: "Crossbow",
     rarity: "Common",
-    attack: 280,
-    technology: 13,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 40,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 10,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 5,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 280,
       Weight: 13,
       MaxStackCount: 1,
@@ -519,40 +554,42 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 280,
+    technology: 13,
   },
   {
-    ID: 11,
+    id: 11,
     name: "Double-Barreled Shotgun",
     rarity: "Common",
-    attack: 190,
-    technology: 39,
-    ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 7,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 190,
       Weight: 24,
       MaxStackCount: 1,
@@ -568,40 +605,43 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 190,
+    technology: 39,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 12,
+    id: 12,
     name: "Handgun",
     rarity: "Common",
-    attack: 250,
-    technology: 28,
-    ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 50,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 15,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 250,
       Weight: 8,
       MaxStackCount: 1,
@@ -617,53 +657,59 @@ export const weaponDataSet = [
       MagazineSize: 8,
       SneakAttackRate: 1,
     },
+    attack: 250,
+    technology: 28,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 13,
+    id: 13,
     name: "Decal Gun 1",
     rarity: "Common",
-    technology: 44,
-    ammo: "Decal Ink",
     description:
       "Strange gun that paints a picture of Cattiva where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../assets/images/items/decal-gun-1.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-1.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Weight: 8,
       MaxStackCount: 1,
       Code: "DecalGun_1",
@@ -677,53 +723,58 @@ export const weaponDataSet = [
       MagazineSize: 99,
       SneakAttackRate: 1,
     },
-  },
-  {
-    ID: 14,
-    name: "Decal Gun 2",
-    rarity: "Common",
     technology: 44,
     ammo: "Decal Ink",
+  },
+  {
+    id: 14,
+    name: "Decal Gun 2",
+    rarity: "Common",
     description:
       "Strange gun that paints a picture of Lamball where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../assets/images/items/decal-gun-2.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-2.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Weight: 8,
       MaxStackCount: 1,
       Code: "DecalGun_2",
@@ -737,53 +788,58 @@ export const weaponDataSet = [
       MagazineSize: 99,
       SneakAttackRate: 1,
     },
-  },
-  {
-    ID: 15,
-    name: "Decal Gun 3",
-    rarity: "Common",
     technology: 44,
     ammo: "Decal Ink",
+  },
+  {
+    id: 15,
+    name: "Decal Gun 3",
+    rarity: "Common",
     description:
       "Strange gun that paints a picture of Melpaca where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../assets/images/items/decal-gun-3.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-3.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Weight: 8,
       MaxStackCount: 1,
       Code: "DecalGun_3",
@@ -797,53 +853,58 @@ export const weaponDataSet = [
       MagazineSize: 99,
       SneakAttackRate: 1,
     },
-  },
-  {
-    ID: 16,
-    name: "Decal Gun 4",
-    rarity: "Common",
     technology: 44,
     ammo: "Decal Ink",
+  },
+  {
+    id: 16,
+    name: "Decal Gun 4",
+    rarity: "Common",
     description:
       "Strange gun that paints a picture of Anubis where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../assets/images/items/decal-gun-4.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-4.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Weight: 8,
       MaxStackCount: 1,
       Code: "DecalGun_4",
@@ -857,53 +918,58 @@ export const weaponDataSet = [
       MagazineSize: 99,
       SneakAttackRate: 1,
     },
-  },
-  {
-    ID: 17,
-    name: "Decal Gun 5",
-    rarity: "Common",
     technology: 44,
     ammo: "Decal Ink",
+  },
+  {
+    id: 17,
+    name: "Decal Gun 5",
+    rarity: "Common",
     description:
       "Strange gun that paints a picture of Relaxaurus where it is fired.\r\nHave some fun and paint the walls or ceilings!",
-    image: require("../assets/images/items/decal-gun-5.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-5.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Weight: 8,
       MaxStackCount: 1,
       Code: "DecalGun_5",
@@ -917,59 +983,66 @@ export const weaponDataSet = [
       MagazineSize: 99,
       SneakAttackRate: 1,
     },
+    technology: 44,
+    ammo: "Decal Ink",
   },
   {
-    ID: 18,
+    id: 18,
     name: "Homing Sphere Launcher",
     rarity: "Common",
-    technology: 55,
     description:
       "A launcher for firing spheres.\r\nFired spheres home in on Pals.",
-    image: require("../assets/images/items/homing-sphere-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HomingSphereLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/homing-sphere-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 100,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 50,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 200,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 50,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 460000,
+      "Gold Coin": 460000,
       Weight: 30,
       MaxStackCount: 1,
       Code: "HomingSphereLauncher",
@@ -982,47 +1055,49 @@ export const weaponDataSet = [
       ItemActorClass: "HomingSphereLauncher",
       SneakAttackRate: 1,
     },
+    technology: 55,
   },
   {
-    ID: 19,
+    id: 19,
     name: "Laser Rifle",
     rarity: "Common",
-    attack: 1250,
-    technology: 51,
-    ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 50,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 60,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 40,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 1250,
       Weight: 18,
       MaxStackCount: 1,
@@ -1038,47 +1113,51 @@ export const weaponDataSet = [
       MagazineSize: 30,
       SneakAttackRate: 1,
     },
+    attack: 1250,
+    technology: 51,
+    ammo: "Energy Cartridge",
   },
   {
-    ID: 20,
+    id: 20,
     name: "Rocket Launcher",
     rarity: "Common",
-    attack: 10000,
-    technology: 49,
-    ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 75,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 30,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 50,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 10000,
       Weight: 30,
       MaxStackCount: 1,
@@ -1094,39 +1173,43 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 10000,
+    technology: 49,
+    ammo: "Rocket Ammo",
   },
   {
-    ID: 21,
+    id: 21,
     name: "Stone Pickaxe",
     rarity: "Common",
-    attack: 20,
-    technology: 1,
     description:
       "A pickaxe used for mining.\r\nMade from stone, the efficiency is questionable.",
-    image: require("../assets/images/items/stone-pickaxe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/stone-pickaxe.png",
     recipe: [
       {
         name: "Stone",
         quantity: 5,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 5,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 200,
+      "Gold Coin": 200,
       Attack: 20,
       Weight: 10,
       MaxStackCount: 1,
@@ -1141,46 +1224,50 @@ export const weaponDataSet = [
       ItemActorClass: "Pickaxe_Tier_00",
       SneakAttackRate: 1,
     },
+    attack: 20,
+    technology: 1,
   },
   {
-    ID: 22,
+    id: 22,
     name: "Metal Pickaxe",
     rarity: "Common",
-    attack: 30,
-    technology: 11,
     description:
       "A pickaxe used for mining.\r\nMade from metal, its durability and efficiency have improved.",
-    image: require("../assets/images/items/metal-pickaxe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/metal-pickaxe.png",
     recipe: [
       {
         name: "Stone",
         quantity: 15,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Ingot",
         quantity: 5,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 2800,
+      "Gold Coin": 2800,
       Attack: 30,
       Weight: 15,
       MaxStackCount: 1,
@@ -1195,46 +1282,50 @@ export const weaponDataSet = [
       ItemActorClass: "Pickaxe_Tier_01",
       SneakAttackRate: 1,
     },
+    attack: 30,
+    technology: 11,
   },
   {
-    ID: 23,
+    id: 23,
     name: "Refined Metal Pickaxe",
     rarity: "Common",
-    attack: 60,
-    technology: 34,
     description:
       "A pickaxe used for mining.\r\nIts durability and efficiency have further improved.",
-    image: require("../assets/images/items/refined-metal-pickaxe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/refined-metal-pickaxe.png",
     recipe: [
       {
         name: "Stone",
         quantity: 30,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 40,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Refined Ingot",
         quantity: 10,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 7000,
+      "Gold Coin": 7000,
       Attack: 60,
       Weight: 20,
       MaxStackCount: 1,
@@ -1249,47 +1340,50 @@ export const weaponDataSet = [
       ItemActorClass: "Pickaxe_Tier_02",
       SneakAttackRate: 1,
     },
+    attack: 60,
+    technology: 34,
   },
   {
-    ID: 24,
+    id: 24,
     name: "Pump-Action Shotgun",
     rarity: "Common",
-    attack: 220,
-    technology: 43,
-    ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 40,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 220,
       Weight: 20,
       MaxStackCount: 1,
@@ -1305,40 +1399,43 @@ export const weaponDataSet = [
       MagazineSize: 8,
       SneakAttackRate: 1,
     },
+    attack: 220,
+    technology: 43,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 25,
+    id: 25,
     name: "Single-Shot Rifle",
     rarity: "Common",
-    attack: 1100,
-    technology: 36,
-    ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 20,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 5,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1100,
       Weight: 20,
       MaxStackCount: 1,
@@ -1354,59 +1451,67 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1100,
+    technology: 36,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 26,
+    id: 26,
     name: "Scatter Sphere Launcher",
     rarity: "Common",
-    technology: 37,
     description:
       "A new type of launcher that fires a large number of spheres.\r\nIt can easily capture a herd of Pals.",
-    image: require("../assets/images/items/scatter-sphere-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/scatter-sphere-launcher.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 50,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 15,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 50,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 30,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 44000,
+      "Gold Coin": 44000,
       Weight: 30,
       MaxStackCount: 1,
       Code: "SphereLauncher",
@@ -1419,52 +1524,57 @@ export const weaponDataSet = [
       ItemActorClass: "SphereLauncher",
       SneakAttackRate: 1,
     },
+    technology: 37,
   },
   {
-    ID: 27,
+    id: 27,
     name: "Single-Shot Sphere Launcher",
     rarity: "Common",
-    technology: 27,
     description:
       "A launcher that fires spheres.\r\nIt can capture Pals fom a greater distance.",
-    image: require("../assets/images/items/single-shot-sphere-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher_Once.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-sphere-launcher.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 50,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Stone",
         quantity: 100,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 50,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 109200,
+      "Gold Coin": 109200,
       Weight: 30,
       MaxStackCount: 1,
       Code: "SphereLauncher_Once",
@@ -1477,46 +1587,49 @@ export const weaponDataSet = [
       ItemActorClass: "SphereLauncher_Once",
       SneakAttackRate: 1,
     },
+    technology: 27,
   },
   {
-    ID: 28,
+    id: 28,
     name: "Sword",
     rarity: "Common",
-    attack: 525,
-    technology: 44,
     description:
       "Sword for close-range combat.\r\nThe blade is extremely sharp! Mightier than a pen, for sure.\r\nRequires Weapon Workbench to craft.",
-    image: require("../assets/images/items/sword.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Sword.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/sword.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 20,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10440,
+      "Gold Coin": 10440,
       Attack: 525,
       Weight: 10,
       MaxStackCount: 1,
@@ -1531,46 +1644,50 @@ export const weaponDataSet = [
       ItemActorClass: "Sword",
       SneakAttackRate: 1,
     },
+    attack: 525,
+    technology: 44,
   },
   {
-    ID: 29,
+    id: 29,
     name: "Frag Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 25,
     description:
       "A Frag Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing damage to enemies.",
-    image: require("../assets/images/items/frag-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/frag-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Gunpowder",
         quantity: 1,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/gunpowder.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -1583,46 +1700,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 25,
   },
   {
-    ID: 30,
+    id: 30,
     name: "Incendiary Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 31,
     description:
       "A Incendiary Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, setting the surrounding area on fire.",
-    image: require("../assets/images/items/incendiary-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Fire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/incendiary-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Flame Organ",
         quantity: 1,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -1635,46 +1756,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Fire",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 31,
   },
   {
-    ID: 31,
+    id: 31,
     name: "Shock Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 27,
     description:
       "A Shock Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, electrocuting everything in the blast radius.",
-    image: require("../assets/images/items/shock-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Elec.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/shock-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Electric Organ",
         quantity: 1,
-        image: require("../assets/images/items/electric-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/electric-organ.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -1687,46 +1812,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Elec",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 27,
   },
   {
-    ID: 32,
+    id: 32,
     name: "Ice Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 29,
     description:
       "A Ice Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, freezing the surrounding area.",
-    image: require("../assets/images/items/ice-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ice.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/ice-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ice Organ",
         quantity: 1,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -1739,47 +1868,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Ice",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 29,
   },
   {
-    ID: 33,
+    id: 33,
     name: "Old Bow",
     rarity: "Common",
-    attack: 65,
-    technology: 3,
-    ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 30,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 5,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 15,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 360,
+      "Gold Coin": 360,
       Attack: 65,
       Weight: 6,
       MaxStackCount: 1,
@@ -1795,53 +1927,59 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 65,
+    technology: 3,
+    ammo: "Arrow",
   },
   {
-    ID: 34,
+    id: 34,
     name: "Poison Bow",
     rarity: "Common",
-    attack: 65,
-    technology: 8,
     description:
       "Frightening bow that poisons its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../assets/images/items/poison-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow_Poison.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-bow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 40,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 8,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 20,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Venom Gland",
         quantity: 2,
-        image: require("../assets/images/items/venom-gland.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/venom-gland.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 480,
+      "Gold Coin": 480,
       Attack: 65,
       Weight: 6,
       MaxStackCount: 1,
@@ -1857,54 +1995,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 65,
+    technology: 8,
   },
   {
-    ID: 35,
+    id: 35,
     name: "Fire Bow",
     rarity: "Common",
-    attack: 65,
-    technology: 5,
-    ammo: "Fire Arrow",
     description:
       "A bow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../assets/images/items/fire-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow_Fire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-bow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 40,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 8,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 20,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Flame Organ",
         quantity: 2,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 480,
+      "Gold Coin": 480,
       Attack: 65,
       Weight: 6,
       MaxStackCount: 1,
@@ -1920,60 +2062,67 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 65,
+    technology: 5,
+    ammo: "Fire Arrow",
   },
   {
-    ID: 36,
+    id: 36,
     name: "Poison Arrow Crossbow",
     rarity: "Common",
-    attack: 280,
-    technology: 17,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 50,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 15,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 5,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Venom Gland",
         quantity: 5,
-        image: require("../assets/images/items/venom-gland.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/venom-gland.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 280,
       Weight: 13,
       MaxStackCount: 1,
@@ -1989,60 +2138,66 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 280,
+    technology: 17,
   },
   {
-    ID: 37,
+    id: 37,
     name: "Fire Arrow Crossbow",
     rarity: "Common",
-    attack: 280,
-    technology: 15,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 50,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 15,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 5,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Flame Organ",
         quantity: 5,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 280,
       Weight: 13,
       MaxStackCount: 1,
@@ -2058,47 +2213,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 280,
+    technology: 15,
   },
   {
-    ID: 38,
+    id: 38,
     name: "Three Shot Bow",
     rarity: "Common",
-    attack: 40,
-    technology: 10,
-    ammo: "Arrow",
     description:
       "An enhanced bow that allows three arrows to be fired simultaneously.\r\nBy some strange mechanism, it only consumes a single Arrow when fired.",
-    image: require("../assets/images/items/three-shot-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/three-shot-bow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 50,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 12,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 1000,
+      "Gold Coin": 1000,
       Attack: 40,
       Weight: 8,
       MaxStackCount: 1,
@@ -2114,39 +2272,43 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 40,
+    technology: 10,
+    ammo: "Arrow",
   },
   {
-    ID: 39,
+    id: 39,
     name: "Hand-Held Torch",
     rarity: "Common",
-    attack: 10,
-    technology: 1,
     description:
       "Lights up dark areas and keeps you warm.\r\nCan also be used for close range combat in a pinch.",
-    image: require("../assets/images/items/hand-held-torch.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Torch.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/hand-held-torch.png",
     recipe: [
       {
         name: "Wood",
         quantity: 2,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 2,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 80,
+      "Gold Coin": 80,
       Attack: 10,
       Weight: 5,
       MaxStackCount: 1,
@@ -2161,47 +2323,50 @@ export const weaponDataSet = [
       ItemActorClass: "Torch",
       SneakAttackRate: 1,
     },
+    attack: 10,
+    technology: 1,
   },
   {
-    ID: 40,
+    id: 40,
     name: "Makeshift Handgun",
     rarity: "Common",
-    attack: 320,
-    technology: 24,
-    ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 35,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 10,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 16600,
+      "Gold Coin": 16600,
       Attack: 320,
       Weight: 10,
       MaxStackCount: 1,
@@ -2217,39 +2382,43 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 320,
+    technology: 24,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 41,
+    id: 41,
     name: "Stone Spear",
     rarity: "Common",
-    attack: 35,
-    technology: 4,
     description:
       "Useful for close-range combat.\r\nIts length allows you to stand further away when attacking.",
-    image: require("../assets/images/items/stone-spear.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/stone-spear.png",
     recipe: [
       {
         name: "Wood",
         quantity: 18,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 6,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 480,
+      "Gold Coin": 480,
       Attack: 35,
       Weight: 10,
       MaxStackCount: 1,
@@ -2264,46 +2433,50 @@ export const weaponDataSet = [
       ItemActorClass: "Spear",
       SneakAttackRate: 1,
     },
+    attack: 35,
+    technology: 4,
   },
   {
-    ID: 42,
+    id: 42,
     name: "Metal Spear",
     rarity: "Common",
-    attack: 80,
-    technology: 13,
     description:
       "Useful for close-range combat.\r\nThe metal tip give it an increased attack power.\r\nIts length allows you to stand further away when attacking.",
-    image: require("../assets/images/items/metal-spear.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/metal-spear.png",
     recipe: [
       {
         name: "Wood",
         quantity: 27,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 12,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 10,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 8780,
+      "Gold Coin": 8780,
       Attack: 80,
       Weight: 15,
       MaxStackCount: 1,
@@ -2318,46 +2491,50 @@ export const weaponDataSet = [
       ItemActorClass: "Spear_2",
       SneakAttackRate: 1,
     },
+    attack: 80,
+    technology: 13,
   },
   {
-    ID: 43,
+    id: 43,
     name: "Refined Metal Spear",
     rarity: "Common",
-    attack: 310,
-    technology: 34,
     description:
       "Useful for close-range combat.\r\nThe high-quality metal tip give it an increased attack power.\r\nIts length allows you to stand further away when attacking.",
-    image: require("../assets/images/items/refined-metal-spear.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/refined-metal-spear.png",
     recipe: [
       {
         name: "Wood",
         quantity: 36,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 18,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Refined Ingot",
         quantity: 10,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 13880,
+      "Gold Coin": 13880,
       Attack: 310,
       Weight: 20,
       MaxStackCount: 1,
@@ -2372,18 +2549,21 @@ export const weaponDataSet = [
       ItemActorClass: "Spear_3",
       SneakAttackRate: 1,
     },
+    attack: 310,
+    technology: 34,
   },
   {
-    ID: 44,
+    id: 44,
     name: "Elizabee's Staff",
     rarity: "Uncommon",
-    attack: 150,
     description:
       "A spear made from Elizabee's staff, altered for human use.\r\nIt is imbued with Elizabee's indomitable spirit.",
-    image: require("../assets/images/items/elizabee's-staff.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_QueenBee.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/elizabee's-staff.png",
     recipe: [],
+    attack: 150,
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
@@ -2405,51 +2585,55 @@ export const weaponDataSet = [
     },
   },
   {
-    ID: 45,
+    id: 45,
     name: "Lily's Spear",
     rarity: "Rare",
-    attack: 450,
-    technology: 43,
     description:
       "The spear cherished by Lily.\r\nPunishes those who neglect their Pals.",
-    image: require("../assets/images/items/lily's-spear.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/lily's-spear.png",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 20,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Wood",
         quantity: 50,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
@@ -2471,52 +2655,58 @@ export const weaponDataSet = [
       ItemActorClass: "Spear_ForestBoss",
       SneakAttackRate: 1,
     },
+    attack: 450,
+    technology: 43,
   },
   {
-    ID: 46,
+    id: 46,
     name: "Grappling Gun",
     rarity: "Common",
-    technology: 12,
     description:
       "It fires a hook that latches on to distant targets, pulling the user's body towards the target.\r\nIt allows for easy movement between places with varying elevation.",
-    image: require("../assets/images/items/grappling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grappling-gun.png",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 10,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ingot",
         quantity: 10,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 1,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Weight: 1,
       MaxStackCount: 1,
       Code: "GrapplingGun",
@@ -2529,52 +2719,57 @@ export const weaponDataSet = [
       ItemActorClass: "GrapplingGun",
       SneakAttackRate: 1,
     },
+    technology: 12,
   },
   {
-    ID: 47,
+    id: 47,
     name: "Mega Grappling Gun",
     rarity: "Uncommon",
-    technology: 17,
     description:
       "It fires a hook that latches on to distant targets, pulling the user's body towards the target.\r\nSince it's upgraded, it now has greater range.",
-    image: require("../assets/images/items/grappling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/mega-grappling-gun.png",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 20,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ingot",
         quantity: 20,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Fiber",
         quantity: 50,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Weight: 1,
       MaxStackCount: 1,
       Code: "GrapplingGun2",
@@ -2584,55 +2779,60 @@ export const weaponDataSet = [
       SortID: 341,
       ItemStaticClass: "CommonWeapon",
       ItemDynamicClass: "CommonWeapon",
-      ItemActorClass: "GrapplingGun2",
+      ItemActorClass: "GrapplingGun_2",
       SneakAttackRate: 1,
     },
+    technology: 17,
   },
   {
-    ID: 48,
+    id: 48,
     name: "Giga Grappling Gun",
     rarity: "Rare",
-    technology: 31,
     description:
       "It fires a hook that latches on to distant targets, pulling the user's body towards the target.\r\nUsing data from prototype versions, its capabilities have been further increased.",
-    image: require("../assets/images/items/grappling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/giga-grappling-gun.png",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 30,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Fiber",
         quantity: 80,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Weight: 1,
       MaxStackCount: 1,
       Code: "GrapplingGun3",
@@ -2642,62 +2842,68 @@ export const weaponDataSet = [
       SortID: 342,
       ItemStaticClass: "CommonWeapon",
       ItemDynamicClass: "CommonWeapon",
-      ItemActorClass: "GrapplingGun3",
+      ItemActorClass: "GrapplingGun_3",
       SneakAttackRate: 1,
     },
+    technology: 31,
   },
   {
-    ID: 49,
+    id: 49,
     name: "Hyper Grappling Gun",
     rarity: "Epic",
-    technology: 48,
     description:
       "It fires a hook that latches on to distant targets, pulling the user's body towards the target.\r\nAs a result of research, it has achieved overwhelming mobility.",
-    image: require("../assets/images/items/grappling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/hyper-grappling-gun.png",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 40,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 20,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Weight: 1,
       MaxStackCount: 1,
       Code: "GrapplingGun4",
@@ -2707,50 +2913,52 @@ export const weaponDataSet = [
       SortID: 343,
       ItemStaticClass: "CommonWeapon",
       ItemDynamicClass: "CommonWeapon",
-      ItemActorClass: "GrapplingGun4",
+      ItemActorClass: "GrapplingGun_4",
       SneakAttackRate: 1,
     },
+    technology: 48,
   },
   {
-    ID: 50,
+    id: 50,
     name: "Musket",
     rarity: "Common",
-    attack: 1000,
-    technology: 21,
-    ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 25,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 5,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Wood",
         quantity: 30,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1000,
       Weight: 20,
       MaxStackCount: 1,
@@ -2766,53 +2974,59 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1000,
+    technology: 21,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 51,
+    id: 51,
     name: "Old Bow",
     rarity: "Uncommon",
-    attack: 130,
-    ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 60,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 1,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 360,
+      "Gold Coin": 360,
       Attack: 130,
       Weight: 6,
       MaxStackCount: 1,
@@ -2828,53 +3042,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 130,
+    ammo: "Arrow",
   },
   {
-    ID: 52,
+    id: 52,
     name: "Old Bow",
     rarity: "Rare",
-    attack: 169,
-    ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 90,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 15,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 45,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 360,
+      "Gold Coin": 360,
       Attack: 169,
       Weight: 6,
       MaxStackCount: 1,
@@ -2890,53 +3109,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 169,
+    ammo: "Arrow",
   },
   {
-    ID: 53,
+    id: 53,
     name: "Old Bow",
     rarity: "Epic",
-    attack: 208,
-    ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 135,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 22,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 67,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 360,
+      "Gold Coin": 360,
       Attack: 208,
       Weight: 6,
       MaxStackCount: 1,
@@ -2952,53 +3176,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 208,
+    ammo: "Arrow",
   },
   {
-    ID: 54,
+    id: 54,
     name: "Old Bow",
     rarity: "Legendary",
-    attack: 247,
-    ammo: "Arrow",
     description:
       "Primitive long range weapon.\r\nHastily put together, it isn't very powerful.",
-    image: require("../assets/images/items/old-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 202,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 33,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 100,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 360,
+      "Gold Coin": 360,
       Attack: 247,
       Weight: 6,
       MaxStackCount: 1,
@@ -3014,59 +3243,66 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 247,
+    ammo: "Arrow",
   },
   {
-    ID: 55,
+    id: 55,
     name: "Crossbow",
     rarity: "Uncommon",
-    attack: 364,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 100,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 80,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 20,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 10,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 364,
       Weight: 13,
       MaxStackCount: 1,
@@ -3082,59 +3318,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 364,
   },
   {
-    ID: 56,
+    id: 56,
     name: "Crossbow",
     rarity: "Rare",
-    attack: 406,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 150,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 120,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 15,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 406,
       Weight: 13,
       MaxStackCount: 1,
@@ -3150,59 +3392,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 406,
   },
   {
-    ID: 57,
+    id: 57,
     name: "Crossbow",
     rarity: "Epic",
-    attack: 448,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 225,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 180,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 45,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 22,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 448,
       Weight: 13,
       MaxStackCount: 1,
@@ -3218,59 +3466,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 448,
   },
   {
-    ID: 58,
+    id: 58,
     name: "Crossbow",
     rarity: "Legendary",
-    attack: 490,
     description:
       "Fires an Arrow effortlessly.\r\nThough it takes time to load, it delivers a powerful shot.",
-    image: require("../assets/images/items/crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 337,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 270,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 67,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 33,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 490,
       Weight: 13,
       MaxStackCount: 1,
@@ -3286,53 +3540,57 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 490,
   },
   {
-    ID: 59,
+    id: 59,
     name: "Assault Rifle",
     rarity: "Uncommon",
-    attack: 400,
-    ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 80,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 60,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 400,
       Weight: 15,
       MaxStackCount: 1,
@@ -3349,53 +3607,58 @@ export const weaponDataSet = [
       MagazineSize: 24,
       SneakAttackRate: 1,
     },
+    attack: 400,
+    ammo: "Assault Rifle Ammo",
   },
   {
-    ID: 60,
+    id: 60,
     name: "Assault Rifle",
     rarity: "Rare",
-    attack: 448,
-    ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 120,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 30,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 90,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 448,
       Weight: 15,
       MaxStackCount: 1,
@@ -3412,53 +3675,58 @@ export const weaponDataSet = [
       MagazineSize: 26,
       SneakAttackRate: 1,
     },
+    attack: 448,
+    ammo: "Assault Rifle Ammo",
   },
   {
-    ID: 61,
+    id: 61,
     name: "Assault Rifle",
     rarity: "Epic",
-    attack: 512,
-    ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 180,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 45,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 135,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 512,
       Weight: 15,
       MaxStackCount: 1,
@@ -3475,53 +3743,58 @@ export const weaponDataSet = [
       MagazineSize: 28,
       SneakAttackRate: 1,
     },
+    attack: 512,
+    ammo: "Assault Rifle Ammo",
   },
   {
-    ID: 62,
+    id: 62,
     name: "Assault Rifle",
     rarity: "Legendary",
-    attack: 560,
-    ammo: "Assault Rifle Ammo",
     description:
       "Mows down enemies with overwhelming force.\r\nIt excels at rapid-fire and is well suited to taking down powerful foes.",
-    image: require("../assets/images/items/assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 270,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 67,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 202,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 560,
       Weight: 15,
       MaxStackCount: 1,
@@ -3538,53 +3811,58 @@ export const weaponDataSet = [
       MagazineSize: 30,
       SneakAttackRate: 1,
     },
+    attack: 560,
+    ammo: "Assault Rifle Ammo",
   },
   {
-    ID: 63,
+    id: 63,
     name: "Pump-Action Shotgun",
     rarity: "Uncommon",
-    attack: 275,
-    ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 60,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 40,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 80,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 275,
       Weight: 20,
       MaxStackCount: 1,
@@ -3600,53 +3878,58 @@ export const weaponDataSet = [
       MagazineSize: 9,
       SneakAttackRate: 1,
     },
+    attack: 275,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 64,
+    id: 64,
     name: "Pump-Action Shotgun",
     rarity: "Rare",
-    attack: 308,
-    ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 90,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 60,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 308,
       Weight: 20,
       MaxStackCount: 1,
@@ -3662,53 +3945,58 @@ export const weaponDataSet = [
       MagazineSize: 10,
       SneakAttackRate: 1,
     },
+    attack: 308,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 65,
+    id: 65,
     name: "Pump-Action Shotgun",
     rarity: "Epic",
-    attack: 352,
-    ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 135,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 90,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 180,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 352,
       Weight: 20,
       MaxStackCount: 1,
@@ -3724,53 +4012,58 @@ export const weaponDataSet = [
       MagazineSize: 11,
       SneakAttackRate: 1,
     },
+    attack: 352,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 66,
+    id: 66,
     name: "Pump-Action Shotgun",
     rarity: "Legendary",
-    attack: 385,
-    ammo: "Shotgun Shell",
     description:
       "A high capacity, powerful shotgun.\r\nIt has outstanding close range DPS.",
-    image: require("../assets/images/items/pump-action-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 202,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 135,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 270,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 385,
       Weight: 20,
       MaxStackCount: 1,
@@ -3786,46 +4079,50 @@ export const weaponDataSet = [
       MagazineSize: 12,
       SneakAttackRate: 1,
     },
+    attack: 385,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 67,
+    id: 67,
     name: "Handgun",
     rarity: "Uncommon",
-    attack: 437,
-    ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 100,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 30,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 437,
       Weight: 8,
       MaxStackCount: 1,
@@ -3841,46 +4138,50 @@ export const weaponDataSet = [
       MagazineSize: 10,
       SneakAttackRate: 1,
     },
+    attack: 437,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 68,
+    id: 68,
     name: "Handgun",
     rarity: "Rare",
-    attack: 500,
-    ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 150,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 45,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 500,
       Weight: 8,
       MaxStackCount: 1,
@@ -3896,46 +4197,50 @@ export const weaponDataSet = [
       MagazineSize: 12,
       SneakAttackRate: 1,
     },
+    attack: 500,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 69,
+    id: 69,
     name: "Handgun",
     rarity: "Epic",
-    attack: 562,
-    ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 225,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 67,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 562,
       Weight: 8,
       MaxStackCount: 1,
@@ -3951,46 +4256,50 @@ export const weaponDataSet = [
       MagazineSize: 14,
       SneakAttackRate: 1,
     },
+    attack: 562,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 70,
+    id: 70,
     name: "Handgun",
     rarity: "Legendary",
-    attack: 625,
-    ammo: "Handgun Ammo",
     description:
       "A handgun with improved capacity and rapid-fire capabilities.\r\nHas more immediate firepower than a Makeshift Handgun.",
-    image: require("../assets/images/items/handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 337,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 100,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 14,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 625,
       Weight: 8,
       MaxStackCount: 1,
@@ -4006,53 +4315,58 @@ export const weaponDataSet = [
       MagazineSize: 16,
       SneakAttackRate: 1,
     },
+    attack: 625,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 71,
+    id: 71,
     name: "Rocket Launcher",
     rarity: "Uncommon",
-    attack: 11000,
-    ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 60,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 100,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 11000,
       Weight: 30,
       MaxStackCount: 1,
@@ -4068,53 +4382,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 11000,
+    ammo: "Rocket Ammo",
   },
   {
-    ID: 72,
+    id: 72,
     name: "Rocket Launcher",
     rarity: "Rare",
-    attack: 12000,
-    ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 225,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 90,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 150,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 12000,
       Weight: 30,
       MaxStackCount: 1,
@@ -4130,53 +4449,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 12000,
+    ammo: "Rocket Ammo",
   },
   {
-    ID: 73,
+    id: 73,
     name: "Rocket Launcher",
     rarity: "Epic",
-    attack: 13000,
-    ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 337,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 135,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 225,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 13000,
       Weight: 30,
       MaxStackCount: 1,
@@ -4192,53 +4516,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 13000,
+    ammo: "Rocket Ammo",
   },
   {
-    ID: 74,
+    id: 74,
     name: "Rocket Launcher",
     rarity: "Legendary",
-    attack: 14000,
-    ammo: "Rocket Ammo",
     description:
       "A Rocket Launcher \r\nthat can fire a powerful round from long distances.",
-    image: require("../assets/images/items/rocket-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 505,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 202,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 337,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 14000,
       Weight: 30,
       MaxStackCount: 1,
@@ -4254,53 +4583,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 14000,
+    ammo: "Rocket Ammo",
   },
   {
-    ID: 75,
+    id: 75,
     name: "Musket",
     rarity: "Uncommon",
-    attack: 1400,
-    ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 50,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 10,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Wood",
         quantity: 60,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1400,
       Weight: 20,
       MaxStackCount: 1,
@@ -4316,53 +4650,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1400,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 76,
+    id: 76,
     name: "Musket",
     rarity: "Rare",
-    attack: 1600,
-    ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 75,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 15,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Wood",
         quantity: 90,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1600,
       Weight: 20,
       MaxStackCount: 1,
@@ -4378,53 +4717,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1600,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 77,
+    id: 77,
     name: "Musket",
     rarity: "Epic",
-    attack: 1800,
-    ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 112,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 22,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Wood",
         quantity: 135,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1800,
       Weight: 20,
       MaxStackCount: 1,
@@ -4440,53 +4784,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1800,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 78,
+    id: 78,
     name: "Musket",
     rarity: "Legendary",
-    attack: 2000,
-    ammo: "Coarse Ammo",
     description:
       "Simple, old fashioned gun. \r\nFires a single, powerful shot at the expense of a long reload time.",
-    image: require("../assets/images/items/musket.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 168,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 33,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Wood",
         quantity: 202,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 14,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 2000,
       Weight: 20,
       MaxStackCount: 1,
@@ -4502,46 +4851,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 2000,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 79,
+    id: 79,
     name: "Double-Barreled Shotgun",
     rarity: "Uncommon",
-    attack: 285,
-    ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 60,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 14,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 285,
       Weight: 24,
       MaxStackCount: 1,
@@ -4557,46 +4910,50 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 285,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 80,
+    id: 80,
     name: "Double-Barreled Shotgun",
     rarity: "Rare",
-    attack: 323,
-    ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 90,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 21,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 323,
       Weight: 24,
       MaxStackCount: 1,
@@ -4612,46 +4969,50 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 323,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 81,
+    id: 81,
     name: "Double-Barreled Shotgun",
     rarity: "Epic",
-    attack: 361,
-    ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 135,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 31,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 361,
       Weight: 24,
       MaxStackCount: 1,
@@ -4667,46 +5028,50 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 361,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 82,
+    id: 82,
     name: "Double-Barreled Shotgun",
     rarity: "Legendary",
-    attack: 399,
-    ammo: "Shotgun Shell",
     description:
       "Wreaks havoc at close range. Can fire twice before reloading.\r\nDespite the limited load capacity, it still packs a punch.",
-    image: require("../assets/images/items/double-barreled-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 202,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 46,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 399,
       Weight: 24,
       MaxStackCount: 1,
@@ -4722,46 +5087,50 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 399,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 83,
+    id: 83,
     name: "Single-Shot Rifle",
     rarity: "Uncommon",
-    attack: 1650,
-    ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 40,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1650,
       Weight: 20,
       MaxStackCount: 1,
@@ -4777,46 +5146,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1650,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 84,
+    id: 84,
     name: "Single-Shot Rifle",
     rarity: "Rare",
-    attack: 1870,
-    ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 60,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 15,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1870,
       Weight: 20,
       MaxStackCount: 1,
@@ -4832,46 +5205,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1870,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 85,
+    id: 85,
     name: "Single-Shot Rifle",
     rarity: "Epic",
-    attack: 2090,
-    ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 90,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 22,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 2090,
       Weight: 20,
       MaxStackCount: 1,
@@ -4887,46 +5264,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 2090,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 86,
+    id: 86,
     name: "Single-Shot Rifle",
     rarity: "Legendary",
-    attack: 2310,
-    ammo: "Rifle Ammo",
     description:
       "A single-shot rifle. Takes time to load.\r\nWhat it lacks in capacity, it makes up for with sheer power.",
-    image: require("../assets/images/items/single-shot-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 135,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 33,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 2310,
       Weight: 20,
       MaxStackCount: 1,
@@ -4942,47 +5323,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 2310,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 87,
+    id: 87,
     name: "Gatling Gun",
     rarity: "Common",
-    attack: 375,
-    technology: 54,
-    ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 140,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 375,
       Weight: 50,
       MaxStackCount: 1,
@@ -4998,54 +5382,59 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 375,
+    technology: 54,
+    ammo: "Gatling Gun Ammo",
   },
   {
-    ID: 88,
+    id: 88,
     name: "Flamethrower",
     rarity: "Common",
-    attack: 450,
-    technology: 52,
-    ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 40,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 35,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Flame Organ",
         quantity: 30,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 450,
       Weight: 45,
       MaxStackCount: 1,
@@ -5061,47 +5450,51 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 450,
+    technology: 52,
+    ammo: "Flamethrower Fuel",
   },
   {
-    ID: 89,
+    id: 89,
     name: "Grenade Launcher",
     rarity: "Common",
-    attack: 3000,
-    technology: 53,
-    ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 75,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 80,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 60,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 3000,
       Weight: 30,
       MaxStackCount: 1,
@@ -5117,54 +5510,59 @@ export const weaponDataSet = [
       MagazineSize: 5,
       SneakAttackRate: 1,
     },
+    attack: 3000,
+    technology: 53,
+    ammo: "Grenade Ammo",
   },
   {
-    ID: 90,
+    id: 90,
     name: "Guided Missile Launcher",
     rarity: "Common",
-    attack: 5900,
-    technology: 55,
-    ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 100,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 100,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 20,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 5900,
       Weight: 30,
       MaxStackCount: 1,
@@ -5180,53 +5578,59 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 5900,
+    technology: 55,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 91,
+    id: 91,
     name: "Multi Guided Missile Launcher",
     rarity: "Common",
-    attack: 5900,
-    ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 80,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 30,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 5900,
       Weight: 30,
       MaxStackCount: 1,
@@ -5242,47 +5646,50 @@ export const weaponDataSet = [
       MagazineSize: 4,
       SneakAttackRate: 1,
     },
+    attack: 5900,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 92,
+    id: 92,
     name: "Laser Gatling Gun",
     rarity: "Common",
-    attack: 530,
-    technology: 58,
-    ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 100,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 200,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 530,
       Weight: 50,
       MaxStackCount: 1,
@@ -5298,53 +5705,59 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 530,
+    technology: 58,
+    ammo: "Laser Gatling Cartridge",
   },
   {
-    ID: 93,
+    id: 93,
     name: "Frag Grenade Mk2",
     rarity: "Common",
-    attack: 4000,
-    technology: 53,
     description:
       "An improved frag grenade.\r\nIt explodes a few seconds after being thrown, dealing massive damage to enemies.",
-    image: require("../assets/images/items/frag-grenade-mk2.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Super.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/frag-grenade-mk2.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 20,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 3,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Gunpowder",
         quantity: 3,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/gunpowder.png",
       },
       {
         name: "Crude Oil",
         quantity: 3,
-        image: require("../assets/images/items/crude-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/crude-oil.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 4000,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -5357,53 +5770,58 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Super",
       SneakAttackRate: 1,
     },
+    attack: 4000,
+    technology: 53,
   },
   {
-    ID: 94,
+    id: 94,
     name: "Makeshift Handgun",
     rarity: "Uncommon",
-    attack: 560,
-    ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 70,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 60,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 16600,
+      "Gold Coin": 16600,
       Attack: 560,
       Weight: 10,
       MaxStackCount: 1,
@@ -5419,53 +5837,58 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 560,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 95,
+    id: 95,
     name: "Makeshift Handgun",
     rarity: "Rare",
-    attack: 640,
-    ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 105,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 30,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 90,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 16600,
+      "Gold Coin": 16600,
       Attack: 640,
       Weight: 10,
       MaxStackCount: 1,
@@ -5481,53 +5904,58 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 640,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 96,
+    id: 96,
     name: "Makeshift Handgun",
     rarity: "Epic",
-    attack: 720,
-    ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 157,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 45,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 135,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 16600,
+      "Gold Coin": 16600,
       Attack: 720,
       Weight: 10,
       MaxStackCount: 1,
@@ -5543,53 +5971,58 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 720,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 97,
+    id: 97,
     name: "Makeshift Handgun",
     rarity: "Legendary",
-    attack: 800,
-    ammo: "Coarse Ammo",
     description:
       "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-    image: require("../assets/images/items/makeshift-handgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 235,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 67,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 202,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 16600,
+      "Gold Coin": 16600,
       Attack: 800,
       Weight: 10,
       MaxStackCount: 1,
@@ -5605,53 +6038,58 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 800,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 98,
+    id: 98,
     name: "Laser Rifle",
     rarity: "Uncommon",
-    attack: 1437,
-    ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 100,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 120,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 80,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 1437,
       Weight: 18,
       MaxStackCount: 1,
@@ -5667,53 +6105,58 @@ export const weaponDataSet = [
       MagazineSize: 30,
       SneakAttackRate: 1,
     },
+    attack: 1437,
+    ammo: "Energy Cartridge",
   },
   {
-    ID: 99,
+    id: 99,
     name: "Laser Rifle",
     rarity: "Rare",
-    attack: 1562,
-    ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 180,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 1562,
       Weight: 18,
       MaxStackCount: 1,
@@ -5729,53 +6172,58 @@ export const weaponDataSet = [
       MagazineSize: 30,
       SneakAttackRate: 1,
     },
+    attack: 1562,
+    ammo: "Energy Cartridge",
   },
   {
-    ID: 100,
+    id: 100,
     name: "Laser Rifle",
     rarity: "Epic",
-    attack: 1687,
-    ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 225,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 270,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 180,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 1687,
       Weight: 18,
       MaxStackCount: 1,
@@ -5791,53 +6239,58 @@ export const weaponDataSet = [
       MagazineSize: 30,
       SneakAttackRate: 1,
     },
+    attack: 1687,
+    ammo: "Energy Cartridge",
   },
   {
-    ID: 101,
+    id: 101,
     name: "Laser Rifle",
     rarity: "Legendary",
-    attack: 1875,
-    ammo: "Energy Cartridge",
     description:
       "A weapon that fires high-energy lasers.\r\nIt has impressive firepower and is easy to handle.",
-    image: require("../assets/images/items/laser-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 337,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 405,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 270,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 1875,
       Weight: 18,
       MaxStackCount: 1,
@@ -5853,60 +6306,66 @@ export const weaponDataSet = [
       MagazineSize: 30,
       SneakAttackRate: 1,
     },
+    attack: 1875,
+    ammo: "Energy Cartridge",
   },
   {
-    ID: 102,
+    id: 102,
     name: "Flamethrower",
     rarity: "Uncommon",
-    attack: 517,
-    ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 80,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 70,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Flame Organ",
         quantity: 60,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 517,
       Weight: 45,
       MaxStackCount: 1,
@@ -5922,60 +6381,66 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 517,
+    ammo: "Flamethrower Fuel",
   },
   {
-    ID: 103,
+    id: 103,
     name: "Flamethrower",
     rarity: "Rare",
-    attack: 562,
-    ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 120,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 105,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Flame Organ",
         quantity: 90,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 562,
       Weight: 45,
       MaxStackCount: 1,
@@ -5991,60 +6456,66 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 562,
+    ammo: "Flamethrower Fuel",
   },
   {
-    ID: 104,
+    id: 104,
     name: "Flamethrower",
     rarity: "Epic",
-    attack: 607,
-    ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 180,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 225,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 157,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Flame Organ",
         quantity: 135,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 607,
       Weight: 45,
       MaxStackCount: 1,
@@ -6060,60 +6531,66 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 607,
+    ammo: "Flamethrower Fuel",
   },
   {
-    ID: 105,
+    id: 105,
     name: "Flamethrower",
     rarity: "Legendary",
-    attack: 675,
-    ammo: "Flamethrower Fuel",
     description:
       "Flamethrower that fires long-range flame.\r\nCan set the enemy on fire.",
-    image: require("../assets/images/items/flamethrower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 270,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 337,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 235,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Flame Organ",
         quantity: 202,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 675,
       Weight: 45,
       MaxStackCount: 1,
@@ -6129,53 +6606,58 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 675,
+    ammo: "Flamethrower Fuel",
   },
   {
-    ID: 106,
+    id: 106,
     name: "Grenade Launcher",
     rarity: "Uncommon",
-    attack: 3450,
-    ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 150,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 160,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 3450,
       Weight: 30,
       MaxStackCount: 1,
@@ -6191,53 +6673,58 @@ export const weaponDataSet = [
       MagazineSize: 5,
       SneakAttackRate: 1,
     },
+    attack: 3450,
+    ammo: "Grenade Ammo",
   },
   {
-    ID: 107,
+    id: 107,
     name: "Grenade Launcher",
     rarity: "Rare",
-    attack: 3750,
-    ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 225,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 240,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 180,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 3750,
       Weight: 30,
       MaxStackCount: 1,
@@ -6253,53 +6740,58 @@ export const weaponDataSet = [
       MagazineSize: 5,
       SneakAttackRate: 1,
     },
+    attack: 3750,
+    ammo: "Grenade Ammo",
   },
   {
-    ID: 108,
+    id: 108,
     name: "Grenade Launcher",
     rarity: "Epic",
-    attack: 4050,
-    ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 337,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 360,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 270,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 4050,
       Weight: 30,
       MaxStackCount: 1,
@@ -6315,53 +6807,58 @@ export const weaponDataSet = [
       MagazineSize: 5,
       SneakAttackRate: 1,
     },
+    attack: 4050,
+    ammo: "Grenade Ammo",
   },
   {
-    ID: 109,
+    id: 109,
     name: "Grenade Launcher",
     rarity: "Legendary",
-    attack: 4500,
-    ammo: "Grenade Ammo",
     description:
       "Fires grenades that cause wide-ranging explosions.\r\nUseful when dealing with a large number of enemies.",
-    image: require("../assets/images/items/grenade-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 505,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 540,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 405,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 4500,
       Weight: 30,
       MaxStackCount: 1,
@@ -6377,60 +6874,66 @@ export const weaponDataSet = [
       MagazineSize: 5,
       SneakAttackRate: 1,
     },
+    attack: 4500,
+    ammo: "Grenade Ammo",
   },
   {
-    ID: 110,
+    id: 110,
     name: "Guided Missile Launcher",
     rarity: "Uncommon",
-    attack: 6785,
-    ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 200,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 200,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 40,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 6785,
       Weight: 30,
       MaxStackCount: 1,
@@ -6446,60 +6949,66 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 6785,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 111,
+    id: 111,
     name: "Guided Missile Launcher",
     rarity: "Rare",
-    attack: 7375,
-    ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 300,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 300,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 60,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 7375,
       Weight: 30,
       MaxStackCount: 1,
@@ -6515,60 +7024,66 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 7375,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 112,
+    id: 112,
     name: "Guided Missile Launcher",
     rarity: "Epic",
-    attack: 7965,
-    ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 450,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 225,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 450,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 90,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 7965,
       Weight: 30,
       MaxStackCount: 1,
@@ -6584,60 +7099,66 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 7965,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 113,
+    id: 113,
     name: "Guided Missile Launcher",
     rarity: "Legendary",
-    attack: 8850,
-    ammo: "Missile Ammo",
     description:
       "Fires missiles that automatically track and pursue enemies.\r\nMissiles explode upon impact, causing damage over a wide area.",
-    image: require("../assets/images/items/guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 675,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 337,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 675,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 135,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 8850,
       Weight: 30,
       MaxStackCount: 1,
@@ -6653,60 +7174,66 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 8850,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 114,
+    id: 114,
     name: "Multi Guided Missile Launcher",
     rarity: "Uncommon",
-    attack: 6785,
-    ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 300,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 160,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 240,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 60,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 6785,
       Weight: 30,
       MaxStackCount: 1,
@@ -6722,60 +7249,66 @@ export const weaponDataSet = [
       MagazineSize: 4,
       SneakAttackRate: 1,
     },
+    attack: 6785,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 115,
+    id: 115,
     name: "Multi Guided Missile Launcher",
     rarity: "Rare",
-    attack: 7375,
-    ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 450,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 240,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 360,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 90,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 7375,
       Weight: 30,
       MaxStackCount: 1,
@@ -6791,60 +7324,66 @@ export const weaponDataSet = [
       MagazineSize: 4,
       SneakAttackRate: 1,
     },
+    attack: 7375,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 116,
+    id: 116,
     name: "Multi Guided Missile Launcher",
     rarity: "Epic",
-    attack: 7965,
-    ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 675,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 360,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 540,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 135,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 40,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 7965,
       Weight: 30,
       MaxStackCount: 1,
@@ -6860,60 +7399,66 @@ export const weaponDataSet = [
       MagazineSize: 4,
       SneakAttackRate: 1,
     },
+    attack: 7965,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 117,
+    id: 117,
     name: "Multi Guided Missile Launcher",
     rarity: "Legendary",
-    attack: 8850,
-    ammo: "Missile Ammo",
     description:
       "A missile launcher that can hold multiple ammo at once.\r\nFires a series of missiles that automatically track and follow enemies.",
-    image: require("../assets/images/items/multi-guided-missile-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 1012,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 540,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 810,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 202,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 50,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 8850,
       Weight: 30,
       MaxStackCount: 1,
@@ -6929,53 +7474,58 @@ export const weaponDataSet = [
       MagazineSize: 4,
       SneakAttackRate: 1,
     },
+    attack: 8850,
+    ammo: "Missile Ammo",
   },
   {
-    ID: 118,
+    id: 118,
     name: "Gatling Gun",
     rarity: "Uncommon",
-    attack: 431,
-    ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 300,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 200,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 280,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 431,
       Weight: 50,
       MaxStackCount: 1,
@@ -6991,53 +7541,58 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 431,
+    ammo: "Gatling Gun Ammo",
   },
   {
-    ID: 119,
+    id: 119,
     name: "Gatling Gun",
     rarity: "Rare",
-    attack: 468,
-    ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 450,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 300,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 420,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 468,
       Weight: 50,
       MaxStackCount: 1,
@@ -7053,53 +7608,58 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 468,
+    ammo: "Gatling Gun Ammo",
   },
   {
-    ID: 120,
+    id: 120,
     name: "Gatling Gun",
     rarity: "Epic",
-    attack: 506,
-    ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 675,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 450,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 630,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 506,
       Weight: 50,
       MaxStackCount: 1,
@@ -7115,53 +7675,58 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 506,
+    ammo: "Gatling Gun Ammo",
   },
   {
-    ID: 121,
+    id: 121,
     name: "Gatling Gun",
     rarity: "Legendary",
-    attack: 562,
-    ammo: "Gatling Gun Ammo",
     description:
       "A Gatling Gun capable of rapid fire. \r\nMows down enemies with suppressive fire.",
-    image: require("../assets/images/items/gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 1012,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Plasteel",
         quantity: 675,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 945,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 562,
       Weight: 50,
       MaxStackCount: 1,
@@ -7177,47 +7742,50 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 562,
+    ammo: "Gatling Gun Ammo",
   },
   {
-    ID: 122,
+    id: 122,
     name: "Meteor Launcher",
     rarity: "Common",
-    attack: 2000,
-    technology: 38,
-    ammo: "Meteorite Ammo",
     description:
       "A phenomenal weapon that fires a meteor.\r\nUpon striking its target, it creates an explosion similar to a meteorite impact.",
-    image: require("../assets/images/items/meteor-launcher.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Meteor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/meteor-launcher.png",
     recipe: [
       {
         name: "Meteorite Fragment",
         quantity: 100,
-        image: require("../assets/images/items/meteorite-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/meteorite-fragment.png",
       },
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 20,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 2000,
       Weight: 30,
       MaxStackCount: 1,
@@ -7233,46 +7801,51 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 2000,
+    technology: 38,
+    ammo: "Meteorite Ammo",
   },
   {
-    ID: 123,
+    id: 123,
     name: "Dark Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 40,
     description:
       "A Dark Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Dark damage to enemies.",
-    image: require("../assets/images/items/dark-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/dark-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Venom Gland",
         quantity: 1,
-        image: require("../assets/images/items/venom-gland.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/venom-gland.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -7285,46 +7858,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Dark",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 40,
   },
   {
-    ID: 124,
+    id: 124,
     name: "Dragon Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 42,
     description:
       "A Dragon Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Dragon damage to enemies.",
-    image: require("../assets/images/items/dragon-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/dragon-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Horn",
         quantity: 1,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/horn.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -7337,46 +7914,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Dragon",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 42,
   },
   {
-    ID: 125,
+    id: 125,
     name: "Ground Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 38,
     description:
       "A Ground Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Ground damage to enemies.",
-    image: require("../assets/images/items/ground-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ground.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/ground-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ore",
         quantity: 1,
-        image: require("../assets/images/items/ore.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ore.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -7389,46 +7970,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Ground",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 38,
   },
   {
-    ID: 126,
+    id: 126,
     name: "Grass Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 35,
     description:
       "A Grass Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Grass damage to enemies.",
-    image: require("../assets/images/items/grass-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Leaf.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grass-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 10,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -7441,46 +8026,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Leaf",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 35,
   },
   {
-    ID: 127,
+    id: 127,
     name: "Water Grenade",
     rarity: "Common",
-    attack: 750,
-    technology: 33,
     description:
       "A Water Grenade useful for mid-range combat.\r\nIt detonates a few seconds after being thrown, dealing Water damage to enemies.",
-    image: require("../assets/images/items/water-grenade.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/water-grenade.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Pal Fluids",
         quantity: 1,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-fluids.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10,
+      "Gold Coin": 10,
       Attack: 750,
       Weight: "0.1",
       MaxStackCount: 9999,
@@ -7493,46 +8082,50 @@ export const weaponDataSet = [
       ItemActorClass: "FragGrenade_Water",
       SneakAttackRate: 1,
     },
+    attack: 750,
+    technology: 33,
   },
   {
-    ID: 128,
+    id: 128,
     name: "Katana",
     rarity: "Common",
-    attack: 525,
-    technology: 29,
     description:
       "Katana for close-range combat.\r\nSlices through with razor-sharp precision, cutting cleanly in one strike.",
-    image: require("../assets/images/items/katana.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Katana.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/katana.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 20,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10440,
+      "Gold Coin": 10440,
       Attack: 525,
       Weight: 10,
       MaxStackCount: 1,
@@ -7547,53 +8140,58 @@ export const weaponDataSet = [
       ItemActorClass: "Katana",
       SneakAttackRate: 1,
     },
+    attack: 525,
+    technology: 29,
   },
   {
-    ID: 129,
+    id: 129,
     name: "Beam Sword",
     rarity: "Common",
-    attack: 2000,
-    technology: 57,
     description:
       "Beam Sword for close-range combat.\r\nSlices through opponents, burning them with a high-output laser.",
-    image: require("../assets/images/items/beam-sword.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamSword.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/beam-sword.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 30,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 100,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Nightstar Sand",
         quantity: 20,
-        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 10440,
+      "Gold Coin": 10440,
       Attack: 2000,
       Weight: 10,
       MaxStackCount: 1,
@@ -7608,47 +8206,50 @@ export const weaponDataSet = [
       ItemActorClass: "BeamSword",
       SneakAttackRate: 1,
     },
+    attack: 2000,
+    technology: 57,
   },
   {
-    ID: 130,
+    id: 130,
     name: "Semi-Auto Shotgun",
     rarity: "Common",
-    attack: 195,
-    technology: 47,
-    ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 50,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 40,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 195,
       Weight: 20,
       MaxStackCount: 1,
@@ -7664,54 +8265,59 @@ export const weaponDataSet = [
       MagazineSize: 10,
       SneakAttackRate: 1,
     },
+    attack: 195,
+    technology: 47,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 131,
+    id: 131,
     name: "Plasma Cannon",
     rarity: "Common",
-    attack: 10000,
-    technology: 60,
-    ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 200,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 130,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 200,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 100,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 10000,
       Weight: 30,
       MaxStackCount: 1,
@@ -7727,59 +8333,67 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 10000,
+    technology: 60,
+    ammo: "Plasma Cartridge",
   },
   {
-    ID: 132,
+    id: 132,
     name: "Poison Arrow Crossbow",
     rarity: "Uncommon",
-    attack: 364,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 100,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 100,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 10,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 364,
       Weight: 13,
       MaxStackCount: 1,
@@ -7795,59 +8409,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 364,
   },
   {
-    ID: 133,
+    id: 133,
     name: "Poison Arrow Crossbow",
     rarity: "Rare",
-    attack: 406,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 150,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 150,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 45,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 15,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 406,
       Weight: 13,
       MaxStackCount: 1,
@@ -7863,59 +8483,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 406,
   },
   {
-    ID: 134,
+    id: 134,
     name: "Poison Arrow Crossbow",
     rarity: "Epic",
-    attack: 448,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 225,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 225,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 67,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 22,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 448,
       Weight: 13,
       MaxStackCount: 1,
@@ -7931,59 +8557,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 448,
   },
   {
-    ID: 135,
+    id: 135,
     name: "Poison Arrow Crossbow",
     rarity: "Legendary",
-    attack: 490,
     description:
       "A Crossbow that inflicts poison on its target.\r\nPoisoned Pals are easier to capture.\r\nRequires Poison Arrow.",
-    image: require("../assets/images/items/poison-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 337,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 337,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 100,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 33,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 490,
       Weight: 13,
       MaxStackCount: 1,
@@ -7999,59 +8631,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 490,
   },
   {
-    ID: 136,
+    id: 136,
     name: "Fire Arrow Crossbow",
     rarity: "Uncommon",
-    attack: 364,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 100,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 100,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 10,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 364,
       Weight: 13,
       MaxStackCount: 1,
@@ -8067,59 +8705,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 364,
   },
   {
-    ID: 137,
+    id: 137,
     name: "Fire Arrow Crossbow",
     rarity: "Rare",
-    attack: 406,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 150,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 150,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 45,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 15,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 406,
       Weight: 13,
       MaxStackCount: 1,
@@ -8135,59 +8779,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 406,
   },
   {
-    ID: 138,
+    id: 138,
     name: "Fire Arrow Crossbow",
     rarity: "Epic",
-    attack: 448,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 225,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 225,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 67,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 22,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 448,
       Weight: 13,
       MaxStackCount: 1,
@@ -8203,59 +8853,65 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 448,
   },
   {
-    ID: 139,
+    id: 139,
     name: "Fire Arrow Crossbow",
     rarity: "Legendary",
-    attack: 490,
     description:
       "A Crossbow that deals Fire damage.\r\nBurns Pals with fire arrows, making them easier to capture.\r\nRequires Fire Arrow.",
-    image: require("../assets/images/items/fire-arrow-crossbow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
     recipe: [
       {
         name: "Wood",
         quantity: 337,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 337,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Ingot",
         quantity: 100,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Nail",
         quantity: 33,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 490,
       Weight: 13,
       MaxStackCount: 1,
@@ -8271,40 +8927,41 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 490,
   },
   {
-    ID: 140,
+    id: 140,
     name: "Old Revolver",
     rarity: "Common",
-    attack: 600,
-    technology: 33,
-    ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 60,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 600,
       Weight: 8,
       MaxStackCount: 1,
@@ -8320,46 +8977,51 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 600,
+    technology: 33,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 141,
+    id: 141,
     name: "Pal Metal Pickaxe",
     rarity: "Common",
-    attack: 120,
-    technology: 44,
     description:
       "A pickaxe for mining. It has achieved extraordinary efficiency thanks to Pal Metal.",
-    image: require("../assets/images/items/pal-metal-pickaxe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pal-metal-pickaxe.png",
     recipe: [
       {
         name: "Stone",
         quantity: 50,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 100,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 10,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 120,
       Weight: 25,
       MaxStackCount: 1,
@@ -8374,46 +9036,50 @@ export const weaponDataSet = [
       ItemActorClass: "Pickaxe_Tier_03",
       SneakAttackRate: 1,
     },
-  },
-  {
-    ID: 142,
-    name: "Pal Metal Axe",
-    rarity: "Common",
     attack: 120,
     technology: 44,
+  },
+  {
+    id: 142,
+    name: "Pal Metal Axe",
+    rarity: "Common",
     description:
       "An axe for chopping wood. It has achieved extraordinary sharpness thanks to Pal Metal.",
-    image: require("../assets/images/items/pal-metal-axe.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pal-metal-axe.png",
     recipe: [
       {
         name: "Stone",
         quantity: 50,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Wood",
         quantity: 100,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 10,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 120,
       Weight: 25,
       MaxStackCount: 1,
@@ -8428,47 +9094,50 @@ export const weaponDataSet = [
       ItemActorClass: "Axe_Tier_03",
       SneakAttackRate: 1,
     },
+    attack: 120,
+    technology: 44,
   },
   {
-    ID: 143,
+    id: 143,
     name: "Makeshift Assault Rifle",
     rarity: "Common",
-    attack: 170,
-    technology: 31,
-    ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 70,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 60,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 170,
       Weight: 15,
       MaxStackCount: 1,
@@ -8484,40 +9153,43 @@ export const weaponDataSet = [
       MagazineSize: 15,
       SneakAttackRate: 1,
     },
+    attack: 170,
+    technology: 31,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 144,
+    id: 144,
     name: "Semi-Auto Rifle",
     rarity: "Common",
-    attack: 1150,
-    technology: 41,
-    ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 35,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 10,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1150,
       Weight: 20,
       MaxStackCount: 1,
@@ -8533,47 +9205,51 @@ export const weaponDataSet = [
       MagazineSize: 8,
       SneakAttackRate: 1,
     },
+    attack: 1150,
+    technology: 41,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 145,
+    id: 145,
     name: "Makeshift SMG",
     rarity: "Common",
-    attack: 100,
-    technology: 26,
-    ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 40,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 10,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 100,
       Weight: 15,
       MaxStackCount: 1,
@@ -8589,40 +9265,43 @@ export const weaponDataSet = [
       MagazineSize: 24,
       SneakAttackRate: 1,
     },
+    attack: 100,
+    technology: 26,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 146,
+    id: 146,
     name: "SMG",
     rarity: "Common",
-    attack: 130,
-    technology: 37,
-    ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 25,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 6,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 130,
       Weight: 15,
       MaxStackCount: 1,
@@ -8638,47 +9317,51 @@ export const weaponDataSet = [
       MagazineSize: 24,
       SneakAttackRate: 1,
     },
+    attack: 130,
+    technology: 37,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 147,
+    id: 147,
     name: "Makeshift Shotgun",
     rarity: "Common",
-    attack: 215,
-    technology: 30,
-    ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 60,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 15,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 50,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 215,
       Weight: 24,
       MaxStackCount: 1,
@@ -8694,53 +9377,59 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 215,
+    technology: 30,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 148,
+    id: 148,
     name: "Laser Gatling Gun",
     rarity: "Uncommon",
-    attack: 583,
-    ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 300,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 200,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 400,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 583,
       Weight: 50,
       MaxStackCount: 1,
@@ -8756,53 +9445,58 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 583,
+    ammo: "Laser Gatling Cartridge",
   },
   {
-    ID: 149,
+    id: 149,
     name: "Laser Gatling Gun",
     rarity: "Rare",
-    attack: 609,
-    ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 450,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 300,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 600,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 609,
       Weight: 50,
       MaxStackCount: 1,
@@ -8818,53 +9512,58 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 609,
+    ammo: "Laser Gatling Cartridge",
   },
   {
-    ID: 150,
+    id: 150,
     name: "Laser Gatling Gun",
     rarity: "Epic",
-    attack: 636,
-    ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 675,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 450,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 900,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 636,
       Weight: 50,
       MaxStackCount: 1,
@@ -8880,53 +9579,58 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 636,
+    ammo: "Laser Gatling Cartridge",
   },
   {
-    ID: 151,
+    id: 151,
     name: "Laser Gatling Gun",
     rarity: "Legendary",
-    attack: 689,
-    ammo: "Laser Gatling Cartridge",
     description:
       "A Gatling gun capable of rapidly firing lasers. \r\nBurns down enemies with suppressive beams.",
-    image: require("../assets/images/items/laser-gatling-gun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 1012,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 675,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 1350,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 689,
       Weight: 50,
       MaxStackCount: 1,
@@ -8942,60 +9646,66 @@ export const weaponDataSet = [
       MagazineSize: 100,
       SneakAttackRate: 1,
     },
+    attack: 689,
+    ammo: "Laser Gatling Cartridge",
   },
   {
-    ID: 152,
+    id: 152,
     name: "Plasma Cannon",
     rarity: "Uncommon",
-    attack: 11000,
-    ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 400,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 260,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 400,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 200,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 11000,
       Weight: 50,
       MaxStackCount: 1,
@@ -9011,60 +9721,66 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 11000,
+    ammo: "Plasma Cartridge",
   },
   {
-    ID: 153,
+    id: 153,
     name: "Plasma Cannon",
     rarity: "Rare",
-    attack: 11500,
-    ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 600,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 390,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 600,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 300,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 11500,
       Weight: 50,
       MaxStackCount: 1,
@@ -9080,60 +9796,66 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 11500,
+    ammo: "Plasma Cartridge",
   },
   {
-    ID: 154,
+    id: 154,
     name: "Plasma Cannon",
     rarity: "Epic",
-    attack: 12000,
-    ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 900,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 585,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 900,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 450,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 12000,
       Weight: 50,
       MaxStackCount: 1,
@@ -9149,60 +9871,66 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 12000,
+    ammo: "Plasma Cartridge",
   },
   {
-    ID: 155,
+    id: 155,
     name: "Plasma Cannon",
     rarity: "Legendary",
-    attack: 13000,
-    ammo: "Plasma Cartridge",
     description:
       "Fires high-output energy projectiles. \r\nCauses an energy explosion upon impact.",
-    image: require("../assets/images/items/plasma-cannon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 1350,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Hexolite",
         quantity: 877,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 1350,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Circuit Board",
         quantity: 675,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 1,
-      GoldCoin: 324000,
+      "Gold Coin": 324000,
       Attack: 13000,
       Weight: 50,
       MaxStackCount: 1,
@@ -9218,47 +9946,50 @@ export const weaponDataSet = [
       MagazineSize: 2,
       SneakAttackRate: 1,
     },
+    attack: 13000,
+    ammo: "Plasma Cartridge",
   },
   {
-    ID: 156,
+    id: 156,
     name: "Compound Bow",
     rarity: "Common",
-    attack: 1100,
-    technology: 32,
-    ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 50,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Fiber",
         quantity: 40,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Nail",
         quantity: 20,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 1100,
       Weight: 17,
       MaxStackCount: 1,
@@ -9274,47 +10005,51 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1100,
+    technology: 32,
+    ammo: "Reinforced Arrow",
   },
   {
-    ID: 157,
+    id: 157,
     name: "Advanced Bow",
     rarity: "Common",
-    attack: 5800,
-    technology: 57,
-    ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 40,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 100,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Nightstar Sand",
         quantity: 20,
-        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
       },
     ],
     stats: {
       Rarity: "Common",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 5800,
       Weight: 25,
       MaxStackCount: 1,
@@ -9330,53 +10065,59 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 5800,
+    technology: 57,
+    ammo: "Advanced Arrow",
   },
   {
-    ID: 158,
+    id: 158,
     name: "Semi-Auto Shotgun",
     rarity: "Uncommon",
-    attack: 214,
-    ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 100,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 40,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 80,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 214,
       Weight: 20,
       MaxStackCount: 1,
@@ -9392,53 +10133,58 @@ export const weaponDataSet = [
       MagazineSize: 11,
       SneakAttackRate: 1,
     },
+    attack: 214,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 159,
+    id: 159,
     name: "Semi-Auto Shotgun",
     rarity: "Rare",
-    attack: 234,
-    ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 150,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 60,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 120,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 234,
       Weight: 20,
       MaxStackCount: 1,
@@ -9454,53 +10200,58 @@ export const weaponDataSet = [
       MagazineSize: 12,
       SneakAttackRate: 1,
     },
+    attack: 234,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 160,
+    id: 160,
     name: "Semi-Auto Shotgun",
     rarity: "Epic",
-    attack: 253,
-    ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 225,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 90,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 180,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 20,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 253,
       Weight: 20,
       MaxStackCount: 1,
@@ -9516,53 +10267,58 @@ export const weaponDataSet = [
       MagazineSize: 13,
       SneakAttackRate: 1,
     },
+    attack: 253,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 161,
+    id: 161,
     name: "Semi-Auto Shotgun",
     rarity: "Legendary",
-    attack: 282,
-    ammo: "Shotgun Shell",
     description:
       "A rapid-fire shotgun with immense power. \r\nIts close-range damage output is top-notch.",
-    image: require("../assets/images/items/semi-auto-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 337,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 135,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 270,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 153600,
+      "Gold Coin": 153600,
       Attack: 282,
       Weight: 20,
       MaxStackCount: 1,
@@ -9578,46 +10334,50 @@ export const weaponDataSet = [
       MagazineSize: 14,
       SneakAttackRate: 1,
     },
+    attack: 282,
+    ammo: "Shotgun Shell",
   },
   {
-    ID: 162,
+    id: 162,
     name: "Old Revolver",
     rarity: "Uncommon",
-    attack: 1050,
-    ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 120,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 40,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 1050,
       Weight: 8,
       MaxStackCount: 1,
@@ -9633,46 +10393,50 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 1050,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 163,
+    id: 163,
     name: "Old Revolver",
     rarity: "Rare",
-    attack: 1200,
-    ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 240,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 80,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 1200,
       Weight: 8,
       MaxStackCount: 1,
@@ -9688,46 +10452,50 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 1200,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 164,
+    id: 164,
     name: "Old Revolver",
     rarity: "Epic",
-    attack: 1350,
-    ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 480,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 160,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 1350,
       Weight: 8,
       MaxStackCount: 1,
@@ -9743,46 +10511,50 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 1350,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 165,
+    id: 165,
     name: "Old Revolver",
     rarity: "Legendary",
-    attack: 1500,
-    ammo: "Handgun Ammo",
     description:
       "A slightly outdated revolving handgun. \r\nCompared to Handgun, it excels in single-shot power.",
-    image: require("../assets/images/items/old-revolver.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 960,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 320,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 33000,
+      "Gold Coin": 33000,
       Attack: 1500,
       Weight: 8,
       MaxStackCount: 1,
@@ -9798,53 +10570,58 @@ export const weaponDataSet = [
       MagazineSize: 6,
       SneakAttackRate: 1,
     },
+    attack: 1500,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 166,
+    id: 166,
     name: "Makeshift Assault Rifle",
     rarity: "Uncommon",
-    attack: 204,
-    ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 140,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 40,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 120,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 204,
       Weight: 15,
       MaxStackCount: 1,
@@ -9860,53 +10637,58 @@ export const weaponDataSet = [
       MagazineSize: 17,
       SneakAttackRate: 1,
     },
+    attack: 204,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 167,
+    id: 167,
     name: "Makeshift Assault Rifle",
     rarity: "Rare",
-    attack: 229,
-    ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 210,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 60,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 180,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 229,
       Weight: 15,
       MaxStackCount: 1,
@@ -9922,53 +10704,58 @@ export const weaponDataSet = [
       MagazineSize: 19,
       SneakAttackRate: 1,
     },
+    attack: 229,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 168,
+    id: 168,
     name: "Makeshift Assault Rifle",
     rarity: "Epic",
-    attack: 255,
-    ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 315,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 90,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 270,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 255,
       Weight: 15,
       MaxStackCount: 1,
@@ -9984,53 +10771,58 @@ export const weaponDataSet = [
       MagazineSize: 21,
       SneakAttackRate: 1,
     },
+    attack: 255,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 169,
+    id: 169,
     name: "Makeshift Assault Rifle",
     rarity: "Legendary",
-    attack: 297,
-    ammo: "Coarse Ammo",
     description:
       "An assault rifle handmade from scraps. \r\nIt excels in rate of fire and long range, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-assault-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 472,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 135,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 405,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 32,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 297,
       Weight: 15,
       MaxStackCount: 1,
@@ -10046,46 +10838,50 @@ export const weaponDataSet = [
       MagazineSize: 23,
       SneakAttackRate: 1,
     },
+    attack: 297,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 170,
+    id: 170,
     name: "Semi-Auto Rifle",
     rarity: "Uncommon",
-    attack: 1265,
-    ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 70,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 20,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1265,
       Weight: 20,
       MaxStackCount: 1,
@@ -10101,46 +10897,50 @@ export const weaponDataSet = [
       MagazineSize: 9,
       SneakAttackRate: 1,
     },
+    attack: 1265,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 171,
+    id: 171,
     name: "Semi-Auto Rifle",
     rarity: "Rare",
-    attack: 1380,
-    ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 105,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 30,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1380,
       Weight: 20,
       MaxStackCount: 1,
@@ -10156,46 +10956,50 @@ export const weaponDataSet = [
       MagazineSize: 10,
       SneakAttackRate: 1,
     },
+    attack: 1380,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 172,
+    id: 172,
     name: "Semi-Auto Rifle",
     rarity: "Epic",
-    attack: 1495,
-    ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 157,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 45,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1495,
       Weight: 20,
       MaxStackCount: 1,
@@ -10211,46 +11015,50 @@ export const weaponDataSet = [
       MagazineSize: 11,
       SneakAttackRate: 1,
     },
+    attack: 1495,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 173,
+    id: 173,
     name: "Semi-Auto Rifle",
     rarity: "Legendary",
-    attack: 1610,
-    ammo: "Rifle Ammo",
     description:
       "A rifle that allows for a certain degree of rapid fire. \r\nIt\u2019s easy to aim and has high firepower, making it effective for mid-range combat.",
-    image: require("../assets/images/items/semi-auto-rifle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 235,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 67,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 37600,
+      "Gold Coin": 37600,
       Attack: 1610,
       Weight: 20,
       MaxStackCount: 1,
@@ -10266,53 +11074,58 @@ export const weaponDataSet = [
       MagazineSize: 12,
       SneakAttackRate: 1,
     },
+    attack: 1610,
+    ammo: "Rifle Ammo",
   },
   {
-    ID: 174,
+    id: 174,
     name: "Makeshift SMG",
     rarity: "Uncommon",
-    attack: 120,
-    ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 80,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 60,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 120,
       Weight: 15,
       MaxStackCount: 1,
@@ -10328,53 +11141,58 @@ export const weaponDataSet = [
       MagazineSize: 26,
       SneakAttackRate: 1,
     },
+    attack: 120,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 175,
+    id: 175,
     name: "Makeshift SMG",
     rarity: "Rare",
-    attack: 135,
-    ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 120,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 30,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 90,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 135,
       Weight: 15,
       MaxStackCount: 1,
@@ -10390,53 +11208,58 @@ export const weaponDataSet = [
       MagazineSize: 28,
       SneakAttackRate: 1,
     },
+    attack: 135,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 176,
+    id: 176,
     name: "Makeshift SMG",
     rarity: "Epic",
-    attack: 150,
-    ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 180,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 45,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 135,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 150,
       Weight: 15,
       MaxStackCount: 1,
@@ -10452,53 +11275,58 @@ export const weaponDataSet = [
       MagazineSize: 30,
       SneakAttackRate: 1,
     },
+    attack: 150,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 177,
+    id: 177,
     name: "Makeshift SMG",
     rarity: "Legendary",
-    attack: 175,
-    ammo: "Coarse Ammo",
     description:
       "A submachine gun handmade from scraps. \r\nIt excels in rate of fire, but its single-shot power is low.",
-    image: require("../assets/images/items/makeshift-smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 270,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 67,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 202,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 24,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 175,
       Weight: 15,
       MaxStackCount: 1,
@@ -10514,46 +11342,50 @@ export const weaponDataSet = [
       MagazineSize: 32,
       SneakAttackRate: 1,
     },
+    attack: 175,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 178,
+    id: 178,
     name: "SMG",
     rarity: "Uncommon",
-    attack: 156,
-    ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 50,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 12,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 156,
       Weight: 15,
       MaxStackCount: 1,
@@ -10569,46 +11401,50 @@ export const weaponDataSet = [
       MagazineSize: 26,
       SneakAttackRate: 1,
     },
+    attack: 156,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 179,
+    id: 179,
     name: "SMG",
     rarity: "Rare",
-    attack: 175,
-    ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 75,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 18,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 175,
       Weight: 15,
       MaxStackCount: 1,
@@ -10624,46 +11460,50 @@ export const weaponDataSet = [
       MagazineSize: 28,
       SneakAttackRate: 1,
     },
+    attack: 175,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 180,
+    id: 180,
     name: "SMG",
     rarity: "Epic",
-    attack: 195,
-    ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 112,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 27,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 195,
       Weight: 15,
       MaxStackCount: 1,
@@ -10679,46 +11519,50 @@ export const weaponDataSet = [
       MagazineSize: 30,
       SneakAttackRate: 1,
     },
+    attack: 195,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 181,
+    id: 181,
     name: "SMG",
     rarity: "Legendary",
-    attack: 227,
-    ammo: "Handgun Ammo",
     description:
       "A submachine gun with exceptional rate of fire. \r\nIt\u2019s easy to handle and effective in close-range combat.",
-    image: require("../assets/images/items/smg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 168,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Polymer",
         quantity: 40,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 82400,
+      "Gold Coin": 82400,
       Attack: 227,
       Weight: 15,
       MaxStackCount: 1,
@@ -10734,53 +11578,58 @@ export const weaponDataSet = [
       MagazineSize: 32,
       SneakAttackRate: 1,
     },
+    attack: 227,
+    ammo: "Handgun Ammo",
   },
   {
-    ID: 182,
+    id: 182,
     name: "Makeshift Shotgun",
     rarity: "Uncommon",
-    attack: 258,
-    ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 120,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 30,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 100,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 258,
       Weight: 24,
       MaxStackCount: 1,
@@ -10796,53 +11645,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 258,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 183,
+    id: 183,
     name: "Makeshift Shotgun",
     rarity: "Rare",
-    attack: 290,
-    ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 180,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 45,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 150,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 290,
       Weight: 24,
       MaxStackCount: 1,
@@ -10858,53 +11712,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 290,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 184,
+    id: 184,
     name: "Makeshift Shotgun",
     rarity: "Epic",
-    attack: 322,
-    ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 270,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 67,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 225,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 322,
       Weight: 24,
       MaxStackCount: 1,
@@ -10920,53 +11779,58 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 322,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 185,
+    id: 185,
     name: "Makeshift Shotgun",
     rarity: "Legendary",
-    attack: 376,
-    ammo: "Coarse Ammo",
     description:
       "A shotgun handmade from scraps. \r\nIt has a short range but excels in close-range combat",
-    image: require("../assets/images/items/makeshift-shotgun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 405,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 100,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
       },
       {
         name: "Fiber",
         quantity: 337,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 32,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 55200,
+      "Gold Coin": 55200,
       Attack: 376,
       Weight: 24,
       MaxStackCount: 1,
@@ -10982,108 +11846,116 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 376,
+    ammo: "Coarse Ammo",
   },
   {
-    ID: 186,
+    id: 186,
     name: "Meowmere",
     rarity: "Legendary",
-    attack: 200,
-    technology: 30,
     description:
       "[Terraria Collab]\r\nAccording to the legend, this sword was brought back from a distant land by Croajiro.\r\nWhy? We have no idea...",
-    image: require("../assets/images/items/meowmere.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_YakushimaBlade.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/meowmere.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 22,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 22,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Coal",
         quantity: 22,
-        image: require("../assets/images/items/coal.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/coal.png",
       },
       {
         name: "Predator Core",
         quantity: 3,
-        image: require("../assets/images/items/predator-core.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PredatorCrystal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/predator-core.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 2,
-      GoldCoin: 200,
+      "Gold Coin": 200,
       Attack: 200,
       Weight: 22,
       MaxStackCount: 1,
       Durability: 2222,
       Code: "YakushimaBlade",
-      IconName: "MakeshiftShotgun",
+      IconName: "YakushimaBlade",
       TypeA: "Weapon",
       TypeB: "WeaponMelee",
       SortID: 143,
       ItemStaticClass: "CommonWeapon",
       ItemDynamicClass: "CommonWeapon",
       ItemActorClass: "YakushimaBlade",
-      MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 200,
+    technology: 30,
   },
   {
-    ID: 187,
+    id: 187,
     name: "Advanced Bow",
     rarity: "Uncommon",
-    attack: 6670,
-    ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 80,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 200,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Nightstar Sand",
         quantity: 40,
-        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 6670,
       Weight: 25,
       MaxStackCount: 1,
@@ -11099,46 +11971,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 6670,
+    ammo: "Advanced Arrow",
   },
   {
-    ID: 188,
+    id: 188,
     name: "Advanced Bow",
     rarity: "Rare",
-    attack: 7250,
-    ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 120,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 300,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Nightstar Sand",
         quantity: 60,
-        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 7250,
       Weight: 25,
       MaxStackCount: 1,
@@ -11154,46 +12030,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 7250,
+    ammo: "Advanced Arrow",
   },
   {
-    ID: 189,
+    id: 189,
     name: "Advanced Bow",
     rarity: "Epic",
-    attack: 7830,
-    ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 180,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 450,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Nightstar Sand",
         quantity: 90,
-        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 7830,
       Weight: 25,
       MaxStackCount: 1,
@@ -11209,46 +12089,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 7830,
+    ammo: "Advanced Arrow",
   },
   {
-    ID: 190,
+    id: 190,
     name: "Advanced Bow",
     rarity: "Legendary",
-    attack: 8700,
-    ammo: "Advanced Arrow",
     description:
       "A bow reconstructed with advanced technology. \r\nCapable of firing extremely powerful arrows.",
-    image: require("../assets/images/items/advanced-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 270,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Carbon Fiber",
         quantity: 675,
-        image: require("../assets/images/items/carbon-fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
       },
       {
         name: "Nightstar Sand",
         quantity: 135,
-        image: require("../assets/images/items/nightstar-sand.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 4,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 8700,
       Weight: 25,
       MaxStackCount: 1,
@@ -11264,46 +12148,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 8700,
+    ammo: "Advanced Arrow",
   },
   {
-    ID: 191,
+    id: 191,
     name: "Compound Bow",
     rarity: "Uncommon",
-    attack: 1265,
-    ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 100,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Fiber",
         quantity: 80,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Nail",
         quantity: 40,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 1265,
       Weight: 17,
       MaxStackCount: 1,
@@ -11319,46 +12207,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1265,
+    ammo: "Reinforced Arrow",
   },
   {
-    ID: 192,
+    id: 192,
     name: "Compound Bow",
     rarity: "Rare",
-    attack: 1375,
-    ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 200,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Fiber",
         quantity: 160,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Nail",
         quantity: 80,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 1375,
       Weight: 17,
       MaxStackCount: 1,
@@ -11374,46 +12266,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1375,
+    ammo: "Reinforced Arrow",
   },
   {
-    ID: 193,
+    id: 193,
     name: "Compound Bow",
     rarity: "Epic",
-    attack: 1485,
-    ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 400,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Fiber",
         quantity: 320,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Nail",
         quantity: 160,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
       Rarity: "Epic",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 1485,
       Weight: 17,
       MaxStackCount: 1,
@@ -11429,46 +12325,50 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1485,
+    ammo: "Reinforced Arrow",
   },
   {
-    ID: 194,
+    id: 194,
     name: "Compound Bow",
     rarity: "Legendary",
-    attack: 1650,
-    ammo: "Reinforced Arrow",
     description:
       "A modernized bow. \r\nCapable of firing more powerful arrows.",
-    image: require("../assets/images/items/compound-bow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 800,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Fiber",
         quantity: 640,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Nail",
         quantity: 320,
-        image: require("../assets/images/items/nail.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
       },
     ],
     stats: {
       Rarity: "Legendary",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 25200,
+      "Gold Coin": 25200,
       Attack: 1650,
       Weight: 17,
       MaxStackCount: 1,
@@ -11484,5 +12384,7 @@ export const weaponDataSet = [
       MagazineSize: 1,
       SneakAttackRate: 1,
     },
+    attack: 1650,
+    ammo: "Reinforced Arrow",
   },
 ];

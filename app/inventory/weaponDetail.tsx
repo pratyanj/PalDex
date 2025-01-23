@@ -27,9 +27,9 @@ export default function WeaponDetail() {
   const [ammo, setAmmo] = useState(false);
   const [attack, setAttack] = useState(false);
   const [technology, setTechnology] = useState(false);
-
+  const [crafting, setCrafting] = useState(false);
   const dataCheck = () => {
-    if (weaponDataSet[Number(weaponID)].attack) {
+    if (weaponDataSet[Number(weaponID)].stats.Attack) {
       setAttack(true);
     }
     if (weaponDataSet[Number(weaponID)].ammo) {
@@ -38,6 +38,10 @@ export default function WeaponDetail() {
     if (weaponDataSet[Number(weaponID)].technology) {
       setTechnology(true);
     }
+    if (weaponDataSet[Number(weaponID)].recipe.length > 0) {
+        setCrafting(true);
+    }
+    // add crafting check
   }
   useEffect(() => {
     dataCheck();
@@ -64,7 +68,7 @@ export default function WeaponDetail() {
           style={[styles.card, { backgroundColor: actColor.surfaceVariant }]}
         >
           <Image
-            source={weaponD.image}
+            source={weaponD.image_github_url}
             style={styles.weaponImage}
           />
           <Text style={[styles.title, { color: actColor.primary }]}>
@@ -129,7 +133,7 @@ export default function WeaponDetail() {
                   
                     {
                       label: "Gold Coin",
-                      value: weaponD.stats.GoldCoin,
+                      value: weaponD.stats["Gold Coin"],
                     },
                     {
                       label: "Weight",
@@ -184,6 +188,8 @@ export default function WeaponDetail() {
                     </View>
                   ))}
                 </View>
+                {crafting && (
+                  <>
         <Text style={{ color: actColor.outline, fontSize: 30, marginTop: 10 }}>
           Crafting
         </Text>
@@ -191,6 +197,8 @@ export default function WeaponDetail() {
           recipe={weaponD.recipe}
           actColor={actColor}
         />
+        </>
+      )}
       </ScrollView>
     </SafeAreaView>
   );

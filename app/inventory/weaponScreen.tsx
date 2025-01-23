@@ -31,13 +31,13 @@ export default function WeaponScreen() {
       onPress={() =>
         router.push({
           pathname: "/inventory/WeaponDetail",
-          params: { id: item.ID - 1 },
+          params: { id: item.id - 1 },
         })
       }
     >
       <ItemCard
         name={item.name}
-        img={item.image}
+        img={item.image_github_url}
         type={item.stats ? item.stats.GoldCoin : 888}
         rarity={item.rarity}
         actColor={actColor}
