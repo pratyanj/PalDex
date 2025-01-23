@@ -6,16 +6,16 @@ import {
 } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
+import { Colors } from "../../../constants/Colors";
+import { ThemeContext } from "../../../constants/ThemeContext";
 import { Image } from "expo-image";
-import { weaponDataSet } from "../../constants/weapon";
+import { weaponDataSet } from "../../../constants/weapon";
 import { useLocalSearchParams } from "expo-router";
 
-import { CreateStatRow } from "../../components/inv/CreateStatRow";
-import InvHeader from "../../components/inv/Header";
-import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/GetRarityColor";
+import { CreateStatRow } from "../../../components/inv/CreateStatRow";
+import InvHeader from "../../../components/inv/Header";
+import { CraftingRecipe } from "../../../components/inv/CraftingRecipe";
+import { GetRarityColor } from "../../../components/inv/GetRarityColor";
 
 export default function WeaponDetail() {
   const { theme } = useContext(ThemeContext);
@@ -61,7 +61,7 @@ export default function WeaponDetail() {
     <SafeAreaView
       style={[styles.container, { backgroundColor: actColor.background }]}
     >
-      <InvHeader name="Weapon" actColor={actColor} path="/inventory/WeaponScreen" />
+      <InvHeader name="Weapon" actColor={actColor} path="/inventory/Weapon/WeaponScreen" />
 
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View

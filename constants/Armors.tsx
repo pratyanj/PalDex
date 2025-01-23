@@ -1,25 +1,22 @@
 export const Armors = [
   {
-    ID: 1,
+    id: 1,
     name: "Cloth Outfit",
     rarity: "Common",
-    defense: 15,
-    health: 70,
-    technology: 4,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/cloth-outfit.png"),
-    // image: require("../assets/images/items/cloth-outfit.png"),
+      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 2,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
@@ -43,41 +40,44 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 15,
+    health: 70,
+    technology: 4,
   },
   {
-    ID: 2,
+    id: 2,
     name: "Metal Armor",
     rarity: "Common",
-    defense: 70,
-    health: 250,
-    technology: 23,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/metal-armor.png"),
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 30,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 10,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 5,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
@@ -102,34 +102,36 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 70,
+    health: 250,
+    technology: 23,
   },
   {
-    ID: 3,
+    id: 3,
     name: "Metal Helm",
     rarity: "Common",
-    defense: 50,
-    health: 100,
-    technology: 23,
     description:
       "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
-    effects: [],
-    image: require("../assets/images/items/metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 20,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 10,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -152,27 +154,28 @@ export const Armors = [
       ItemActorClass: "CopperHelmet",
       SneakAttackRate: 1,
     },
+    defense: 50,
+    health: 100,
+    technology: 23,
   },
   {
-    ID: 4,
+    id: 4,
     name: "Pelt Armor",
     rarity: "Common",
-    defense: 35,
-    health: 140,
-    technology: 12,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/pelt-armor.png"),
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 10,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
     ],
     stats: {
@@ -196,34 +199,36 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 35,
+    health: 140,
+    technology: 12,
   },
   {
-    ID: 5,
+    id: 5,
     name: "Feathered Hair Band",
     rarity: "Common",
-    defense: 15,
-    health: 60,
-    technology: 10,
     description:
       "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
-    effects: [],
-    image: require("../assets/images/items/feathered-hair-band.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 5,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -246,41 +251,44 @@ export const Armors = [
       ItemActorClass: "FurHelmet",
       SneakAttackRate: 1,
     },
+    defense: 15,
+    health: 60,
+    technology: 10,
   },
   {
-    ID: 6,
+    id: 6,
     name: "Refined Metal Armor",
     rarity: "Common",
-    defense: 150,
-    health: 500,
-    technology: 37,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/refined-metal-armor.png"),
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 30,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 15,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 2,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
     ],
     stats: {
@@ -305,34 +313,36 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 150,
+    health: 500,
+    technology: 37,
   },
   {
-    ID: 7,
+    id: 7,
     name: "Refined Metal Helm",
     rarity: "Common",
-    defense: 100,
-    health: 250,
-    technology: 37,
     description:
       "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
-    effects: [],
-    image: require("../assets/images/items/refined-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 20,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -355,41 +365,44 @@ export const Armors = [
       ItemActorClass: "IronHelmet",
       SneakAttackRate: 1,
     },
+    defense: 100,
+    health: 250,
+    technology: 37,
   },
   {
-    ID: 8,
+    id: 8,
     name: "Pal Metal Armor",
     rarity: "Common",
-    defense: 220,
-    health: 750,
-    technology: 46,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/pal-metal-armor.png"),
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 20,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 20,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 4,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
     ],
     stats: {
@@ -414,34 +427,36 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 220,
+    health: 750,
+    technology: 46,
   },
   {
-    ID: 9,
+    id: 9,
     name: "Pal Metal Helm",
     rarity: "Common",
-    defense: 150,
-    health: 350,
-    technology: 46,
     description:
       "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
-    effects: [],
-    image: require("../assets/images/items/pal-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 20,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 20,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -464,46 +479,52 @@ export const Armors = [
       ItemActorClass: "StealHelmet",
       SneakAttackRate: 1,
     },
+    defense: 150,
+    health: 350,
+    technology: 46,
   },
   {
-    ID: 10,
+    id: 10,
     name: "Common Shield",
     rarity: "Common",
-    technology: 4,
     description:
       "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.",
-    effects: [],
-    image: require("../assets/images/items/common-shield.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/common-shield.png",
     recipe: [
       {
         name: "Paldium Fragment",
         quantity: 10,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Wood",
         quantity: 20,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
       },
       {
         name: "Stone",
         quantity: 20,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
       },
       {
         name: "Fiber",
         quantity: 10,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
     ],
     stats: {
@@ -512,8 +533,8 @@ export const Armors = [
       Rank: 1,
       "Gold Coin": 800,
       Weight: 5,
-      MaxStackCount: 1,
       Shield: 100,
+      MaxStackCount: 1,
       Durability: 1000,
       Code: "Shield_01",
       IconName: "Shield_01",
@@ -524,32 +545,35 @@ export const Armors = [
       ItemDynamicClass: "CommonArmor",
       SneakAttackRate: 1,
     },
+    technology: 4,
+    shield: 100,
   },
   {
-    ID: 11,
+    id: 11,
     name: "Mega Shield",
     rarity: "Uncommon",
-    technology: 16,
     description:
       "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.\r\nThe new model has been improved, enhancing its defense.",
-    effects: [],
-    image: require("../assets/images/items/mega-shield.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/mega-shield.png",
     recipe: [
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 30,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -558,8 +582,8 @@ export const Armors = [
       Rank: 2,
       "Gold Coin": 31200,
       Weight: 5,
-      MaxStackCount: 1,
       Shield: 260,
+      MaxStackCount: 1,
       Durability: 1500,
       Code: "Shield_02",
       IconName: "Shield_02",
@@ -570,32 +594,35 @@ export const Armors = [
       ItemDynamicClass: "CommonArmor",
       SneakAttackRate: 1,
     },
+    technology: 16,
+    shield: 260,
   },
   {
-    ID: 12,
+    id: 12,
     name: "Giga Shield",
     rarity: "Rare",
-    technology: 28,
     description:
       "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.\r\nModifications have enhanced its effectiveness even further.",
-    effects: [],
-    image: require("../assets/images/items/giga-shield.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/giga-shield.png",
     recipe: [
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 50,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -604,8 +631,8 @@ export const Armors = [
       Rank: 3,
       "Gold Coin": 62000,
       Weight: 5,
-      MaxStackCount: 1,
       Shield: 540,
+      MaxStackCount: 1,
       Durability: 2250,
       Code: "Shield_03",
       IconName: "Shield_03",
@@ -616,32 +643,35 @@ export const Armors = [
       ItemDynamicClass: "CommonArmor",
       SneakAttackRate: 1,
     },
+    technology: 28,
+    shield: 540,
   },
   {
-    ID: 13,
+    id: 13,
     name: "Hyper Shield",
     rarity: "Epic",
-    technology: 43,
     description:
       "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.\r\nThrough repeated testing, the highest quality has been achieved.",
-    effects: [],
-    image: require("../assets/images/items/hyper-shield.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_04.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hyper-shield.png",
     recipe: [
       {
         name: "Ancient Civilization Parts",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 100,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
     ],
     stats: {
@@ -650,8 +680,8 @@ export const Armors = [
       Rank: 4,
       "Gold Coin": 104000,
       Weight: 5,
-      MaxStackCount: 1,
       Shield: 1045,
+      MaxStackCount: 1,
       Durability: 3500,
       Code: "Shield_04",
       IconName: "Shield_04",
@@ -662,37 +692,39 @@ export const Armors = [
       ItemDynamicClass: "CommonArmor",
       SneakAttackRate: 1,
     },
+    technology: 43,
+    shield: 1045,
   },
   {
-    ID: 14,
+    id: 14,
     name: "Cloth Outfit",
     rarity: "Uncommon",
-    defense: 19,
-    health: 91,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/cloth-outfit.png"),
+      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 4,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 1,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 416,
@@ -712,37 +744,39 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 19,
+    health: 91,
   },
   {
-    ID: 15,
+    id: 15,
     name: "Cloth Outfit",
     rarity: "Rare",
-    defense: 21,
-    health: 98,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/cloth-outfit.png"),
+      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 6,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 480,
@@ -762,37 +796,39 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 21,
+    health: 98,
   },
   {
-    ID: 16,
+    id: 16,
     name: "Cloth Outfit",
     rarity: "Epic",
-    defense: 22,
-    health: 105,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/cloth-outfit.png"),
+      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 9,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 544,
@@ -812,37 +848,39 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 22,
+    health: 105,
   },
   {
-    ID: 17,
+    id: 17,
     name: "Cloth Outfit",
     rarity: "Legendary",
-    defense: 24,
-    health: 112,
     description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/cloth-outfit.png"),
+      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 13,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 608,
@@ -862,37 +900,39 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 24,
+    health: 112,
   },
   {
-    ID: 18,
+    id: 18,
     name: "Pelt Armor",
     rarity: "Uncommon",
-    defense: 45,
-    health: 182,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/pelt-armor.png"),
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 20,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 468,
@@ -912,37 +952,39 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 45,
+    health: 182,
   },
   {
-    ID: 19,
+    id: 19,
     name: "Pelt Armor",
     rarity: "Rare",
-    defense: 49,
-    health: 196,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/pelt-armor.png"),
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 30,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 540,
@@ -962,37 +1004,39 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 49,
+    health: 196,
   },
   {
-    ID: 20,
+    id: 20,
     name: "Pelt Armor",
     rarity: "Epic",
-    defense: 52,
-    health: 210,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/pelt-armor.png"),
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 45,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 612,
@@ -1012,37 +1056,39 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 52,
+    health: 210,
   },
   {
-    ID: 21,
+    id: 21,
     name: "Pelt Armor",
     rarity: "Legendary",
-    defense: 56,
-    health: 224,
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/pelt-armor.png"),
+      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 67,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 13,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 684,
@@ -1062,51 +1108,55 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    defense: 56,
+    health: 224,
   },
   {
-    ID: 22,
+    id: 22,
     name: "Metal Armor",
     rarity: "Uncommon",
-    defense: 91,
-    health: 325,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/metal-armor.png"),
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 60,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 20,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 10,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 6396,
@@ -1127,51 +1177,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 91,
+    health: 325,
   },
   {
-    ID: 23,
+    id: 23,
     name: "Metal Armor",
     rarity: "Rare",
-    defense: 98,
-    health: 350,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/metal-armor.png"),
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 90,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 30,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 15,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 7380,
@@ -1192,51 +1246,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 98,
+    health: 350,
   },
   {
-    ID: 24,
+    id: 24,
     name: "Metal Armor",
     rarity: "Epic",
-    defense: 105,
-    health: 375,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/metal-armor.png"),
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 135,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 45,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 22,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 8364,
@@ -1257,51 +1315,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 105,
+    health: 375,
   },
   {
-    ID: 25,
+    id: 25,
     name: "Metal Armor",
     rarity: "Legendary",
-    defense: 112,
-    health: 400,
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/metal-armor.png"),
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 202,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 67,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 33,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 14,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 9348,
@@ -1322,51 +1384,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 112,
+    health: 400,
   },
   {
-    ID: 26,
+    id: 26,
     name: "Refined Metal Armor",
     rarity: "Uncommon",
-    defense: 195,
-    health: 650,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/refined-metal-armor.png"),
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 60,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 30,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 4,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 12792,
@@ -1387,51 +1453,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 195,
+    health: 650,
   },
   {
-    ID: 27,
+    id: 27,
     name: "Refined Metal Armor",
     rarity: "Rare",
-    defense: 210,
-    health: 700,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/refined-metal-armor.png"),
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 90,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 45,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 6,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 14760,
@@ -1452,51 +1522,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 210,
+    health: 700,
   },
   {
-    ID: 28,
+    id: 28,
     name: "Refined Metal Armor",
     rarity: "Epic",
-    defense: 225,
-    health: 750,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/refined-metal-armor.png"),
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 135,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 67,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 9,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 16728,
@@ -1517,51 +1591,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 225,
+    health: 750,
   },
   {
-    ID: 29,
+    id: 29,
     name: "Refined Metal Armor",
     rarity: "Legendary",
-    defense: 240,
-    health: 800,
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/refined-metal-armor.png"),
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 202,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 100,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 13,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 16,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 18696,
@@ -1582,51 +1660,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 240,
+    health: 800,
   },
   {
-    ID: 30,
+    id: 30,
     name: "Pal Metal Armor",
     rarity: "Uncommon",
-    defense: 286,
-    health: 975,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/pal-metal-armor.png"),
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 40,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 40,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 8,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 41990,
@@ -1647,51 +1729,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 286,
+    health: 975,
   },
   {
-    ID: 31,
+    id: 31,
     name: "Pal Metal Armor",
     rarity: "Rare",
-    defense: 308,
-    health: 1050,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/pal-metal-armor.png"),
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 60,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 60,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 12,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 10,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 48450,
@@ -1712,51 +1798,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 308,
+    health: 1050,
   },
   {
-    ID: 32,
+    id: 32,
     name: "Pal Metal Armor",
     rarity: "Epic",
-    defense: 330,
-    health: 1125,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/pal-metal-armor.png"),
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 90,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 90,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 18,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 54910,
@@ -1777,51 +1867,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 330,
+    health: 1125,
   },
   {
-    ID: 33,
+    id: 33,
     name: "Pal Metal Armor",
     rarity: "Legendary",
-    defense: 352,
-    health: 1200,
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/pal-metal-armor.png"),
+      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 135,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 135,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 27,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 18,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 61370,
@@ -1842,44 +1936,47 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 352,
+    health: 1200,
   },
   {
-    ID: 34,
+    id: 34,
     name: "Feathered Hair Band",
     rarity: "Uncommon",
-    defense: 19,
-    health: 78,
     description:
       "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
-    effects: [],
-    image: require("../assets/images/items/feathered-hair-band.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 20,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 10,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 3,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 234,
@@ -1898,44 +1995,47 @@ export const Armors = [
       ItemActorClass: "FurHelmet",
       SneakAttackRate: 1,
     },
+    defense: 19,
+    health: 78,
   },
   {
-    ID: 35,
+    id: 35,
     name: "Feathered Hair Band",
     rarity: "Rare",
-    defense: 21,
-    health: 84,
     description:
       "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
-    effects: [],
-    image: require("../assets/images/items/feathered-hair-band.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 30,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 15,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 270,
@@ -1954,44 +2054,47 @@ export const Armors = [
       ItemActorClass: "FurHelmet",
       SneakAttackRate: 1,
     },
+    defense: 21,
+    health: 84,
   },
   {
-    ID: 36,
+    id: 36,
     name: "Feathered Hair Band",
     rarity: "Epic",
-    defense: 22,
-    health: 90,
     description:
       "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
-    effects: [],
-    image: require("../assets/images/items/feathered-hair-band.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 45,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 22,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 306,
@@ -2010,44 +2113,47 @@ export const Armors = [
       ItemActorClass: "FurHelmet",
       SneakAttackRate: 1,
     },
+    defense: 22,
+    health: 90,
   },
   {
-    ID: 37,
+    id: 37,
     name: "Feathered Hair Band",
     rarity: "Legendary",
-    defense: 24,
-    health: 96,
     description:
       "A beautiful feathered headband.\r\nThough improbable, it somehow seems to protect its wearer from lethal head injuries.",
-    effects: [],
-    image: require("../assets/images/items/feathered-hair-band.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
     recipe: [
       {
         name: "Fiber",
         quantity: 67,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 33,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 13,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 342,
@@ -2066,44 +2172,47 @@ export const Armors = [
       ItemActorClass: "FurHelmet",
       SneakAttackRate: 1,
     },
+    defense: 24,
+    health: 96,
   },
   {
-    ID: 38,
+    id: 38,
     name: "Metal Helm",
     rarity: "Uncommon",
-    defense: 65,
-    health: 130,
     description:
       "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
-    effects: [],
-    image: require("../assets/images/items/metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 40,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 20,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 3198,
@@ -2122,44 +2231,47 @@ export const Armors = [
       ItemActorClass: "CopperHelmet",
       SneakAttackRate: 1,
     },
+    defense: 65,
+    health: 130,
   },
   {
-    ID: 39,
+    id: 39,
     name: "Metal Helm",
     rarity: "Rare",
-    defense: 70,
-    health: 140,
     description:
       "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
-    effects: [],
-    image: require("../assets/images/items/metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 60,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 30,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 3690,
@@ -2178,44 +2290,47 @@ export const Armors = [
       ItemActorClass: "CopperHelmet",
       SneakAttackRate: 1,
     },
+    defense: 70,
+    health: 140,
   },
   {
-    ID: 40,
+    id: 40,
     name: "Metal Helm",
     rarity: "Epic",
-    defense: 75,
-    health: 150,
     description:
       "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
-    effects: [],
-    image: require("../assets/images/items/metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 90,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 45,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 4182,
@@ -2234,44 +2349,47 @@ export const Armors = [
       ItemActorClass: "CopperHelmet",
       SneakAttackRate: 1,
     },
+    defense: 75,
+    health: 150,
   },
   {
-    ID: 41,
+    id: 41,
     name: "Metal Helm",
     rarity: "Legendary",
-    defense: 80,
-    health: 160,
     description:
       "A helm made of metal.\r\nA reliable piece of armor that protects your head, and all the thoughts within.",
-    effects: [],
-    image: require("../assets/images/items/metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 135,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 67,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 14,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 4674,
@@ -2290,44 +2408,47 @@ export const Armors = [
       ItemActorClass: "CopperHelmet",
       SneakAttackRate: 1,
     },
+    defense: 80,
+    health: 160,
   },
   {
-    ID: 42,
+    id: 42,
     name: "Refined Metal Helm",
     rarity: "Uncommon",
-    defense: 130,
-    health: 325,
     description:
       "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
-    effects: [],
-    image: require("../assets/images/items/refined-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 40,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 30,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 6812,
@@ -2346,44 +2467,47 @@ export const Armors = [
       ItemActorClass: "IronHelmet",
       SneakAttackRate: 1,
     },
+    defense: 130,
+    health: 325,
   },
   {
-    ID: 43,
+    id: 43,
     name: "Refined Metal Helm",
     rarity: "Rare",
-    defense: 140,
-    health: 350,
     description:
       "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
-    effects: [],
-    image: require("../assets/images/items/refined-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 60,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 45,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 9,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 7860,
@@ -2402,44 +2526,47 @@ export const Armors = [
       ItemActorClass: "IronHelmet",
       SneakAttackRate: 1,
     },
+    defense: 140,
+    health: 350,
   },
   {
-    ID: 44,
+    id: 44,
     name: "Refined Metal Helm",
     rarity: "Epic",
-    defense: 150,
-    health: 375,
     description:
       "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
-    effects: [],
-    image: require("../assets/images/items/refined-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 90,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 67,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 11,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 8908,
@@ -2458,44 +2585,47 @@ export const Armors = [
       ItemActorClass: "IronHelmet",
       SneakAttackRate: 1,
     },
+    defense: 150,
+    health: 375,
   },
   {
-    ID: 45,
+    id: 45,
     name: "Refined Metal Helm",
     rarity: "Legendary",
-    defense: 160,
-    health: 400,
     description:
       "A helm made from high quality metal.\r\nThe luster from the polished metal gives the wearer that added boost of confidence.",
-    effects: [],
-    image: require("../assets/images/items/refined-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 135,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 100,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 17,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 9956,
@@ -2514,44 +2644,47 @@ export const Armors = [
       ItemActorClass: "IronHelmet",
       SneakAttackRate: 1,
     },
+    defense: 160,
+    health: 400,
   },
   {
-    ID: 46,
+    id: 46,
     name: "Pal Metal Helm",
     rarity: "Uncommon",
-    defense: 195,
-    health: 455,
     description:
       "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
-    effects: [],
-    image: require("../assets/images/items/pal-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 40,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 40,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 9,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 21034,
@@ -2570,44 +2703,47 @@ export const Armors = [
       ItemActorClass: "StealHelmet",
       SneakAttackRate: 1,
     },
+    defense: 195,
+    health: 455,
   },
   {
-    ID: 47,
+    id: 47,
     name: "Pal Metal Helm",
     rarity: "Rare",
-    defense: 210,
-    health: 490,
     description:
       "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
-    effects: [],
-    image: require("../assets/images/items/pal-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 60,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 60,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 11,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 24270,
@@ -2626,44 +2762,47 @@ export const Armors = [
       ItemActorClass: "StealHelmet",
       SneakAttackRate: 1,
     },
+    defense: 210,
+    health: 490,
   },
   {
-    ID: 48,
+    id: 48,
     name: "Pal Metal Helm",
     rarity: "Epic",
-    defense: 225,
-    health: 525,
     description:
       "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
-    effects: [],
-    image: require("../assets/images/items/pal-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 90,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 90,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 13,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 27506,
@@ -2682,44 +2821,47 @@ export const Armors = [
       ItemActorClass: "StealHelmet",
       SneakAttackRate: 1,
     },
+    defense: 225,
+    health: 525,
   },
   {
-    ID: 49,
+    id: 49,
     name: "Pal Metal Helm",
     rarity: "Legendary",
-    defense: 240,
-    health: 560,
     description:
       "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
-    effects: [],
-    image: require("../assets/images/items/pal-metal-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 135,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 135,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 19,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 30742,
@@ -2738,34 +2880,35 @@ export const Armors = [
       ItemActorClass: "StealHelmet",
       SneakAttackRate: 1,
     },
+    defense: 240,
+    health: 560,
   },
   {
-    ID: 50,
+    id: 50,
     name: "Tropical Outfit",
     rarity: "Common",
-    defense: 25,
-    health: 70,
-    technology: 9,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/tropical-outfit.png"),
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 3,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 2,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -2789,44 +2932,48 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 25,
+    health: 70,
+    technology: 9,
   },
   {
-    ID: 51,
+    id: 51,
     name: "Tropical Outfit",
     rarity: "Uncommon",
-    defense: 32,
-    health: 91,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/tropical-outfit.png"),
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 6,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 4,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 384,
@@ -2846,44 +2993,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 32,
+    health: 91,
   },
   {
-    ID: 52,
+    id: 52,
     name: "Tropical Outfit",
     rarity: "Rare",
-    defense: 35,
-    health: 98,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/tropical-outfit.png"),
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 9,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 6,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 480,
@@ -2903,44 +3053,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 35,
+    health: 98,
   },
   {
-    ID: 53,
+    id: 53,
     name: "Tropical Outfit",
     rarity: "Epic",
-    defense: 37,
-    health: 105,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/tropical-outfit.png"),
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 13,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 9,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 576,
@@ -2960,44 +3113,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 37,
+    health: 105,
   },
   {
-    ID: 54,
+    id: 54,
     name: "Tropical Outfit",
     rarity: "Legendary",
-    defense: 40,
-    health: 112,
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/tropical-outfit.png"),
+      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 19,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 13,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 704,
@@ -3017,34 +3173,35 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 40,
+    health: 112,
   },
   {
-    ID: 55,
+    id: 55,
     name: "Tundra Outfit",
     rarity: "Common",
-    defense: 25,
-    health: 70,
-    technology: 9,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/tundra-outfit.png"),
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 3,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 2,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
@@ -3068,44 +3225,48 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 25,
+    health: 70,
+    technology: 9,
   },
   {
-    ID: 56,
+    id: 56,
     name: "Tundra Outfit",
     rarity: "Uncommon",
-    defense: 32,
-    health: 91,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/tundra-outfit.png"),
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 6,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 4,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 384,
@@ -3125,44 +3286,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 32,
+    health: 91,
   },
   {
-    ID: 57,
+    id: 57,
     name: "Tundra Outfit",
     rarity: "Rare",
-    defense: 35,
-    health: 98,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/tundra-outfit.png"),
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 9,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 6,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 480,
@@ -3182,44 +3346,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 35,
+    health: 98,
   },
   {
-    ID: 58,
+    id: 58,
     name: "Tundra Outfit",
     rarity: "Epic",
-    defense: 37,
-    health: 105,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/tundra-outfit.png"),
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 13,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 9,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 576,
@@ -3239,44 +3406,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 37,
+    health: 105,
   },
   {
-    ID: 59,
+    id: 59,
     name: "Tundra Outfit",
     rarity: "Legendary",
-    defense: 40,
-    health: 112,
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/tundra-outfit.png"),
+      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 19,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 13,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 12,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 1,
       "Gold Coin": 704,
@@ -3296,34 +3466,35 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 40,
+    health: 112,
   },
   {
-    ID: 60,
+    id: 60,
     name: "Heat Resistant Pelt Armor",
     rarity: "Common",
-    defense: 45,
-    health: 140,
-    technology: 16,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 15,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Flame Organ",
         quantity: 4,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -3347,44 +3518,48 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 45,
+    health: 140,
+    technology: 16,
   },
   {
-    ID: 61,
+    id: 61,
     name: "Heat Resistant Pelt Armor",
     rarity: "Uncommon",
-    defense: 58,
-    health: 182,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 30,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Flame Organ",
         quantity: 8,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 3600,
@@ -3404,44 +3579,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 58,
+    health: 182,
   },
   {
-    ID: 62,
+    id: 62,
     name: "Heat Resistant Pelt Armor",
     rarity: "Rare",
-    defense: 63,
-    health: 196,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 45,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Flame Organ",
         quantity: 12,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 4500,
@@ -3461,44 +3639,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 63,
+    health: 196,
   },
   {
-    ID: 63,
+    id: 63,
     name: "Heat Resistant Pelt Armor",
     rarity: "Epic",
-    defense: 67,
-    health: 210,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 67,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Flame Organ",
         quantity: 18,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 5400,
@@ -3518,44 +3699,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 67,
+    health: 210,
   },
   {
-    ID: 64,
+    id: 64,
     name: "Heat Resistant Pelt Armor",
     rarity: "Legendary",
-    defense: 72,
-    health: 224,
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.",
-    effects: ["Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 100,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Flame Organ",
         quantity: 27,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 14,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 6600,
@@ -3575,34 +3759,35 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2",
     },
+    defense: 72,
+    health: 224,
   },
   {
-    ID: 65,
+    id: 65,
     name: "Cold Resistant Pelt Armor",
     rarity: "Common",
-    defense: 45,
-    health: 140,
-    technology: 18,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 15,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ice Organ",
         quantity: 4,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
@@ -3626,44 +3811,48 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 45,
+    health: 140,
+    technology: 18,
   },
   {
-    ID: 66,
+    id: 66,
     name: "Cold Resistant Pelt Armor",
     rarity: "Uncommon",
-    defense: 58,
-    health: 182,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 30,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ice Organ",
         quantity: 8,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 4,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 3600,
@@ -3683,44 +3872,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 58,
+    health: 182,
   },
   {
-    ID: 67,
+    id: 67,
     name: "Cold Resistant Pelt Armor",
     rarity: "Rare",
-    defense: 63,
-    health: 196,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 45,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ice Organ",
         quantity: 12,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 6,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 4500,
@@ -3740,44 +3932,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 63,
+    health: 196,
   },
   {
-    ID: 68,
+    id: 68,
     name: "Cold Resistant Pelt Armor",
     rarity: "Epic",
-    defense: 67,
-    health: 210,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 67,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ice Organ",
         quantity: 18,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 8,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 5400,
@@ -3797,44 +3992,47 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 67,
+    health: 210,
   },
   {
-    ID: 69,
+    id: 69,
     name: "Cold Resistant Pelt Armor",
     rarity: "Legendary",
-    defense: 72,
-    health: 224,
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/cold-resistant-pelt-armor.png"),
+      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
     recipe: [
       {
         name: "Leather",
         quantity: 100,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Ice Organ",
         quantity: 27,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 14,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 6600,
@@ -3854,48 +4052,51 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    defense: 72,
+    health: 224,
   },
   {
-    ID: 70,
+    id: 70,
     name: "Heat Resistant Metal Armor",
     rarity: "Common",
-    defense: 105,
-    health: 250,
-    technology: 25,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 40,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 13,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 8,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 8,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -3920,58 +4121,64 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 105,
+    health: 250,
+    technology: 25,
   },
   {
-    ID: 71,
+    id: 71,
     name: "Heat Resistant Metal Armor",
     rarity: "Uncommon",
-    defense: 136,
-    health: 325,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 80,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 26,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 16,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 16,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 5904,
@@ -3992,58 +4199,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 136,
+    health: 325,
   },
   {
-    ID: 72,
+    id: 72,
     name: "Heat Resistant Metal Armor",
     rarity: "Rare",
-    defense: 147,
-    health: 350,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 120,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 39,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 24,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 24,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 7380,
@@ -4064,58 +4276,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 147,
+    health: 350,
   },
   {
-    ID: 73,
+    id: 73,
     name: "Heat Resistant Metal Armor",
     rarity: "Epic",
-    defense: 157,
-    health: 375,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 180,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 58,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 36,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 36,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 9,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 8856,
@@ -4136,58 +4353,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 157,
+    health: 375,
   },
   {
-    ID: 74,
+    id: 74,
     name: "Heat Resistant Metal Armor",
     rarity: "Legendary",
-    defense: 168,
-    health: 400,
     description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 270,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 87,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 54,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 54,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 10824,
@@ -4208,48 +4430,51 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 168,
+    health: 400,
   },
   {
-    ID: 75,
+    id: 75,
     name: "Cold Resistant Metal Armor",
     rarity: "Common",
-    defense: 105,
-    health: 250,
-    technology: 27,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 40,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 13,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 8,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 8,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
@@ -4274,58 +4499,64 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 105,
+    health: 250,
+    technology: 27,
   },
   {
-    ID: 76,
+    id: 76,
     name: "Cold Resistant Metal Armor",
     rarity: "Uncommon",
-    defense: 136,
-    health: 325,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 80,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 26,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 16,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 16,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 5,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 5904,
@@ -4346,58 +4577,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 136,
+    health: 325,
   },
   {
-    ID: 77,
+    id: 77,
     name: "Cold Resistant Metal Armor",
     rarity: "Rare",
-    defense: 147,
-    health: 350,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 120,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 39,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 24,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 24,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 7380,
@@ -4418,58 +4654,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 147,
+    health: 350,
   },
   {
-    ID: 78,
+    id: 78,
     name: "Cold Resistant Metal Armor",
     rarity: "Epic",
-    defense: 157,
-    health: 375,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 180,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 58,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 36,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 36,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 9,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 8856,
@@ -4490,58 +4731,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 157,
+    health: 375,
   },
   {
-    ID: 79,
+    id: 79,
     name: "Cold Resistant Metal Armor",
     rarity: "Legendary",
-    defense: 168,
-    health: 400,
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-metal-armor.png"),
+      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 270,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
       {
         name: "Leather",
         quantity: 87,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "Cloth",
         quantity: 54,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 54,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 2,
       "Gold Coin": 10824,
@@ -4562,48 +4808,51 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 168,
+    health: 400,
   },
   {
-    ID: 80,
+    id: 80,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Common",
-    defense: 180,
-    health: 500,
-    technology: 40,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 40,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 20,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 3,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 12,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -4628,58 +4877,64 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 180,
+    health: 500,
+    technology: 40,
   },
   {
-    ID: 81,
+    id: 81,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Uncommon",
-    defense: 234,
-    health: 650,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 80,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 40,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 6,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 24,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 11808,
@@ -4700,58 +4955,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 234,
+    health: 650,
   },
   {
-    ID: 82,
+    id: 82,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Rare",
-    defense: 252,
-    health: 700,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 120,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 60,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 9,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 36,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 9,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 14760,
@@ -4772,58 +5032,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 252,
+    health: 700,
   },
   {
-    ID: 83,
+    id: 83,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Epic",
-    defense: 270,
-    health: 750,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 180,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 90,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 13,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 54,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 11,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 17712,
@@ -4844,58 +5109,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 270,
+    health: 750,
   },
   {
-    ID: 84,
+    id: 84,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Legendary",
-    defense: 288,
-    health: 800,
     description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 270,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 135,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 19,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 81,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 17,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 21648,
@@ -4916,48 +5186,51 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 288,
+    health: 800,
   },
   {
-    ID: 85,
+    id: 85,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Common",
-    defense: 180,
-    health: 500,
-    technology: 41,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 40,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 20,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 3,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 12,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
@@ -4982,58 +5255,64 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 180,
+    health: 500,
+    technology: 41,
   },
   {
-    ID: 86,
+    id: 86,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Uncommon",
-    defense: 234,
-    health: 650,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 80,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 40,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 6,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 24,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 7,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 11808,
@@ -5054,58 +5333,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 234,
+    health: 650,
   },
   {
-    ID: 87,
+    id: 87,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Rare",
-    defense: 252,
-    health: 700,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 120,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 60,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 9,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 36,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 9,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 14760,
@@ -5126,58 +5410,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 252,
+    health: 700,
   },
   {
-    ID: 88,
+    id: 88,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Epic",
-    defense: 270,
-    health: 750,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 180,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 90,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 13,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 54,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 11,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 17712,
@@ -5198,58 +5487,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 270,
+    health: 750,
   },
   {
-    ID: 89,
+    id: 89,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Legendary",
-    defense: 288,
-    health: 800,
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-refined-metal-armor.png"),
+      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 270,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
       },
       {
         name: "Leather",
         quantity: 135,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 19,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 81,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 17,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 3,
       "Gold Coin": 21648,
@@ -5270,48 +5564,51 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 288,
+    health: 800,
   },
   {
-    ID: 90,
+    id: 90,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Common",
-    defense: 250,
-    health: 750,
-    technology: 48,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 30,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 30,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 6,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 16,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -5336,58 +5633,64 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 250,
+    health: 750,
+    technology: 48,
   },
   {
-    ID: 91,
+    id: 91,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Uncommon",
-    defense: 325,
-    health: 975,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 60,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 60,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 12,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 32,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 9,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 38760,
@@ -5408,58 +5711,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 325,
+    health: 975,
   },
   {
-    ID: 92,
+    id: 92,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Rare",
-    defense: 350,
-    health: 1050,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 90,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 90,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 18,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 48,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 11,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 48450,
@@ -5480,58 +5788,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 350,
+    health: 1050,
   },
   {
-    ID: 93,
+    id: 93,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Epic",
-    defense: 375,
-    health: 1125,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 135,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 135,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 27,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 72,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 13,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 58140,
@@ -5552,58 +5865,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 375,
+    health: 1125,
   },
   {
-    ID: 94,
+    id: 94,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Legendary",
-    defense: 400,
-    health: 1200,
     description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance. Cold Resistant Lv. 1",
-    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 202,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 202,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 40,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 108,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 19,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 71060,
@@ -5624,48 +5942,51 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Heat2",
       PassiveSkillName2: "TemperatureResist_Cold1",
     },
+    defense: 400,
+    health: 1200,
   },
   {
-    ID: 95,
+    id: 95,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Common",
-    defense: 250,
-    health: 750,
-    technology: 50,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 30,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 30,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 6,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 16,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
@@ -5690,58 +6011,64 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 250,
+    health: 750,
+    technology: 50,
   },
   {
-    ID: 96,
+    id: 96,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Uncommon",
-    defense: 325,
-    health: 975,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 60,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 60,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 12,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 32,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 9,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 38760,
@@ -5762,58 +6089,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 325,
+    health: 975,
   },
   {
-    ID: 97,
+    id: 97,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Rare",
-    defense: 350,
-    health: 1050,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 90,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 90,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 18,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 48,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 11,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 48450,
@@ -5834,58 +6166,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 350,
+    health: 1050,
   },
   {
-    ID: 98,
+    id: 98,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Epic",
-    defense: 375,
-    health: 1125,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 135,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 135,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 27,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 72,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 13,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 58140,
@@ -5906,58 +6243,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 375,
+    health: 1125,
   },
   {
-    ID: 99,
+    id: 99,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Legendary",
-    defense: 400,
-    health: 1200,
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-pal-metal-armor.png"),
+      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 202,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Leather",
         quantity: 202,
-        image: require("../assets/images/items/leather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/leather.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 40,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 108,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 19,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 71060,
@@ -5978,25 +6320,26 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 400,
+    health: 1200,
   },
   {
-    ID: 100,
+    id: 100,
     name: "Lyleen Floral Cap",
     rarity: "Common",
-    defense: 20,
-    health: 60,
     description: "Floral cap shaped like a Lyleen.Grass Damage Reduction Lv. 1",
-    effects: ["Grass Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/lyleen-floral-cap.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip023.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lyleen-floral-cap.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
@@ -6020,194 +6363,198 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Leaf_1",
     },
+    defense: 20,
+    health: 60,
   },
   {
-    ID: 101,
+    id: 101,
     name: "Sibelyx Hat",
     rarity: "Common",
-    defense: 20,
-    health: 60,
     description: "Hat shaped like a Sibelyx.Ice Damage Reduction Lv. 1",
-    effects: ["Ice Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/sibelyx-hat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip024.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/sibelyx-hat.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
-      "Rarity": "Common",
-      "Type": "Armor",
-      "Rank": 99,
+      Rarity: "Common",
+      Type: "Armor",
+      Rank: 99,
       "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 4,
-      "MaxStackCount": 1,
-      "Durability": 300,
-      "Code": "HeadEquip023",
-      "IconName": "HeadEquip023",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1385,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "HeadEquip023",
-      "SneakAttackRate": 1,
-      "PassiveSkillName": "ElementResist_Leaf_1"
-    }
+      Health: 60,
+      Defense: 20,
+      Weight: 4,
+      MaxStackCount: 1,
+      Durability: 300,
+      Code: "HeadEquip024",
+      IconName: "HeadEquip024",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1386,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "HeadEquip024",
+      SneakAttackRate: 1,
+      PassiveSkillName: "ElementResist_Ice_1",
+    },
+    defense: 20,
+    health: 60,
   },
   {
-    ID: 102,
+    id: 102,
     name: "Cawgnito Hat",
     rarity: "Common",
-    defense: 20,
-    health: 60,
     description: "Hat shaped like a Cawgnito.Dark Damage Reduction Lv. 1",
-    effects: ["Dark Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/cawgnito-hat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip027.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cawgnito-hat.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
-      "Rarity": "Common",
-      "Type": "Armor",
-      "Rank": 99,
+      Rarity: "Common",
+      Type: "Armor",
+      Rank: 99,
       "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 4,
-      "MaxStackCount": 1,
-      "Durability": 300,
-      "Code": "HeadEquip027",
-      "IconName": "HeadEquip027",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1397,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "HeadEquip027",
-      "SneakAttackRate": 1,
-      "PassiveSkillName": "ElementResist_Dark_1"
-    }
-
+      Health: 60,
+      Defense: 20,
+      Weight: 4,
+      MaxStackCount: 1,
+      Durability: 300,
+      Code: "HeadEquip027",
+      IconName: "HeadEquip027",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1397,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "HeadEquip027",
+      SneakAttackRate: 1,
+      PassiveSkillName: "ElementResist_Dark_1",
+    },
+    defense: 20,
+    health: 60,
   },
   {
-    ID: 103,
+    id: 103,
     name: "Lamball Helm",
     rarity: "Common",
-    defense: 20,
-    health: 60,
     description: "Helm shaped like a Lamball.Neutral Damage Reduction Lv. 1",
-    effects: ["Neutral Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/lamball-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip029.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lamball-helm.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
-      "Rarity": "Common",
-      "Type": "Armor",
-      "Rank": 99,
+      Rarity: "Common",
+      Type: "Armor",
+      Rank: 99,
       "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 4,
-      "MaxStackCount": 1,
-      "Durability": 300,
-      "Code": "HeadEquip029",
-      "IconName": "HeadEquip029",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1403,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "HeadEquip029",
-      "SneakAttackRate": 1,
-      "PassiveSkillName": "ElementResist_Normal_1"
-    }
+      Health: 60,
+      Defense: 20,
+      Weight: 4,
+      MaxStackCount: 1,
+      Durability: 300,
+      Code: "HeadEquip029",
+      IconName: "HeadEquip029",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1403,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "HeadEquip029",
+      SneakAttackRate: 1,
+      PassiveSkillName: "ElementResist_Normal_1",
+    },
+    defense: 20,
+    health: 60,
   },
   {
-    ID: 104,
+    id: 104,
     name: "Dumud Helm",
     rarity: "Common",
-    defense: 20,
-    health: 60,
     description: "Helm shaped like a Dumud.Earth Damage Reduction Lv. 1",
-    effects: ["Earth Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/dumud-helm.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip030.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/dumud-helm.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
-      "Rarity": "Common",
-      "Type": "Armor",
-      "Rank": 99,
+      Rarity: "Common",
+      Type: "Armor",
+      Rank: 99,
       "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 4,
-      "MaxStackCount": 1,
-      "Durability": 300,
-      "Code": "HeadEquip030",
-      "IconName": "HeadEquip030",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1404,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "HeadEquip030",
-      "SneakAttackRate": 1,
-      "PassiveSkillName": "ElementResist_Earth_1"
-    }
-  },
-  {
-    ID: 105,
-    name: "Cattiva Hat",
-    rarity: "Common",
+      Health: 60,
+      Defense: 20,
+      Weight: 4,
+      MaxStackCount: 1,
+      Durability: 300,
+      Code: "HeadEquip030",
+      IconName: "HeadEquip030",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1404,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "HeadEquip030",
+      SneakAttackRate: 1,
+      PassiveSkillName: "ElementResist_Earth_1",
+    },
     defense: 20,
     health: 60,
+  },
+  {
+    id: 105,
+    name: "Cattiva Hat",
+    rarity: "Common",
     description: "Hat shaped like a Cattiva.Neutral Damage Reduction Lv. 1",
-    effects: ["Neutral Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/cattiva-hat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip033.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cattiva-hat.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
@@ -6231,41 +6578,43 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Normal_1",
     },
+    defense: 20,
+    health: 60,
   },
   {
-    ID: 106,
+    id: 106,
     name: "Plasteel Armor",
     rarity: "Common",
-    defense: 385,
-    health: 1300,
-    technology: 50,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/plasteel-armor.png"),
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 30,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 10,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
     ],
     stats: {
@@ -6290,34 +6639,36 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 385,
+    health: 1300,
+    technology: 50,
   },
   {
-    ID: 107,
+    id: 107,
     name: "Plasteel Helmet",
     rarity: "Common",
-    defense: 260,
-    health: 600,
-    technology: 51,
     description:
       "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: [],
-    image: require("../assets/images/items/plasteel-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 40,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 25,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
     ],
     stats: {
@@ -6340,46 +6691,52 @@ export const Armors = [
       ItemActorClass: "PlasticHelmet",
       SneakAttackRate: 1,
     },
+    defense: 260,
+    health: 600,
+    technology: 51,
   },
   {
-    ID: 108,
+    id: 108,
     name: "Ultra Shield",
     rarity: "Legendary",
-    technology: 55,
     description:
       "Strange shield made with Paldium technology.\r\nIt automatically repair itself after not taking damage for a while.\r\nAs a result of further experiments, ultimate quality has been achieved.",
-    effects: [],
-    image: require("../assets/images/items/ultra-shield.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_05.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/ultra-shield.png",
     recipe: [
       {
         name: "Ancient Civilization Parts",
         quantity: 50,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 150,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Ancient Civilization Core",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-core.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-core.png",
       },
     ],
     stats: {
@@ -6388,8 +6745,8 @@ export const Armors = [
       Rank: 4,
       "Gold Coin": 100000,
       Weight: 5,
-      MaxStackCount: 1,
       Shield: 1520,
+      MaxStackCount: 1,
       Durability: 20000,
       Code: "Shield_Ultra",
       IconName: "Shield_05",
@@ -6400,339 +6757,349 @@ export const Armors = [
       ItemDynamicClass: "CommonArmor",
       SneakAttackRate: 1,
     },
+    technology: 55,
+    shield: 1520,
   },
   {
-    ID: 109,
+    id: 109,
     name: "Witch's Crown (Ultra)",
     rarity: "Legendary",
-    defense: 30,
-    health: 80,
     description:
       "Imbued with the ominous power of Bellanoir Libero (Ultra).\r\nExtremely difficult to obtain.Dragon Damage Reduction Lv. 1",
-    effects: ["Dragon Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/witchs-crown.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head001_purple.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/witch's-crown-(ultra).png",
     recipe: [
       {
         name: "Ingot",
         quantity: 1,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
     ],
     stats: {
-      "Rarity": "Legendary",
-      "Type": "Armor",
-      "Rank": 99,
+      Rarity: "Legendary",
+      Type: "Armor",
+      Rank: 99,
       "Gold Coin": 180,
-      "Health": 80,
-      "Defense": 20,
-      "Weight": 7,
-      "MaxStackCount": 1,
-      "Durability": 5000,
-      "Code": "HeadEquip001_purple",
-      "IconName": "HeadEquip001_purple",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1500,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "HeadEquip001_purple",
-      "SneakAttackRate": 1,
-      "PassiveSkillName": "ElementResist_Dragon_1"
-    }
-  },
-  {
-    ID: 110,
-    name: "Zoe Hat",
-    rarity: "Legendary",
-    defense: 20,
-    health: 60,
-    description: "Dress up like Zoe using this special headpiece!",
-    effects: [],
-    image: require("../assets/images/items/zoe-hat.png"),
-    image_url:
-      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Grass.webp",
-    recipe: [
-      {
-        name: "Cloth",
-        quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
-        image_url:
-          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
-      },
-    ],
-    stats: {
-      "Rarity": "Legendary",
-      "Type": "Armor",
-      "Rank": 99,
-      "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 7,
-      "MaxStackCount": 1,
-      "Durability": 5000,
-      "Code": "GYM_Head_Grass",
-      "IconName": "GYM_Head_Grass",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1600,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "GYM_Head_Grass",
-      "SneakAttackRate": 1,
-    }
-  },
-  {
-    ID: 111,
-    name: "Axel Hat",
-    rarity: "Legendary",
-    defense: 20,
-    health: 60,
-    description: "Dress up like Axel using this special headpiece!",
-    effects: [],
-    image: require("../assets/images/items/axel-hat.png"),
-    image_url:
-      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Electric.webp",
-    recipe: [
-      {
-        name: "Cloth",
-        quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
-        image_url:
-          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
-      },
-    ],
-    stats: {
-      "Rarity": "Legendary",
-      "Type": "Armor",
-      "Rank": 99,
-      "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 7,
-      "MaxStackCount": 1,
-      "Durability": 5000,
-      "Code": "GYM_Head_Electric",
-      "IconName": "GYM_Head_Electric",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1602,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "GYM_Head_Electric",
-      "SneakAttackRate": 1,
-    }
-  },
-  {
-    ID: 112,
-    name: "Lily Hat",
-    rarity: "Legendary",
-    defense: 20,
-    health: 60,
-    description: "Dress up like Lily using this special headpiece!",
-    effects: [],
-    image: require("../assets/images/items/lily-hat.png"),
-    image_url:
-      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Forest.webp",
-    recipe: [
-      {
-        name: "Cloth",
-        quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
-        image_url:
-          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
-      },
-    ],
-    stats: {
-      "Rarity": "Legendary",
-      "Type": "Armor",
-      "Rank": 99,
-      "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 7,
-      "MaxStackCount": 1,
-      "Durability": 5000,
-      "Code": "GYM_Head_Forest",
-      "IconName": "GYM_Head_Forest",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1601,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "GYM_Head_Forest",
-      "SneakAttackRate": 1,
-    }
-  },
-  {
-    ID: 113,
-    name: "Victor Hat",
-    rarity: "Legendary",
-    defense: 20,
-    health: 60,
-    description: "Dress up like Victor using this special headpiece!",
-    effects: [],
-    image: require("../assets/images/items/victor-hat.png"),
-    image_url:
-      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Snow.webp",
-    recipe: [
-      {
-        name: "Cloth",
-        quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
-        image_url:
-          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
-      },
-    ],
-    stats: {
-      "Rarity": "Legendary",
-      "Type": "Armor",
-      "Rank": 99,
-      "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 7,
-      "MaxStackCount": 1,
-      "Durability": 5000,
-      "Code": "GYM_Head_Snow",
-      "IconName": "GYM_Head_Snow",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1604,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "GYM_Head_Snow",
-      "SneakAttackRate": 1,
-    }
-  },
-  {
-    ID: 114,
-    name: "Marcus Hat",
-    rarity: "Legendary",
-    defense: 20,
-    health: 60,
-    description: "Dress up like Marcus using this special headpiece!",
-    effects: [],
-    image: require("../assets/images/items/marcus-hat.png"),
-    image_url:
-      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Desert.webp",
-    recipe: [
-      {
-        name: "Cloth",
-        quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
-        image_url:
-          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
-      },
-    ],
-    stats: {
-      "Rarity": "Legendary",
-      "Type": "Armor",
-      "Rank": 99,
-      "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 7,
-      "MaxStackCount": 1,
-      "Durability": 5000,
-      "Code": "GYM_Head_Desert",
-      "IconName": "GYM_Head_Desert",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1603,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "GYM_Head_Desert",
-      "SneakAttackRate": 1,
-    }
-  },
-  {
-    ID: 115,
-    name: "Horns of Supremacy",
-    rarity: "Legendary",
+      Health: 80,
+      Defense: 30,
+      Weight: 7,
+      MaxStackCount: 1,
+      Durability: 5000,
+      Code: "HeadEquip001_purple",
+      IconName: "HeadEquip001_purple",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1500,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "HeadEquip001_purple",
+      SneakAttackRate: 1,
+      PassiveSkillName: "ElementResist_Dragon_1",
+    },
     defense: 30,
     health: 80,
+  },
+  {
+    id: 110,
+    name: "Zoe Hat",
+    rarity: "Legendary",
+    description: "Dress up like Zoe using this special headpiece!",
+    image_url:
+      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/zoe-hat.png",
+    recipe: [
+      {
+        name: "Cloth",
+        quantity: 1,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
+      },
+    ],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Armor",
+      Rank: 99,
+      "Gold Coin": 180,
+      Health: 60,
+      Defense: 20,
+      Weight: 7,
+      MaxStackCount: 1,
+      Durability: 5000,
+      Code: "GYM_Head_Grass",
+      IconName: "GYM_Head_Grass",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1600,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "GYM_Head_Grass",
+      SneakAttackRate: 1,
+    },
+    defense: 20,
+    health: 60,
+  },
+  {
+    id: 111,
+    name: "Axel Hat",
+    rarity: "Legendary",
+    description: "Dress up like Axel using this special headpiece!",
+    image_url:
+      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/axel-hat.png",
+    recipe: [
+      {
+        name: "Cloth",
+        quantity: 1,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
+      },
+    ],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Armor",
+      Rank: 99,
+      "Gold Coin": 180,
+      Health: 60,
+      Defense: 20,
+      Weight: 7,
+      MaxStackCount: 1,
+      Durability: 5000,
+      Code: "GYM_Head_Electric",
+      IconName: "GYM_Head_Electric",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1602,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "GYM_Head_Electric",
+      SneakAttackRate: 1,
+    },
+    defense: 20,
+    health: 60,
+  },
+  {
+    id: 112,
+    name: "Lily Hat",
+    rarity: "Legendary",
+    description: "Dress up like Lily using this special headpiece!",
+    image_url:
+      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Forest.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lily-hat.png",
+    recipe: [
+      {
+        name: "Cloth",
+        quantity: 1,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
+      },
+    ],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Armor",
+      Rank: 99,
+      "Gold Coin": 180,
+      Health: 60,
+      Defense: 20,
+      Weight: 7,
+      MaxStackCount: 1,
+      Durability: 5000,
+      Code: "GYM_Head_Forest",
+      IconName: "GYM_Head_Forest",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1601,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "GYM_Head_Forest",
+      SneakAttackRate: 1,
+    },
+    defense: 20,
+    health: 60,
+  },
+  {
+    id: 113,
+    name: "Victor Hat",
+    rarity: "Legendary",
+    description: "Dress up like Victor using this special headpiece!",
+    image_url:
+      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Snow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/victor-hat.png",
+    recipe: [
+      {
+        name: "Cloth",
+        quantity: 1,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
+      },
+    ],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Armor",
+      Rank: 99,
+      "Gold Coin": 180,
+      Health: 60,
+      Defense: 20,
+      Weight: 7,
+      MaxStackCount: 1,
+      Durability: 5000,
+      Code: "GYM_Head_Snow",
+      IconName: "GYM_Head_Snow",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1604,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "GYM_Head_Snow",
+      SneakAttackRate: 1,
+    },
+    defense: 20,
+    health: 60,
+  },
+  {
+    id: 114,
+    name: "Marcus Hat",
+    rarity: "Legendary",
+    description: "Dress up like Marcus using this special headpiece!",
+    image_url:
+      "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Desert.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/marcus-hat.png",
+    recipe: [
+      {
+        name: "Cloth",
+        quantity: 1,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
+      },
+    ],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Armor",
+      Rank: 99,
+      "Gold Coin": 180,
+      Health: 60,
+      Defense: 20,
+      Weight: 7,
+      MaxStackCount: 1,
+      Durability: 5000,
+      Code: "GYM_Head_Desert",
+      IconName: "GYM_Head_Desert",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1603,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "GYM_Head_Desert",
+      SneakAttackRate: 1,
+    },
+    defense: 20,
+    health: 60,
+  },
+  {
+    id: 115,
+    name: "Horns of Supremacy",
+    rarity: "Legendary",
     description:
       "Bursts with the ominous power of Blazamut Ryu (Ultra).\r\nTo possess this is exceedingly rare.Water Damage Reduction Lv. 1",
-    effects: ["Water Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/horns-of-supremacy.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip041.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/horns-of-supremacy.png",
     recipe: [
       {
         name: "Ingot",
         quantity: 1,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
       },
     ],
     stats: {
-      "Rarity": "Legendary",
-      "Type": "Armor",
-      "Rank": 99,
+      Rarity: "Legendary",
+      Type: "Armor",
+      Rank: 99,
       "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 7,
-      "MaxStackCount": 1,
-      "Durability": 5000,
-      "Code": "HeadEquip041",
-      "IconName": "HeadEquip041",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1501,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "HeadEquip041",
-      "SneakAttackRate": 1,
-      'PassiveSkillName':"ElementResist_Aqua_1"
-    }
+      Health: 80,
+      Defense: 30,
+      Weight: 7,
+      MaxStackCount: 1,
+      Durability: 5000,
+      Code: "HeadEquip041",
+      IconName: "HeadEquip041",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1501,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "HeadEquip041",
+      SneakAttackRate: 1,
+      PassiveSkillName: "ElementResist_Aqua_1",
+    },
+    defense: 30,
+    health: 80,
   },
   {
-    ID: 116,
+    id: 116,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Common",
-    defense: 400,
-    health: 1300,
-    technology: 53,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 30,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 10,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 20,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -6757,48 +7124,52 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
-  },
-  {
-    ID: 117,
-    name: "Cold Resistant Plasteel Armor",
-    rarity: "Common",
     defense: 400,
     health: 1300,
-    technology: 54,
+    technology: 53,
+  },
+  {
+    id: 117,
+    name: "Cold Resistant Plasteel Armor",
+    rarity: "Common",
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 30,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 10,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 20,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
@@ -6823,45 +7194,44 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
-  },
-  {
-    ID: 118,
-    name: "Lightweight Plasteel Armor",
-    rarity: "Common",
     defense: 400,
     health: 1300,
-    technology: 55,
+    technology: 54,
+  },
+  {
+    id: 118,
+    name: "Lightweight Plasteel Armor",
+    rarity: "Common",
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 30,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 10,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
     ],
     stats: {
@@ -6887,25 +7257,27 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 400,
+    health: 1300,
+    technology: 55,
   },
   {
-    ID: 119,
+    id: 119,
     name: "Saya Hat",
     rarity: "Legendary",
-    defense: 20,
-    health: 60,
     description: "Dress up like Saya using this special headpiece!",
-    effects: [],
-    image: require("../assets/images/items/saya-hat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Sakurajima.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/saya-hat.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
@@ -6921,58 +7293,62 @@ export const Armors = [
       Code: "GYM_Head_Sakurajima",
       IconName: "GYM_Head_Sakurajima",
       TypeA: "Armor",
-      TypeB: "ArmorBody",
+      TypeB: "ArmorHead",
       SortID: 1605,
       ItemStaticClass: "CommonArmor",
       ItemDynamicClass: "CommonArmor",
       ItemActorClass: "GYM_Head_Sakurajima",
       SneakAttackRate: 1,
     },
+    defense: 20,
+    health: 60,
   },
   {
-    ID: 120,
+    id: 120,
     name: "Plasteel Armor",
     rarity: "Uncommon",
-    defense: 500,
-    health: 1560,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/plasteel-armor.png"),
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 60,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -6993,51 +7369,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 500,
+    health: 1560,
   },
   {
-    ID: 121,
+    id: 121,
     name: "Plasteel Armor",
     rarity: "Rare",
-    defense: 539,
-    health: 1690,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/plasteel-armor.png"),
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 90,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 30,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 17,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7058,51 +7438,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 539,
+    health: 1690,
   },
   {
-    ID: 122,
+    id: 122,
     name: "Plasteel Armor",
     rarity: "Epic",
-    defense: 577,
-    health: 1820,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/plasteel-armor.png"),
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 225,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 135,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 45,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 19,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7123,51 +7507,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 577,
+    health: 1820,
   },
   {
-    ID: 123,
+    id: 123,
     name: "Plasteel Armor",
     rarity: "Legendary",
-    defense: 616,
-    health: 1950,
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/plasteel-armor.png"),
+      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 337,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 202,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 67,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7188,58 +7576,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 616,
+    health: 1950,
   },
   {
-    ID: 124,
+    id: 124,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Uncommon",
-    defense: 520,
-    health: 1560,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 60,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 40,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7260,58 +7653,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
+    defense: 520,
+    health: 1560,
   },
   {
-    ID: 125,
+    id: 125,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Rare",
-    defense: 560,
-    health: 1690,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 90,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 30,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 60,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 17,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7332,58 +7730,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
+    defense: 560,
+    health: 1690,
   },
   {
-    ID: 126,
+    id: 126,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Epic",
-    defense: 600,
-    health: 1820,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 225,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 135,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 45,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 90,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 19,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7404,58 +7807,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
+    defense: 600,
+    health: 1820,
   },
   {
-    ID: 127,
+    id: 127,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Legendary",
-    defense: 640,
-    health: 1950,
     description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 337,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 202,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 67,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 135,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7476,58 +7884,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
+    defense: 640,
+    health: 1950,
   },
   {
-    ID: 128,
+    id: 128,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Uncommon",
-    defense: 520,
-    health: 1560,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 100,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 60,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 40,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7548,58 +7961,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 520,
+    health: 1560,
   },
   {
-    ID: 129,
+    id: 129,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Rare",
-    defense: 560,
-    health: 1690,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 150,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 90,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 30,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 60,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 17,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7620,58 +8038,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 560,
+    health: 1690,
   },
   {
-    ID: 130,
+    id: 130,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Epic",
-    defense: 600,
-    health: 1820,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 225,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 135,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 45,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 90,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 19,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7692,58 +8115,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 600,
+    health: 1820,
   },
   {
-    ID: 131,
+    id: 131,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Legendary",
-    defense: 640,
-    health: 1950,
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 337,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 202,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 67,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 135,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7764,55 +8192,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 640,
+    health: 1950,
   },
   {
-    ID: 132,
+    id: 132,
     name: "Lightweight Plasteel Armor",
     rarity: "Uncommon",
-    defense: 520,
-    health: 1560,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 200,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 60,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7834,55 +8262,55 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 520,
+    health: 1560,
   },
   {
-    ID: 133,
+    id: 133,
     name: "Lightweight Plasteel Armor",
     rarity: "Rare",
-    defense: 560,
-    health: 1690,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 300,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 90,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 30,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 17,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7904,55 +8332,55 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 560,
+    health: 1690,
   },
   {
-    ID: 134,
+    id: 134,
     name: "Lightweight Plasteel Armor",
     rarity: "Epic",
-    defense: 600,
-    health: 1820,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 450,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 135,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 45,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 19,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -7974,55 +8402,55 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 600,
+    health: 1820,
   },
   {
-    ID: 135,
+    id: 135,
     name: "Lightweight Plasteel Armor",
     rarity: "Legendary",
-    defense: 640,
-    health: 1950,
     description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-plasteel-armor.png"),
+      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 675,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 202,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 67,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 35000,
@@ -8044,44 +8472,47 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 640,
+    health: 1950,
   },
   {
-    ID: 136,
+    id: 136,
     name: "Plasteel Helmet",
     rarity: "Uncommon",
-    defense: 312,
-    health: 720,
     description:
       "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: [],
-    image: require("../assets/images/items/plasteel-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 80,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 50,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 18000,
@@ -8100,44 +8531,47 @@ export const Armors = [
       ItemActorClass: "PlasticHelmet",
       SneakAttackRate: 1,
     },
+    defense: 312,
+    health: 720,
   },
   {
-    ID: 137,
+    id: 137,
     name: "Plasteel Helmet",
     rarity: "Rare",
-    defense: 338,
-    health: 780,
     description:
       "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: [],
-    image: require("../assets/images/items/plasteel-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 120,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 75,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 17,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 18000,
@@ -8156,44 +8590,47 @@ export const Armors = [
       ItemActorClass: "PlasticHelmet",
       SneakAttackRate: 1,
     },
+    defense: 338,
+    health: 780,
   },
   {
-    ID: 138,
+    id: 138,
     name: "Plasteel Helmet",
     rarity: "Epic",
-    defense: 364,
-    health: 840,
     description:
       "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: [],
-    image: require("../assets/images/items/plasteel-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 180,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 112,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 19,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 18000,
@@ -8212,44 +8649,47 @@ export const Armors = [
       ItemActorClass: "PlasticHelmet",
       SneakAttackRate: 1,
     },
+    defense: 364,
+    health: 840,
   },
   {
-    ID: 139,
+    id: 139,
     name: "Plasteel Helmet",
     rarity: "Legendary",
-    defense: 390,
-    health: 900,
     description:
       "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
-    effects: [],
-    image: require("../assets/images/items/plasteel-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
     recipe: [
       {
         name: "Plasteel",
         quantity: 270,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 168,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 18000,
@@ -8268,41 +8708,43 @@ export const Armors = [
       ItemActorClass: "PlasticHelmet",
       SneakAttackRate: 1,
     },
+    defense: 390,
+    health: 900,
   },
   {
-    ID: 140,
+    id: 140,
     name: "Hexolite Armor",
     rarity: "Common",
-    defense: 580,
-    health: 1750,
-    technology: 57,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/hexolite-armor.png"),
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 50,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 30,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
     ],
     stats: {
@@ -8327,28 +8769,29 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 580,
+    health: 1750,
+    technology: 57,
   },
   {
-    ID: 141,
+    id: 141,
     name: "Xenolord's head",
     rarity: "Legendary",
-    defense: 30,
-    health: 80,
     description:
       "A headgear designed to resemble a Xenolord.Ice Damage Reduction Lv. 1",
-    effects: ["Ice Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/xenolord's-head.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip044.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/xenolord's-head.png",
     recipe: [],
     stats: {
       Rarity: "Legendary",
       Type: "Armor",
       Rank: 99,
-      "Gold Coin": 80,
-      Health: 30,
-      Defense: 7,
-      Weight: 1,
+      "Gold Coin": 180,
+      Health: 80,
+      Defense: 30,
+      Weight: 7,
       MaxStackCount: 1,
       Durability: 5000,
       Code: "HeadEquip044",
@@ -8362,49 +8805,51 @@ export const Armors = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Ice_1",
     },
+    defense: 30,
+    health: 80,
   },
-  
   {
-    ID: 142,
+    id: 142,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Common",
-    defense: 600,
-    health: 1750,
-    technology: 59,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 50,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 30,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 30,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
     ],
     stats: {
@@ -8429,48 +8874,52 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
-  },
-  {
-    ID: 143,
-    name: "Cold Resistant Hexolite Armor",
-    rarity: "Common",
     defense: 600,
     health: 1750,
     technology: 59,
+  },
+  {
+    id: 143,
+    name: "Cold Resistant Hexolite Armor",
+    rarity: "Common",
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 50,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 30,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 30,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
     ],
     stats: {
@@ -8495,45 +8944,44 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
-  },
-  {
-    ID: 144,
-    name: "Lightweight Hexolite Armor",
-    rarity: "Common",
     defense: 600,
     health: 1750,
-    technology: 60,
+    technology: 59,
+  },
+  {
+    id: 144,
+    name: "Lightweight Hexolite Armor",
+    rarity: "Common",
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 100,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 30,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
     ],
     stats: {
@@ -8559,34 +9007,36 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 600,
+    health: 1750,
+    technology: 60,
   },
   {
-    ID: 145,
+    id: 145,
     name: "Hexolite Helmet",
     rarity: "Common",
-    defense: 350,
-    health: 800,
-    technology: 58,
     description:
       "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
-    effects: [],
-    image: require("../assets/images/items/hexolite-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 40,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 25,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
     ],
     stats: {
@@ -8609,85 +9059,90 @@ export const Armors = [
       ItemActorClass: "SFHelmet",
       SneakAttackRate: 1,
     },
+    defense: 350,
+    health: 800,
+    technology: 58,
   },
   {
-    ID: 146,
+    id: 146,
     name: "Bjorn Hat",
     rarity: "Legendary",
-    defense: 20,
-    health: 60,
     description: "Dress up like Bjorm using this special headpiece!",
-    effects: [],
-    image: require("../assets/images/items/bjorn-hat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Viking.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/bjorn-hat.png",
     recipe: [
       {
         name: "Cloth",
         quantity: 1,
-        image: require("../assets/images/items/cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cloth.png",
       },
     ],
     stats: {
-      "Rarity": "Legendary",
-      "Type": "Armor",
-      "Rank": 99,
+      Rarity: "Legendary",
+      Type: "Armor",
+      Rank: 99,
       "Gold Coin": 180,
-      "Health": 60,
-      "Defense": 20,
-      "Weight": 7,
-      "MaxStackCount": 1,
-      "Durability": 5000,
-      "Code": "GYM_Head_Viking",
-      "IconName": "GYM_Head_Viking",
-      "TypeA": "Armor",
-      "TypeB": "ArmorHead",
-      "SortID": 1606,
-      "ItemStaticClass": "CommonArmor",
-      "ItemDynamicClass": "CommonArmor",
-      "ItemActorClass": "GYM_Head_Desert",
-      "SneakAttackRate": 1
-    }
+      Health: 60,
+      Defense: 20,
+      Weight: 7,
+      MaxStackCount: 1,
+      Durability: 5000,
+      Code: "GYM_Head_Viking",
+      IconName: "GYM_Head_Viking",
+      TypeA: "Armor",
+      TypeB: "ArmorHead",
+      SortID: 1606,
+      ItemStaticClass: "CommonArmor",
+      ItemDynamicClass: "CommonArmor",
+      ItemActorClass: "GYM_Head_Desert",
+      SneakAttackRate: 1,
+    },
+    defense: 20,
+    health: 60,
   },
   {
-    ID: 147,
+    id: 147,
     name: "Hexolite Helmet",
     rarity: "Uncommon",
-    defense: 385,
-    health: 880,
     description:
       "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
-    effects: [],
-    image: require("../assets/images/items/hexolite-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 80,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 50,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 20000,
@@ -8706,44 +9161,47 @@ export const Armors = [
       ItemActorClass: "SFHelmet",
       SneakAttackRate: 1,
     },
+    defense: 385,
+    health: 880,
   },
   {
-    ID: 148,
+    id: 148,
     name: "Hexolite Helmet",
     rarity: "Rare",
-    defense: 402,
-    health: 920,
     description:
       "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
-    effects: [],
-    image: require("../assets/images/items/hexolite-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 120,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 75,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 20000,
@@ -8762,44 +9220,47 @@ export const Armors = [
       ItemActorClass: "SFHelmet",
       SneakAttackRate: 1,
     },
+    defense: 402,
+    health: 920,
   },
   {
-    ID: 149,
+    id: 149,
     name: "Hexolite Helmet",
     rarity: "Epic",
-    defense: 420,
-    health: 960,
     description:
       "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
-    effects: [],
-    image: require("../assets/images/items/hexolite-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 180,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 112,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 20000,
@@ -8818,44 +9279,47 @@ export const Armors = [
       ItemActorClass: "SFHelmet",
       SneakAttackRate: 1,
     },
+    defense: 420,
+    health: 960,
   },
   {
-    ID: 150,
+    id: 150,
     name: "Hexolite Helmet",
     rarity: "Legendary",
-    defense: 455,
-    health: 1040,
     description:
       "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
-    effects: [],
-    image: require("../assets/images/items/hexolite-helmet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 270,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 168,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 20000,
@@ -8874,51 +9338,55 @@ export const Armors = [
       ItemActorClass: "SFHelmet",
       SneakAttackRate: 1,
     },
+    defense: 455,
+    health: 1040,
   },
   {
-    ID: 151,
+    id: 151,
     name: "Hexolite Armor",
     rarity: "Uncommon",
-    defense: 638,
-    health: 1925,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/hexolite-armor.png"),
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 100,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 60,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 40,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -8939,51 +9407,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 638,
+    health: 1925,
   },
   {
-    ID: 152,
+    id: 152,
     name: "Hexolite Armor",
     rarity: "Rare",
-    defense: 667,
-    health: 2012,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/hexolite-armor.png"),
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 150,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 90,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 60,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9004,51 +9476,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 667,
+    health: 2012,
   },
   {
-    ID: 153,
+    id: 153,
     name: "Hexolite Armor",
     rarity: "Epic",
-    defense: 696,
-    health: 2100,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/hexolite-armor.png"),
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 225,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 135,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 90,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9069,51 +9545,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 696,
+    health: 2100,
   },
   {
-    ID: 154,
+    id: 154,
     name: "Hexolite Armor",
     rarity: "Legendary",
-    defense: 754,
-    health: 2275,
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/hexolite-armor.png"),
+      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 337,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 202,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 135,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9134,58 +9614,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 754,
+    health: 2275,
   },
   {
-    ID: 155,
+    id: 155,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Uncommon",
-    defense: 660,
-    health: 1925,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 100,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 60,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 40,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 60,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9206,58 +9691,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
+    defense: 660,
+    health: 1925,
   },
   {
-    ID: 156,
+    id: 156,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Rare",
-    defense: 690,
-    health: 2012,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 150,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 90,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 60,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 90,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9278,58 +9768,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
+    defense: 690,
+    health: 2012,
   },
   {
-    ID: 157,
+    id: 157,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Epic",
-    defense: 720,
-    health: 2100,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 225,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 135,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 90,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 135,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9350,58 +9845,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
+    defense: 720,
+    health: 2100,
   },
   {
-    ID: 158,
+    id: 158,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Legendary",
-    defense: 780,
-    health: 2275,
     description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.",
-    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
-    image: require("../assets/images/items/heat-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 337,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 202,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 135,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Flame Organ",
         quantity: 202,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9422,58 +9922,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold1",
       PassiveSkillName2: "TemperatureResist_Heat2",
     },
+    defense: 780,
+    health: 2275,
   },
   {
-    ID: 159,
+    id: 159,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Uncommon",
-    defense: 660,
-    health: 1925,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 100,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 60,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 40,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 60,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9494,58 +9999,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 660,
+    health: 1925,
   },
   {
-    ID: 160,
+    id: 160,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Rare",
-    defense: 690,
-    health: 2012,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 150,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 90,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 60,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 90,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9566,58 +10076,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 690,
+    health: 2012,
   },
   {
-    ID: 161,
+    id: 161,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Epic",
-    defense: 720,
-    health: 2100,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 225,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 135,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 90,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 135,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9638,58 +10153,63 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 720,
+    health: 2100,
   },
   {
-    ID: 162,
+    id: 162,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Legendary",
-    defense: 780,
-    health: 2275,
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.",
-    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/cold-resistant-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 337,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 202,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 135,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ice Organ",
         quantity: 202,
-        image: require("../assets/images/items/ice-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9710,55 +10230,55 @@ export const Armors = [
       PassiveSkillName: "TemperatureResist_Cold2",
       PassiveSkillName2: "TemperatureResist_Heat1",
     },
+    defense: 780,
+    health: 2275,
   },
   {
-    ID: 163,
+    id: 163,
     name: "Lightweight Hexolite Armor",
     rarity: "Uncommon",
-    defense: 660,
-    health: 1925,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 200,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 60,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 40,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 15,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 1,
+      Rarity: "Uncommon",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9780,55 +10300,55 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 660,
+    health: 1925,
   },
   {
-    ID: 164,
+    id: 164,
     name: "Lightweight Hexolite Armor",
     rarity: "Rare",
-    defense: 690,
-    health: 2012,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 300,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 90,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 60,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 25,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 2,
+      Rarity: "Rare",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9850,55 +10370,55 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 690,
+    health: 2012,
   },
   {
-    ID: 165,
+    id: 165,
     name: "Lightweight Hexolite Armor",
     rarity: "Epic",
-    defense: 720,
-    health: 2100,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 450,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 135,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 90,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 35,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 3,
+      Rarity: "Epic",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9920,55 +10440,55 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 720,
+    health: 2100,
   },
   {
-    ID: 166,
+    id: 166,
     name: "Lightweight Hexolite Armor",
     rarity: "Legendary",
-    defense: 780,
-    health: 2275,
     description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.",
-    effects: [
-      "Cold Resistant Lv. 1",
-      "Heat Resistant Lv. 1",
-      "Max Carrying Capacity Lv. 2",
-    ],
-    image: require("../assets/images/items/lightweight-hexolite-armor.png"),
+      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
     recipe: [
       {
         name: "Hexolite",
         quantity: 675,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Plasteel",
         quantity: 202,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
       },
       {
         name: "High Quality Cloth",
         quantity: 135,
-        image: require("../assets/images/items/high-quality-cloth.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 45,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
     ],
     stats: {
-      Rarity: 4,
+      Rarity: "Legendary",
       Type: "Armor",
       Rank: 4,
       "Gold Coin": 40000,
@@ -9990,46 +10510,51 @@ export const Armors = [
       PassiveSkillName2: "TemperatureResist_Heat1",
       PassiveSkillName3: "MaxInventoryWeight_up_Equip_2",
     },
+    defense: 780,
+    health: 2275,
   },
   {
-    ID: 167,
+    id: 167,
     name: "Advanced Shield",
     rarity: "Legendary",
-    technology: 60,
     description:
       "Strange shield made with advanced technology.\r\nIt automatically repair itself after not taking damage for a while.",
-    effects: [],
-    image: require("../assets/images/items/advanced-shield.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_06.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/advanced-shield.png",
     recipe: [
       {
         name: "Ancient Civilization Parts",
         quantity: 80,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
       },
       {
         name: "Paldium Fragment",
         quantity: 200,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
       },
       {
         name: "Hexolite",
         quantity: 50,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
       },
       {
         name: "Ancient Civilization Core",
         quantity: 30,
-        image: require("../assets/images/items/ancient-civilization-core.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-core.png",
       },
     ],
     stats: {
@@ -10038,8 +10563,8 @@ export const Armors = [
       Rank: 4,
       "Gold Coin": 120000,
       Weight: 5,
-      MaxStackCount: 1,
       Shield: 1800,
+      MaxStackCount: 1,
       Durability: 21000,
       Code: "Shield_SF",
       IconName: "Shield_SF",
@@ -10050,5 +10575,7 @@ export const Armors = [
       ItemDynamicClass: "CommonArmor",
       SneakAttackRate: 1,
     },
+    technology: 60,
+    shield: 1800,
   },
 ];

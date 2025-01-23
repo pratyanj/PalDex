@@ -5,6 +5,7 @@ import { ThemeContext } from "../../constants/ThemeContext";
 import { Divider } from "react-native-paper";
 import { router } from "expo-router";
 import { Image } from "expo-image";
+import { StatusBar } from "expo-status-bar";
 
 export default function Inventory() {
   const { theme } = useContext(ThemeContext);
@@ -20,7 +21,7 @@ export default function Inventory() {
     { name: "Materials", path: "/inventory/materials" },
   ];
   const inventory: { name: string, path: any ,image?: any }[] = [
-    { name: "Weapon", path: '/inventory/WeaponScreen',image: require('../../assets/images/background/weaponBG.png') },
+    { name: "Weapon", path: '/inventory/Weapon/WeaponScreen',image: require('../../assets/images/background/weaponBG.png') },
     { name: "Spheres", path: '/inventory/SphereScreen' ,image: require('../../assets/images/background/sphereBG.png')},
     { name: "Sphere Modules", path: '/inventory/SphereModuleScreen',image: require('../../assets/images/background/sphereModule.png') },
     { name: "Armor", path: "/inventory/ArmorScreen",image: require('../../assets/images/background/armorBG.png') },
@@ -100,6 +101,7 @@ export default function Inventory() {
           </TouchableOpacity>
         ))}
       </View>
+      <StatusBar style={theme.mode === "dark" ? "light" : "dark"} />
     </SafeAreaView>
   );
 }

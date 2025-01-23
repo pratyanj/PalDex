@@ -1,12 +1,12 @@
 import { StyleSheet, FlatList, TouchableOpacity, Text, TextInput } from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
+import { Colors } from "../../../constants/Colors";
+import { ThemeContext } from "../../../constants/ThemeContext";
 import { router } from "expo-router";
-import { weaponDataSet } from "../../constants/weapon";
-import { ItemCard } from "../../components/inv/ItemCard";
-import { ListHeader } from "../../components/inv/ListHeader";
+import { weaponDataSet } from "../../../constants/weapon";
+import { ItemCard } from "../../../components/inv/ItemCard";
+import { ListHeader } from "../../../components/inv/ListHeader";
 
 export default function WeaponScreen() {
   const { theme } = useContext(ThemeContext);
@@ -30,7 +30,7 @@ export default function WeaponScreen() {
       key={index}
       onPress={() =>
         router.push({
-          pathname: "/inventory/WeaponDetail",
+          pathname: "/inventory/Weapon/WeaponDetail",
           params: { id: item.id - 1 },
         })
       }

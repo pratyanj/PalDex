@@ -7,7 +7,7 @@ export const CreateStatRow = (label, value, actColor) => (
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        borderColor: actColor.shadow,
+        borderColor: actColor.surface,
         borderWidth: 2,
         borderRadius: 8,
       }}
@@ -19,6 +19,8 @@ export const CreateStatRow = (label, value, actColor) => (
           fontWeight: "500",
           backgroundColor: actColor.surface,
           padding: 3,
+          borderTopLeftRadius: 6,
+          borderBottomLeftRadius: 6,
         }}
       >
         {label}
@@ -28,6 +30,7 @@ export const CreateStatRow = (label, value, actColor) => (
           fontSize: 16,
           fontWeight: "bold",
           padding: 2,
+          color: actColor.shodow,
           backgroundColor: actColor.inverseSurface,
           borderTopRightRadius: 6,
           borderBottomRightRadius: 6,
