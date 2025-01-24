@@ -5,16 +5,18 @@ export const Materials = [
     rarity: "Common",
     description:
       "Currency traded on Palpagos Island.\r\nCan be exchanged for items or Pals with merchants.",
-    image: require("../assets/images/items/gold-coin.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Money.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 1,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperIngot.webp",
       },
     ],
     stats: {
@@ -37,16 +39,18 @@ export const Materials = [
     rarity: "Common",
     description:
       "Charcoal made from burning Wood.\r\nIt can be combined with Sulfur to create Gunpowder.",
-    image: require("../assets/images/items/charcoal.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Charcoal.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Charcoal.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 2,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -68,18 +72,19 @@ export const Materials = [
     id: 3,
     name: "Cloth",
     rarity: "Common",
-    technology: 3,
     description: "Cloth woven from Wool.\r\nRequired to create armor.",
-    image: require("../assets/images/items/cloth.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Cloth.webp",
     recipe: [
       {
         name: "Wool",
         quantity: 2,
-        image: require("../assets/images/items/wool.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Wool.webp",
       },
     ],
     stats: {
@@ -101,19 +106,20 @@ export const Materials = [
     id: 4,
     name: "High Quality Cloth",
     rarity: "Uncommon",
-    technology: 36,
     description:
       "High Quality Cloth woven from a large amount of Wool.\r\nRequired to create high quality armor.",
-    image: require("../assets/images/items/high-quality-cloth.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Cloth.webp",
     recipe: [
       {
         name: "Wool",
         quantity: 10,
-        image: require("../assets/images/items/wool.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Wool.webp",
       },
     ],
     stats: {
@@ -137,9 +143,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Coal often found in caves and other places.\r\nRequired to create high quality metal.",
-    image: require("../assets/images/items/coal.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Coal.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -167,16 +174,18 @@ export const Materials = [
     rarity: "Common",
     description:
       "A material required to create metal weapons and armor.\r\nRefined from Ore using a furnace.",
-    image: require("../assets/images/items/ingot.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CopperIngot.webp",
     recipe: [
       {
         name: "Ore",
         quantity: 2,
-        image: require("../assets/images/items/ore.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
       },
     ],
     stats: {
@@ -201,9 +210,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Becomes an ingot when refined using a furnace.\r\nCan be found in caves and other places.\r\nThere are rumors of Pals capable of detecting ore.",
-    image: require("../assets/images/items/ore.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CopperOre.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -229,16 +239,18 @@ export const Materials = [
     rarity: "Common",
     description:
       "Fiber collected from trees.\r\nA material used when creating bows, etc.",
-    image: require("../assets/images/items/fiber.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Fiber.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 1,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -261,26 +273,28 @@ export const Materials = [
     id: 9,
     name: "Gunpowder",
     rarity: "Common",
-    technology: 21,
     description:
       "Gunpowder used to fire ammunition.\r\nRequired to make bullets.",
-    image: require("../assets/images/items/gunpowder.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Gunpowder2.webp",
     recipe: [
       {
         name: "Charcoal",
         quantity: 2,
-        image: require("../assets/images/items/charcoal.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Charcoal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Charcoal.webp",
       },
       {
         name: "Sulfur",
         quantity: 1,
-        image: require("../assets/images/items/sulfur.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Sulfur.webp",
       },
     ],
     stats: {
@@ -304,9 +318,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A plant that blooms colorful flowers.\r\nCan be used to make Suspicious Juice and Strange Juice.",
-    image: require("../assets/images/items/beautiful-flower.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Poppy.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -334,23 +349,26 @@ export const Materials = [
     rarity: "Common",
     description:
       "A material required to create high quality metal weapons and armor.\r\nRefined from Ore and Coal using a furnace.",
-    image: require("../assets/images/items/refined-ingot.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_IronIngot.webp",
     recipe: [
       {
         name: "Ore",
         quantity: 2,
-        image: require("../assets/images/items/ore.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
       },
       {
         name: "Coal",
         quantity: 2,
-        image: require("../assets/images/items/coal.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Coal.webp",
       },
     ],
     stats: {
@@ -375,9 +393,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Leather taken from a Pal, it serves as a defensive material.\r\nIt can be obtained from certain Pals.",
-    image: require("../assets/images/items/leather.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Leather.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -399,19 +418,20 @@ export const Materials = [
     id: 13,
     name: "Nail",
     rarity: "Common",
-    technology: 10,
     description:
       "Necessary for building various facilities.\r\nCan be made with a Primitive Workbench.",
-    image: require("../assets/images/items/nail.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_MachineParts.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 1,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperIngot.webp",
       },
     ],
     stats: {
@@ -433,26 +453,28 @@ export const Materials = [
     id: 14,
     name: "Circuit Board",
     rarity: "Common",
-    technology: 35,
     description:
       "Required to create precision equipment.\r\nCan be made with a Production Assembly Line.",
-    image: require("../assets/images/items/circuit-board.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
     recipe: [
       {
         name: "Pure Quartz",
         quantity: 4,
-        image: require("../assets/images/items/pure-quartz.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Quartz.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Quartz.webp",
       },
       {
         name: "Polymer",
         quantity: 2,
-        image: require("../assets/images/items/polymer.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Polymer.webp",
       },
     ],
     stats: {
@@ -476,23 +498,26 @@ export const Materials = [
     rarity: "Common",
     description:
       "Material required to create weapons and armor using Pal Metal.\r\nMade stronger by creating an alloy from metal and Paldium.",
-    image: require("../assets/images/items/pal-metal-ingot.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_StealIngot.webp",
     recipe: [
       {
         name: "Ore",
         quantity: 4,
-        image: require("../assets/images/items/ore.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 2,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Pal_crystal_S.webp",
       },
     ],
     stats: {
@@ -516,9 +541,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Material for structures and items.\r\nCan be obtained by mining rocks.",
-    image: require("../assets/images/items/stone.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Stone.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -542,16 +568,18 @@ export const Materials = [
     rarity: "Common",
     description:
       "Crystallized energy from the World Tree.\r\nCapable of creating supernatural items and structures.",
-    image: require("../assets/images/items/paldium-fragment.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 5,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -576,9 +604,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Seeds that produce Red Berries.\r\nNecessary for starting a farm.\r\nCan be obtained when picking Red Berries.",
-    image: require("../assets/images/items/berry-seeds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_BerrySeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -601,9 +630,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Seeds that produce Tomato.\r\nNecessary for starting a farm.\r\nCan be purchased from a merchant.",
-    image: require("../assets/images/items/tomato-seeds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_TomatoSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -626,9 +656,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Seeds that produce Lettuce.\r\nNecessary for starting a farm.\r\nCan be purchased from a merchant.",
-    image: require("../assets/images/items/lettuce-seeds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_LettuceSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -651,9 +682,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Seeds that produce Wheat.\r\nNecessary for starting a farm.\r\nCan be purchased from a merchant.",
-    image: require("../assets/images/items/wheat-seeds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_WheatSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -676,9 +708,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Material for structures and items.\r\nCan be obtained by cutting trees.",
-    image: require("../assets/images/items/wood.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Wood.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -704,9 +737,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Material sheared from sheep Pals.\r\nA necessity for creating bedding, Cloth and more.",
-    image: require("../assets/images/items/wool.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Wool.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -730,9 +764,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A material that can be processed into various products.\r\nObtained by installing a Crude Oil Extractor in an oil field.",
-    image: require("../assets/images/items/crude-oil.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CrudeOil.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -745,7 +780,7 @@ export const Materials = [
       IconName: "CrudeOil",
       TypeA: "Material",
       TypeB: "MaterialOre",
-      SortID: 9999,
+      SortID: 5025,
       SneakAttackRate: 1,
     },
   },
@@ -753,33 +788,36 @@ export const Materials = [
     id: 25,
     name: "Plasteel",
     rarity: "Common",
-    technology: 50,
     description:
       "Plasteel created by processing Crude Oil and metal.\r\nCan be produced in a Electric Furnace.",
-    image: require("../assets/images/items/plasteel.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Plastic.webp",
     recipe: [
       {
         name: "Crude Oil",
         quantity: 5,
-        image: require("../assets/images/items/crude-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CrudeOil.webp",
       },
       {
         name: "Paldium Fragment",
         quantity: 5,
-        image: require("../assets/images/items/paldium-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ore",
         quantity: 10,
-        image: require("../assets/images/items/ore.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
       },
     ],
     stats: {
@@ -803,9 +841,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A gemstone that glows red.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/ruby.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Ruby.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -829,9 +868,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A gemstone that glows blue.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/sapphire.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Sapphire.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -855,9 +895,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A gemstone that glows green.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/emerald.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Eemerald.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Eemerald.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -881,9 +922,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A rare gemstone that glows brilliantly.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/diamond.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Diamond.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -907,9 +949,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A Common Egg.\r\nSomething gentle moves within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/common-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -936,9 +979,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "A Common Egg.\r\nSomething gentle moves within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/common-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -965,9 +1009,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A Large Common Egg.\r\nA calm rhythm beats within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-common-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -994,9 +1039,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A Large Common Egg.\r\nA calm rhythm beats within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-common-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1023,9 +1069,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "A Huge Common Egg.\r\nA gentle spirit throbs within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-common-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1052,9 +1099,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A Scorching Egg.\r\nSomething hot moves within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/scorching-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1081,9 +1129,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "A Scorching Egg.\r\nSomething hot moves within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/scorching-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1110,9 +1159,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A Large Scorching Egg.\r\nPassion burns from within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-scorching-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1139,9 +1189,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A Large Scorching Egg.\r\nPassion burns from within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-scorching-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1168,9 +1219,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "A Huge Scorching Egg.\r\nA blazing spirit burns within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-scorching-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1197,9 +1249,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A Damp Egg.\r\nSomething swims within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/damp-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1226,9 +1279,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "A Damp Egg.\r\nSomething swims within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/damp-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1255,9 +1309,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A Large Damp Egg.\r\nPurity swirls within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-damp-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1284,9 +1339,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A Large Damp Egg.\r\nPurity swirls within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-damp-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1313,9 +1369,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "A Huge Damp Egg.\r\nA tranquil spirit sways within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-damp-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1342,9 +1399,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A Verdant Egg.\r\nSomething lively moves within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/verdant-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1371,9 +1429,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "A Verdant Egg.\r\nSomething lively moves within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/verdant-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1400,9 +1459,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A Large Verdant Egg.\r\nA strong life force dwells within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-verdant-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1429,9 +1489,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A Large Verdant Egg.\r\nA strong life force dwells within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-verdant-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1458,9 +1519,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "A Huge Verdant Egg.\r\nA verdant spirit grows within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-verdant-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1487,9 +1549,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "An Electric Egg.\r\nSomething energetic moves within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/electric-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1516,9 +1579,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "An Electric Egg.\r\nSomething energetic moves within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/electric-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1545,9 +1609,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "An Large Electric Egg.\r\nA pulsing energy stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-electric-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1574,9 +1639,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "An Large Electric Egg.\r\nA pulsing energy stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-electric-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1603,9 +1669,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "An Huge Electric Egg.\r\nA raging spirit grows within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-electric-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1632,9 +1699,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "An Frozen Egg.\r\nSomething cold stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/frozen-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1661,9 +1729,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "An Frozen Egg.\r\nSomething cold stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/frozen-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1690,9 +1759,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "An Large Frozen Egg.\r\nAn icy pulse pounds within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-frozen-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1719,9 +1789,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "An Large Frozen Egg.\r\nAn icy pulse pounds within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-frozen-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1748,9 +1819,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "An Huge Frozen Egg.\r\nA frigid spirit stirs within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-frozen-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1777,9 +1849,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "An Rocky Egg.\r\nSomething calm stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/rocky-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1806,9 +1879,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "An Rocky Egg.\r\nSomething calm stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/rocky-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1835,9 +1909,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "An Large Rocky Egg.\r\nA dignified rumble drums within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-rocky-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1864,9 +1939,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "An Large Rocky Egg.\r\nA dignified rumble drums within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-rocky-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1893,9 +1969,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "An Huge Rocky Egg.\r\nAn earthly spirit resounds within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-rocky-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1922,9 +1999,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A Dark Egg.\r\nSomething chaotic stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/dark-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1951,9 +2029,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "A Dark Egg.\r\nSomething chaotic stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/dark-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1980,9 +2059,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A Large Dark Egg.\r\nA vicious wail howls within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-dark-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2009,9 +2089,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A Large Dark Egg.\r\nA vicious wail howls within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-dark-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2038,9 +2119,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "A Huge Dark Egg.\r\nA shadowy spirit cries within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-dark-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2067,9 +2149,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A Dragon Egg.\r\nSomething mischievous stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/dragon-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2096,9 +2179,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "A Dragon Egg.\r\nSomething mischievous stirs within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/dragon-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2125,9 +2209,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "An Large Dragon Egg.\r\nA strange movement pulses within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-dragon-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2154,9 +2239,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "An Large Dragon Egg.\r\nA strange movement pulses within.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/large-dragon-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2183,9 +2269,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "A Huge Dragon Egg.\r\nA solemn spirit echoes within\u2014as if a monster is about to be born.\r\nPlace in a Egg Incubator to incubate it.",
-    image: require("../assets/images/items/huge-dragon-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2212,9 +2299,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "Debris excavated from ancient ruins.\r\nContains abundant information on lost technology.\r\nExtremely valuable, people from all walks of life are now seeking such crystals.",
-    image: require("../assets/images/items/ancient-civilization-parts.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2238,16 +2326,18 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "A spirit left behind by a small Pal.\r\nIt can draw out hidden abilities if offered to a Statue of Power.",
-    image: require("../assets/images/items/small-pal-soul.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_PalUpgradeStone.webp",
     recipe: [
       {
         name: "Medium Pal Soul",
         quantity: 1,
-        image: require("../assets/images/items/medium-pal-soul.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_PalUpgradeStone2.webp",
       },
     ],
     stats: {
@@ -2272,16 +2362,18 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A spirit left behind by a Pal.\r\nIt can draw out hidden abilities if offered to a Statue of Power.",
-    image: require("../assets/images/items/medium-pal-soul.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_PalUpgradeStone2.webp",
     recipe: [
       {
         name: "Small Pal Soul",
         quantity: 2,
-        image: require("../assets/images/items/small-pal-soul.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_PalUpgradeStone.webp",
       },
     ],
     stats: {
@@ -2306,16 +2398,18 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A spirit left behind by a large Pal.\r\nIt can draw out hidden abilities if offered to a Statue of Power.",
-    image: require("../assets/images/items/large-pal-soul.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_PalUpgradeStone3.webp",
     recipe: [
       {
         name: "Medium Pal Soul",
         quantity: 2,
-        image: require("../assets/images/items/medium-pal-soul.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_PalUpgradeStone2.webp",
       },
     ],
     stats: {
@@ -2340,9 +2434,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Sulfur that can be found in volcanoes and such.\r\nNecessary for making Gunpowder.",
-    image: require("../assets/images/items/sulfur.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Sulfur.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2370,9 +2465,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Pure Quartz often found in snowy fields and similar places.\r\nRequired to create Circuit Board.",
-    image: require("../assets/images/items/pure-quartz.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Quartz.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Quartz.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2400,9 +2496,10 @@ export const Materials = [
     rarity: "Uncommon",
     description:
       "High-quality oil that can be extracted from Pal.\r\nNecessary for making Polymer.",
-    image: require("../assets/images/items/high-quality-pal-oil.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalOil.webp",
     recipe: [],
     stats: {
       Rarity: "Uncommon",
@@ -2423,19 +2520,20 @@ export const Materials = [
     id: 82,
     name: "Polymer",
     rarity: "Common",
-    technology: 33,
     description:
       "Made from refined oil.\r\nRequired for producing various advanced items such as rifles.",
-    image: require("../assets/images/items/polymer.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Polymer.webp",
     recipe: [
       {
         name: "High Quality Pal Oil",
         quantity: 2,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -2459,9 +2557,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Material obtainable from Electric Pals.\r\nIt stores electricity, but requires caution when used.",
-    image: require("../assets/images/items/electric-organ.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_ElectricOrgan.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2484,9 +2583,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Material obtainable from poisonous Pals.\r\nCan be used to make Poison Arrow and more.",
-    image: require("../assets/images/items/venom-gland.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Venom.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2509,9 +2609,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Material obtainable from Fire Pals.\r\nCan be used to make Fire Arrow and more.",
-    image: require("../assets/images/items/flame-organ.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_FireOrgan.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2534,9 +2635,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Material obtainable from Ice Pals.\r\nCan be used to make Ice Mine and more.",
-    image: require("../assets/images/items/ice-organ.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_IceOrgan.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2558,10 +2660,11 @@ export const Materials = [
     name: "Bone",
     rarity: "Common",
     description:
-      "Bone collected from Pals.\r\nUsed in the creation of high quality Paldium.",
-    image: require("../assets/images/items/bone.png"),
+      "Bone collected from Pals.\r\nA valuable source of premium calcium.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Bone.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2582,33 +2685,36 @@ export const Materials = [
     id: 88,
     name: "Cement",
     rarity: "Common",
-    technology: 19,
     description:
       "Cement used for creating structures and more.\r\nCan be produced in a High Quality Workbench.",
-    image: require("../assets/images/items/cement.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Cement.webp",
     recipe: [
       {
         name: "Stone",
         quantity: 50,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Bone",
         quantity: 1,
-        image: require("../assets/images/items/bone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Bone.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 1,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -2630,19 +2736,20 @@ export const Materials = [
     id: 89,
     name: "Carbon Fiber",
     rarity: "Common",
-    technology: 35,
     description:
       "A lightweight yet sturdy material.\r\nUsed to create armor among other equipment.",
-    image: require("../assets/images/items/carbon-fiber.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CarbonFiber.webp",
     recipe: [
       {
         name: "Coal",
         quantity: 2,
-        image: require("../assets/images/items/coal.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Coal.webp",
       },
     ],
     stats: {
@@ -2666,9 +2773,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Horn collected from Pals.\r\nUsed to create medicines and more.",
-    image: require("../assets/images/items/horn.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Horn.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2691,9 +2799,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Body fluids taken from a Pal.\r\nUseful for its high viscosity.",
-    image: require("../assets/images/items/pal-fluids.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalFluid.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2716,9 +2825,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Feathers dropped from a Tocotoco.\r\nUsed to make clothing, as the beautifully vivid colors are quite popular.",
-    image: require("../assets/images/items/tocotoco-feather.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ColorfulBird.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ColorfulBird.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2741,9 +2851,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Leaf dropped from a Gumoss.\r\nFresh and sticky, it is used to make clothing.",
-    image: require("../assets/images/items/gumoss-leaf.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PlantSlime.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_PlantSlime.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2766,9 +2877,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Plume dropped from a Penking.\r\nBright and colorful, it is used to make clothing.",
-    image: require("../assets/images/items/penking-plume.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CaptainPenguin.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_CaptainPenguin.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2791,9 +2903,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Hair dropped from a Katress.\r\nSoft and supple, it is used to make clothing.",
-    image: require("../assets/images/items/katress-hair.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CatMage.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_CatMage.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2816,9 +2929,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A gemstone-like ball collected from Pals.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/precious-dragon-stone.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2840,9 +2954,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "Glittering feathers collected from Pals.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/precious-plume.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_02.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2864,9 +2979,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "A heart that never stops beating collected from Pals.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/precious-entrails.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_03.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2888,9 +3004,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "Extremely sharp claws collected from Pals.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/precious-claw.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_04.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_04.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2912,9 +3029,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "Fluffy fur collected from Pals.\r\nCan be sold to a merchant for a high price.",
-    image: require("../assets/images/items/precious-pelt.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_05.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_05.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2936,9 +3054,10 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "Core from technology that was lost long ago.\r\nNearly impossible to find on the Palpagos Islands, it contains a wealth of forgotten knowledge.",
-    image: require("../assets/images/items/ancient-civilization-core.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_AncientParts2.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2960,10 +3079,25 @@ export const Materials = [
     rarity: "Epic",
     description:
       "Small green flower that is extremely difficult to obtain.\r\nNeeded to make Vital Remedy.",
-    image: require("../assets/images/items/life-lotus-(s).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_hp_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_hp_01.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Material",
+      Rank: 3,
+      "Gold Coin": 50000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_hp_01",
+      IconName: "Lotus_hp_01",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4300,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 103,
@@ -2971,10 +3105,25 @@ export const Materials = [
     rarity: "Epic",
     description:
       "Small yellow flower that is extremely difficult to obtain.\r\nNeeded to make Stamina Remedy.",
-    image: require("../assets/images/items/stamina-lotus-(s).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_stamina_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_stamina_01.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Material",
+      Rank: 3,
+      "Gold Coin": 50000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_stamina_01",
+      IconName: "Lotus_stamina_01",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4301,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 104,
@@ -2982,10 +3131,25 @@ export const Materials = [
     rarity: "Epic",
     description:
       "Small red flower that is extremely difficult to obtain.\r\nNeeded to make Might Remedy.",
-    image: require("../assets/images/items/power-lotus-(s).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_attack_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_attack_01.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Material",
+      Rank: 3,
+      "Gold Coin": 50000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_attack_01",
+      IconName: "Lotus_attack_01",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4302,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 105,
@@ -2993,10 +3157,25 @@ export const Materials = [
     rarity: "Epic",
     description:
       "Small orange flower that is extremely difficult to obtain.\r\nNeeded to make Speed Remedy.",
-    image: require("../assets/images/items/speed-lotus-(s).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_workspeed_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_workspeed_01.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Material",
+      Rank: 3,
+      "Gold Coin": 50000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_workspeed_01",
+      IconName: "Lotus_workspeed_01",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4303,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 106,
@@ -3004,10 +3183,25 @@ export const Materials = [
     rarity: "Epic",
     description:
       "Small purple flower that is extremely difficult to obtain.\r\nNeeded to make Burden Remedy.",
-    image: require("../assets/images/items/carrying-lotus-(s).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_weight_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_weight_01.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Material",
+      Rank: 3,
+      "Gold Coin": 50000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_weight_01",
+      IconName: "Lotus_weight_01",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4304,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 107,
@@ -3015,9 +3209,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Ribbon dropped from a Ribbuny.\r\nCute in color and design, it is used to make clothing.",
-    image: require("../assets/images/items/ribbuny-ribbon.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PinkRabbit.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_PinkRabbit.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3040,9 +3235,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Hair dropped from a Swee.\r\nFluffy and soft, it is used to make clothing.",
-    image: require("../assets/images/items/swee-hair.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_MopBaby.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_MopBaby.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3065,9 +3261,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Tentacle dropped from a Killamari.\r\nStrange in texture, it is used to make clothing.",
-    image: require("../assets/images/items/killamari-tentacle.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_NegativeOctopus.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_NegativeOctopus.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3090,9 +3287,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Cloud dropped from a Dazzi.\r\nSoft and fluffy, it is used to make clothing.",
-    image: require("../assets/images/items/dazzi-cloud.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_RaijinDaughter.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3115,9 +3313,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Crest dropped from a Leezpunk.\r\nSharp and pointy, it is used to make clothing.",
-    image: require("../assets/images/items/leezpunk-crest.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_LizardMan.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_LizardMan.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3140,10 +3339,25 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "Large green flower that is extremely difficult to obtain.\r\nNeeded to make Vital Elixir.",
-    image: require("../assets/images/items/life-lotus-(l).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_hp_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_hp_02.webp",
     recipe: [],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Material",
+      Rank: 4,
+      "Gold Coin": 100000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_hp_02",
+      IconName: "Lotus_hp_02",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4305,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 113,
@@ -3151,10 +3365,25 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "Large yellow flower that is extremely difficult to obtain.\r\nNeeded to make Stamina Elixir.",
-    image: require("../assets/images/items/stamina-lotus-(l).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_stamina_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_stamina_02.webp",
     recipe: [],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Material",
+      Rank: 4,
+      "Gold Coin": 100000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_stamina_02",
+      IconName: "Lotus_stamina_02",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4306,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 114,
@@ -3162,10 +3391,25 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "Large red flower that is extremely difficult to obtain.\r\nNeeded to make Might Elixir.",
-    image: require("../assets/images/items/power-lotus-(l).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_attack_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_attack_02.webp",
     recipe: [],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Material",
+      Rank: 4,
+      "Gold Coin": 100000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_attack_02",
+      IconName: "Lotus_attack_02",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4307,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 115,
@@ -3173,10 +3417,25 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "Large orange flower that is extremely difficult to obtain.\r\nNeeded to make Speed Elixir.",
-    image: require("../assets/images/items/speed-lotus-(l).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_workspeed_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_workspeed_02.webp",
     recipe: [],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Material",
+      Rank: 4,
+      "Gold Coin": 100000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_workspeed_02",
+      IconName: "Lotus_workspeed_02",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4308,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 116,
@@ -3184,10 +3443,25 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "Large purple flower that is extremely difficult to obtain.\r\nNeeded to make Burden Elixir.",
-    image: require("../assets/images/items/carrying-lotus-(l).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_weight_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_weight_02.webp",
     recipe: [],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Material",
+      Rank: 4,
+      "Gold Coin": 100000,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "Lotus_weight_02",
+      IconName: "Lotus_weight_02",
+      TypeA: "Material",
+      TypeB: "MaterialMonster",
+      SortID: 4309,
+      SneakAttackRate: 1,
+    },
   },
   {
     id: 117,
@@ -3195,9 +3469,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Fragment of a rock from outer space.\r\nContains large amounts of Paldium Fragment,\r\nwhich can be extracted by placing it in a Crusher.",
-    image: require("../assets/images/items/meteorite-fragment.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_MeteorDrop.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3221,9 +3496,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A mysterious coin. Apparently there are people who collect these.\r\nA Mimog will usually have them, but\r\nfor some reason, they cannot be obtained by butchering it.",
-    image: require("../assets/images/items/dog-coin.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_DogCoin.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_DogCoin.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3247,16 +3523,18 @@ export const Materials = [
     rarity: "Legendary",
     description:
       "The soul left behind by a highly trained Pal.\r\nIt can draw out hidden abilities if offered to a Statue of Power.",
-    image: require("../assets/images/items/giant-pal-soul.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_PalUpgradeStone4.webp",
     recipe: [
       {
         name: "Large Pal Soul",
         quantity: 2,
-        image: require("../assets/images/items/large-pal-soul.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_PalUpgradeStone3.webp",
       },
     ],
     stats: {
@@ -3280,9 +3558,10 @@ export const Materials = [
     name: "Potato Seeds",
     rarity: "Common",
     description: "Seeds that produce Potato.\r\nNecessary for starting a farm.",
-    image: require("../assets/images/items/potato-seeds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PotatoSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3303,11 +3582,11 @@ export const Materials = [
     id: 121,
     name: "Carrot Seeds",
     rarity: "Common",
-    description:
-      "Seeds that produce Carrot>.\r\nNecessary for starting a farm.",
-    image: require("../assets/images/items/carrot-seeds.png"),
+    description: "Seeds that produce Carrot.\r\nNecessary for starting a farm.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CarrotSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3329,9 +3608,10 @@ export const Materials = [
     name: "Onion Seeds",
     rarity: "Common",
     description: "Seeds that produce Onion.\r\nNecessary for starting a farm.",
-    image: require("../assets/images/items/onion-seeds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_OnionSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3354,9 +3634,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "Core dropped by Predator Pals.\r\nIt is filled with mysterious energy.",
-    image: require("../assets/images/items/predator-core.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PredatorCrystal.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PredatorCrystal.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3377,9 +3658,10 @@ export const Materials = [
     rarity: "Epic",
     description:
       "A token of having defeated a bounty target.\r\nBy giving it to a Vigilante Bounty Officer in villages or towns, it can be exchanged for a reward.",
-    image: require("../assets/images/items/successful-bounty-token.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_icon_item_Jewelry_BountyProof_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_icon_item_Jewelry_BountyProof_1.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3400,9 +3682,10 @@ export const Materials = [
     rarity: "Rare",
     description:
       "An ancient manuscript written on Pal hide. It may be found by Pals during expeditions. \r\nRequired for advancing research.",
-    image: require("../assets/images/items/ancient-pal-manuscript.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts3.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_AncientParts3.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -3424,9 +3707,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A type of metal buried underground. \r\nIt can be detected with a Metal Detector on certain islands.",
-    image: require("../assets/images/items/chromite.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Chromium.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3439,7 +3723,7 @@ export const Materials = [
       IconName: "Chromium",
       TypeA: "Material",
       TypeB: "MaterialOre",
-      SortID: 5025,
+      SortID: 5026,
       VisualBlueprintClassName: "BP_Item_Ore_Chromium",
       SneakAttackRate: 1,
     },
@@ -3448,33 +3732,36 @@ export const Materials = [
     id: 127,
     name: "Hexolite",
     rarity: "Common",
-    technology: 56,
     description:
       "An alloy of Chromite, Ingot, and Hexolite Quartz. \r\nUsed as materials for advanced equipment and structures.",
-    image: require("../assets/images/items/hexolite.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_StainlessSteel.webp",
     recipe: [
       {
         name: "Chromite",
         quantity: 5,
-        image: require("../assets/images/items/chromite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Chromium.webp",
       },
       {
         name: "Hexolite Quartz",
         quantity: 12,
-        image: require("../assets/images/items/hexolite-quartz.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_RainbowCrystal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_RainbowCrystal.webp",
       },
       {
         name: "Ore",
         quantity: 20,
-        image: require("../assets/images/items/ore.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
       },
     ],
     stats: {
@@ -3498,9 +3785,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Sand that can be found in the desert at night. \r\nUsed as a material for crafting certain accessories and other items.",
-    image: require("../assets/images/items/nightstar-sand.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_NightStone.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3513,7 +3801,7 @@ export const Materials = [
       IconName: "NightStone",
       TypeA: "Material",
       TypeB: "MaterialOre",
-      SortID: 5026,
+      SortID: 5027,
       SneakAttackRate: 1,
       Defense: 3,
       Hp: -1,
@@ -3525,9 +3813,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "Dropped by some powerful Dark Pals. \r\nUsed as a material for crafting powerful accessories and other items.",
-    image: require("../assets/images/items/dark-fragment.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalDarkParts.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3550,9 +3839,10 @@ export const Materials = [
     rarity: "Common",
     description:
       "A rare crystal found only in Feybreak. \r\nOver many years, Paladium has condensed and transformed, now shining with a rainbow-like glow.",
-    image: require("../assets/images/items/hexolite-quartz.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_RainbowCrystal.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_RainbowCrystal.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3565,7 +3855,7 @@ export const Materials = [
       IconName: "RainbowCrystal",
       TypeA: "Material",
       TypeB: "MaterialOre",
-      SortID: 5027,
+      SortID: 5028,
       VisualBlueprintClassName: "BP_Item_CrystalOre",
       SneakAttackRate: 1,
     },

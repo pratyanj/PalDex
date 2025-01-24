@@ -44,7 +44,7 @@ export default function MaterialDetail() {
           style={[styles.card, { backgroundColor: actColor.surfaceVariant }]}
         >
           <Image
-            source={materialD.image}
+            source={materialD.image_github_url}
             style={styles.materialImage}
           />
           <Text style={[styles.title, { color: actColor.primary }]}>
