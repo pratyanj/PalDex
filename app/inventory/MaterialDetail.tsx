@@ -5,7 +5,7 @@ import {
   StyleSheet,
   ScrollView,
 } from "react-native";
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../constants/Colors";
 import { ThemeContext } from "../../constants/ThemeContext";
@@ -15,6 +15,7 @@ import { useLocalSearchParams } from "expo-router";
 
 import InvHeader from "../../components/inv/Header";
 import { GetRarityColor } from "../../components/inv/GetRarityColor";
+import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
 
 export default function MaterialDetail() {
   const { theme } = useContext(ThemeContext);
@@ -22,6 +23,15 @@ export default function MaterialDetail() {
 
   const { id } = useLocalSearchParams();
   const materialD = Materials[Number(id)];
+  const [recipe, setRecipe] = React.useState(false);
+  const dataCheck = () => {
+      if (Materials[Number(id)].recipe.length > 0) {
+        setRecipe(true);
+      }
+    };
+    useEffect(() => {
+      dataCheck();
+    }, []);
 
   if (!Materials[Number(id)]) {
     return (
@@ -153,6 +163,18 @@ export default function MaterialDetail() {
             </View>
           ))}
         </View>
+        {recipe &&(
+          <>
+          <Text style={{ color: actColor.outline, fontSize: 30, marginTop: 10 }}>
+                  Crafting
+                </Text>
+                <CraftingRecipe
+                  recipe={Materials[Number(id)].recipe}
+                  actColor={actColor}
+            />
+          </>
+        )}
+        
       </ScrollView>
     </SafeAreaView>
   );

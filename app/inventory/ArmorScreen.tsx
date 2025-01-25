@@ -40,13 +40,13 @@ export default function ArmorScreen() {
             onPress={() =>
                 router.push({
                     pathname: "/inventory/ArmorDetails",
-                    params: { id: item.ID - 1 },
+                    params: { id: item.id - 1 },
                 })
             }
         >
             <ItemCard
                 name={item.name}
-                img={item.image}
+                img={item.image_github_url}
                 type={item.stats ? item.stats["Gold Coin"] : 123456789}
                 rarity={item.rarity}
                 actColor={actColor}

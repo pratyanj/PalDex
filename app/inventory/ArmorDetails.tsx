@@ -104,7 +104,7 @@ export default function ArmorDetails() {
       <ScrollView contentContainerStyle={styles.scrollView}>
         <ItemView
           name={Armors[Number(armorID)].name}
-          img={Armors[Number(armorID)].image}
+          img={Armors[Number(armorID)].image_github_url}
           type="Armor"
           raritytpye={Armors[Number(armorID)].rarity}
           actColor={actColor}

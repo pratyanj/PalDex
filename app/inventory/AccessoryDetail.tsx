@@ -17,7 +17,7 @@ export default function AccessoryDetail() {
 
   const { id } = useLocalSearchParams();
   const [accessoryID, setAccessoryID] = useState(id || 0);
-  console.log("Accessory:", accessoryID);
+  
 
   const [accessoryEffect, setAccessoryEffect] = useState(false);
 
@@ -56,7 +56,7 @@ export default function AccessoryDetail() {
         <View
           style={[styles.card, { backgroundColor: actColor.surfaceVariant }]}
         >
-          <Image source={accessoryD.image} style={styles.weaponImage} />
+          <Image source={accessoryD.image_github_url} style={styles.weaponImage} />
           <Text style={[styles.title, { color: actColor.primary }]}>
             {accessoryD.name}
           </Text>
