@@ -104,7 +104,7 @@ export default function IngredientDetail() {
             <ScrollView contentContainerStyle={styles.scrollView}>
                 <ItemView
                     name={Ingredients[Number(ingredientID)].name}
-                    img={Ingredients[Number(ingredientID)].image}
+                    img={Ingredients[Number(ingredientID)].image_github_url}
                     type="Ingredient"
                     raritytpye={Ingredients[Number(ingredientID)].rarity}
                     actColor={actColor}

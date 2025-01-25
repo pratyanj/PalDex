@@ -93,6 +93,29 @@ export default function sphereModuleDetail() {
             {sphereModule[Number(weaponID)].description}
           </Text>
         </View>
+        <View style={{ backgroundColor: actColor.surfaceVariant, padding: 10 , borderRadius: 10, marginTop: 14,marginHorizontal: 6 }}>
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: actColor.outline,marginBottom: 8 }}>
+      Effects:
+    </Text>
+    {sphereModule[Number(weaponID)].effects?.map((effect, index) => (
+      <Text 
+        key={index} 
+        style={{ 
+          fontSize: 14, 
+          color: actColor.onBackground,
+          marginLeft: 16,
+          marginBottom: 4,
+          backgroundColor: actColor.background,
+          width: 'auto',
+          padding: 3,
+          borderRadius: 50,
+          
+        }}
+      >
+        💠{effect}
+      </Text>
+    ))}
+    </View>
         <Text style={{ color: actColor.outline, fontSize: 30, marginTop: 10 }}>
           Crafting
         </Text>

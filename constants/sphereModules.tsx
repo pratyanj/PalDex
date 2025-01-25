@@ -4,11 +4,11 @@ export const sphereModule = [
     name: "Heavy Weight Module",
     rarity: "Uncommon",
     description:
-      "Equipping it makes the sphere heavier, reducing its range but increasing its capture power.Sphere Weight +1 Capture Strength +1",
+      "Equipping it makes the sphere heavier, reducing its range but increasing its capture power.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Heavy.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/sphere_modules/heavy-weight-module.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere_modules/T_itemicon_SphereModule_Heavy.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -16,7 +16,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -24,7 +24,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Stone",
@@ -32,7 +32,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -61,11 +61,11 @@ export const sphereModule = [
     name: "Curve Module",
     rarity: "Rare",
     description:
-      "Equipping it causes the sphere to spin with a curved trajectory. \r\nIt becomes easier to catch Pals off guard, and increases capture power.Sphere Curve +1 Capture Strength +2",
+      "Equipping it causes the sphere to spin with a curved trajectory. \r\nIt becomes easier to catch Pals off guard, and increases capture power.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/sphere_modules/curve-module.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere_modules/T_itemicon_SphereModule_Curve.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -73,7 +73,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -81,7 +81,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Stone",
@@ -89,7 +89,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -97,7 +97,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -126,11 +126,11 @@ export const sphereModule = [
     name: "Sniper Module",
     rarity: "Epic",
     description:
-      "Equipping it increases the sphere's range, allowing it to sharply capture Pals and enhancing capture power.Sphere Range +1 Capture Strength +2",
+      "Equipping it increases the sphere's range, allowing it to sharply capture Pals and enhancing capture power.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Spiper.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/sphere_modules/sniper-module.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere_modules/T_itemicon_SphereModule_Spiper.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -138,7 +138,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -146,7 +146,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Cement",
@@ -154,7 +154,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Cement.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -162,7 +162,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -191,11 +191,11 @@ export const sphereModule = [
     name: "Slider Module",
     rarity: "Epic",
     description:
-      "Equipping it adds a slider spin to the sphere. \r\nThe sphere curves at a sharp angle, making it easier to catch Pals off guard and increasing capture power.Sphere Slider Capture Strength +3",
+      "Equipping it adds a slider spin to the sphere. \r\nThe sphere curves at a sharp angle, making it easier to catch Pals off guard and increasing capture power.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve2.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/sphere_modules/slider-module.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere_modules/T_itemicon_SphereModule_Curve2.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -203,7 +203,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Refined Ingot",
@@ -211,7 +211,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Carbon Fiber",
@@ -219,7 +219,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -227,7 +227,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -253,14 +253,14 @@ export const sphereModule = [
   },
   {
     id: 5,
-    name: "Sniper Module Ⅱ",
+    name: "Sniper Module \u2161",
     rarity: "Legendary",
     description:
-      "Equipping it significantly increases the sphere's range, allowing it to sharply capture Pals and enhancing capture power.Sphere Range +2 Capture Strength +3",
+      "Equipping it significantly increases the sphere's range, allowing it to sharply capture Pals and enhancing capture power.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Sniper2.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/sphere_modules/sniper-module-Ⅱ.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere_modules/T_itemicon_SphereModule_Sniper2.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -268,7 +268,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Pal Metal Ingot",
@@ -276,7 +276,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Carbon Fiber",
@@ -284,7 +284,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -292,7 +292,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
       {
         name: "Ancient Civilization Core",
@@ -300,7 +300,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-core.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_AncientParts2.webp",
       },
     ],
     stats: {
@@ -329,11 +329,11 @@ export const sphereModule = [
     name: "Homing Module",
     rarity: "Legendary",
     description:
-      "Equipping it makes the sphere home in on Pals, further increasing capture power.Sphere Homing Capture Strength +3",
+      "Equipping it makes the sphere home in on Pals, further increasing capture power.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Homing.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/sphere_modules/homing-module.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere_modules/T_itemicon_SphereModule_Homing.webp",
     recipe: [
       {
         name: "Plasteel",
@@ -341,7 +341,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -349,7 +349,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -357,7 +357,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
       {
         name: "Dark Fragment",
@@ -365,7 +365,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/dark-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalDarkParts.webp",
       },
       {
         name: "Ancient Civilization Core",
@@ -373,7 +373,7 @@ export const sphereModule = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-core.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_AncientParts2.webp",
       },
     ],
     stats: {

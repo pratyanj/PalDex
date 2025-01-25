@@ -8,7 +8,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Money.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Money.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Money.webp",
     recipe: [
       {
         name: "Ingot",
@@ -16,7 +16,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperIngot.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
     ],
     stats: {
@@ -42,7 +42,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Charcoal.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Charcoal.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Charcoal.webp",
     recipe: [
       {
         name: "Wood",
@@ -50,7 +50,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Wood.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -76,7 +76,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Cloth.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Cloth.webp",
     recipe: [
       {
         name: "Wool",
@@ -84,7 +84,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Wool.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wool.webp",
       },
     ],
     stats: {
@@ -111,7 +111,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Cloth.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Cloth.webp",
     recipe: [
       {
         name: "Wool",
@@ -119,7 +119,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Wool.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wool.webp",
       },
     ],
     stats: {
@@ -146,7 +146,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Coal.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Coal.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -177,7 +177,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CopperIngot.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
     recipe: [
       {
         name: "Ore",
@@ -185,7 +185,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperOre.webp",
       },
     ],
     stats: {
@@ -213,7 +213,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CopperOre.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperOre.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -242,7 +242,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Fiber.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
     recipe: [
       {
         name: "Wood",
@@ -250,7 +250,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Wood.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -278,7 +278,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Gunpowder2.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
     recipe: [
       {
         name: "Charcoal",
@@ -286,7 +286,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Charcoal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Charcoal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Charcoal.webp",
       },
       {
         name: "Sulfur",
@@ -294,7 +294,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Sulfur.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Sulfur.webp",
       },
     ],
     stats: {
@@ -321,7 +321,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Poppy.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Poppy.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -352,7 +352,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_IronIngot.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
     recipe: [
       {
         name: "Ore",
@@ -360,7 +360,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperOre.webp",
       },
       {
         name: "Coal",
@@ -368,7 +368,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Coal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Coal.webp",
       },
     ],
     stats: {
@@ -396,7 +396,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Leather.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Leather.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Leather.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -423,7 +423,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_MachineParts.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
     recipe: [
       {
         name: "Ingot",
@@ -431,7 +431,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperIngot.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
     ],
     stats: {
@@ -458,7 +458,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
     recipe: [
       {
         name: "Pure Quartz",
@@ -466,7 +466,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Quartz.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Quartz.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Quartz.webp",
       },
       {
         name: "Polymer",
@@ -474,7 +474,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Polymer.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
     ],
     stats: {
@@ -501,7 +501,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_StealIngot.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
     recipe: [
       {
         name: "Ore",
@@ -509,7 +509,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperOre.webp",
       },
       {
         name: "Paldium Fragment",
@@ -517,7 +517,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Pal_crystal_S.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
     ],
     stats: {
@@ -544,7 +544,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Stone.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -571,7 +571,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
     recipe: [
       {
         name: "Stone",
@@ -579,7 +579,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Stone.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -607,7 +607,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_BerrySeeds.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_BerrySeeds.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_BerrySeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -633,7 +633,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_TomatoSeeds.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_TomatoSeeds.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_TomatoSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -659,7 +659,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_LettuceSeeds.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_LettuceSeeds.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_LettuceSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -685,7 +685,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WheatSeeds.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_WheatSeeds.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_WheatSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -711,7 +711,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Wood.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -740,7 +740,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wool.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Wool.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wool.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -767,7 +767,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CrudeOil.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CrudeOil.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -793,7 +793,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Plastic.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
     recipe: [
       {
         name: "Crude Oil",
@@ -801,7 +801,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CrudeOil.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CrudeOil.webp",
       },
       {
         name: "Paldium Fragment",
@@ -809,7 +809,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Pal_crystal_S.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ore",
@@ -817,7 +817,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperOre.webp",
       },
     ],
     stats: {
@@ -844,7 +844,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Ruby.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Ruby.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Ruby.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -871,7 +871,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sapphire.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Sapphire.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Sapphire.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -898,7 +898,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Eemerald.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Eemerald.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Eemerald.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -925,7 +925,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Diamond.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Diamond.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Diamond.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -952,7 +952,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -982,7 +982,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1012,7 +1012,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1042,7 +1042,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1072,7 +1072,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1102,7 +1102,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1132,7 +1132,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1162,7 +1162,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1192,7 +1192,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1222,7 +1222,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Fire_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Fire_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1252,7 +1252,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1282,7 +1282,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1312,7 +1312,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1342,7 +1342,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1372,7 +1372,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Water_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Water_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1402,7 +1402,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1432,7 +1432,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1462,7 +1462,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1492,7 +1492,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1522,7 +1522,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Leaf_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Leaf_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1552,7 +1552,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1582,7 +1582,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1612,7 +1612,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1642,7 +1642,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1672,7 +1672,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Electricity_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Electricity_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1702,7 +1702,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1732,7 +1732,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1762,7 +1762,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1792,7 +1792,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1822,7 +1822,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Ice_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Ice_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -1852,7 +1852,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1882,7 +1882,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1912,7 +1912,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1942,7 +1942,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1972,7 +1972,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Earth_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Earth_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2002,7 +2002,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2032,7 +2032,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2062,7 +2062,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2092,7 +2092,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2122,7 +2122,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dark_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dark_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2152,7 +2152,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2182,7 +2182,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2212,7 +2212,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2242,7 +2242,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2272,7 +2272,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalEgg_Dragon_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalEgg_Dragon_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2302,7 +2302,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2329,7 +2329,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_PalUpgradeStone.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_PalUpgradeStone.webp",
     recipe: [
       {
         name: "Medium Pal Soul",
@@ -2337,7 +2337,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_PalUpgradeStone2.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_PalUpgradeStone2.webp",
       },
     ],
     stats: {
@@ -2365,7 +2365,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_PalUpgradeStone2.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_PalUpgradeStone2.webp",
     recipe: [
       {
         name: "Small Pal Soul",
@@ -2373,7 +2373,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_PalUpgradeStone.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_PalUpgradeStone.webp",
       },
     ],
     stats: {
@@ -2401,7 +2401,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_PalUpgradeStone3.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_PalUpgradeStone3.webp",
     recipe: [
       {
         name: "Medium Pal Soul",
@@ -2409,7 +2409,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone2.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_PalUpgradeStone2.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_PalUpgradeStone2.webp",
       },
     ],
     stats: {
@@ -2437,7 +2437,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Sulfur.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Sulfur.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2468,7 +2468,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Quartz.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Quartz.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Quartz.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2499,7 +2499,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalOil.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
     recipe: [],
     stats: {
       Rarity: "Uncommon",
@@ -2525,7 +2525,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Polymer.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
     recipe: [
       {
         name: "High Quality Pal Oil",
@@ -2533,7 +2533,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_PalOil.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -2560,7 +2560,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_ElectricOrgan.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectricOrgan.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2586,7 +2586,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Venom.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Venom.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2612,7 +2612,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_FireOrgan.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2638,7 +2638,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_IceOrgan.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IceOrgan.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2664,7 +2664,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Bone.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2690,7 +2690,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Cement.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Cement.webp",
     recipe: [
       {
         name: "Stone",
@@ -2698,7 +2698,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Stone.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Bone",
@@ -2706,7 +2706,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Bone.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
       },
       {
         name: "Pal Fluids",
@@ -2714,7 +2714,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_PalFluid.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -2741,7 +2741,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CarbonFiber.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
     recipe: [
       {
         name: "Coal",
@@ -2749,7 +2749,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Coal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Coal.webp",
       },
     ],
     stats: {
@@ -2776,7 +2776,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Horn.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2802,7 +2802,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalFluid.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2828,7 +2828,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ColorfulBird.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ColorfulBird.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_ColorfulBird.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2854,7 +2854,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PlantSlime.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_PlantSlime.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_PlantSlime.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2880,7 +2880,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CaptainPenguin.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_CaptainPenguin.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_CaptainPenguin.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2906,7 +2906,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CatMage.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_CatMage.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_CatMage.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2932,7 +2932,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_ToSell_01.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2957,7 +2957,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_02.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_02.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_ToSell_02.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -2982,7 +2982,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_03.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_03.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_ToSell_03.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -3007,7 +3007,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_04.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_04.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_ToSell_04.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -3032,7 +3032,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ToSell_05.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_ToSell_05.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_ToSell_05.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -3057,7 +3057,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_AncientParts2.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_AncientParts2.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -3082,7 +3082,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_hp_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_hp_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_hp_01.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3108,7 +3108,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_stamina_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_stamina_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_stamina_01.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3134,7 +3134,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_attack_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_attack_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_attack_01.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3160,7 +3160,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_workspeed_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_workspeed_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_workspeed_01.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3186,7 +3186,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_weight_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_weight_01.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_weight_01.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3212,7 +3212,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PinkRabbit.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_PinkRabbit.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_PinkRabbit.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3238,7 +3238,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_MopBaby.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_MopBaby.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_MopBaby.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3264,7 +3264,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_NegativeOctopus.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_NegativeOctopus.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_NegativeOctopus.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3290,7 +3290,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_RaijinDaughter.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_RaijinDaughter.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3316,7 +3316,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_LizardMan.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalItem_LizardMan.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_LizardMan.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3342,7 +3342,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_hp_02.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_hp_02.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_hp_02.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -3368,7 +3368,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_stamina_02.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_stamina_02.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_stamina_02.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -3394,7 +3394,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_attack_02.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_attack_02.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_attack_02.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -3420,7 +3420,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_workspeed_02.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_workspeed_02.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_workspeed_02.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -3446,7 +3446,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_weight_02.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Food_Lotus_weight_02.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_weight_02.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -3472,7 +3472,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_MeteorDrop.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MeteorDrop.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3499,7 +3499,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_DogCoin.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_DogCoin.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_DogCoin.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3526,7 +3526,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone4.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_PalUpgradeStone4.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_PalUpgradeStone4.webp",
     recipe: [
       {
         name: "Large Pal Soul",
@@ -3534,7 +3534,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalUpgradeStone3.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_PalUpgradeStone3.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_PalUpgradeStone3.webp",
       },
     ],
     stats: {
@@ -3561,7 +3561,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PotatoSeeds.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PotatoSeeds.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PotatoSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3586,7 +3586,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarrotSeeds.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_CarrotSeeds.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarrotSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3611,7 +3611,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_OnionSeeds.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_OnionSeeds.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_OnionSeeds.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3637,7 +3637,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PredatorCrystal.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PredatorCrystal.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PredatorCrystal.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3661,7 +3661,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_icon_item_Jewelry_BountyProof_1.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_icon_item_Jewelry_BountyProof_1.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_icon_item_Jewelry_BountyProof_1.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -3685,7 +3685,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts3.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_AncientParts3.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_AncientParts3.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -3710,7 +3710,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_Chromium.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Chromium.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3737,7 +3737,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_StainlessSteel.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
     recipe: [
       {
         name: "Chromite",
@@ -3745,7 +3745,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Chromium.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_Chromium.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Chromium.webp",
       },
       {
         name: "Hexolite Quartz",
@@ -3753,7 +3753,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_RainbowCrystal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_RainbowCrystal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_RainbowCrystal.webp",
       },
       {
         name: "Ore",
@@ -3761,7 +3761,7 @@ export const Materials = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/T_itemicon_Material_CopperOre.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperOre.webp",
       },
     ],
     stats: {
@@ -3788,7 +3788,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_NightStone.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_NightStone.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3816,7 +3816,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_PalDarkParts.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalDarkParts.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -3842,7 +3842,7 @@ export const Materials = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_RainbowCrystal.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/T_itemicon_Material_RainbowCrystal.webp",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_RainbowCrystal.webp",
     recipe: [],
     stats: {
       Rarity: "Common",

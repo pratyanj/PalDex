@@ -8,7 +8,7 @@ export const spheres = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/pal-sphere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere/T_itemicon_PalSphere.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -16,7 +16,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Wood",
@@ -24,7 +24,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -32,7 +32,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -65,7 +65,7 @@ export const spheres = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Mega.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/mega-sphere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere/T_itemicon_PalSphere_Mega.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -73,7 +73,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -81,7 +81,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Wood",
@@ -89,7 +89,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -97,7 +97,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -130,7 +130,7 @@ export const spheres = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Giga.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/giga-sphere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere/T_itemicon_PalSphere_Giga.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -138,7 +138,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -146,7 +146,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Wood",
@@ -154,7 +154,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -162,7 +162,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -195,7 +195,7 @@ export const spheres = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Tera.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/hyper-sphere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere/T_itemicon_PalSphere_Tera.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -203,7 +203,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -211,7 +211,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Wood",
@@ -219,7 +219,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Cement",
@@ -227,7 +227,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Cement.webp",
       },
     ],
     stats: {
@@ -260,7 +260,7 @@ export const spheres = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Master.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/ultra-sphere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere/T_itemicon_PalSphere_Master.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -268,7 +268,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Refined Ingot",
@@ -276,7 +276,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Carbon Fiber",
@@ -284,7 +284,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Cement",
@@ -292,7 +292,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Cement.webp",
       },
     ],
     stats: {
@@ -325,7 +325,7 @@ export const spheres = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Legend.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/legendary-sphere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere/T_itemicon_PalSphere_Legend.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -333,7 +333,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Pal Metal Ingot",
@@ -341,7 +341,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Carbon Fiber",
@@ -349,7 +349,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Cement",
@@ -357,7 +357,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Cement.webp",
       },
     ],
     stats: {
@@ -390,7 +390,7 @@ export const spheres = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ultimate.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/ultimate-sphere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere/T_itemicon_PalSphere_Ultimate.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -398,7 +398,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Pal Metal Ingot",
@@ -406,7 +406,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Carbon Fiber",
@@ -414,7 +414,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Plasteel",
@@ -422,7 +422,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
     ],
     stats: {
@@ -455,7 +455,7 @@ export const spheres = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Exotic.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/exotic-sphere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/sphere/T_itemicon_PalSphere_Exotic.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -463,7 +463,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Plasteel",
@@ -471,7 +471,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -479,7 +479,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Hexolite",
@@ -487,7 +487,7 @@ export const spheres = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
     ],
     stats: {

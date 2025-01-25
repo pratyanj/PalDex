@@ -3,12 +3,11 @@ export const Armors = [
     id: 1,
     name: "Cloth Outfit",
     rarity: "Common",
-    description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    description: "Clothes made fromCloth.\r\nProtects against cold nights.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmor.webp",
     recipe: [
       {
         name: "Cloth",
@@ -43,17 +42,18 @@ export const Armors = [
     defense: 15,
     health: 70,
     technology: 4,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 2,
     name: "Metal Armor",
     rarity: "Common",
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmor.webp",
     recipe: [
       {
         name: "Ingot",
@@ -105,6 +105,7 @@ export const Armors = [
     defense: 70,
     health: 250,
     technology: 23,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 3,
@@ -115,7 +116,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperHelmet.webp",
     recipe: [
       {
         name: "Ingot",
@@ -157,17 +158,18 @@ export const Armors = [
     defense: 50,
     health: 100,
     technology: 23,
+    effects: [],
   },
   {
     id: 4,
     name: "Pelt Armor",
     rarity: "Common",
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made fromLeather.\r\nIts warmth and defense have been improved.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmor.webp",
     recipe: [
       {
         name: "Leather",
@@ -202,6 +204,7 @@ export const Armors = [
     defense: 35,
     health: 140,
     technology: 12,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 5,
@@ -212,7 +215,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurHelmet.webp",
     recipe: [
       {
         name: "Fiber",
@@ -254,17 +257,18 @@ export const Armors = [
     defense: 15,
     health: 60,
     technology: 10,
+    effects: [],
   },
   {
     id: 6,
     name: "Refined Metal Armor",
     rarity: "Common",
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmor.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -316,6 +320,7 @@ export const Armors = [
     defense: 150,
     health: 500,
     technology: 37,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 7,
@@ -326,7 +331,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronHelmet.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -368,17 +373,18 @@ export const Armors = [
     defense: 100,
     health: 250,
     technology: 37,
+    effects: [],
   },
   {
     id: 8,
     name: "Pal Metal Armor",
     rarity: "Common",
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made fromPal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmor.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -430,17 +436,18 @@ export const Armors = [
     defense: 220,
     health: 750,
     technology: 46,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 9,
     name: "Pal Metal Helm",
     rarity: "Common",
     description:
-      "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+      "A helm made fromPal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealHelmet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -482,6 +489,7 @@ export const Armors = [
     defense: 150,
     health: 350,
     technology: 46,
+    effects: [],
   },
   {
     id: 10,
@@ -492,7 +500,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_01.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/common-shield.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_Shield_01.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -547,6 +555,7 @@ export const Armors = [
     },
     technology: 4,
     shield: 100,
+    effects: [],
   },
   {
     id: 11,
@@ -557,7 +566,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_02.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/mega-shield.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_Shield_02.webp",
     recipe: [
       {
         name: "Ancient Civilization Parts",
@@ -596,6 +605,7 @@ export const Armors = [
     },
     technology: 16,
     shield: 260,
+    effects: [],
   },
   {
     id: 12,
@@ -606,7 +616,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_03.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/giga-shield.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_Shield_03.webp",
     recipe: [
       {
         name: "Ancient Civilization Parts",
@@ -645,6 +655,7 @@ export const Armors = [
     },
     technology: 28,
     shield: 540,
+    effects: [],
   },
   {
     id: 13,
@@ -655,7 +666,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_04.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hyper-shield.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_Shield_04.webp",
     recipe: [
       {
         name: "Ancient Civilization Parts",
@@ -694,17 +705,17 @@ export const Armors = [
     },
     technology: 43,
     shield: 1045,
+    effects: [],
   },
   {
     id: 14,
     name: "Cloth Outfit",
     rarity: "Uncommon",
-    description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    description: "Clothes made fromCloth.\r\nProtects against cold nights.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmor.webp",
     recipe: [
       {
         name: "Cloth",
@@ -746,17 +757,17 @@ export const Armors = [
     },
     defense: 19,
     health: 91,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 15,
     name: "Cloth Outfit",
     rarity: "Rare",
-    description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    description: "Clothes made fromCloth.\r\nProtects against cold nights.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmor.webp",
     recipe: [
       {
         name: "Cloth",
@@ -798,17 +809,17 @@ export const Armors = [
     },
     defense: 21,
     health: 98,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 16,
     name: "Cloth Outfit",
     rarity: "Epic",
-    description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    description: "Clothes made fromCloth.\r\nProtects against cold nights.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmor.webp",
     recipe: [
       {
         name: "Cloth",
@@ -850,17 +861,17 @@ export const Armors = [
     },
     defense: 22,
     health: 105,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 17,
     name: "Cloth Outfit",
     rarity: "Legendary",
-    description:
-      "Clothes made from Cloth.\r\nProtects against cold nights.Cold Resistant Lv. 1",
+    description: "Clothes made fromCloth.\r\nProtects against cold nights.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cloth-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmor.webp",
     recipe: [
       {
         name: "Cloth",
@@ -902,17 +913,18 @@ export const Armors = [
     },
     defense: 24,
     health: 112,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 18,
     name: "Pelt Armor",
     rarity: "Uncommon",
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made fromLeather.\r\nIts warmth and defense have been improved.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmor.webp",
     recipe: [
       {
         name: "Leather",
@@ -954,17 +966,18 @@ export const Armors = [
     },
     defense: 45,
     health: 182,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 19,
     name: "Pelt Armor",
     rarity: "Rare",
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made fromLeather.\r\nIts warmth and defense have been improved.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmor.webp",
     recipe: [
       {
         name: "Leather",
@@ -1006,17 +1019,18 @@ export const Armors = [
     },
     defense: 49,
     health: 196,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 20,
     name: "Pelt Armor",
     rarity: "Epic",
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made fromLeather.\r\nIts warmth and defense have been improved.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmor.webp",
     recipe: [
       {
         name: "Leather",
@@ -1058,17 +1072,18 @@ export const Armors = [
     },
     defense: 52,
     health: 210,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 21,
     name: "Pelt Armor",
     rarity: "Legendary",
     description:
-      "Armor made from Leather.\r\nIts warmth and defense have been improved.Cold Resistant Lv. 1",
+      "Armor made fromLeather.\r\nIts warmth and defense have been improved.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmor.webp",
     recipe: [
       {
         name: "Leather",
@@ -1110,17 +1125,18 @@ export const Armors = [
     },
     defense: 56,
     health: 224,
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 22,
     name: "Metal Armor",
     rarity: "Uncommon",
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmor.webp",
     recipe: [
       {
         name: "Ingot",
@@ -1179,17 +1195,18 @@ export const Armors = [
     },
     defense: 91,
     health: 325,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 23,
     name: "Metal Armor",
     rarity: "Rare",
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmor.webp",
     recipe: [
       {
         name: "Ingot",
@@ -1248,17 +1265,18 @@ export const Armors = [
     },
     defense: 98,
     health: 350,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 24,
     name: "Metal Armor",
     rarity: "Epic",
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmor.webp",
     recipe: [
       {
         name: "Ingot",
@@ -1317,17 +1335,18 @@ export const Armors = [
     },
     defense: 105,
     health: 375,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 25,
     name: "Metal Armor",
     rarity: "Legendary",
     description:
-      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made of metal.\r\nSomewhat heavy, but provides good defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmor.webp",
     recipe: [
       {
         name: "Ingot",
@@ -1386,17 +1405,18 @@ export const Armors = [
     },
     defense: 112,
     health: 400,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 26,
     name: "Refined Metal Armor",
     rarity: "Uncommon",
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmor.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -1455,17 +1475,18 @@ export const Armors = [
     },
     defense: 195,
     health: 650,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 27,
     name: "Refined Metal Armor",
     rarity: "Rare",
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmor.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -1524,17 +1545,18 @@ export const Armors = [
     },
     defense: 210,
     health: 700,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 28,
     name: "Refined Metal Armor",
     rarity: "Epic",
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmor.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -1593,17 +1615,18 @@ export const Armors = [
     },
     defense: 225,
     health: 750,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 29,
     name: "Refined Metal Armor",
     rarity: "Legendary",
     description:
-      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made from high quality metal.\r\nQuite heavy, but provides excellent defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmor.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -1662,17 +1685,18 @@ export const Armors = [
     },
     defense: 240,
     health: 800,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 30,
     name: "Pal Metal Armor",
     rarity: "Uncommon",
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made fromPal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmor.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -1731,17 +1755,18 @@ export const Armors = [
     },
     defense: 286,
     health: 975,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 31,
     name: "Pal Metal Armor",
     rarity: "Rare",
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made fromPal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmor.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -1800,17 +1825,18 @@ export const Armors = [
     },
     defense: 308,
     health: 1050,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 32,
     name: "Pal Metal Armor",
     rarity: "Epic",
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made fromPal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmor.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -1869,17 +1895,18 @@ export const Armors = [
     },
     defense: 330,
     health: 1125,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 33,
     name: "Pal Metal Armor",
     rarity: "Legendary",
     description:
-      "Armor made from Pal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made fromPal Metal Ingot.\r\nHigh defense, but extremely heavy.\r\nEquipment for a hero, it exudes bravery.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmor.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -1938,6 +1965,7 @@ export const Armors = [
     },
     defense: 352,
     health: 1200,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 34,
@@ -1948,7 +1976,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurHelmet.webp",
     recipe: [
       {
         name: "Fiber",
@@ -1997,6 +2025,7 @@ export const Armors = [
     },
     defense: 19,
     health: 78,
+    effects: [],
   },
   {
     id: 35,
@@ -2007,7 +2036,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurHelmet.webp",
     recipe: [
       {
         name: "Fiber",
@@ -2056,6 +2085,7 @@ export const Armors = [
     },
     defense: 21,
     health: 84,
+    effects: [],
   },
   {
     id: 36,
@@ -2066,7 +2096,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurHelmet.webp",
     recipe: [
       {
         name: "Fiber",
@@ -2115,6 +2145,7 @@ export const Armors = [
     },
     defense: 22,
     health: 90,
+    effects: [],
   },
   {
     id: 37,
@@ -2125,7 +2156,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/feathered-hair-band.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurHelmet.webp",
     recipe: [
       {
         name: "Fiber",
@@ -2161,7 +2192,7 @@ export const Armors = [
       Defense: 24,
       Weight: 5,
       MaxStackCount: 1,
-      Durability: 760,
+      Durability: 800,
       Code: "FurHelmet_5",
       IconName: "FurHelmet",
       TypeA: "Armor",
@@ -2174,6 +2205,7 @@ export const Armors = [
     },
     defense: 24,
     health: 96,
+    effects: [],
   },
   {
     id: 38,
@@ -2184,7 +2216,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperHelmet.webp",
     recipe: [
       {
         name: "Ingot",
@@ -2233,6 +2265,7 @@ export const Armors = [
     },
     defense: 65,
     health: 130,
+    effects: [],
   },
   {
     id: 39,
@@ -2243,7 +2276,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperHelmet.webp",
     recipe: [
       {
         name: "Ingot",
@@ -2292,6 +2325,7 @@ export const Armors = [
     },
     defense: 70,
     health: 140,
+    effects: [],
   },
   {
     id: 40,
@@ -2302,7 +2336,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperHelmet.webp",
     recipe: [
       {
         name: "Ingot",
@@ -2351,6 +2385,7 @@ export const Armors = [
     },
     defense: 75,
     health: 150,
+    effects: [],
   },
   {
     id: 41,
@@ -2361,7 +2396,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperHelmet.webp",
     recipe: [
       {
         name: "Ingot",
@@ -2397,7 +2432,7 @@ export const Armors = [
       Defense: 80,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 2660,
+      Durability: 2800,
       Code: "CopperHelmet_5",
       IconName: "CopperHelmet",
       TypeA: "Armor",
@@ -2410,6 +2445,7 @@ export const Armors = [
     },
     defense: 80,
     health: 160,
+    effects: [],
   },
   {
     id: 42,
@@ -2420,7 +2456,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronHelmet.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -2469,6 +2505,7 @@ export const Armors = [
     },
     defense: 130,
     health: 325,
+    effects: [],
   },
   {
     id: 43,
@@ -2479,7 +2516,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronHelmet.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -2528,6 +2565,7 @@ export const Armors = [
     },
     defense: 140,
     health: 350,
+    effects: [],
   },
   {
     id: 44,
@@ -2538,7 +2576,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronHelmet.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -2587,6 +2625,7 @@ export const Armors = [
     },
     defense: 150,
     health: 375,
+    effects: [],
   },
   {
     id: 45,
@@ -2597,7 +2636,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/refined-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronHelmet.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -2633,7 +2672,7 @@ export const Armors = [
       Defense: 160,
       Weight: 12,
       MaxStackCount: 1,
-      Durability: 5700,
+      Durability: 6000,
       Code: "IronHelmet_5",
       IconName: "IronHelmet",
       TypeA: "Armor",
@@ -2646,17 +2685,18 @@ export const Armors = [
     },
     defense: 160,
     health: 400,
+    effects: [],
   },
   {
     id: 46,
     name: "Pal Metal Helm",
     rarity: "Uncommon",
     description:
-      "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+      "A helm made fromPal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealHelmet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -2705,17 +2745,18 @@ export const Armors = [
     },
     defense: 195,
     health: 455,
+    effects: [],
   },
   {
     id: 47,
     name: "Pal Metal Helm",
     rarity: "Rare",
     description:
-      "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+      "A helm made fromPal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealHelmet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -2764,17 +2805,18 @@ export const Armors = [
     },
     defense: 210,
     health: 490,
+    effects: [],
   },
   {
     id: 48,
     name: "Pal Metal Helm",
     rarity: "Epic",
     description:
-      "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+      "A helm made fromPal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealHelmet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -2823,17 +2865,18 @@ export const Armors = [
     },
     defense: 225,
     health: 525,
+    effects: [],
   },
   {
     id: 49,
     name: "Pal Metal Helm",
     rarity: "Legendary",
     description:
-      "A helm made from Pal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
+      "A helm made fromPal Metal Ingot.\r\nEnvied for its immaculate quality, it is proof of a chosen warrior.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/pal-metal-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealHelmet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -2869,7 +2912,7 @@ export const Armors = [
       Defense: 240,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 19000,
+      Durability: 20000,
       Code: "StealHelmet_5",
       IconName: "StealHelmet",
       TypeA: "Armor",
@@ -2882,17 +2925,18 @@ export const Armors = [
     },
     defense: 240,
     health: 560,
+    effects: [],
   },
   {
     id: 50,
     name: "Tropical Outfit",
     rarity: "Common",
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "ACloth Outfitproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorHeat.webp",
     recipe: [
       {
         name: "Cloth",
@@ -2935,17 +2979,18 @@ export const Armors = [
     defense: 25,
     health: 70,
     technology: 9,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 51,
     name: "Tropical Outfit",
     rarity: "Uncommon",
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "ACloth Outfitproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorHeat.webp",
     recipe: [
       {
         name: "Cloth",
@@ -2981,7 +3026,7 @@ export const Armors = [
       Defense: 32,
       Weight: 4,
       MaxStackCount: 1,
-      Durability: 360,
+      Durability: 450,
       Code: "ClothArmorHeat_2",
       IconName: "ClothArmorHeat",
       TypeA: "Armor",
@@ -2995,17 +3040,18 @@ export const Armors = [
     },
     defense: 32,
     health: 91,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 52,
     name: "Tropical Outfit",
     rarity: "Rare",
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "ACloth Outfitproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorHeat.webp",
     recipe: [
       {
         name: "Cloth",
@@ -3041,7 +3087,7 @@ export const Armors = [
       Defense: 35,
       Weight: 4,
       MaxStackCount: 1,
-      Durability: 450,
+      Durability: 600,
       Code: "ClothArmorHeat_3",
       IconName: "ClothArmorHeat",
       TypeA: "Armor",
@@ -3055,17 +3101,18 @@ export const Armors = [
     },
     defense: 35,
     health: 98,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 53,
     name: "Tropical Outfit",
     rarity: "Epic",
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "ACloth Outfitproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorHeat.webp",
     recipe: [
       {
         name: "Cloth",
@@ -3101,7 +3148,7 @@ export const Armors = [
       Defense: 37,
       Weight: 4,
       MaxStackCount: 1,
-      Durability: 540,
+      Durability: 900,
       Code: "ClothArmorHeat_4",
       IconName: "ClothArmorHeat",
       TypeA: "Armor",
@@ -3115,17 +3162,18 @@ export const Armors = [
     },
     defense: 37,
     health: 105,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 54,
     name: "Tropical Outfit",
     rarity: "Legendary",
     description:
-      "A Cloth Outfit produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "ACloth Outfitproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tropical-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorHeat.webp",
     recipe: [
       {
         name: "Cloth",
@@ -3161,7 +3209,7 @@ export const Armors = [
       Defense: 40,
       Weight: 4,
       MaxStackCount: 1,
-      Durability: 660,
+      Durability: 1200,
       Code: "ClothArmorHeat_5",
       IconName: "ClothArmorHeat",
       TypeA: "Armor",
@@ -3175,17 +3223,18 @@ export const Armors = [
     },
     defense: 40,
     health: 112,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 55,
     name: "Tundra Outfit",
     rarity: "Common",
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "ACloth Outfitproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorCold.webp",
     recipe: [
       {
         name: "Cloth",
@@ -3228,17 +3277,18 @@ export const Armors = [
     defense: 25,
     health: 70,
     technology: 9,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 56,
     name: "Tundra Outfit",
     rarity: "Uncommon",
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "ACloth Outfitproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorCold.webp",
     recipe: [
       {
         name: "Cloth",
@@ -3274,7 +3324,7 @@ export const Armors = [
       Defense: 32,
       Weight: 4,
       MaxStackCount: 1,
-      Durability: 360,
+      Durability: 450,
       Code: "ClothArmorCold_2",
       IconName: "ClothArmorCold",
       TypeA: "Armor",
@@ -3288,17 +3338,18 @@ export const Armors = [
     },
     defense: 32,
     health: 91,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 57,
     name: "Tundra Outfit",
     rarity: "Rare",
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "ACloth Outfitproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorCold.webp",
     recipe: [
       {
         name: "Cloth",
@@ -3334,7 +3385,7 @@ export const Armors = [
       Defense: 35,
       Weight: 4,
       MaxStackCount: 1,
-      Durability: 450,
+      Durability: 600,
       Code: "ClothArmorCold_3",
       IconName: "ClothArmorCold",
       TypeA: "Armor",
@@ -3348,17 +3399,18 @@ export const Armors = [
     },
     defense: 35,
     health: 98,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 58,
     name: "Tundra Outfit",
     rarity: "Epic",
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "ACloth Outfitproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorCold.webp",
     recipe: [
       {
         name: "Cloth",
@@ -3394,7 +3446,7 @@ export const Armors = [
       Defense: 37,
       Weight: 4,
       MaxStackCount: 1,
-      Durability: 540,
+      Durability: 900,
       Code: "ClothArmorCold_4",
       IconName: "ClothArmorCold",
       TypeA: "Armor",
@@ -3408,17 +3460,18 @@ export const Armors = [
     },
     defense: 37,
     health: 105,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 59,
     name: "Tundra Outfit",
     rarity: "Legendary",
     description:
-      "A Cloth Outfit produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "ACloth Outfitproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/tundra-outfit.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_ClothArmorCold.webp",
     recipe: [
       {
         name: "Cloth",
@@ -3454,7 +3507,7 @@ export const Armors = [
       Defense: 40,
       Weight: 4,
       MaxStackCount: 1,
-      Durability: 660,
+      Durability: 1200,
       Code: "ClothArmorCold_5",
       IconName: "ClothArmorCold",
       TypeA: "Armor",
@@ -3468,17 +3521,18 @@ export const Armors = [
     },
     defense: 40,
     health: 112,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 60,
     name: "Heat Resistant Pelt Armor",
     rarity: "Common",
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "APelt Armorproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorHeat.webp",
     recipe: [
       {
         name: "Leather",
@@ -3521,17 +3575,18 @@ export const Armors = [
     defense: 45,
     health: 140,
     technology: 16,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 61,
     name: "Heat Resistant Pelt Armor",
     rarity: "Uncommon",
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "APelt Armorproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorHeat.webp",
     recipe: [
       {
         name: "Leather",
@@ -3567,7 +3622,7 @@ export const Armors = [
       Defense: 58,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 720,
+      Durability: 900,
       Code: "FurArmorHeat_2",
       IconName: "FurArmorHeat",
       TypeA: "Armor",
@@ -3581,17 +3636,18 @@ export const Armors = [
     },
     defense: 58,
     health: 182,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 62,
     name: "Heat Resistant Pelt Armor",
     rarity: "Rare",
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "APelt Armorproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorHeat.webp",
     recipe: [
       {
         name: "Leather",
@@ -3627,7 +3683,7 @@ export const Armors = [
       Defense: 63,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 900,
+      Durability: 1200,
       Code: "FurArmorHeat_3",
       IconName: "FurArmorHeat",
       TypeA: "Armor",
@@ -3641,17 +3697,18 @@ export const Armors = [
     },
     defense: 63,
     health: 196,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 63,
     name: "Heat Resistant Pelt Armor",
     rarity: "Epic",
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "APelt Armorproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorHeat.webp",
     recipe: [
       {
         name: "Leather",
@@ -3687,7 +3744,7 @@ export const Armors = [
       Defense: 67,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 1080,
+      Durability: 1800,
       Code: "FurArmorHeat_4",
       IconName: "FurArmorHeat",
       TypeA: "Armor",
@@ -3701,17 +3758,18 @@ export const Armors = [
     },
     defense: 67,
     health: 210,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 64,
     name: "Heat Resistant Pelt Armor",
     rarity: "Legendary",
     description:
-      "A Pelt Armor produced in hot regions.\r\nBoasts high heat resistance.Heat Resistant Lv. 2",
+      "APelt Armorproduced in hot regions.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorHeat.webp",
     recipe: [
       {
         name: "Leather",
@@ -3747,7 +3805,7 @@ export const Armors = [
       Defense: 72,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 1320,
+      Durability: 2400,
       Code: "FurArmorHeat_5",
       IconName: "FurArmorHeat",
       TypeA: "Armor",
@@ -3761,17 +3819,18 @@ export const Armors = [
     },
     defense: 72,
     health: 224,
+    effects: ["Heat Resistant Lv. 2"],
   },
   {
     id: 65,
     name: "Cold Resistant Pelt Armor",
     rarity: "Common",
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "APelt Armorproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorCold.webp",
     recipe: [
       {
         name: "Leather",
@@ -3814,17 +3873,18 @@ export const Armors = [
     defense: 45,
     health: 140,
     technology: 18,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 66,
     name: "Cold Resistant Pelt Armor",
     rarity: "Uncommon",
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "APelt Armorproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorCold.webp",
     recipe: [
       {
         name: "Leather",
@@ -3860,7 +3920,7 @@ export const Armors = [
       Defense: 58,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 720,
+      Durability: 900,
       Code: "FurArmorCold_2",
       IconName: "FurArmorCold",
       TypeA: "Armor",
@@ -3874,17 +3934,18 @@ export const Armors = [
     },
     defense: 58,
     health: 182,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 67,
     name: "Cold Resistant Pelt Armor",
     rarity: "Rare",
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "APelt Armorproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorCold.webp",
     recipe: [
       {
         name: "Leather",
@@ -3920,7 +3981,7 @@ export const Armors = [
       Defense: 63,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 900,
+      Durability: 1200,
       Code: "FurArmorCold_3",
       IconName: "FurArmorCold",
       TypeA: "Armor",
@@ -3934,17 +3995,18 @@ export const Armors = [
     },
     defense: 63,
     health: 196,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 68,
     name: "Cold Resistant Pelt Armor",
     rarity: "Epic",
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "APelt Armorproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorCold.webp",
     recipe: [
       {
         name: "Leather",
@@ -3980,7 +4042,7 @@ export const Armors = [
       Defense: 67,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 1080,
+      Durability: 1800,
       Code: "FurArmorCold_4",
       IconName: "FurArmorCold",
       TypeA: "Armor",
@@ -3994,17 +4056,18 @@ export const Armors = [
     },
     defense: 67,
     health: 210,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 69,
     name: "Cold Resistant Pelt Armor",
     rarity: "Legendary",
     description:
-      "A Pelt Armor produced in cold regions.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2",
+      "APelt Armorproduced in cold regions.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pelt-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_FurArmorCold.webp",
     recipe: [
       {
         name: "Leather",
@@ -4040,7 +4103,7 @@ export const Armors = [
       Defense: 72,
       Weight: 10,
       MaxStackCount: 1,
-      Durability: 1320,
+      Durability: 2400,
       Code: "FurArmorCold_5",
       IconName: "FurArmorCold",
       TypeA: "Armor",
@@ -4054,17 +4117,17 @@ export const Armors = [
     },
     defense: 72,
     health: 224,
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 70,
     name: "Heat Resistant Metal Armor",
     rarity: "Common",
-    description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedMetal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorHeat.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4124,17 +4187,17 @@ export const Armors = [
     defense: 105,
     health: 250,
     technology: 25,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 71,
     name: "Heat Resistant Metal Armor",
     rarity: "Uncommon",
-    description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedMetal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorHeat.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4186,7 +4249,7 @@ export const Armors = [
       Defense: 136,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 1680,
+      Durability: 2100,
       Code: "CopperArmorHeat_2",
       IconName: "CopperArmorHeat",
       TypeA: "Armor",
@@ -4201,17 +4264,17 @@ export const Armors = [
     },
     defense: 136,
     health: 325,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 72,
     name: "Heat Resistant Metal Armor",
     rarity: "Rare",
-    description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedMetal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorHeat.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4263,7 +4326,7 @@ export const Armors = [
       Defense: 147,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 2100,
+      Durability: 2800,
       Code: "CopperArmorHeat_3",
       IconName: "CopperArmorHeat",
       TypeA: "Armor",
@@ -4278,17 +4341,17 @@ export const Armors = [
     },
     defense: 147,
     health: 350,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 73,
     name: "Heat Resistant Metal Armor",
     rarity: "Epic",
-    description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedMetal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorHeat.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4340,7 +4403,7 @@ export const Armors = [
       Defense: 157,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 2520,
+      Durability: 4200,
       Code: "CopperArmorHeat_4",
       IconName: "CopperArmorHeat",
       TypeA: "Armor",
@@ -4355,17 +4418,17 @@ export const Armors = [
     },
     defense: 157,
     health: 375,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 74,
     name: "Heat Resistant Metal Armor",
     rarity: "Legendary",
-    description:
-      "Improved Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedMetal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorHeat.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4417,7 +4480,7 @@ export const Armors = [
       Defense: 168,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 3080,
+      Durability: 5600,
       Code: "CopperArmorHeat_5",
       IconName: "CopperArmorHeat",
       TypeA: "Armor",
@@ -4432,17 +4495,18 @@ export const Armors = [
     },
     defense: 168,
     health: 400,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 75,
     name: "Cold Resistant Metal Armor",
     rarity: "Common",
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedMetal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorCold.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4502,17 +4566,18 @@ export const Armors = [
     defense: 105,
     health: 250,
     technology: 27,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 76,
     name: "Cold Resistant Metal Armor",
     rarity: "Uncommon",
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedMetal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorCold.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4564,7 +4629,7 @@ export const Armors = [
       Defense: 136,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 1680,
+      Durability: 2100,
       Code: "CopperArmorCold_2",
       IconName: "CopperArmorCold",
       TypeA: "Armor",
@@ -4579,17 +4644,18 @@ export const Armors = [
     },
     defense: 136,
     health: 325,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 77,
     name: "Cold Resistant Metal Armor",
     rarity: "Rare",
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedMetal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorCold.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4641,7 +4707,7 @@ export const Armors = [
       Defense: 147,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 2100,
+      Durability: 2800,
       Code: "CopperArmorCold_3",
       IconName: "CopperArmorCold",
       TypeA: "Armor",
@@ -4656,17 +4722,18 @@ export const Armors = [
     },
     defense: 147,
     health: 350,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 78,
     name: "Cold Resistant Metal Armor",
     rarity: "Epic",
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedMetal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorCold.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4718,7 +4785,7 @@ export const Armors = [
       Defense: 157,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 2520,
+      Durability: 4200,
       Code: "CopperArmorCold_4",
       IconName: "CopperArmorCold",
       TypeA: "Armor",
@@ -4733,17 +4800,18 @@ export const Armors = [
     },
     defense: 157,
     health: 375,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 79,
     name: "Cold Resistant Metal Armor",
     rarity: "Legendary",
     description:
-      "Improved Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedMetal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_CopperArmorCold.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4795,7 +4863,7 @@ export const Armors = [
       Defense: 168,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 3080,
+      Durability: 5600,
       Code: "CopperArmorCold_5",
       IconName: "CopperArmorCold",
       TypeA: "Armor",
@@ -4810,17 +4878,17 @@ export const Armors = [
     },
     defense: 168,
     health: 400,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 80,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Common",
-    description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedRefined Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorHeat.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -4880,17 +4948,17 @@ export const Armors = [
     defense: 180,
     health: 500,
     technology: 40,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 81,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Uncommon",
-    description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedRefined Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorHeat.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -4942,7 +5010,7 @@ export const Armors = [
       Defense: 234,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 3600,
+      Durability: 4500,
       Code: "IronArmorHeat_2",
       IconName: "IronArmorHeat",
       TypeA: "Armor",
@@ -4957,17 +5025,17 @@ export const Armors = [
     },
     defense: 234,
     health: 650,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 82,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Rare",
-    description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedRefined Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorHeat.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5019,7 +5087,7 @@ export const Armors = [
       Defense: 252,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 4500,
+      Durability: 6000,
       Code: "IronArmorHeat_3",
       IconName: "IronArmorHeat",
       TypeA: "Armor",
@@ -5034,17 +5102,17 @@ export const Armors = [
     },
     defense: 252,
     health: 700,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 83,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Epic",
-    description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedRefined Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorHeat.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5096,7 +5164,7 @@ export const Armors = [
       Defense: 270,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 5400,
+      Durability: 9000,
       Code: "IronArmorHeat_4",
       IconName: "IronArmorHeat",
       TypeA: "Armor",
@@ -5111,17 +5179,17 @@ export const Armors = [
     },
     defense: 270,
     health: 750,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 84,
     name: "Heat Resistant Refined Metal Armor",
     rarity: "Legendary",
-    description:
-      "Improved Refined Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedRefined Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorHeat.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5173,7 +5241,7 @@ export const Armors = [
       Defense: 288,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 6600,
+      Durability: 12000,
       Code: "IronArmorHeat_5",
       IconName: "IronArmorHeat",
       TypeA: "Armor",
@@ -5188,17 +5256,18 @@ export const Armors = [
     },
     defense: 288,
     health: 800,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 85,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Common",
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedRefined Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorCold.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5258,17 +5327,18 @@ export const Armors = [
     defense: 180,
     health: 500,
     technology: 41,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 86,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Uncommon",
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedRefined Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorCold.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5320,7 +5390,7 @@ export const Armors = [
       Defense: 234,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 3600,
+      Durability: 4500,
       Code: "IronArmorCold_2",
       IconName: "IronArmorCold",
       TypeA: "Armor",
@@ -5335,17 +5405,18 @@ export const Armors = [
     },
     defense: 234,
     health: 650,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 87,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Rare",
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedRefined Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorCold.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5397,7 +5468,7 @@ export const Armors = [
       Defense: 252,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 4500,
+      Durability: 6000,
       Code: "IronArmorCold_3",
       IconName: "IronArmorCold",
       TypeA: "Armor",
@@ -5412,17 +5483,18 @@ export const Armors = [
     },
     defense: 252,
     health: 700,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 88,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Epic",
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedRefined Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorCold.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5474,7 +5546,7 @@ export const Armors = [
       Defense: 270,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 5400,
+      Durability: 9000,
       Code: "IronArmorCold_4",
       IconName: "IronArmorCold",
       TypeA: "Armor",
@@ -5489,17 +5561,18 @@ export const Armors = [
     },
     defense: 270,
     health: 750,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 89,
     name: "Cold Resistant Refined Metal Armor",
     rarity: "Legendary",
     description:
-      "Improved Refined Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedRefined Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-refined-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_IronArmorCold.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5551,7 +5624,7 @@ export const Armors = [
       Defense: 288,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 6600,
+      Durability: 12000,
       Code: "IronArmorCold_5",
       IconName: "IronArmorCold",
       TypeA: "Armor",
@@ -5566,17 +5639,17 @@ export const Armors = [
     },
     defense: 288,
     health: 800,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 90,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Common",
-    description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedPal Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorHeat.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5636,17 +5709,17 @@ export const Armors = [
     defense: 250,
     health: 750,
     technology: 48,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 91,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Uncommon",
-    description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedPal Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorHeat.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5698,7 +5771,7 @@ export const Armors = [
       Defense: 325,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 12000,
+      Durability: 15000,
       Code: "StealArmorHeat_2",
       IconName: "StealArmorHeat",
       TypeA: "Armor",
@@ -5713,17 +5786,17 @@ export const Armors = [
     },
     defense: 325,
     health: 975,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 92,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Rare",
-    description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedPal Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorHeat.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5775,7 +5848,7 @@ export const Armors = [
       Defense: 350,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 15000,
+      Durability: 20000,
       Code: "StealArmorHeat_3",
       IconName: "StealArmorHeat",
       TypeA: "Armor",
@@ -5790,17 +5863,17 @@ export const Armors = [
     },
     defense: 350,
     health: 1050,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 93,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Epic",
-    description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedPal Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorHeat.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5852,7 +5925,7 @@ export const Armors = [
       Defense: 375,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 18000,
+      Durability: 30000,
       Code: "StealArmorHeat_4",
       IconName: "StealArmorHeat",
       TypeA: "Armor",
@@ -5867,17 +5940,17 @@ export const Armors = [
     },
     defense: 375,
     health: 1125,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 94,
     name: "Heat Resistant Pal Metal Armor",
     rarity: "Legendary",
-    description:
-      "Improved Pal Metal Armor.\r\nBoasts high heat resistance.Heat Resistant Lv. 2 Cold Resistant Lv. 1",
+    description: "ImprovedPal Metal Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorHeat.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5929,7 +6002,7 @@ export const Armors = [
       Defense: 400,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 22000,
+      Durability: 40000,
       Code: "StealArmorHeat_5",
       IconName: "StealArmorHeat",
       TypeA: "Armor",
@@ -5944,17 +6017,18 @@ export const Armors = [
     },
     defense: 400,
     health: 1200,
+    effects: ["Heat Resistant Lv. 2", "Cold Resistant Lv. 1"],
   },
   {
     id: 95,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Common",
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPal Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorCold.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6014,17 +6088,18 @@ export const Armors = [
     defense: 250,
     health: 750,
     technology: 50,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 96,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Uncommon",
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPal Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorCold.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6076,7 +6151,7 @@ export const Armors = [
       Defense: 325,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 12000,
+      Durability: 15000,
       Code: "StealArmorCold_2",
       IconName: "StealArmorCold",
       TypeA: "Armor",
@@ -6091,17 +6166,18 @@ export const Armors = [
     },
     defense: 325,
     health: 975,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 97,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Rare",
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPal Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorCold.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6153,7 +6229,7 @@ export const Armors = [
       Defense: 350,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 15000,
+      Durability: 20000,
       Code: "StealArmorCold_3",
       IconName: "StealArmorCold",
       TypeA: "Armor",
@@ -6168,17 +6244,18 @@ export const Armors = [
     },
     defense: 350,
     health: 1050,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 98,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Epic",
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPal Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorCold.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6230,7 +6307,7 @@ export const Armors = [
       Defense: 375,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 18000,
+      Durability: 30000,
       Code: "StealArmorCold_4",
       IconName: "StealArmorCold",
       TypeA: "Armor",
@@ -6245,17 +6322,18 @@ export const Armors = [
     },
     defense: 375,
     health: 1125,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 99,
     name: "Cold Resistant Pal Metal Armor",
     rarity: "Legendary",
     description:
-      "Improved Pal Metal Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPal Metal Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-pal-metal-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_StealArmorCold.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6307,7 +6385,7 @@ export const Armors = [
       Defense: 400,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 22000,
+      Durability: 40000,
       Code: "StealArmorCold_5",
       IconName: "StealArmorCold",
       TypeA: "Armor",
@@ -6322,16 +6400,17 @@ export const Armors = [
     },
     defense: 400,
     health: 1200,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 100,
     name: "Lyleen Floral Cap",
     rarity: "Common",
-    description: "Floral cap shaped like a Lyleen.Grass Damage Reduction Lv. 1",
+    description: "Floral cap shaped like aLyleen.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip023.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lyleen-floral-cap.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_HeadEquip023.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6365,16 +6444,17 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: ["Grass Damage Reduction Lv. 1"],
   },
   {
     id: 101,
     name: "Sibelyx Hat",
     rarity: "Common",
-    description: "Hat shaped like a Sibelyx.Ice Damage Reduction Lv. 1",
+    description: "Hat shaped like aSibelyx.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip024.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/sibelyx-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_HeadEquip024.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6408,16 +6488,17 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: ["Ice Damage Reduction Lv. 1"],
   },
   {
     id: 102,
     name: "Cawgnito Hat",
     rarity: "Common",
-    description: "Hat shaped like a Cawgnito.Dark Damage Reduction Lv. 1",
+    description: "Hat shaped like aCawgnito.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip027.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cawgnito-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_HeadEquip027.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6451,16 +6532,17 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: ["Dark Damage Reduction Lv. 1"],
   },
   {
     id: 103,
     name: "Lamball Helm",
     rarity: "Common",
-    description: "Helm shaped like a Lamball.Neutral Damage Reduction Lv. 1",
+    description: "Helm shaped like aLamball.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip029.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lamball-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_HeadEquip029.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6494,16 +6576,17 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: ["Neutral Damage Reduction Lv. 1"],
   },
   {
     id: 104,
     name: "Dumud Helm",
     rarity: "Common",
-    description: "Helm shaped like a Dumud.Earth Damage Reduction Lv. 1",
+    description: "Helm shaped like aDumud.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip030.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/dumud-helm.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_HeadEquip030.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6537,16 +6620,17 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: ["Earth Damage Reduction Lv. 1"],
   },
   {
     id: 105,
     name: "Cattiva Hat",
     rarity: "Common",
-    description: "Hat shaped like a Cattiva.Neutral Damage Reduction Lv. 1",
+    description: "Hat shaped like aCattiva.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip033.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cattiva-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_HeadEquip033.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6580,21 +6664,22 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: ["Neutral Damage Reduction Lv. 1"],
   },
   {
     id: 106,
     name: "Plasteel Armor",
     rarity: "Common",
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmor.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 50,
+        quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -6642,21 +6727,22 @@ export const Armors = [
     defense: 385,
     health: 1300,
     technology: 50,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 107,
     name: "Plasteel Helmet",
     rarity: "Common",
     description:
-      "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+      "Helmet made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticHelmet.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 40,
+        quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -6694,6 +6780,7 @@ export const Armors = [
     defense: 260,
     health: 600,
     technology: 51,
+    effects: [],
   },
   {
     id: 108,
@@ -6704,7 +6791,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_05.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/ultra-shield.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_Shield_05.webp",
     recipe: [
       {
         name: "Ancient Civilization Parts",
@@ -6759,17 +6846,18 @@ export const Armors = [
     },
     technology: 55,
     shield: 1520,
+    effects: [],
   },
   {
     id: 109,
     name: "Witch's Crown (Ultra)",
     rarity: "Legendary",
     description:
-      "Imbued with the ominous power of Bellanoir Libero (Ultra).\r\nExtremely difficult to obtain.Dragon Damage Reduction Lv. 1",
+      "Imbued with the ominous power of Bellanoir Libero (Ultra).\r\nExtremely difficult to obtain.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Head001_purple.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/witch's-crown-(ultra).png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_Head001_purple.webp",
     recipe: [
       {
         name: "Ingot",
@@ -6803,6 +6891,7 @@ export const Armors = [
     },
     defense: 30,
     health: 80,
+    effects: ["Dragon Damage Reduction Lv. 1"],
   },
   {
     id: 110,
@@ -6812,7 +6901,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Grass.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/zoe-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_GYM_Head_Grass.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6845,6 +6934,7 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: [],
   },
   {
     id: 111,
@@ -6854,7 +6944,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Electric.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/axel-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_GYM_Head_Electric.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6887,6 +6977,7 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: [],
   },
   {
     id: 112,
@@ -6896,7 +6987,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Forest.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lily-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_GYM_Head_Forest.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6929,6 +7020,7 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: [],
   },
   {
     id: 113,
@@ -6938,7 +7030,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Snow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/victor-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_GYM_Head_Snow.webp",
     recipe: [
       {
         name: "Cloth",
@@ -6971,6 +7063,7 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: [],
   },
   {
     id: 114,
@@ -6980,7 +7073,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Desert.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/marcus-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_GYM_Head_Desert.webp",
     recipe: [
       {
         name: "Cloth",
@@ -7013,17 +7106,18 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: [],
   },
   {
     id: 115,
     name: "Horns of Supremacy",
     rarity: "Legendary",
     description:
-      "Bursts with the ominous power of Blazamut Ryu (Ultra).\r\nTo possess this is exceedingly rare.Water Damage Reduction Lv. 1",
+      "Bursts with the ominous power of Blazamut Ryu (Ultra).\r\nTo possess this is exceedingly rare.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip041.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/horns-of-supremacy.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_HeadEquip041.webp",
     recipe: [
       {
         name: "Ingot",
@@ -7057,21 +7151,21 @@ export const Armors = [
     },
     defense: 30,
     health: 80,
+    effects: ["Water Damage Reduction Lv. 1"],
   },
   {
     id: 116,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Common",
-    description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorHeat.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 50,
+        quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7127,21 +7221,22 @@ export const Armors = [
     defense: 400,
     health: 1300,
     technology: 53,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 117,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Common",
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPlasteel Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorCold.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 50,
+        quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7197,21 +7292,21 @@ export const Armors = [
     defense: 400,
     health: 1300,
     technology: 54,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 118,
     name: "Lightweight Plasteel Armor",
     rarity: "Common",
-    description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorWeight.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 100,
+        quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7260,6 +7355,11 @@ export const Armors = [
     defense: 400,
     health: 1300,
     technology: 55,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 119,
@@ -7269,7 +7369,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Sakurajima.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/saya-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_GYM_Head_Sakurajima.webp",
     recipe: [
       {
         name: "Cloth",
@@ -7302,21 +7402,22 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: [],
   },
   {
     id: 120,
     name: "Plasteel Armor",
     rarity: "Uncommon",
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmor.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 100,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7356,7 +7457,7 @@ export const Armors = [
       Defense: 500,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 21600,
+      Durability: 27000,
       Code: "PlasticArmor_2",
       IconName: "PlasticArmor",
       TypeA: "Armor",
@@ -7371,21 +7472,22 @@ export const Armors = [
     },
     defense: 500,
     health: 1560,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 121,
     name: "Plasteel Armor",
     rarity: "Rare",
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmor.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 150,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7425,7 +7527,7 @@ export const Armors = [
       Defense: 539,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 23400,
+      Durability: 36000,
       Code: "PlasticArmor_3",
       IconName: "PlasticArmor",
       TypeA: "Armor",
@@ -7440,21 +7542,22 @@ export const Armors = [
     },
     defense: 539,
     health: 1690,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 122,
     name: "Plasteel Armor",
     rarity: "Epic",
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmor.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 225,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7494,7 +7597,7 @@ export const Armors = [
       Defense: 577,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 25200,
+      Durability: 54000,
       Code: "PlasticArmor_4",
       IconName: "PlasticArmor",
       TypeA: "Armor",
@@ -7509,21 +7612,22 @@ export const Armors = [
     },
     defense: 577,
     health: 1820,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 123,
     name: "Plasteel Armor",
     rarity: "Legendary",
     description:
-      "Armor made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmor.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 337,
+        quantity: 202,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7563,7 +7667,7 @@ export const Armors = [
       Defense: 616,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 36000,
+      Durability: 72000,
       Code: "PlasticArmor_5",
       IconName: "PlasticArmor",
       TypeA: "Armor",
@@ -7578,21 +7682,21 @@ export const Armors = [
     },
     defense: 616,
     health: 1950,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 124,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Uncommon",
-    description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorHeat.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 100,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7640,7 +7744,7 @@ export const Armors = [
       Defense: 520,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 21600,
+      Durability: 27000,
       Code: "PlasticArmorHeat_2",
       IconName: "PlasticArmorHeat",
       TypeA: "Armor",
@@ -7655,21 +7759,21 @@ export const Armors = [
     },
     defense: 520,
     health: 1560,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 125,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Rare",
-    description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorHeat.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 150,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7717,7 +7821,7 @@ export const Armors = [
       Defense: 560,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 23400,
+      Durability: 36000,
       Code: "PlasticArmorHeat_3",
       IconName: "PlasticArmorHeat",
       TypeA: "Armor",
@@ -7732,21 +7836,21 @@ export const Armors = [
     },
     defense: 560,
     health: 1690,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 126,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Epic",
-    description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorHeat.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 225,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7794,7 +7898,7 @@ export const Armors = [
       Defense: 600,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 25200,
+      Durability: 54000,
       Code: "PlasticArmorHeat_4",
       IconName: "PlasticArmorHeat",
       TypeA: "Armor",
@@ -7809,21 +7913,21 @@ export const Armors = [
     },
     defense: 600,
     health: 1820,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 127,
     name: "Heat Resistant Plasteel Armor",
     rarity: "Legendary",
-    description:
-      "Improved Plasteel Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorHeat.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 337,
+        quantity: 202,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7871,7 +7975,7 @@ export const Armors = [
       Defense: 640,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 36000,
+      Durability: 72000,
       Code: "PlasticArmorHeat_5",
       IconName: "PlasticArmorHeat",
       TypeA: "Armor",
@@ -7886,21 +7990,22 @@ export const Armors = [
     },
     defense: 640,
     health: 1950,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 128,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Uncommon",
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPlasteel Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorCold.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 100,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -7948,7 +8053,7 @@ export const Armors = [
       Defense: 520,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 21600,
+      Durability: 27000,
       Code: "PlasticArmorCold_2",
       IconName: "PlasticArmorCold",
       TypeA: "Armor",
@@ -7963,21 +8068,22 @@ export const Armors = [
     },
     defense: 520,
     health: 1560,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 129,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Rare",
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPlasteel Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorCold.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 150,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8025,7 +8131,7 @@ export const Armors = [
       Defense: 560,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 23400,
+      Durability: 36000,
       Code: "PlasticArmorCold_3",
       IconName: "PlasticArmorCold",
       TypeA: "Armor",
@@ -8040,21 +8146,22 @@ export const Armors = [
     },
     defense: 560,
     health: 1690,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 130,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Epic",
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPlasteel Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorCold.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 225,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8102,7 +8209,7 @@ export const Armors = [
       Defense: 600,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 25200,
+      Durability: 54000,
       Code: "PlasticArmorCold_4",
       IconName: "PlasticArmorCold",
       TypeA: "Armor",
@@ -8117,21 +8224,22 @@ export const Armors = [
     },
     defense: 600,
     health: 1820,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 131,
     name: "Cold Resistant Plasteel Armor",
     rarity: "Legendary",
     description:
-      "Improved Plasteel Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedPlasteel Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorCold.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 337,
+        quantity: 202,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8179,7 +8287,7 @@ export const Armors = [
       Defense: 640,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 36000,
+      Durability: 72000,
       Code: "PlasticArmorCold_5",
       IconName: "PlasticArmorCold",
       TypeA: "Armor",
@@ -8194,21 +8302,21 @@ export const Armors = [
     },
     defense: 640,
     health: 1950,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 132,
     name: "Lightweight Plasteel Armor",
     rarity: "Uncommon",
-    description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorWeight.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 200,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8248,7 +8356,7 @@ export const Armors = [
       Defense: 520,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 21600,
+      Durability: 27000,
       Code: "PlasticArmorWeight_2",
       IconName: "PlasticArmorWeight",
       TypeA: "Armor",
@@ -8264,21 +8372,25 @@ export const Armors = [
     },
     defense: 520,
     health: 1560,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 133,
     name: "Lightweight Plasteel Armor",
     rarity: "Rare",
-    description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorWeight.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 300,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8318,7 +8430,7 @@ export const Armors = [
       Defense: 560,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 23400,
+      Durability: 36000,
       Code: "PlasticArmorWeight_3",
       IconName: "PlasticArmorWeight",
       TypeA: "Armor",
@@ -8334,21 +8446,25 @@ export const Armors = [
     },
     defense: 560,
     health: 1690,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 134,
     name: "Lightweight Plasteel Armor",
     rarity: "Epic",
-    description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorWeight.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 450,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8388,7 +8504,7 @@ export const Armors = [
       Defense: 600,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 25200,
+      Durability: 54000,
       Code: "PlasticArmorWeight_4",
       IconName: "PlasticArmorWeight",
       TypeA: "Armor",
@@ -8404,21 +8520,25 @@ export const Armors = [
     },
     defense: 600,
     health: 1820,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 135,
     name: "Lightweight Plasteel Armor",
     rarity: "Legendary",
-    description:
-      "Improved Plasteel Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedPlasteel Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-plasteel-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticArmorWeight.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 675,
+        quantity: 202,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8458,7 +8578,7 @@ export const Armors = [
       Defense: 640,
       Weight: 35,
       MaxStackCount: 1,
-      Durability: 36000,
+      Durability: 72000,
       Code: "PlasticArmorWeight_5",
       IconName: "PlasticArmorWeight",
       TypeA: "Armor",
@@ -8474,21 +8594,26 @@ export const Armors = [
     },
     defense: 640,
     health: 1950,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 136,
     name: "Plasteel Helmet",
     rarity: "Uncommon",
     description:
-      "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+      "Helmet made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticHelmet.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 80,
+        quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8520,7 +8645,7 @@ export const Armors = [
       Defense: 312,
       Weight: 12,
       MaxStackCount: 1,
-      Durability: 21600,
+      Durability: 27000,
       Code: "PlasticHelmet_2",
       IconName: "PlasticHelmet",
       TypeA: "Armor",
@@ -8533,21 +8658,22 @@ export const Armors = [
     },
     defense: 312,
     health: 720,
+    effects: [],
   },
   {
     id: 137,
     name: "Plasteel Helmet",
     rarity: "Rare",
     description:
-      "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+      "Helmet made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticHelmet.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 120,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8579,7 +8705,7 @@ export const Armors = [
       Defense: 338,
       Weight: 12,
       MaxStackCount: 1,
-      Durability: 23400,
+      Durability: 36000,
       Code: "PlasticHelmet_3",
       IconName: "PlasticHelmet",
       TypeA: "Armor",
@@ -8592,21 +8718,22 @@ export const Armors = [
     },
     defense: 338,
     health: 780,
+    effects: [],
   },
   {
     id: 138,
     name: "Plasteel Helmet",
     rarity: "Epic",
     description:
-      "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+      "Helmet made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticHelmet.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 180,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8638,7 +8765,7 @@ export const Armors = [
       Defense: 364,
       Weight: 12,
       MaxStackCount: 1,
-      Durability: 25200,
+      Durability: 54000,
       Code: "PlasticHelmet_4",
       IconName: "PlasticHelmet",
       TypeA: "Armor",
@@ -8651,21 +8778,22 @@ export const Armors = [
     },
     defense: 364,
     health: 840,
+    effects: [],
   },
   {
     id: 139,
     name: "Plasteel Helmet",
     rarity: "Legendary",
     description:
-      "Helmet made of Plasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
+      "Helmet made ofPlasteel.\r\nIn addition to enhanced defense capabilities, its weight was also reduced.\r\nEquipment that pushes the limits of technology.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/plasteel-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_PlasticHelmet.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 270,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8697,7 +8825,7 @@ export const Armors = [
       Defense: 390,
       Weight: 12,
       MaxStackCount: 1,
-      Durability: 36000,
+      Durability: 72000,
       Code: "PlasticHelmet_5",
       IconName: "PlasticHelmet",
       TypeA: "Armor",
@@ -8710,17 +8838,18 @@ export const Armors = [
     },
     defense: 390,
     health: 900,
+    effects: [],
   },
   {
     id: 140,
     name: "Hexolite Armor",
     rarity: "Common",
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofHexolite.\r\nPossesses overwhelming durability and defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmor.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -8732,7 +8861,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 30,
+        quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8772,17 +8901,17 @@ export const Armors = [
     defense: 580,
     health: 1750,
     technology: 57,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 141,
     name: "Xenolord's head",
     rarity: "Legendary",
-    description:
-      "A headgear designed to resemble a Xenolord.Ice Damage Reduction Lv. 1",
+    description: "A headgear designed to resemble aXenolord.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_HeadEquip044.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/xenolord's-head.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_HeadEquip044.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -8807,17 +8936,17 @@ export const Armors = [
     },
     defense: 30,
     health: 80,
+    effects: ["Ice Damage Reduction Lv. 1"],
   },
   {
     id: 142,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Common",
-    description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorHeat.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -8829,7 +8958,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 30,
+        quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8877,17 +9006,18 @@ export const Armors = [
     defense: 600,
     health: 1750,
     technology: 59,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 143,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Common",
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedHexolite Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorCold.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -8899,7 +9029,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 30,
+        quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -8947,17 +9077,17 @@ export const Armors = [
     defense: 600,
     health: 1750,
     technology: 59,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 144,
     name: "Lightweight Hexolite Armor",
     rarity: "Common",
-    description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorWeight.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -8969,7 +9099,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 30,
+        quantity: 20,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9010,17 +9140,22 @@ export const Armors = [
     defense: 600,
     health: 1750,
     technology: 60,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 145,
     name: "Hexolite Helmet",
     rarity: "Common",
     description:
-      "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+      "Helmet made ofHexolite.\r\nCombines incredible strength and lightness.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFHelmet.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9032,7 +9167,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 25,
+        quantity: 15,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9062,16 +9197,17 @@ export const Armors = [
     defense: 350,
     health: 800,
     technology: 58,
+    effects: [],
   },
   {
     id: 146,
     name: "Bjorn Hat",
     rarity: "Legendary",
-    description: "Dress up like Bjorm using this special headpiece!",
+    description: "Dress up like Bjorn using this special headpiece!",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_GYM_Head_Viking.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/bjorn-hat.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_GYM_Head_Viking.webp",
     recipe: [
       {
         name: "Cloth",
@@ -9104,17 +9240,18 @@ export const Armors = [
     },
     defense: 20,
     health: 60,
+    effects: [],
   },
   {
     id: 147,
     name: "Hexolite Helmet",
     rarity: "Uncommon",
     description:
-      "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+      "Helmet made ofHexolite.\r\nCombines incredible strength and lightness.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFHelmet.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9126,7 +9263,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 50,
+        quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9150,7 +9287,7 @@ export const Armors = [
       Defense: 385,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 24000,
+      Durability: 30000,
       Code: "SFHelmet_2",
       IconName: "SFHelmet",
       TypeA: "Armor",
@@ -9163,17 +9300,18 @@ export const Armors = [
     },
     defense: 385,
     health: 880,
+    effects: [],
   },
   {
     id: 148,
     name: "Hexolite Helmet",
     rarity: "Rare",
     description:
-      "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+      "Helmet made ofHexolite.\r\nCombines incredible strength and lightness.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFHelmet.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9185,7 +9323,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 75,
+        quantity: 45,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9209,7 +9347,7 @@ export const Armors = [
       Defense: 402,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 26000,
+      Durability: 40000,
       Code: "SFHelmet_3",
       IconName: "SFHelmet",
       TypeA: "Armor",
@@ -9222,17 +9360,18 @@ export const Armors = [
     },
     defense: 402,
     health: 920,
+    effects: [],
   },
   {
     id: 149,
     name: "Hexolite Helmet",
     rarity: "Epic",
     description:
-      "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+      "Helmet made ofHexolite.\r\nCombines incredible strength and lightness.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFHelmet.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9244,7 +9383,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 112,
+        quantity: 67,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9268,7 +9407,7 @@ export const Armors = [
       Defense: 420,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 28000,
+      Durability: 60000,
       Code: "SFHelmet_4",
       IconName: "SFHelmet",
       TypeA: "Armor",
@@ -9281,17 +9420,18 @@ export const Armors = [
     },
     defense: 420,
     health: 960,
+    effects: [],
   },
   {
     id: 150,
     name: "Hexolite Helmet",
     rarity: "Legendary",
     description:
-      "Helmet made of Hexolite.\r\nCombines incredible strength and lightness.",
+      "Helmet made ofHexolite.\r\nCombines incredible strength and lightness.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-helmet.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFHelmet.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9303,7 +9443,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 168,
+        quantity: 100,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9327,7 +9467,7 @@ export const Armors = [
       Defense: 455,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 40000,
+      Durability: 80000,
       Code: "SFHelmet_5",
       IconName: "SFHelmet",
       TypeA: "Armor",
@@ -9340,17 +9480,18 @@ export const Armors = [
     },
     defense: 455,
     health: 1040,
+    effects: [],
   },
   {
     id: 151,
     name: "Hexolite Armor",
     rarity: "Uncommon",
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofHexolite.\r\nPossesses overwhelming durability and defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmor.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9362,7 +9503,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 60,
+        quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9394,7 +9535,7 @@ export const Armors = [
       Defense: 638,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 24000,
+      Durability: 30000,
       Code: "SFArmor_2",
       IconName: "SFArmor",
       TypeA: "Armor",
@@ -9409,17 +9550,18 @@ export const Armors = [
     },
     defense: 638,
     health: 1925,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 152,
     name: "Hexolite Armor",
     rarity: "Rare",
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofHexolite.\r\nPossesses overwhelming durability and defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmor.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9431,7 +9573,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 90,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9463,7 +9605,7 @@ export const Armors = [
       Defense: 667,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 26000,
+      Durability: 40000,
       Code: "SFArmor_3",
       IconName: "SFArmor",
       TypeA: "Armor",
@@ -9478,17 +9620,18 @@ export const Armors = [
     },
     defense: 667,
     health: 2012,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 153,
     name: "Hexolite Armor",
     rarity: "Epic",
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofHexolite.\r\nPossesses overwhelming durability and defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmor.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9500,7 +9643,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 135,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9532,7 +9675,7 @@ export const Armors = [
       Defense: 696,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 28000,
+      Durability: 60000,
       Code: "SFArmor_4",
       IconName: "SFArmor",
       TypeA: "Armor",
@@ -9547,17 +9690,18 @@ export const Armors = [
     },
     defense: 696,
     health: 2100,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 154,
     name: "Hexolite Armor",
     rarity: "Legendary",
     description:
-      "Armor made of Hexolite.\r\nPossesses overwhelming durability and defense.Cold Resistant Lv. 1 Heat Resistant Lv. 1",
+      "Armor made ofHexolite.\r\nPossesses overwhelming durability and defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmor.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9569,7 +9713,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 202,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9601,7 +9745,7 @@ export const Armors = [
       Defense: 754,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 40000,
+      Durability: 80000,
       Code: "SFArmor_5",
       IconName: "SFArmor",
       TypeA: "Armor",
@@ -9616,17 +9760,17 @@ export const Armors = [
     },
     defense: 754,
     health: 2275,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 1"],
   },
   {
     id: 155,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Uncommon",
-    description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorHeat.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9638,7 +9782,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 60,
+        quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9678,7 +9822,7 @@ export const Armors = [
       Defense: 660,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 21600,
+      Durability: 27000,
       Code: "SFArmorHeat_2",
       IconName: "SFArmorHeat",
       TypeA: "Armor",
@@ -9693,17 +9837,17 @@ export const Armors = [
     },
     defense: 660,
     health: 1925,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 156,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Rare",
-    description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorHeat.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9715,7 +9859,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 90,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9755,7 +9899,7 @@ export const Armors = [
       Defense: 690,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 23400,
+      Durability: 36000,
       Code: "SFArmorHeat_3",
       IconName: "SFArmorHeat",
       TypeA: "Armor",
@@ -9770,17 +9914,17 @@ export const Armors = [
     },
     defense: 690,
     health: 2012,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 157,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Epic",
-    description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorHeat.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9792,7 +9936,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 135,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9832,7 +9976,7 @@ export const Armors = [
       Defense: 720,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 25200,
+      Durability: 54000,
       Code: "SFArmorHeat_4",
       IconName: "SFArmorHeat",
       TypeA: "Armor",
@@ -9847,17 +9991,17 @@ export const Armors = [
     },
     defense: 720,
     health: 2100,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 158,
     name: "Heat Resistant Hexolite Armor",
     rarity: "Legendary",
-    description:
-      "Improved Hexolite Armor.\r\nBoasts high heat resistance.Cold Resistant Lv. 1 Heat Resistant Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nBoasts high heat resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/heat-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorHeat.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9869,7 +10013,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 202,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9909,7 +10053,7 @@ export const Armors = [
       Defense: 780,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 36000,
+      Durability: 72000,
       Code: "SFArmorHeat_5",
       IconName: "SFArmorHeat",
       TypeA: "Armor",
@@ -9924,17 +10068,18 @@ export const Armors = [
     },
     defense: 780,
     health: 2275,
+    effects: ["Cold Resistant Lv. 1", "Heat Resistant Lv. 2"],
   },
   {
     id: 159,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Uncommon",
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedHexolite Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorCold.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -9946,7 +10091,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 60,
+        quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -9986,7 +10131,7 @@ export const Armors = [
       Defense: 660,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 21600,
+      Durability: 27000,
       Code: "SFArmorCold_2",
       IconName: "SFArmorCold",
       TypeA: "Armor",
@@ -10001,17 +10146,18 @@ export const Armors = [
     },
     defense: 660,
     health: 1925,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 160,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Rare",
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedHexolite Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorCold.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -10023,7 +10169,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 90,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -10063,7 +10209,7 @@ export const Armors = [
       Defense: 690,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 23400,
+      Durability: 36000,
       Code: "SFArmorCold_3",
       IconName: "SFArmorCold",
       TypeA: "Armor",
@@ -10078,17 +10224,18 @@ export const Armors = [
     },
     defense: 690,
     health: 2012,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 161,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Epic",
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedHexolite Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorCold.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -10100,7 +10247,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 135,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -10140,7 +10287,7 @@ export const Armors = [
       Defense: 720,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 25200,
+      Durability: 54000,
       Code: "SFArmorCold_4",
       IconName: "SFArmorCold",
       TypeA: "Armor",
@@ -10155,17 +10302,18 @@ export const Armors = [
     },
     defense: 720,
     health: 2100,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 162,
     name: "Cold Resistant Hexolite Armor",
     rarity: "Legendary",
     description:
-      "Improved Hexolite Armor.\r\nUseful for surviving in cold climates.Cold Resistant Lv. 2 Heat Resistant Lv. 1",
+      "ImprovedHexolite Armor.\r\nUseful for surviving in cold climates.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/cold-resistant-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorCold.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -10177,7 +10325,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 202,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -10217,7 +10365,7 @@ export const Armors = [
       Defense: 780,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 36000,
+      Durability: 72000,
       Code: "SFArmorCold_5",
       IconName: "SFArmorCold",
       TypeA: "Armor",
@@ -10232,17 +10380,17 @@ export const Armors = [
     },
     defense: 780,
     health: 2275,
+    effects: ["Cold Resistant Lv. 2", "Heat Resistant Lv. 1"],
   },
   {
     id: 163,
     name: "Lightweight Hexolite Armor",
     rarity: "Uncommon",
-    description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorWeight.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -10254,7 +10402,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 60,
+        quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -10286,7 +10434,7 @@ export const Armors = [
       Defense: 660,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 21600,
+      Durability: 27000,
       Code: "SFArmorWeight_2",
       IconName: "SFArmorWeight",
       TypeA: "Armor",
@@ -10302,17 +10450,21 @@ export const Armors = [
     },
     defense: 660,
     health: 1925,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 164,
     name: "Lightweight Hexolite Armor",
     rarity: "Rare",
-    description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorWeight.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -10324,7 +10476,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 90,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -10356,7 +10508,7 @@ export const Armors = [
       Defense: 690,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 23400,
+      Durability: 36000,
       Code: "SFArmorWeight_3",
       IconName: "SFArmorWeight",
       TypeA: "Armor",
@@ -10372,17 +10524,21 @@ export const Armors = [
     },
     defense: 690,
     health: 2012,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 165,
     name: "Lightweight Hexolite Armor",
     rarity: "Epic",
-    description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorWeight.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -10394,7 +10550,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 135,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -10426,7 +10582,7 @@ export const Armors = [
       Defense: 720,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 25200,
+      Durability: 54000,
       Code: "SFArmorWeight_4",
       IconName: "SFArmorWeight",
       TypeA: "Armor",
@@ -10442,17 +10598,21 @@ export const Armors = [
     },
     defense: 720,
     health: 2100,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 166,
     name: "Lightweight Hexolite Armor",
     rarity: "Legendary",
-    description:
-      "Improved Hexolite Armor.\r\nIncreases carrying capacity.Cold Resistant Lv. 1 Heat Resistant Lv. 1 Max Carrying Capacity Lv. 2",
+    description: "ImprovedHexolite Armor.\r\nIncreases carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/lightweight-hexolite-armor.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_SFArmorWeight.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -10464,7 +10624,7 @@ export const Armors = [
       },
       {
         name: "Plasteel",
-        quantity: 202,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
@@ -10496,7 +10656,7 @@ export const Armors = [
       Defense: 780,
       Weight: 40,
       MaxStackCount: 1,
-      Durability: 36000,
+      Durability: 72000,
       Code: "SFArmorWeight_5",
       IconName: "SFArmorWeight",
       TypeA: "Armor",
@@ -10512,6 +10672,11 @@ export const Armors = [
     },
     defense: 780,
     health: 2275,
+    effects: [
+      "Cold Resistant Lv. 1",
+      "Heat Resistant Lv. 1",
+      "Max Carrying Capacity Lv. 2",
+    ],
   },
   {
     id: 167,
@@ -10522,7 +10687,7 @@ export const Armors = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_06.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/advanced-shield.png",
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/armors/T_itemicon_Armor_Shield_06.webp",
     recipe: [
       {
         name: "Ancient Civilization Parts",
@@ -10577,5 +10742,6 @@ export const Armors = [
     },
     technology: 60,
     shield: 1800,
+    effects: [],
   },
 ];

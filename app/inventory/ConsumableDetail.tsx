@@ -146,7 +146,7 @@ export default function ConsumableDetail() {
             <ScrollView contentContainerStyle={styles.scrollView}>
                 <ItemView
                     name={Consumables[Number(consumableID)].name}
-                    img={Consumables[Number(consumableID)].image}
+                    img={Consumables[Number(consumableID)].image_github_url}
                     type="Consumable"
                     raritytpye={Consumables[Number(consumableID)].rarity}
                     actColor={actColor}

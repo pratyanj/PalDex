@@ -4,10 +4,11 @@ export const Accessories = [
     name: "Life Pendant",
     rarity: "Common",
     description: "An accessory that slightly raises Health.",
-    effects: ["Health Up Lv. 1"],
-    image: require("../assets/images/items/life-pendant.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HP_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -25,16 +26,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "HP_ACC_up1",
     },
+    effects: ["Health Up Lv. 1"],
   },
   {
     id: 2,
     name: "Life Pendant +1",
     rarity: "Uncommon",
     description: "An accessory that raises Health.",
-    effects: ["Health Up Lv. 2"],
-    image: require("../assets/images/items/life-pendant.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HP_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -52,16 +55,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "HP_ACC_up2",
     },
+    effects: ["Health Up Lv. 2"],
   },
   {
     id: 3,
     name: "Life Pendant +2",
     rarity: "Rare",
     description: "An accessory that greatly raises Health.",
-    effects: ["Health Up Lv. 3"],
-    image: require("../assets/images/items/life-pendant.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HP_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -79,16 +84,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "HP_ACC_up3",
     },
+    effects: ["Health Up Lv. 3"],
   },
   {
     id: 4,
     name: "Attack Pendant",
     rarity: "Common",
     description: "An accessory that slightly raises Attack.",
-    effects: ["Attack Up Lv. 1"],
-    image: require("../assets/images/items/attack-pendant.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AT_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -106,16 +113,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "Attack_ACC_up1",
     },
+    effects: ["Attack Up Lv. 1"],
   },
   {
     id: 5,
     name: "Attack Pendant +1",
     rarity: "Uncommon",
     description: "An accessory that raises Attack.",
-    effects: ["Attack Up Lv. 2"],
-    image: require("../assets/images/items/attack-pendant.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AT_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -133,16 +142,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "Attack_ACC_up2",
     },
+    effects: ["Attack Up Lv. 2"],
   },
   {
     id: 6,
     name: "Attack Pendant +2",
     rarity: "Rare",
     description: "An accessory that greatly raises Attack.",
-    effects: ["Attack Up Lv. 3"],
-    image: require("../assets/images/items/attack-pendant.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AT_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -160,17 +171,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "Attack_ACC_up3",
     },
+    effects: ["Attack Up Lv. 3"],
   },
   {
     id: 7,
     name: "Defense Pendant",
     rarity: "Common",
-    description:
-      "An accessory that slightly raises Defense.",
-    effects: ["Defense Up Lv. 1"],
-    image: require("../assets/images/items/defense-pendant.png"),
+    description: "An accessory that slightly raises Defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_defense_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -188,16 +200,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "defense_ACC_up1",
     },
+    effects: ["Defense Up Lv. 1"],
   },
   {
     id: 8,
     name: "Defense Pendant +1",
     rarity: "Uncommon",
     description: "An accessory that raises Defense.",
-    effects: ["Defense Up Lv. 2"],
-    image: require("../assets/images/items/defense-pendant.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_defense_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -215,17 +229,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "defense_ACC_up2",
     },
+    effects: ["Defense Up Lv. 2"],
   },
   {
     id: 9,
     name: "Defense Pendant +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly raises Defense.",
-    effects: ["Defense Up Lv. 3"],
-    image: require("../assets/images/items/defense-pendant.png"),
+    description: "An accessory that greatly raises Defense.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_defense_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -243,17 +258,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "defense_ACC_up3",
     },
+    effects: ["Defense Up Lv. 3"],
   },
   {
     id: 10,
     name: "Pendant of Diligence",
     rarity: "Common",
-    description:
-      "An accessory that slightly raises Work Speed.",
-    effects: ["Speedy Worker Lv. 1"],
-    image: require("../assets/images/items/pendant-of-diligence.png"),
+    description: "An accessory that slightly raises Work Speed.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_WorkSpeed_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -271,16 +287,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "WorkSpeed_ACC_up1",
     },
+    effects: ["Speedy Worker Lv. 1"],
   },
   {
     id: 11,
     name: "Pendant of Diligence +1",
     rarity: "Uncommon",
     description: "An accessory that raises Work Speed.",
-    effects: ["Speedy Worker Lv. 2"],
-    image: require("../assets/images/items/pendant-of-diligence.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_WorkSpeed_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -298,17 +316,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "WorkSpeed_ACC_up2",
     },
+    effects: ["Speedy Worker Lv. 2"],
   },
   {
     id: 12,
     name: "Pendant of Diligence +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly raises Work Speed.",
-    effects: ["Speedy Worker Lv. 3"],
-    image: require("../assets/images/items/pendant-of-diligence.png"),
+    description: "An accessory that greatly raises Work Speed.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_WorkSpeed_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -326,17 +345,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "WorkSpeed_ACC_up3",
     },
+    effects: ["Speedy Worker Lv. 3"],
   },
   {
     id: 13,
     name: "Heat Resistant Undershirt",
     rarity: "Common",
-    description:
-      "An accessory that slightly raises Heat Resistance.",
-    effects: ["Heat Resistant Lv. 1"],
-    image: require("../assets/images/items/heat-resistant-underwear.png"),
+    description: "An accessory that slightly raises Heat Resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_CoolResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_CoolResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -354,17 +374,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat1",
     },
+    effects: ["Heat Resistant Lv. 1"],
   },
   {
     id: 14,
     name: "Heat Resistant Undershirt +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly raises Heat Resistance.",
-    effects: ["Heat Resistant Lv. 3"],
-    image: require("../assets/images/items/heat-resistant-underwear.png"),
+    description: "An accessory that greatly raises Heat Resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_CoolResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_CoolResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -382,17 +403,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat3",
     },
+    effects: ["Heat Resistant Lv. 3"],
   },
   {
     id: 15,
     name: "Thermal Undershirt",
     rarity: "Common",
-    description:
-      "An accessory that slightly raises Cold Resistance.",
-    effects: ["Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/thermal-undershirt.png"),
+    description: "An accessory that slightly raises Cold Resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -410,17 +432,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold1",
     },
+    effects: ["Cold Resistant Lv. 1"],
   },
   {
     id: 16,
     name: "Thermal Undershirt +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that raises Cold Resistance.",
-    effects: ["Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/thermal-undershirt.png"),
+    description: "An accessory that raises Cold Resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -438,17 +461,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold2",
     },
+    effects: ["Cold Resistant Lv. 2"],
   },
   {
     id: 17,
     name: "Thermal Undershirt +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly raises Cold Resistance.",
-    effects: ["Cold Resistant Lv. 3"],
-    image: require("../assets/images/items/thermal-undershirt.png"),
+    description: "An accessory that greatly raises Cold Resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -466,17 +490,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Cold3",
     },
+    effects: ["Cold Resistant Lv. 3"],
   },
   {
     id: 18,
     name: "Ring of Neutral Resistance",
     rarity: "Common",
-    description:
-      "Accessory that slightly lowers Neutral damage.",
-    effects: ["Neutral Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-resistance.png"),
+    description: "Accessory that slightly lowers Neutral damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_NormalResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -494,17 +519,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Normal_1",
     },
+    effects: ["Neutral Damage Reduction Lv. 1"],
   },
   {
     id: 19,
     name: "Ring of Neutral Resistance +1",
     rarity: "Uncommon",
-    description:
-      "Accessory that lowers Neutral damage.",
-    effects: ["Neutral Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-resistance.png"),
+    description: "Accessory that lowers Neutral damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_NormalResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -522,17 +548,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Normal_2",
     },
+    effects: ["Neutral Damage Reduction Lv. 2"],
   },
   {
     id: 20,
     name: "Ring of Neutral Resistance +2",
     rarity: "Rare",
-    description:
-      "Accessory that greatly lowers Neutral damage.",
-    effects: ["Neutral Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-resistance.png"),
+    description: "Accessory that greatly lowers Neutral damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_NormalResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -550,17 +577,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Normal_3",
     },
+    effects: ["Neutral Damage Reduction Lv. 3"],
   },
   {
     id: 21,
     name: "Ring of Fire Resistance",
     rarity: "Common",
-    description:
-      "An accessory that slightly lowers Fire damage.",
-    effects: ["Fire Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-fire-resistance.png"),
+    description: "An accessory that slightly lowers Fire damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_FireResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -578,17 +606,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Fire_1",
     },
+    effects: ["Fire Damage Reduction Lv. 1"],
   },
   {
     id: 22,
     name: "Ring of Fire Resistance +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that lowers Fire damage.",
-    effects: ["Fire Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-fire-resistance.png"),
+    description: "An accessory that lowers Fire damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_FireResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -606,17 +635,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Fire_2",
     },
+    effects: ["Fire Damage Reduction Lv. 2"],
   },
   {
     id: 23,
     name: "Ring of Fire Resistance +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly lowers Fire damage.",
-    effects: ["Fire Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-fire-resistance.png"),
+    description: "An accessory that greatly lowers Fire damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_FireResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -634,17 +664,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Fire_3",
     },
+    effects: ["Fire Damage Reduction Lv. 3"],
   },
   {
     id: 24,
     name: "Ring of Water Resistance",
     rarity: "Common",
-    description:
-      "An accessory that slightly lowers Water damage.",
-    effects: ["Water Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-water-resistance.png"),
+    description: "An accessory that slightly lowers Water damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AquaResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -662,17 +693,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Aqua_1",
     },
+    effects: ["Water Damage Reduction Lv. 1"],
   },
   {
     id: 25,
     name: "Ring of Water Resistance +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that lowers Water damage.",
-    effects: ["Water Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-water-resistance.png"),
+    description: "An accessory that lowers Water damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AquaResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -690,17 +722,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Aqua_2",
     },
+    effects: ["Water Damage Reduction Lv. 2"],
   },
   {
     id: 26,
     name: "Ring of Water Resistance +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly lowers Water damage.",
-    effects: ["Water Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-water-resistance.png"),
+    description: "An accessory that greatly lowers Water damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AquaResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -718,17 +751,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Aqua_3",
     },
+    effects: ["Water Damage Reduction Lv. 3"],
   },
   {
     id: 27,
     name: "Ring of Lightning Resistance",
     rarity: "Common",
-    description:
-      "An accessory that slightly lowers Electric damage.",
-    effects: ["Electric Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-lightning-resistance.png"),
+    description: "An accessory that slightly lowers Electric damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_ThunderResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -746,17 +780,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Thunder_1",
     },
+    effects: ["Electric Damage Reduction Lv. 1"],
   },
   {
     id: 28,
     name: "Ring of Lightning Resistance +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that lowers Electric damage.",
-    effects: ["Electric Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-lightning-resistance.png"),
+    description: "An accessory that lowers Electric damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_ThunderResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -774,17 +809,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Thunder_2",
     },
+    effects: ["Electric Damage Reduction Lv. 2"],
   },
   {
     id: 29,
     name: "Ring of Lightning Resistance +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly lowers Electric damage.",
-    effects: ["Electric Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-lightning-resistance.png"),
+    description: "An accessory that greatly lowers Electric damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_ThunderResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -802,17 +838,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Thunder_3",
     },
+    effects: ["Electric Damage Reduction Lv. 3"],
   },
   {
     id: 30,
     name: "Ring of Grass Resistance",
     rarity: "Common",
-    description:
-      "An accessory that slightly lowers Grass damage.",
-    effects: ["Grass Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-grass-resistance.png"),
+    description: "An accessory that slightly lowers Grass damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_LeafResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -830,17 +867,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Leaf_1",
     },
+    effects: ["Grass Damage Reduction Lv. 1"],
   },
   {
     id: 31,
     name: "Ring of Grass Resistance +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that lowers Grass damage.",
-    effects: ["Grass Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-grass-resistance.png"),
+    description: "An accessory that lowers Grass damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_LeafResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -858,17 +896,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Leaf_2",
     },
+    effects: ["Grass Damage Reduction Lv. 2"],
   },
   {
     id: 32,
     name: "Ring of Grass Resistance +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly lowers Grass damage.",
-    effects: ["Grass Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-grass-resistance.png"),
+    description: "An accessory that greatly lowers Grass damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_LeafResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -886,17 +925,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Leaf_3",
     },
+    effects: ["Grass Damage Reduction Lv. 3"],
   },
   {
     id: 33,
     name: "Ring of Ice Resistance",
     rarity: "Common",
-    description:
-      "An accessory that slightly lowers Ice damage.",
-    effects: ["Ice Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-ice-resistance.png"),
+    description: "An accessory that slightly lowers Ice damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_IceResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -914,17 +954,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Ice_1",
     },
+    effects: ["Ice Damage Reduction Lv. 1"],
   },
   {
     id: 34,
     name: "Ring of Ice Resistance +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that lowers Ice damage.",
-    effects: ["Ice Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-ice-resistance.png"),
+    description: "An accessory that lowers Ice damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_IceResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -942,17 +983,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Ice_2",
     },
+    effects: ["Ice Damage Reduction Lv. 2"],
   },
   {
     id: 35,
     name: "Ring of Ice Resistance +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly lowers Ice damage.",
-    effects: ["Ice Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-ice-resistance.png"),
+    description: "An accessory that greatly lowers Ice damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_IceResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -970,17 +1012,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Ice_3",
     },
+    effects: ["Ice Damage Reduction Lv. 3"],
   },
   {
     id: 36,
     name: "Ring of Earth Resistance",
     rarity: "Common",
-    description:
-      "An accessory that slightly lowers Earth damage.",
-    effects: ["Earth Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-earth-resistance.png"),
+    description: "An accessory that slightly lowers Earth damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_EarthResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -998,17 +1041,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Earth_1",
     },
+    effects: ["Earth Damage Reduction Lv. 1"],
   },
   {
     id: 37,
     name: "Ring of Earth Resistance +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that lowers Earth damage.",
-    effects: ["Earth Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-earth-resistance.png"),
+    description: "An accessory that lowers Earth damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_EarthResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -1026,17 +1070,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Earth_2",
     },
+    effects: ["Earth Damage Reduction Lv. 2"],
   },
   {
     id: 38,
     name: "Ring of Earth Resistance +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly lowers Earth damage.",
-    effects: ["Earth Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-earth-resistance.png"),
+    description: "An accessory that greatly lowers Earth damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_EarthResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1054,17 +1099,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Earth_3",
     },
+    effects: ["Earth Damage Reduction Lv. 3"],
   },
   {
     id: 39,
     name: "Ring of Dark Resistance",
     rarity: "Common",
-    description:
-      "An accessory that slightly lowers Dark damage.",
-    effects: ["Dark Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-dark-resistance.png"),
+    description: "An accessory that slightly lowers Dark damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DarkResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -1082,17 +1128,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Dark_1",
     },
+    effects: ["Dark Damage Reduction Lv. 1"],
   },
   {
     id: 40,
     name: "Ring of Dark Resistance +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that lowers Dark damage.",
-    effects: ["Dark Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-dark-resistance.png"),
+    description: "An accessory that lowers Dark damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DarkResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -1110,17 +1157,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Dark_2",
     },
+    effects: ["Dark Damage Reduction Lv. 2"],
   },
   {
     id: 41,
     name: "Ring of Dark Resistance +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly lowers Dark damage.",
-    effects: ["Dark Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-dark-resistance.png"),
+    description: "An accessory that greatly lowers Dark damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DarkResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1138,17 +1186,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Dark_3",
     },
+    effects: ["Dark Damage Reduction Lv. 3"],
   },
   {
     id: 42,
     name: "Ring of Dragon Resistance",
     rarity: "Common",
-    description:
-      "An accessory that slightly lowers Dragon damage.",
-    effects: ["Dragon Damage Reduction Lv. 1"],
-    image: require("../assets/images/items/ring-of-dragon-resistance.png"),
+    description: "An accessory that slightly lowers Dragon damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DragonResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -1166,17 +1215,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Dragon_1",
     },
+    effects: ["Dragon Damage Reduction Lv. 1"],
   },
   {
     id: 43,
     name: "Ring of Dragon Resistance +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that lowers Dragon damage.",
-    effects: ["Dragon Damage Reduction Lv. 2"],
-    image: require("../assets/images/items/ring-of-dragon-resistance.png"),
+    description: "An accessory that lowers Dragon damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DragonResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -1194,17 +1244,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Dragon_2",
     },
+    effects: ["Dragon Damage Reduction Lv. 2"],
   },
   {
     id: 44,
     name: "Ring of Dragon Resistance +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly lowers Dragon damage.",
-    effects: ["Dragon Damage Reduction Lv. 3"],
-    image: require("../assets/images/items/ring-of-dragon-resistance.png"),
+    description: "An accessory that greatly lowers Dragon damage.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DragonResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1222,6 +1273,7 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "ElementResist_Dragon_3",
     },
+    effects: ["Dragon Damage Reduction Lv. 3"],
   },
   {
     id: 45,
@@ -1229,10 +1281,36 @@ export const Accessories = [
     rarity: "Rare",
     description:
       "Pacifist's ring.\r\nThe wearer's attacks will not reduce the target's Health below 1.",
-    effects: ["Mercy Hit"],
-    image: require("../assets/images/items/ring-of-mercy.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_Nonkilling.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_Nonkilling.webp",
+    recipe: [
+      {
+        name: "Ingot",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+      },
+      {
+        name: "Paldium Fragment",
+        quantity: 20,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+      },
+      {
+        name: "Ancient Civilization Parts",
+        quantity: 5,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+      },
+    ],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1250,6 +1328,7 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "NonKilling",
     },
+    effects: ["Mercy Hit"],
   },
   {
     id: 46,
@@ -1257,10 +1336,44 @@ export const Accessories = [
     rarity: "Rare",
     description:
       "Glasses used to discern hidden Pal abilities.\r\nDisplays Health, Attack and Defense stats on a scale of 0 to 100.",
-    effects: [],
-    image: require("../assets/images/items/ability-glasses.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_TalentChecker.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_TalentChecker.webp",
+    recipe: [
+      {
+        name: "Refined Ingot",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+      },
+      {
+        name: "Paldium Fragment",
+        quantity: 20,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+      },
+      {
+        name: "Ancient Civilization Parts",
+        quantity: 10,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+      },
+      {
+        name: "Ancient Civilization Core",
+        quantity: 5,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-core.png",
+      },
+    ],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1276,17 +1389,18 @@ export const Accessories = [
       ItemStaticClass: "CommonArmor",
       ItemDynamicClass: "CommonArmor",
     },
+    effects: [],
   },
   {
     id: 47,
     name: "Multiclimate Undershirt",
     rarity: "Common",
-    description:
-      "An accessory that slightly raises Heat and Cold Resistance.",
-    effects: ["Heat Resistant Lv. 1 / Cold Resistant Lv. 1"],
-    image: require("../assets/images/items/multiclimate-undershirt.png"),
+    description: "An accessory that slightly raises Heat and Cold Resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatColdResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -1304,17 +1418,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat1Cold1",
     },
+    effects: ["Heat Resistant Lv. 1 / Cold Resistant Lv. 1"],
   },
   {
     id: 48,
     name: "Multiclimate Undershirt +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that raises Heat and Cold Resistance.",
-    effects: ["Heat Resistant Lv. 2 / Cold Resistant Lv. 2"],
-    image: require("../assets/images/items/multiclimate-undershirt.png"),
+    description: "An accessory that raises Heat and Cold Resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatColdResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -1332,17 +1447,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat2Cold2",
     },
+    effects: ["Heat Resistant Lv. 2 / Cold Resistant Lv. 2"],
   },
   {
     id: 49,
     name: "Multiclimate Undershirt +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly raises Heat and Cold Resistance.",
-    effects: ["Heat Resistant Lv. 3 / Cold Resistant Lv. 3"],
-    image: require("../assets/images/items/multiclimate-undershirt.png"),
+    description: "An accessory that greatly raises Heat and Cold Resistance.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatColdResist_1.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1360,17 +1476,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "TemperatureResist_Heat3Cold3",
     },
+    effects: ["Heat Resistant Lv. 3 / Cold Resistant Lv. 3"],
   },
   {
     id: 50,
     name: "Ring of Freight",
     rarity: "Common",
-    description:
-      "An accessory that slightly raises carrying capacity.",
-    effects: ["Max Carrying Capacity Lv. 1"],
-    image: require("../assets/images/items/ring-of-freight.png"),
+    description: "An accessory that slightly raises carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_MaxWeightUp.webp",
+    recipe: [],
     stats: {
       Rarity: "Common",
       Type: "Accessory",
@@ -1388,17 +1505,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "MaxInventoryWeight_up_Equip_1",
     },
+    effects: ["Max Carrying Capacity Lv. 1"],
   },
   {
     id: 51,
     name: "Ring of Freight +1",
     rarity: "Uncommon",
-    description:
-      "An accessory that raises carrying capacity.",
-    effects: ["Max Carrying Capacity Lv. 2"],
-    image: require("../assets/images/items/ring-of-freight.png"),
+    description: "An accessory that raises carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_MaxWeightUp.webp",
+    recipe: [],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -1416,17 +1534,18 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "MaxInventoryWeight_up_Equip_2",
     },
+    effects: ["Max Carrying Capacity Lv. 2"],
   },
   {
     id: 52,
     name: "Ring of Freight +2",
     rarity: "Rare",
-    description:
-      "An accessory that greatly raises carrying capacity.",
-    effects: ["Max Carrying Capacity Lv. 3"],
-    image: require("../assets/images/items/ring-of-freight.png"),
+    description: "An accessory that greatly raises carrying capacity.",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_MaxWeightUp.webp",
+    recipe: [],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1444,6 +1563,7 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "MaxInventoryWeight_up_Equip_3",
     },
+    effects: ["Max Carrying Capacity Lv. 3"],
   },
   {
     id: 53,
@@ -1451,10 +1571,36 @@ export const Accessories = [
     rarity: "Uncommon",
     description:
       "An accessory that increases the player's jump power when equipped.",
-    effects: ["Jump Power Boost"],
-    image: require("../assets/images/items/anti-gravity-belt.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpPower_Increase.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_JumpPower_Increase.webp",
+    recipe: [
+      {
+        name: "Ingot",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+      },
+      {
+        name: "Paldium Fragment",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+      },
+      {
+        name: "Nightstar Sand",
+        quantity: 10,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+      },
+    ],
     stats: {
       Rarity: "Uncommon",
       Type: "Accessory",
@@ -1472,6 +1618,7 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "JumpPower_Increase",
     },
+    effects: ["Jump Power Boost"],
   },
   {
     id: 54,
@@ -1479,10 +1626,36 @@ export const Accessories = [
     rarity: "Rare",
     description:
       "An accessory that allows the player to jump in mid-air when equipped.",
-    effects: ["Jump Count Increase +1"],
-    image: require("../assets/images/items/double-jump-boots.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_JumpCount_Increase.webp",
+    recipe: [
+      {
+        name: "Refined Ingot",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+      },
+      {
+        name: "Paldium Fragment",
+        quantity: 50,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+      },
+      {
+        name: "Nightstar Sand",
+        quantity: 20,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+      },
+    ],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1500,6 +1673,7 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "JumpCount_Increase1",
     },
+    effects: ["Jump Count Increase +1"],
   },
   {
     id: 55,
@@ -1507,10 +1681,44 @@ export const Accessories = [
     rarity: "Epic",
     description:
       "An accessory that allows the player to perform double jumps in mid-air when equipped.",
-    effects: ["Jump Count Increase +2"],
-    image: require("../assets/images/items/triple-jump-boots.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_JumpCount_Increase.webp",
+    recipe: [
+      {
+        name: "Hexolite",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+      },
+      {
+        name: "Paldium Fragment",
+        quantity: 150,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+      },
+      {
+        name: "Nightstar Sand",
+        quantity: 50,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+      },
+      {
+        name: "Dark Fragment",
+        quantity: 50,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/dark-fragment.png",
+      },
+    ],
     stats: {
       Rarity: "Epic",
       Type: "Accessory",
@@ -1528,6 +1736,7 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "JumpCount_Increase2",
     },
+    effects: ["Jump Count Increase +2"],
   },
   {
     id: 56,
@@ -1535,10 +1744,36 @@ export const Accessories = [
     rarity: "Rare",
     description:
       "An accessory that allows the player to dash in mid-air when equipped.",
-    effects: ["Aerial Dash +1"],
-    image: require("../assets/images/items/air-dash-boots.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AirDash.webp",
+    recipe: [
+      {
+        name: "Refined Ingot",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+      },
+      {
+        name: "Paldium Fragment",
+        quantity: 50,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+      },
+      {
+        name: "Nightstar Sand",
+        quantity: 20,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+      },
+    ],
     stats: {
       Rarity: "Rare",
       Type: "Accessory",
@@ -1556,17 +1791,52 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "AirDash_1",
     },
+    effects: ["Aerial Dash +1"],
   },
   {
     id: 57,
     name: "Double Air Dash Boots",
     rarity: "Epic",
     description:
-      "An accessory that allows the player to perform double dashes in mid-air when equipped.",
-    effects: ["Aerial Dash +2"],
-    image: require("../assets/images/items/air-dash-boots.png"),
+      "An accessory that allows the player to perform double dashes in mid-air when equipped.|",
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AirDash.webp",
+    recipe: [
+      {
+        name: "Plasteel",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+      },
+      {
+        name: "Paldium Fragment",
+        quantity: 100,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+      },
+      {
+        name: "Nightstar Sand",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+      },
+      {
+        name: "Dark Fragment",
+        quantity: 30,
+        image_url:
+          "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/dark-fragment.png",
+      },
+    ],
     stats: {
       Rarity: "Epic",
       Type: "Accessory",
@@ -1584,5 +1854,6 @@ export const Accessories = [
       SneakAttackRate: 1,
       PassiveSkillName: "AirDash_2",
     },
+    effects: ["Aerial Dash +2"],
   },
 ];

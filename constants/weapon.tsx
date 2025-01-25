@@ -8,7 +8,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -16,7 +16,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -24,7 +24,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -32,7 +32,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
     ],
     stats: {
@@ -69,7 +69,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/stone-axe.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Axe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
@@ -77,7 +77,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -85,7 +85,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -119,7 +119,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/metal-axe.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Axe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
@@ -127,7 +127,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -135,7 +135,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ingot",
@@ -143,7 +143,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
     ],
     stats: {
@@ -177,7 +177,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/refined-metal-axe.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Axe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
@@ -185,7 +185,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -193,7 +193,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Refined Ingot",
@@ -201,7 +201,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
     ],
     stats: {
@@ -235,7 +235,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_MetalDetector.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/metal-detector.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Essential_MetalDetector.webp",
     recipe: [
       {
         name: "Plasteel",
@@ -243,7 +243,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Paldium Fragment",
@@ -251,7 +251,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Circuit Board",
@@ -259,7 +259,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Nightstar Sand",
@@ -267,7 +267,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_NightStone.webp",
       },
     ],
     stats: {
@@ -299,7 +299,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/wooden-club.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Bat.webp",
     recipe: [
       {
         name: "Wood",
@@ -307,7 +307,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -341,7 +341,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Bat2.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/bat.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Spear_Bat2.webp",
     recipe: [
       {
         name: "Wood",
@@ -349,7 +349,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -357,7 +357,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -391,7 +391,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MeatCutterKnife.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/meat-cleaver.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MeatCutterKnife.webp",
     recipe: [
       {
         name: "Ingot",
@@ -399,7 +399,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Wood",
@@ -407,7 +407,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -415,7 +415,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -449,7 +449,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ElecBaton.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/stun-baton.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_ElecBaton.webp",
     recipe: [
       {
         name: "Ingot",
@@ -457,7 +457,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Electric Organ",
@@ -465,7 +465,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/electric-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectricOrgan.webp",
       },
     ],
     stats: {
@@ -499,7 +499,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
@@ -507,7 +507,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -515,7 +515,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -523,7 +523,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -531,7 +531,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
     ],
     stats: {
@@ -566,7 +566,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -574,7 +574,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -582,7 +582,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
     ],
     stats: {
@@ -618,7 +618,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
@@ -626,7 +626,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -634,7 +634,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -670,7 +670,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-1.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -678,7 +678,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
@@ -686,7 +686,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
@@ -694,7 +694,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -702,7 +702,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -735,7 +735,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-2.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -743,7 +743,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
@@ -751,7 +751,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
@@ -759,7 +759,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -767,7 +767,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -800,7 +800,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-3.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -808,7 +808,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
@@ -816,7 +816,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
@@ -824,7 +824,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -832,7 +832,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -865,7 +865,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-4.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -873,7 +873,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
@@ -881,7 +881,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
@@ -889,7 +889,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -897,7 +897,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -930,7 +930,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DecalGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/decal-gun-5.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DecalGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -938,7 +938,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Polymer",
@@ -946,7 +946,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
@@ -954,7 +954,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -962,7 +962,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -995,7 +995,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HomingSphereLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/homing-sphere-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_HomingSphereLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -1003,7 +1003,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
@@ -1011,7 +1011,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
@@ -1019,7 +1019,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Carbon Fiber",
@@ -1027,7 +1027,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -1035,7 +1035,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -1066,7 +1066,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -1074,15 +1074,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 60,
+        quantity: 40,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -1090,7 +1090,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
     ],
     stats: {
@@ -1126,7 +1126,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -1134,7 +1134,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
@@ -1142,7 +1142,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -1150,7 +1150,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
     ],
     stats: {
@@ -1186,7 +1186,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/stone-pickaxe.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
@@ -1194,7 +1194,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -1202,7 +1202,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -1236,7 +1236,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/metal-pickaxe.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
@@ -1244,7 +1244,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -1252,7 +1252,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ingot",
@@ -1260,7 +1260,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
     ],
     stats: {
@@ -1294,7 +1294,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/refined-metal-pickaxe.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Pickaxe_Tier_00.webp",
     recipe: [
       {
         name: "Stone",
@@ -1302,7 +1302,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -1310,7 +1310,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Refined Ingot",
@@ -1318,7 +1318,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
     ],
     stats: {
@@ -1352,7 +1352,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -1360,7 +1360,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -1368,7 +1368,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -1376,7 +1376,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
     ],
     stats: {
@@ -1412,7 +1412,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -1420,7 +1420,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -1428,7 +1428,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
     ],
     stats: {
@@ -1464,7 +1464,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/scatter-sphere-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SphereLauncher.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -1472,7 +1472,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -1480,7 +1480,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Paldium Fragment",
@@ -1488,7 +1488,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Carbon Fiber",
@@ -1496,7 +1496,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -1504,7 +1504,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -1535,7 +1535,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SphereLauncher_Once.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-sphere-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SphereLauncher_Once.webp",
     recipe: [
       {
         name: "Ingot",
@@ -1543,7 +1543,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Stone",
@@ -1551,7 +1551,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Paldium Fragment",
@@ -1559,7 +1559,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -1567,7 +1567,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -1598,7 +1598,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Sword.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/sword.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Sword.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -1606,7 +1606,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Wood",
@@ -1614,7 +1614,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -1622,7 +1622,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -1656,7 +1656,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/frag-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade.webp",
     recipe: [
       {
         name: "Fiber",
@@ -1664,7 +1664,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -1672,7 +1672,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Gunpowder",
@@ -1680,7 +1680,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/gunpowder.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -1712,7 +1712,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Fire.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/incendiary-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Fire.webp",
     recipe: [
       {
         name: "Fiber",
@@ -1720,7 +1720,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -1728,7 +1728,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Flame Organ",
@@ -1736,7 +1736,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
     ],
     stats: {
@@ -1768,7 +1768,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Elec.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/shock-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Elec.webp",
     recipe: [
       {
         name: "Fiber",
@@ -1776,7 +1776,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -1784,7 +1784,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Electric Organ",
@@ -1792,7 +1792,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/electric-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectricOrgan.webp",
       },
     ],
     stats: {
@@ -1824,7 +1824,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ice.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/ice-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Ice.webp",
     recipe: [
       {
         name: "Fiber",
@@ -1832,7 +1832,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -1840,7 +1840,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ice Organ",
@@ -1848,7 +1848,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IceOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ice-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IceOrgan.webp",
       },
     ],
     stats: {
@@ -1880,7 +1880,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
@@ -1888,7 +1888,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -1896,7 +1896,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
@@ -1904,7 +1904,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
     ],
     stats: {
@@ -1940,7 +1940,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow_Poison.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Bow_Poison.webp",
     recipe: [
       {
         name: "Wood",
@@ -1948,7 +1948,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -1956,7 +1956,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
@@ -1964,7 +1964,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Venom Gland",
@@ -1972,7 +1972,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/venom-gland.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Venom.webp",
       },
     ],
     stats: {
@@ -2007,7 +2007,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow_Fire.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Bow_Fire.webp",
     recipe: [
       {
         name: "Wood",
@@ -2015,7 +2015,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -2023,7 +2023,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
@@ -2031,7 +2031,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Flame Organ",
@@ -2039,7 +2039,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
     ],
     stats: {
@@ -2075,7 +2075,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
@@ -2083,7 +2083,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -2091,7 +2091,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -2099,7 +2099,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -2107,7 +2107,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Venom Gland",
@@ -2115,7 +2115,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/venom-gland.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Venom.webp",
       },
     ],
     stats: {
@@ -2150,7 +2150,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
@@ -2158,7 +2158,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -2166,7 +2166,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -2174,7 +2174,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -2182,7 +2182,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Flame Organ",
@@ -2190,7 +2190,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
     ],
     stats: {
@@ -2225,7 +2225,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/three-shot-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Bow.webp",
     recipe: [
       {
         name: "Wood",
@@ -2233,7 +2233,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -2241,7 +2241,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
@@ -2249,7 +2249,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
     ],
     stats: {
@@ -2285,7 +2285,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Torch.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/hand-held-torch.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Torch.webp",
     recipe: [
       {
         name: "Wood",
@@ -2293,7 +2293,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -2301,7 +2301,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -2335,7 +2335,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -2343,7 +2343,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -2351,7 +2351,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -2359,7 +2359,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
     ],
     stats: {
@@ -2395,7 +2395,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/stone-spear.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Spear_Tier_00.webp",
     recipe: [
       {
         name: "Wood",
@@ -2403,7 +2403,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -2411,7 +2411,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -2445,7 +2445,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/metal-spear.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Spear_Tier_00.webp",
     recipe: [
       {
         name: "Wood",
@@ -2453,7 +2453,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -2461,7 +2461,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -2469,7 +2469,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
     ],
     stats: {
@@ -2503,7 +2503,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/refined-metal-spear.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Spear_Tier_00.webp",
     recipe: [
       {
         name: "Wood",
@@ -2511,7 +2511,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -2519,7 +2519,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Refined Ingot",
@@ -2527,7 +2527,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
     ],
     stats: {
@@ -2561,14 +2561,13 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_QueenBee.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/elizabee's-staff.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Spear_QueenBee.webp",
     recipe: [],
-    attack: 150,
     stats: {
       Rarity: "Uncommon",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 20000,
+      "Gold Coin": 20000,
       Attack: 150,
       Weight: 20,
       MaxStackCount: 1,
@@ -2583,6 +2582,7 @@ export const weaponDataSet = [
       ItemActorClass: "Spear_QueenBee",
       SneakAttackRate: 1,
     },
+    attack: 150,
   },
   {
     id: 45,
@@ -2593,7 +2593,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/lily's-spear.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Spear_ForestBoss.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -2601,7 +2601,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Refined Ingot",
@@ -2609,7 +2609,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "High Quality Cloth",
@@ -2617,7 +2617,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-cloth.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Cloth.webp",
       },
       {
         name: "Wood",
@@ -2625,7 +2625,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -2633,16 +2633,16 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
       Rarity: "Rare",
       Type: "Weapon",
       Rank: 3,
-      GoldCoin: 20000,
+      "Gold Coin": 20000,
       Attack: 450,
-      Weight: 20,
+      Weight: 10,
       MaxStackCount: 1,
       Durability: 500,
       Code: "Spear_ForestBoss",
@@ -2667,7 +2667,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grappling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrapplingGun.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -2675,7 +2675,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -2683,7 +2683,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
@@ -2691,7 +2691,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -2699,7 +2699,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -2730,7 +2730,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/mega-grappling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrapplingGun.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -2738,7 +2738,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -2746,7 +2746,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
@@ -2754,7 +2754,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -2762,7 +2762,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -2793,7 +2793,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/giga-grappling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrapplingGun.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -2801,7 +2801,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Ingot",
@@ -2809,7 +2809,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
@@ -2817,7 +2817,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -2825,7 +2825,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -2856,7 +2856,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrapplingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/hyper-grappling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrapplingGun.webp",
     recipe: [
       {
         name: "Paldium Fragment",
@@ -2864,7 +2864,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Refined Ingot",
@@ -2872,7 +2872,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Carbon Fiber",
@@ -2880,7 +2880,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Polymer",
@@ -2888,7 +2888,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -2896,7 +2896,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -2927,7 +2927,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
@@ -2935,7 +2935,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -2943,7 +2943,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
@@ -2951,7 +2951,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -2987,7 +2987,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
@@ -2995,7 +2995,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -3003,7 +3003,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
@@ -3011,7 +3011,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3019,7 +3019,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3054,7 +3054,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
@@ -3062,7 +3062,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -3070,7 +3070,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
@@ -3078,7 +3078,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3086,7 +3086,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3121,7 +3121,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
@@ -3129,7 +3129,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -3137,7 +3137,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
@@ -3145,7 +3145,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3153,7 +3153,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3188,7 +3188,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WeakerBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_WeakerBow.webp",
     recipe: [
       {
         name: "Wood",
@@ -3196,7 +3196,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -3204,7 +3204,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Fiber",
@@ -3212,7 +3212,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3220,7 +3220,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3255,7 +3255,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
@@ -3263,7 +3263,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -3271,7 +3271,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -3279,7 +3279,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -3287,7 +3287,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3295,7 +3295,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3329,7 +3329,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
@@ -3337,7 +3337,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -3345,7 +3345,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -3353,7 +3353,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -3361,7 +3361,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3369,7 +3369,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3403,7 +3403,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
@@ -3411,7 +3411,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -3419,7 +3419,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -3427,7 +3427,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -3435,7 +3435,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3443,7 +3443,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3477,7 +3477,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun.webp",
     recipe: [
       {
         name: "Wood",
@@ -3485,7 +3485,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -3493,7 +3493,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -3501,7 +3501,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -3509,7 +3509,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3517,7 +3517,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3551,7 +3551,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -3559,7 +3559,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -3567,7 +3567,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -3575,7 +3575,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3583,7 +3583,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3619,7 +3619,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -3627,7 +3627,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -3635,7 +3635,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -3643,7 +3643,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3651,7 +3651,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3687,7 +3687,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -3695,7 +3695,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -3703,7 +3703,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -3711,7 +3711,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3719,7 +3719,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3755,7 +3755,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_AssaultRifle_Default1.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -3763,7 +3763,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -3771,7 +3771,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -3779,7 +3779,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3787,7 +3787,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3823,7 +3823,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -3831,7 +3831,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -3839,7 +3839,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -3847,7 +3847,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3855,7 +3855,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3890,7 +3890,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -3898,7 +3898,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -3906,7 +3906,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -3914,7 +3914,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3922,7 +3922,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -3957,7 +3957,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -3965,7 +3965,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -3973,7 +3973,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -3981,7 +3981,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -3989,7 +3989,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4024,7 +4024,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PumpActionShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pump-action-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_PumpActionShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -4032,7 +4032,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -4040,7 +4040,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -4048,7 +4048,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4056,7 +4056,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4091,7 +4091,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4099,7 +4099,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4107,7 +4107,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4115,7 +4115,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4150,7 +4150,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4158,7 +4158,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4166,7 +4166,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4174,7 +4174,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4209,7 +4209,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4217,7 +4217,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4225,7 +4225,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4233,7 +4233,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4268,7 +4268,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HandGun_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_HandGun_Default.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4276,7 +4276,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4284,7 +4284,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4292,7 +4292,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4327,7 +4327,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -4335,7 +4335,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
@@ -4343,7 +4343,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -4351,7 +4351,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4359,7 +4359,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4394,7 +4394,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -4402,7 +4402,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
@@ -4410,7 +4410,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -4418,7 +4418,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4426,7 +4426,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4461,7 +4461,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -4469,7 +4469,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
@@ -4477,7 +4477,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -4485,7 +4485,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4493,7 +4493,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4528,7 +4528,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/rocket-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Launcher_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -4536,7 +4536,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Polymer",
@@ -4544,7 +4544,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -4552,7 +4552,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4560,7 +4560,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4595,7 +4595,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4603,7 +4603,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4611,7 +4611,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
@@ -4619,7 +4619,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4627,7 +4627,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4662,7 +4662,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4670,7 +4670,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4678,7 +4678,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
@@ -4686,7 +4686,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4694,7 +4694,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4729,7 +4729,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4737,7 +4737,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4745,7 +4745,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
@@ -4753,7 +4753,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4761,7 +4761,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4796,7 +4796,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Musket.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/musket.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Musket.webp",
     recipe: [
       {
         name: "Ingot",
@@ -4804,7 +4804,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4812,7 +4812,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Wood",
@@ -4820,7 +4820,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4828,7 +4828,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4839,7 +4839,7 @@ export const weaponDataSet = [
       Attack: 2000,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 700,
+      Durability: 800,
       Code: "Musket_5",
       IconName: "Musket",
       TypeA: "Weapon",
@@ -4863,7 +4863,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -4871,7 +4871,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -4879,7 +4879,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4887,7 +4887,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4922,7 +4922,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -4930,7 +4930,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -4938,7 +4938,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -4946,7 +4946,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -4981,7 +4981,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -4989,7 +4989,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -4997,7 +4997,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5005,7 +5005,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5040,7 +5040,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/double-barreled-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_DoubleBarrelShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5048,7 +5048,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -5056,7 +5056,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5064,7 +5064,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5075,7 +5075,7 @@ export const weaponDataSet = [
       Attack: 399,
       Weight: 24,
       MaxStackCount: 1,
-      Durability: 700,
+      Durability: 800,
       Code: "DoubleBarrelShotgun_5",
       IconName: "DoubleBarrelShotgun",
       TypeA: "Weapon",
@@ -5099,7 +5099,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5107,7 +5107,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -5115,7 +5115,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5123,7 +5123,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5158,7 +5158,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5166,7 +5166,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -5174,7 +5174,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5182,7 +5182,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5217,7 +5217,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5225,7 +5225,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -5233,7 +5233,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5241,7 +5241,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5276,7 +5276,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SingleShotRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/single-shot-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SingleShotRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -5284,7 +5284,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -5292,7 +5292,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5300,7 +5300,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5311,7 +5311,7 @@ export const weaponDataSet = [
       Attack: 2310,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 3500,
+      Durability: 4000,
       Code: "SingleShotRifle_5",
       IconName: "SingleShotRifle",
       TypeA: "Weapon",
@@ -5335,7 +5335,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5343,15 +5343,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 100,
+        quantity: 70,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -5359,7 +5359,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
     ],
     stats: {
@@ -5395,7 +5395,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5403,15 +5403,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 50,
+        quantity: 30,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -5419,7 +5419,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
@@ -5427,7 +5427,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
     ],
     stats: {
@@ -5463,7 +5463,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5471,15 +5471,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 80,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -5487,7 +5487,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
     ],
     stats: {
@@ -5523,7 +5523,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5531,7 +5531,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -5539,7 +5539,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -5547,7 +5547,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -5555,7 +5555,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
     ],
     stats: {
@@ -5591,7 +5591,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -5599,7 +5599,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -5607,7 +5607,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -5615,7 +5615,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -5623,7 +5623,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
     ],
     stats: {
@@ -5658,15 +5658,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 150,
+        quantity: 110,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -5674,7 +5674,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -5682,7 +5682,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
     ],
     stats: {
@@ -5718,7 +5718,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Super.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/frag-grenade-mk2.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Super.webp",
     recipe: [
       {
         name: "Fiber",
@@ -5726,7 +5726,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Pal Metal Ingot",
@@ -5734,7 +5734,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Gunpowder",
@@ -5742,7 +5742,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/gunpowder.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
       {
         name: "Crude Oil",
@@ -5750,7 +5750,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/crude-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CrudeOil.webp",
       },
     ],
     stats: {
@@ -5782,7 +5782,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -5790,7 +5790,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -5798,7 +5798,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -5806,7 +5806,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5814,7 +5814,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5849,7 +5849,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -5857,7 +5857,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -5865,7 +5865,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -5873,7 +5873,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5881,7 +5881,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5916,7 +5916,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -5924,7 +5924,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -5932,7 +5932,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -5940,7 +5940,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -5948,7 +5948,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -5983,7 +5983,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftHandgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-handgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftHandgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -5991,7 +5991,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -5999,7 +5999,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -6007,7 +6007,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6015,7 +6015,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6050,7 +6050,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6058,15 +6058,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 120,
+        quantity: 80,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6074,7 +6074,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6082,7 +6082,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6093,7 +6093,7 @@ export const weaponDataSet = [
       Attack: 1437,
       Weight: 18,
       MaxStackCount: 1,
-      Durability: 3600,
+      Durability: 4500,
       Code: "LaserRifle_2",
       IconName: "LaserRifle",
       TypeA: "Weapon",
@@ -6117,7 +6117,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6125,15 +6125,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 180,
+        quantity: 120,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6141,7 +6141,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6149,7 +6149,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6160,7 +6160,7 @@ export const weaponDataSet = [
       Attack: 1562,
       Weight: 18,
       MaxStackCount: 1,
-      Durability: 3900,
+      Durability: 6000,
       Code: "LaserRifle_3",
       IconName: "LaserRifle",
       TypeA: "Weapon",
@@ -6184,7 +6184,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6192,15 +6192,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 270,
+        quantity: 180,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6208,7 +6208,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6216,7 +6216,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6227,7 +6227,7 @@ export const weaponDataSet = [
       Attack: 1687,
       Weight: 18,
       MaxStackCount: 1,
-      Durability: 4200,
+      Durability: 9000,
       Code: "LaserRifle_4",
       IconName: "LaserRifle",
       TypeA: "Weapon",
@@ -6251,7 +6251,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserRifle.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6259,15 +6259,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 405,
+        quantity: 270,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6275,7 +6275,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6283,7 +6283,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6294,7 +6294,7 @@ export const weaponDataSet = [
       Attack: 1875,
       Weight: 18,
       MaxStackCount: 1,
-      Durability: 6000,
+      Durability: 12000,
       Code: "LaserRifle_5",
       IconName: "LaserRifle",
       TypeA: "Weapon",
@@ -6318,7 +6318,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6326,15 +6326,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 100,
+        quantity: 60,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6342,7 +6342,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
@@ -6350,7 +6350,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6358,7 +6358,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6369,7 +6369,7 @@ export const weaponDataSet = [
       Attack: 517,
       Weight: 45,
       MaxStackCount: 1,
-      Durability: 7200,
+      Durability: 9000,
       Code: "FlameThrower_2",
       IconName: "FlameThrower",
       TypeA: "Weapon",
@@ -6393,7 +6393,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6401,15 +6401,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 150,
+        quantity: 90,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6417,7 +6417,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
@@ -6425,7 +6425,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6433,7 +6433,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6444,7 +6444,7 @@ export const weaponDataSet = [
       Attack: 562,
       Weight: 45,
       MaxStackCount: 1,
-      Durability: 7800,
+      Durability: 12000,
       Code: "FlameThrower_3",
       IconName: "FlameThrower",
       TypeA: "Weapon",
@@ -6468,7 +6468,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6476,15 +6476,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 225,
+        quantity: 135,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6492,7 +6492,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
@@ -6500,7 +6500,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6508,7 +6508,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6519,7 +6519,7 @@ export const weaponDataSet = [
       Attack: 607,
       Weight: 45,
       MaxStackCount: 1,
-      Durability: 8400,
+      Durability: 18000,
       Code: "FlameThrower_4",
       IconName: "FlameThrower",
       TypeA: "Weapon",
@@ -6543,7 +6543,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FlameThrower_Default.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/flamethrower.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FlameThrower_Default.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6551,15 +6551,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 337,
+        quantity: 202,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6567,7 +6567,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Flame Organ",
@@ -6575,7 +6575,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/flame-organ.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6583,7 +6583,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6594,7 +6594,7 @@ export const weaponDataSet = [
       Attack: 675,
       Weight: 45,
       MaxStackCount: 1,
-      Durability: 12000,
+      Durability: 24000,
       Code: "FlameThrower_5",
       IconName: "FlameThrower",
       TypeA: "Weapon",
@@ -6618,7 +6618,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6626,15 +6626,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 160,
+        quantity: 120,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6642,7 +6642,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6650,7 +6650,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6661,7 +6661,7 @@ export const weaponDataSet = [
       Attack: 3450,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 720,
+      Durability: 900,
       Code: "GrenadeLauncher_2",
       IconName: "GrenadeLauncher",
       TypeA: "Weapon",
@@ -6685,7 +6685,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6693,15 +6693,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 240,
+        quantity: 180,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6709,7 +6709,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6717,7 +6717,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6728,7 +6728,7 @@ export const weaponDataSet = [
       Attack: 3750,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 780,
+      Durability: 1200,
       Code: "GrenadeLauncher_3",
       IconName: "GrenadeLauncher",
       TypeA: "Weapon",
@@ -6752,7 +6752,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6760,15 +6760,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 360,
+        quantity: 270,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6776,7 +6776,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6784,7 +6784,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6795,7 +6795,7 @@ export const weaponDataSet = [
       Attack: 4050,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 840,
+      Durability: 1800,
       Code: "GrenadeLauncher_4",
       IconName: "GrenadeLauncher",
       TypeA: "Weapon",
@@ -6819,7 +6819,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GrenadeLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grenade-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GrenadeLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6827,15 +6827,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 540,
+        quantity: 405,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6843,7 +6843,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6851,7 +6851,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6862,7 +6862,7 @@ export const weaponDataSet = [
       Attack: 4500,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 1200,
+      Durability: 2400,
       Code: "GrenadeLauncher_5",
       IconName: "GrenadeLauncher",
       TypeA: "Weapon",
@@ -6886,7 +6886,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6894,7 +6894,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -6902,7 +6902,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6910,7 +6910,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -6918,7 +6918,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -6926,7 +6926,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -6937,7 +6937,7 @@ export const weaponDataSet = [
       Attack: 6785,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 360,
+      Durability: 450,
       Code: "GuidedMissileLauncher_2",
       IconName: "GuidedMissileLauncher",
       TypeA: "Weapon",
@@ -6961,7 +6961,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -6969,7 +6969,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -6977,7 +6977,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -6985,7 +6985,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -6993,7 +6993,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7001,7 +7001,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7012,7 +7012,7 @@ export const weaponDataSet = [
       Attack: 7375,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 390,
+      Durability: 600,
       Code: "GuidedMissileLauncher_3",
       IconName: "GuidedMissileLauncher",
       TypeA: "Weapon",
@@ -7036,7 +7036,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7044,7 +7044,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -7052,7 +7052,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7060,7 +7060,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -7068,7 +7068,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7076,7 +7076,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7087,7 +7087,7 @@ export const weaponDataSet = [
       Attack: 7965,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 420,
+      Durability: 900,
       Code: "GuidedMissileLauncher_4",
       IconName: "GuidedMissileLauncher",
       TypeA: "Weapon",
@@ -7111,7 +7111,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7119,7 +7119,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -7127,7 +7127,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7135,7 +7135,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -7143,7 +7143,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7151,7 +7151,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7162,7 +7162,7 @@ export const weaponDataSet = [
       Attack: 8850,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 600,
+      Durability: 1200,
       Code: "GuidedMissileLauncher_5",
       IconName: "GuidedMissileLauncher",
       TypeA: "Weapon",
@@ -7186,7 +7186,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7194,7 +7194,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -7202,7 +7202,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7210,7 +7210,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -7218,7 +7218,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7226,7 +7226,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7237,7 +7237,7 @@ export const weaponDataSet = [
       Attack: 6785,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 360,
+      Durability: 450,
       Code: "MultiGuidedMissileLauncher_2",
       IconName: "MultiGuidedMissileLauncher",
       TypeA: "Weapon",
@@ -7261,7 +7261,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7269,7 +7269,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -7277,7 +7277,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7285,7 +7285,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -7293,7 +7293,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7301,7 +7301,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7312,7 +7312,7 @@ export const weaponDataSet = [
       Attack: 7375,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 390,
+      Durability: 600,
       Code: "MultiGuidedMissileLauncher_3",
       IconName: "MultiGuidedMissileLauncher",
       TypeA: "Weapon",
@@ -7336,7 +7336,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7344,7 +7344,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -7352,7 +7352,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7360,7 +7360,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -7368,7 +7368,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7376,7 +7376,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7387,7 +7387,7 @@ export const weaponDataSet = [
       Attack: 7965,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 420,
+      Durability: 900,
       Code: "MultiGuidedMissileLauncher_4",
       IconName: "MultiGuidedMissileLauncher",
       TypeA: "Weapon",
@@ -7411,7 +7411,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/multi-guided-missile-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MultiGuidedMissileLauncher.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7419,7 +7419,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
@@ -7427,7 +7427,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7435,7 +7435,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -7443,7 +7443,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7451,7 +7451,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7462,7 +7462,7 @@ export const weaponDataSet = [
       Attack: 8850,
       Weight: 30,
       MaxStackCount: 1,
-      Durability: 600,
+      Durability: 1200,
       Code: "MultiGuidedMissileLauncher_5",
       IconName: "MultiGuidedMissileLauncher",
       TypeA: "Weapon",
@@ -7486,7 +7486,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7494,15 +7494,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 200,
+        quantity: 140,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7510,7 +7510,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7518,7 +7518,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7529,7 +7529,7 @@ export const weaponDataSet = [
       Attack: 431,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 7200,
+      Durability: 9000,
       Code: "GatlingGun_2",
       IconName: "GatlingGun",
       TypeA: "Weapon",
@@ -7553,7 +7553,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7561,15 +7561,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 300,
+        quantity: 210,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7577,7 +7577,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7585,7 +7585,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7596,7 +7596,7 @@ export const weaponDataSet = [
       Attack: 468,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 7800,
+      Durability: 12000,
       Code: "GatlingGun_3",
       IconName: "GatlingGun",
       TypeA: "Weapon",
@@ -7620,7 +7620,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7628,15 +7628,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 450,
+        quantity: 315,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7644,7 +7644,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7652,7 +7652,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7663,7 +7663,7 @@ export const weaponDataSet = [
       Attack: 506,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 8400,
+      Durability: 18000,
       Code: "GatlingGun_4",
       IconName: "GatlingGun",
       TypeA: "Weapon",
@@ -7687,7 +7687,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_GatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_GatlingGun.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
@@ -7695,15 +7695,15 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Plasteel",
-        quantity: 675,
+        quantity: 472,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Carbon Fiber",
@@ -7711,7 +7711,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -7719,7 +7719,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -7730,7 +7730,7 @@ export const weaponDataSet = [
       Attack: 562,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 12000,
+      Durability: 24000,
       Code: "GatlingGun_5",
       IconName: "GatlingGun",
       TypeA: "Weapon",
@@ -7754,7 +7754,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Meteor.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/meteor-launcher.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Launcher_Meteor.webp",
     recipe: [
       {
         name: "Meteorite Fragment",
@@ -7762,7 +7762,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/meteorite-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MeteorDrop.webp",
       },
       {
         name: "Refined Ingot",
@@ -7770,7 +7770,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Paldium Fragment",
@@ -7778,7 +7778,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
     ],
     stats: {
@@ -7814,7 +7814,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dark.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/dark-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Dark.webp",
     recipe: [
       {
         name: "Fiber",
@@ -7822,7 +7822,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -7830,7 +7830,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Venom Gland",
@@ -7838,7 +7838,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/venom-gland.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Venom.webp",
       },
     ],
     stats: {
@@ -7870,7 +7870,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dragon.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/dragon-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Dragon.webp",
     recipe: [
       {
         name: "Fiber",
@@ -7878,7 +7878,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -7886,7 +7886,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Horn",
@@ -7894,7 +7894,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/horn.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
     ],
     stats: {
@@ -7926,7 +7926,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ground.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/ground-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Ground.webp",
     recipe: [
       {
         name: "Fiber",
@@ -7934,7 +7934,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -7942,7 +7942,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ore",
@@ -7950,7 +7950,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperOre.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ore.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperOre.webp",
       },
     ],
     stats: {
@@ -7982,7 +7982,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Leaf.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/grass-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Leaf.webp",
     recipe: [
       {
         name: "Fiber",
@@ -7990,7 +7990,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -7998,7 +7998,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -8006,7 +8006,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
     ],
     stats: {
@@ -8038,7 +8038,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Water.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/water-grenade.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_FragGrenade_Water.webp",
     recipe: [
       {
         name: "Fiber",
@@ -8046,7 +8046,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
@@ -8054,7 +8054,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Pal Fluids",
@@ -8062,7 +8062,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-fluids.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -8094,7 +8094,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Katana.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/katana.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Katana.webp",
     recipe: [
       {
         name: "Ingot",
@@ -8102,7 +8102,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Wood",
@@ -8110,7 +8110,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8118,7 +8118,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -8152,7 +8152,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamSword.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/beam-sword.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BeamSword.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -8160,7 +8160,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Paldium Fragment",
@@ -8168,7 +8168,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Nightstar Sand",
@@ -8176,7 +8176,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_NightStone.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8184,7 +8184,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8218,7 +8218,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -8226,7 +8226,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -8234,7 +8234,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -8242,7 +8242,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
     ],
     stats: {
@@ -8278,15 +8278,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 200,
+        quantity: 150,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -8294,7 +8294,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -8302,7 +8302,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -8310,7 +8310,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
     ],
     stats: {
@@ -8346,7 +8346,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
@@ -8354,7 +8354,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8362,7 +8362,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -8370,7 +8370,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -8378,7 +8378,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8386,7 +8386,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8420,7 +8420,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
@@ -8428,7 +8428,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8436,7 +8436,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -8444,7 +8444,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -8452,7 +8452,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8460,7 +8460,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8494,7 +8494,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
@@ -8502,7 +8502,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8510,7 +8510,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -8518,7 +8518,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -8526,7 +8526,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8534,7 +8534,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8568,7 +8568,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/poison-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Poison.webp",
     recipe: [
       {
         name: "Wood",
@@ -8576,7 +8576,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8584,7 +8584,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -8592,7 +8592,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -8600,7 +8600,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8608,7 +8608,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8642,7 +8642,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
@@ -8650,7 +8650,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8658,7 +8658,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -8666,7 +8666,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -8674,7 +8674,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8682,7 +8682,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8716,7 +8716,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
@@ -8724,7 +8724,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8732,7 +8732,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -8740,7 +8740,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -8748,7 +8748,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8756,7 +8756,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8790,7 +8790,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
@@ -8798,7 +8798,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8806,7 +8806,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -8814,7 +8814,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -8822,7 +8822,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8830,7 +8830,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8864,7 +8864,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/fire-arrow-crossbow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_BowGun_Fire.webp",
     recipe: [
       {
         name: "Wood",
@@ -8872,7 +8872,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
@@ -8880,7 +8880,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Ingot",
@@ -8888,7 +8888,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Nail",
@@ -8896,7 +8896,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -8904,7 +8904,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -8938,7 +8938,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
@@ -8946,7 +8946,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -8954,7 +8954,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -8990,7 +8990,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Pickaxe_Tier_03.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pal-metal-pickaxe.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Pickaxe_Tier_03.webp",
     recipe: [
       {
         name: "Stone",
@@ -8998,7 +8998,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -9006,7 +9006,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Pal Metal Ingot",
@@ -9014,7 +9014,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
     ],
     stats: {
@@ -9048,7 +9048,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_03.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/pal-metal-axe.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_Axe_Tier_03.webp",
     recipe: [
       {
         name: "Stone",
@@ -9056,7 +9056,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Wood",
@@ -9064,7 +9064,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Pal Metal Ingot",
@@ -9072,7 +9072,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
     ],
     stats: {
@@ -9106,7 +9106,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
@@ -9114,7 +9114,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -9122,7 +9122,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -9130,7 +9130,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
     ],
     stats: {
@@ -9166,7 +9166,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -9174,7 +9174,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -9182,7 +9182,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
     ],
     stats: {
@@ -9218,7 +9218,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -9226,7 +9226,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -9234,7 +9234,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -9242,7 +9242,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
     ],
     stats: {
@@ -9278,7 +9278,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -9286,7 +9286,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -9294,7 +9294,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
     ],
     stats: {
@@ -9330,7 +9330,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -9338,7 +9338,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -9346,7 +9346,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -9354,7 +9354,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
     ],
     stats: {
@@ -9390,15 +9390,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 300,
+        quantity: 220,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -9406,7 +9406,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -9414,7 +9414,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -9422,7 +9422,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -9433,7 +9433,7 @@ export const weaponDataSet = [
       Attack: 583,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 9600,
+      Durability: 12000,
       Code: "LaserGatlingGun_2",
       IconName: "LaserGatlingGun",
       TypeA: "Weapon",
@@ -9457,15 +9457,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 450,
+        quantity: 330,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -9473,7 +9473,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -9481,7 +9481,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -9489,7 +9489,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -9500,7 +9500,7 @@ export const weaponDataSet = [
       Attack: 609,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 10400,
+      Durability: 16000,
       Code: "LaserGatlingGun_3",
       IconName: "LaserGatlingGun",
       TypeA: "Weapon",
@@ -9524,15 +9524,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 675,
+        quantity: 495,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -9540,7 +9540,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -9548,7 +9548,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -9556,7 +9556,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -9567,7 +9567,7 @@ export const weaponDataSet = [
       Attack: 636,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 11200,
+      Durability: 24000,
       Code: "LaserGatlingGun_4",
       IconName: "LaserGatlingGun",
       TypeA: "Weapon",
@@ -9591,15 +9591,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserGatlingGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/laser-gatling-gun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_LaserGatlingGun.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 1012,
+        quantity: 742,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -9607,7 +9607,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -9615,7 +9615,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -9623,7 +9623,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -9634,7 +9634,7 @@ export const weaponDataSet = [
       Attack: 689,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 16000,
+      Durability: 32000,
       Code: "LaserGatlingGun_5",
       IconName: "LaserGatlingGun",
       TypeA: "Weapon",
@@ -9658,15 +9658,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 400,
+        quantity: 300,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -9674,7 +9674,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -9682,7 +9682,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -9690,7 +9690,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -9698,7 +9698,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -9709,7 +9709,7 @@ export const weaponDataSet = [
       Attack: 11000,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 360,
+      Durability: 450,
       Code: "EnergyRocketLauncher_2",
       IconName: "EnergyRocketLauncher",
       TypeA: "Weapon",
@@ -9733,15 +9733,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 600,
+        quantity: 450,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -9749,7 +9749,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -9757,7 +9757,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -9765,7 +9765,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -9773,7 +9773,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -9784,7 +9784,7 @@ export const weaponDataSet = [
       Attack: 11500,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 390,
+      Durability: 600,
       Code: "EnergyRocketLauncher_3",
       IconName: "EnergyRocketLauncher",
       TypeA: "Weapon",
@@ -9808,15 +9808,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 900,
+        quantity: 675,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -9824,7 +9824,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -9832,7 +9832,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -9840,7 +9840,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -9848,7 +9848,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -9859,7 +9859,7 @@ export const weaponDataSet = [
       Attack: 12000,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 420,
+      Durability: 900,
       Code: "EnergyRocketLauncher_4",
       IconName: "EnergyRocketLauncher",
       TypeA: "Weapon",
@@ -9883,15 +9883,15 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/plasma-cannon.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_EnergyRocketLauncher.webp",
     recipe: [
       {
         name: "Plasteel",
-        quantity: 1350,
+        quantity: 1012,
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
       {
         name: "Hexolite",
@@ -9899,7 +9899,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -9907,7 +9907,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Circuit Board",
@@ -9915,7 +9915,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/circuit-board.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -9923,7 +9923,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -9934,7 +9934,7 @@ export const weaponDataSet = [
       Attack: 13000,
       Weight: 50,
       MaxStackCount: 1,
-      Durability: 600,
+      Durability: 1200,
       Code: "EnergyRocketLauncher_5",
       IconName: "EnergyRocketLauncher",
       TypeA: "Weapon",
@@ -9958,7 +9958,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
@@ -9966,7 +9966,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
@@ -9974,7 +9974,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
@@ -9982,7 +9982,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
     ],
     stats: {
@@ -10018,7 +10018,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -10026,7 +10026,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -10034,7 +10034,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
@@ -10042,7 +10042,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_NightStone.webp",
       },
     ],
     stats: {
@@ -10078,7 +10078,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -10086,7 +10086,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -10094,7 +10094,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -10102,7 +10102,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10110,7 +10110,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10121,7 +10121,7 @@ export const weaponDataSet = [
       Attack: 214,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 400,
+      Durability: 450,
       Code: "SemiAutoShotgun_2",
       IconName: "SemiAutoShotgun",
       TypeA: "Weapon",
@@ -10145,7 +10145,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -10153,7 +10153,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -10161,7 +10161,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -10169,7 +10169,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10177,7 +10177,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10188,7 +10188,7 @@ export const weaponDataSet = [
       Attack: 234,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 550,
+      Durability: 600,
       Code: "SemiAutoShotgun_3",
       IconName: "SemiAutoShotgun",
       TypeA: "Weapon",
@@ -10212,7 +10212,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -10220,7 +10220,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -10228,7 +10228,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -10236,7 +10236,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10244,7 +10244,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10255,7 +10255,7 @@ export const weaponDataSet = [
       Attack: 253,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 750,
+      Durability: 900,
       Code: "SemiAutoShotgun_4",
       IconName: "SemiAutoShotgun",
       TypeA: "Weapon",
@@ -10279,7 +10279,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoShotgun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -10287,7 +10287,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -10295,7 +10295,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Carbon Fiber",
@@ -10303,7 +10303,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10311,7 +10311,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10322,7 +10322,7 @@ export const weaponDataSet = [
       Attack: 282,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 1000,
+      Durability: 1200,
       Code: "SemiAutoShotgun_5",
       IconName: "SemiAutoShotgun",
       TypeA: "Weapon",
@@ -10346,7 +10346,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
@@ -10354,7 +10354,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -10362,7 +10362,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10370,7 +10370,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10381,7 +10381,7 @@ export const weaponDataSet = [
       Attack: 1050,
       Weight: 8,
       MaxStackCount: 1,
-      Durability: 480,
+      Durability: 600,
       Code: "OldRevolver_2",
       IconName: "OldRevolver",
       TypeA: "Weapon",
@@ -10405,7 +10405,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
@@ -10413,7 +10413,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -10421,7 +10421,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10429,7 +10429,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10440,7 +10440,7 @@ export const weaponDataSet = [
       Attack: 1200,
       Weight: 8,
       MaxStackCount: 1,
-      Durability: 520,
+      Durability: 800,
       Code: "OldRevolver_3",
       IconName: "OldRevolver",
       TypeA: "Weapon",
@@ -10464,7 +10464,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
@@ -10472,7 +10472,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -10480,7 +10480,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10488,7 +10488,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10499,7 +10499,7 @@ export const weaponDataSet = [
       Attack: 1350,
       Weight: 8,
       MaxStackCount: 1,
-      Durability: 560,
+      Durability: 1200,
       Code: "OldRevolver_4",
       IconName: "OldRevolver",
       TypeA: "Weapon",
@@ -10523,7 +10523,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/old-revolver.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_OldRevolver.webp",
     recipe: [
       {
         name: "Ingot",
@@ -10531,7 +10531,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -10539,7 +10539,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10547,7 +10547,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10558,7 +10558,7 @@ export const weaponDataSet = [
       Attack: 1500,
       Weight: 8,
       MaxStackCount: 1,
-      Durability: 800,
+      Durability: 1600,
       Code: "OldRevolver_5",
       IconName: "OldRevolver",
       TypeA: "Weapon",
@@ -10582,7 +10582,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
@@ -10590,7 +10590,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -10598,7 +10598,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -10606,7 +10606,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10614,7 +10614,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10625,7 +10625,7 @@ export const weaponDataSet = [
       Attack: 204,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 1800,
+      Durability: 2250,
       Code: "MakeshiftAssaultRifle_2",
       IconName: "MakeshiftAssaultRifle",
       TypeA: "Weapon",
@@ -10649,7 +10649,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
@@ -10657,7 +10657,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -10665,7 +10665,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -10673,7 +10673,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10681,7 +10681,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10692,7 +10692,7 @@ export const weaponDataSet = [
       Attack: 229,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 1950,
+      Durability: 3000,
       Code: "MakeshiftAssaultRifle_3",
       IconName: "MakeshiftAssaultRifle",
       TypeA: "Weapon",
@@ -10716,7 +10716,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
@@ -10724,7 +10724,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -10732,7 +10732,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -10740,7 +10740,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10748,7 +10748,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10759,7 +10759,7 @@ export const weaponDataSet = [
       Attack: 255,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 2100,
+      Durability: 4500,
       Code: "MakeshiftAssaultRifle_4",
       IconName: "MakeshiftAssaultRifle",
       TypeA: "Weapon",
@@ -10783,7 +10783,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-assault-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftAssaultRifle.webp",
     recipe: [
       {
         name: "Ingot",
@@ -10791,7 +10791,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -10799,7 +10799,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -10807,7 +10807,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10815,7 +10815,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10826,7 +10826,7 @@ export const weaponDataSet = [
       Attack: 297,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 3000,
+      Durability: 6000,
       Code: "MakeshiftAssaultRifle_5",
       IconName: "MakeshiftAssaultRifle",
       TypeA: "Weapon",
@@ -10850,7 +10850,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -10858,7 +10858,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -10866,7 +10866,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10874,7 +10874,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10885,7 +10885,7 @@ export const weaponDataSet = [
       Attack: 1265,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 1200,
+      Durability: 1500,
       Code: "SemiAutoRifle_2",
       IconName: "SemiAutoRifle",
       TypeA: "Weapon",
@@ -10909,7 +10909,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -10917,7 +10917,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -10925,7 +10925,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10933,7 +10933,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -10944,7 +10944,7 @@ export const weaponDataSet = [
       Attack: 1380,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 1300,
+      Durability: 2000,
       Code: "SemiAutoRifle_3",
       IconName: "SemiAutoRifle",
       TypeA: "Weapon",
@@ -10968,7 +10968,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -10976,7 +10976,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -10984,7 +10984,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -10992,7 +10992,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11003,7 +11003,7 @@ export const weaponDataSet = [
       Attack: 1495,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 1400,
+      Durability: 3000,
       Code: "SemiAutoRifle_4",
       IconName: "SemiAutoRifle",
       TypeA: "Weapon",
@@ -11027,7 +11027,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SemiAutoRifle.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/semi-auto-rifle.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SemiAutoRifle.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -11035,7 +11035,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -11043,7 +11043,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11051,7 +11051,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11062,7 +11062,7 @@ export const weaponDataSet = [
       Attack: 1610,
       Weight: 20,
       MaxStackCount: 1,
-      Durability: 2000,
+      Durability: 4000,
       Code: "SemiAutoRifle_5",
       IconName: "SemiAutoRifle",
       TypeA: "Weapon",
@@ -11086,7 +11086,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11094,7 +11094,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -11102,7 +11102,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -11110,7 +11110,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11118,7 +11118,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11129,7 +11129,7 @@ export const weaponDataSet = [
       Attack: 120,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 1200,
+      Durability: 1500,
       Code: "MakeshiftSubmachineGun_2",
       IconName: "MakeshiftSubmachineGun",
       TypeA: "Weapon",
@@ -11153,7 +11153,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11161,7 +11161,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -11169,7 +11169,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -11177,7 +11177,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11185,7 +11185,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11196,7 +11196,7 @@ export const weaponDataSet = [
       Attack: 135,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 1300,
+      Durability: 2000,
       Code: "MakeshiftSubmachineGun_3",
       IconName: "MakeshiftSubmachineGun",
       TypeA: "Weapon",
@@ -11220,7 +11220,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11228,7 +11228,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -11236,7 +11236,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -11244,7 +11244,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11252,7 +11252,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11263,7 +11263,7 @@ export const weaponDataSet = [
       Attack: 150,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 1400,
+      Durability: 3000,
       Code: "MakeshiftSubmachineGun_4",
       IconName: "MakeshiftSubmachineGun",
       TypeA: "Weapon",
@@ -11287,7 +11287,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftSubmachineGun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11295,7 +11295,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -11303,7 +11303,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -11311,7 +11311,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11319,7 +11319,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11330,7 +11330,7 @@ export const weaponDataSet = [
       Attack: 175,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 2000,
+      Durability: 4000,
       Code: "MakeshiftSubmachineGun_5",
       IconName: "MakeshiftSubmachineGun",
       TypeA: "Weapon",
@@ -11354,7 +11354,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -11362,7 +11362,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -11370,7 +11370,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11378,7 +11378,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11389,7 +11389,7 @@ export const weaponDataSet = [
       Attack: 156,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 2400,
+      Durability: 3000,
       Code: "SubmachineGun_2",
       IconName: "SubmachineGun",
       TypeA: "Weapon",
@@ -11413,7 +11413,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -11421,7 +11421,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -11429,7 +11429,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11437,7 +11437,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11448,7 +11448,7 @@ export const weaponDataSet = [
       Attack: 175,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 2600,
+      Durability: 4000,
       Code: "SubmachineGun_3",
       IconName: "SubmachineGun",
       TypeA: "Weapon",
@@ -11472,7 +11472,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -11480,7 +11480,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -11488,7 +11488,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11496,7 +11496,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11507,7 +11507,7 @@ export const weaponDataSet = [
       Attack: 195,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 2800,
+      Durability: 6000,
       Code: "SubmachineGun_4",
       IconName: "SubmachineGun",
       TypeA: "Weapon",
@@ -11531,7 +11531,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SubmachineGun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/smg.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SubmachineGun.webp",
     recipe: [
       {
         name: "Refined Ingot",
@@ -11539,7 +11539,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Polymer",
@@ -11547,7 +11547,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Polymer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/polymer.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Polymer.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11555,7 +11555,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11566,7 +11566,7 @@ export const weaponDataSet = [
       Attack: 227,
       Weight: 15,
       MaxStackCount: 1,
-      Durability: 4000,
+      Durability: 8000,
       Code: "SubmachineGun_5",
       IconName: "SubmachineGun",
       TypeA: "Weapon",
@@ -11590,7 +11590,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11598,7 +11598,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -11606,7 +11606,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -11614,7 +11614,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11622,7 +11622,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11633,7 +11633,7 @@ export const weaponDataSet = [
       Attack: 258,
       Weight: 24,
       MaxStackCount: 1,
-      Durability: 240,
+      Durability: 300,
       Code: "MakeshiftShotgun_2",
       IconName: "MakeshiftShotgun",
       TypeA: "Weapon",
@@ -11657,7 +11657,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11665,7 +11665,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -11673,7 +11673,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -11681,7 +11681,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11689,7 +11689,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11700,7 +11700,7 @@ export const weaponDataSet = [
       Attack: 290,
       Weight: 24,
       MaxStackCount: 1,
-      Durability: 260,
+      Durability: 400,
       Code: "MakeshiftShotgun_3",
       IconName: "MakeshiftShotgun",
       TypeA: "Weapon",
@@ -11724,7 +11724,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11732,7 +11732,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -11740,7 +11740,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -11748,7 +11748,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11756,7 +11756,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11767,7 +11767,7 @@ export const weaponDataSet = [
       Attack: 322,
       Weight: 24,
       MaxStackCount: 1,
-      Durability: 280,
+      Durability: 600,
       Code: "MakeshiftShotgun_4",
       IconName: "MakeshiftShotgun",
       TypeA: "Weapon",
@@ -11791,7 +11791,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftShotgun.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/makeshift-shotgun.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_MakeshiftShotgun.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11799,7 +11799,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -11807,7 +11807,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/high-quality-pal-oil.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Fiber",
@@ -11815,7 +11815,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Ancient Civilization Parts",
@@ -11823,7 +11823,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -11834,7 +11834,7 @@ export const weaponDataSet = [
       Attack: 376,
       Weight: 24,
       MaxStackCount: 1,
-      Durability: 400,
+      Durability: 800,
       Code: "MakeshiftShotgun_5",
       IconName: "MakeshiftShotgun",
       TypeA: "Weapon",
@@ -11858,7 +11858,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_YakushimaBlade.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/meowmere.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_YakushimaBlade.webp",
     recipe: [
       {
         name: "Ingot",
@@ -11866,7 +11866,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Paldium Fragment",
@@ -11874,7 +11874,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Pal_crystal_S.webp",
       },
       {
         name: "Coal",
@@ -11882,7 +11882,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Coal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/coal.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Coal.webp",
       },
       {
         name: "Predator Core",
@@ -11890,7 +11890,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PredatorCrystal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/predator-core.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PredatorCrystal.webp",
       },
     ],
     stats: {
@@ -11924,7 +11924,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -11932,7 +11932,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -11940,7 +11940,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
@@ -11948,7 +11948,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_NightStone.webp",
       },
     ],
     stats: {
@@ -11959,7 +11959,7 @@ export const weaponDataSet = [
       Attack: 6670,
       Weight: 25,
       MaxStackCount: 1,
-      Durability: 600,
+      Durability: 750,
       Code: "SFBow_2",
       IconName: "SFBow",
       TypeA: "Weapon",
@@ -11983,7 +11983,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -11991,7 +11991,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -11999,7 +11999,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
@@ -12007,7 +12007,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_NightStone.webp",
       },
     ],
     stats: {
@@ -12018,7 +12018,7 @@ export const weaponDataSet = [
       Attack: 7250,
       Weight: 25,
       MaxStackCount: 1,
-      Durability: 650,
+      Durability: 1000,
       Code: "SFBow_3",
       IconName: "SFBow",
       TypeA: "Weapon",
@@ -12042,7 +12042,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -12050,7 +12050,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -12058,7 +12058,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
@@ -12066,7 +12066,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_NightStone.webp",
       },
     ],
     stats: {
@@ -12077,7 +12077,7 @@ export const weaponDataSet = [
       Attack: 7830,
       Weight: 25,
       MaxStackCount: 1,
-      Durability: 700,
+      Durability: 1500,
       Code: "SFBow_4",
       IconName: "SFBow",
       TypeA: "Weapon",
@@ -12101,7 +12101,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/advanced-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_SFBow.webp",
     recipe: [
       {
         name: "Hexolite",
@@ -12109,7 +12109,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Carbon Fiber",
@@ -12117,7 +12117,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CarbonFiber.webp",
       },
       {
         name: "Nightstar Sand",
@@ -12125,7 +12125,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_NightStone.webp",
       },
     ],
     stats: {
@@ -12136,7 +12136,7 @@ export const weaponDataSet = [
       Attack: 8700,
       Weight: 25,
       MaxStackCount: 1,
-      Durability: 1000,
+      Durability: 2000,
       Code: "SFBow_5",
       IconName: "SFBow",
       TypeA: "Weapon",
@@ -12160,7 +12160,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
@@ -12168,7 +12168,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
@@ -12176,7 +12176,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
@@ -12184,7 +12184,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
     ],
     stats: {
@@ -12195,7 +12195,7 @@ export const weaponDataSet = [
       Attack: 1265,
       Weight: 17,
       MaxStackCount: 1,
-      Durability: 400,
+      Durability: 600,
       Code: "CompoundBow_2",
       IconName: "CompoundBow",
       TypeA: "Weapon",
@@ -12219,7 +12219,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
@@ -12227,7 +12227,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
@@ -12235,7 +12235,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
@@ -12243,7 +12243,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
     ],
     stats: {
@@ -12254,7 +12254,7 @@ export const weaponDataSet = [
       Attack: 1375,
       Weight: 17,
       MaxStackCount: 1,
-      Durability: 450,
+      Durability: 800,
       Code: "CompoundBow_3",
       IconName: "CompoundBow",
       TypeA: "Weapon",
@@ -12278,7 +12278,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
@@ -12286,7 +12286,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
@@ -12294,7 +12294,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
@@ -12302,7 +12302,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
     ],
     stats: {
@@ -12313,7 +12313,7 @@ export const weaponDataSet = [
       Attack: 1485,
       Weight: 17,
       MaxStackCount: 1,
-      Durability: 500,
+      Durability: 1200,
       Code: "CompoundBow_4",
       IconName: "CompoundBow",
       TypeA: "Weapon",
@@ -12337,7 +12337,7 @@ export const weaponDataSet = [
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp",
     image_github_url:
-      "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/weapons/compound-bow.png",
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/weapons/T_itemicon_Weapon_CompoundBow.webp",
     recipe: [
       {
         name: "Ingot",
@@ -12345,7 +12345,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Fiber",
@@ -12353,7 +12353,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/fiber.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Nail",
@@ -12361,7 +12361,7 @@ export const weaponDataSet = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nail.png",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MachineParts.webp",
       },
     ],
     stats: {
@@ -12372,7 +12372,7 @@ export const weaponDataSet = [
       Attack: 1650,
       Weight: 17,
       MaxStackCount: 1,
-      Durability: 700,
+      Durability: 1600,
       Code: "CompoundBow_5",
       IconName: "CompoundBow",
       TypeA: "Weapon",

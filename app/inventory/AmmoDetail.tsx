@@ -98,7 +98,7 @@ export default function AmmoDetail() {
             <ScrollView contentContainerStyle={styles.scrollView}>
                 <ItemView
                     name={Ammo[Number(ammoID)].name}
-                    img={Ammo[Number(ammoID)].image}
+                    img={Ammo[Number(ammoID)].image_github_url}
                     type="Ammo"
                     raritytpye={Ammo[Number(ammoID)].rarity}
                     actColor={actColor}

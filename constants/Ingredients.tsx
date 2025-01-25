@@ -5,9 +5,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A versatile ingredient that is delicious raw or cooked.\r\nThey can be found anywhere on the island.",
-    image: require("../assets/images/ingredients/red-berries.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -36,16 +37,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Cooking enhances their nutritional value,\r\nand surprisingly, they are quite filling.",
-    image: require("../assets/images/ingredients/baked-berries.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Baked_Berries.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Baked_Berries.webp",
     recipe: [
       {
         name: "Red Berries",
         quantity: 1,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -74,16 +77,18 @@ export const Ingredients = [
     name: "Bread",
     rarity: "Common",
     description: "Bread made from baked Flour.\r\nA tasty staple food.",
-    image: require("../assets/images/ingredients/bread.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Pan.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Pan.webp",
     recipe: [
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -113,9 +118,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A fresh ingredient that brightens any dish.\r\nFilled with lycopene, they\u2019re also very healthy.",
-    image: require("../assets/images/ingredients/tomato.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Tomato.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -144,9 +150,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "An ingredient that forms the base of various dishes.\r\nWheat is a common crop in many parts of the world.",
-    image: require("../assets/images/ingredients/wheat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Wheat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Wheat.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -175,16 +182,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Flour made from grinding Wheat.\r\nIt can be used as an ingredient in making Bread.",
-    image: require("../assets/images/ingredients/flour.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
     recipe: [
       {
         name: "Wheat",
         quantity: 3,
-        image: require("../assets/images/items/wheat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Wheat.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Wheat.webp",
       },
     ],
     stats: {
@@ -213,9 +222,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A leafy green. When it comes to salad, this is a must.\r\nIt has an exquisitely crunchy texture and refreshing taste.",
-    image: require("../assets/images/ingredients/lettuce.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Lettuce.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -244,9 +254,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Delicious when fried, but can also be used to cook various meals.\r\nChikipi produce them.",
-    image: require("../assets/images/ingredients/egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -275,9 +286,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Drink it as is, or use it in various meals.\r\nCan be milked from Mozzarina.",
-    image: require("../assets/images/ingredients/milk.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -306,16 +318,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Even more delicious when warmed up.\r\nGreat for keeping hunger away.",
-    image: require("../assets/images/ingredients/hot-milk.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HotMilk.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_HotMilk.webp",
     recipe: [
       {
         name: "Milk",
         quantity: 1,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -345,23 +359,26 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Bread with jam spread on it.\r\nThe sweetness of the berries complements it perfectly.",
-    image: require("../assets/images/ingredients/jam-filled-bun.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_JamBun.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_JamBun.webp",
     recipe: [
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Red Berries",
         quantity: 2,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -391,23 +408,26 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A Salad made by mixing Lettuce and Tomato.\r\nEating it slightly improves work speed for a period of time.",
-    image: require("../assets/images/ingredients/salad.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Salad.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Salad.webp",
     recipe: [
       {
         name: "Lettuce",
         quantity: 2,
-        image: require("../assets/images/items/lettuce.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
       },
       {
         name: "Tomato",
         quantity: 2,
-        image: require("../assets/images/items/tomato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
       },
     ],
     stats: {
@@ -439,23 +459,26 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A dish made by frying an Egg and topping it with ketchup.\r\nEating it improves Attack by +10% for a period of time.",
-    image: require("../assets/images/ingredients/omelet.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Omelet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Omelet.webp",
     recipe: [
       {
         name: "Tomato",
         quantity: 1,
-        image: require("../assets/images/items/tomato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
       },
       {
         name: "Egg",
         quantity: 2,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
     ],
     stats: {
@@ -487,23 +510,26 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A dish made by mixing Flour and Milk together then baking.\r\nEating it progressively decreases the rate at which one's sanity decreases for a period of time.",
-    image: require("../assets/images/ingredients/pancake.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Pancake.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Pancake.webp",
     recipe: [
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Milk",
         quantity: 1,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -535,23 +561,26 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A dish made by marinating Mushrooms in a marinade.\r\nEating it improves Defense by +10% for a period of time.",
-    image: require("../assets/images/ingredients/marinated-mushrooms.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_MarinatedMushrooms.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_MarinatedMushrooms.webp",
     recipe: [
       {
         name: "Mushroom",
         quantity: 1,
-        image: require("../assets/images/items/mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Red Berries",
         quantity: 2,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -583,23 +612,26 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Cream soup made of Mushrooms.\r\nEating it allows you to stay fuller for slightly longer for a period of time.",
-    image: require("../assets/images/ingredients/mushroom-soup.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_MushroomSoup.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_MushroomSoup.webp",
     recipe: [
       {
         name: "Mushroom",
         quantity: 1,
-        image: require("../assets/images/items/mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Milk",
         quantity: 2,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -631,30 +663,34 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A dish mixing pasta with Egg and Milk.\r\nEating it makes it improves Defense by +20% for a period of time.",
-    image: require("../assets/images/ingredients/carbonara.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carbonara.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Carbonara.webp",
     recipe: [
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Egg",
         quantity: 2,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
       {
         name: "Milk",
         quantity: 2,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -686,37 +722,42 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A dish made by piling Red Berries, Tomato and cheese on Bread.\r\nEating it slightly improves work speed and allows you to stay fuller for slightly longer for a period of time.",
-    image: require("../assets/images/ingredients/pizza.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Pizza.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Pizza.webp",
     recipe: [
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Red Berries",
         quantity: 2,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Tomato",
         quantity: 2,
-        image: require("../assets/images/items/tomato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
       },
       {
         name: "Milk",
         quantity: 2,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -749,44 +790,50 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A dish that is eaten during celebrations.\r\nPut it in the chest at your breeding farm to have a Pal lay a particularly healthy egg.",
-    image: require("../assets/images/ingredients/cake.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Cake.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Cake.webp",
     recipe: [
       {
         name: "Flour",
         quantity: 5,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Red Berries",
         quantity: 8,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Milk",
         quantity: 7,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
       {
         name: "Egg",
         quantity: 8,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
       {
         name: "Honey",
         quantity: 2,
-        image: require("../assets/images/items/honey.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Honey.webp",
       },
     ],
     stats: {
@@ -816,16 +863,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "An Egg now fried and even more delicious.\r\nGreat for keeping hunger away.",
-    image: require("../assets/images/ingredients/fried-egg.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_FriedEggs.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_FriedEggs.webp",
     recipe: [
       {
         name: "Egg",
         quantity: 1,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
     ],
     stats: {
@@ -855,9 +904,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A mushroom that can be eaten raw.\r\nThey can be found anywhere on the island.",
-    image: require("../assets/images/ingredients/mushroom.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Mushroom.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -888,16 +938,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Cooking this mushroom enhances its nutritional value.\r\nCuriously, it's also quite filling.",
-    image: require("../assets/images/ingredients/baked-mushroom.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMushroom.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMushroom.webp",
     recipe: [
       {
         name: "Mushroom",
         quantity: 1,
-        image: require("../assets/images/items/mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
       },
     ],
     stats: {
@@ -926,9 +978,10 @@ export const Ingredients = [
     name: "Honey",
     rarity: "Common",
     description: "Honey harvested from Beegarde.\r\nIt's sweet and tasty.",
-    image: require("../assets/images/ingredients/honey.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Honey.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -957,9 +1010,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Cotton candy collected from Woolipop.\r\nIts sweetness fluffily melts away in your mouth.",
-    image: require("../assets/images/ingredients/cotton-candy.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Sweet.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -988,9 +1042,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Chikipi meat.\r\nLight and easy to eat,\r\nit's a local favorite for residents of Palpagos Island.",
-    image: require("../assets/images/ingredients/chikipi-poultry.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_ChickenPal.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1019,9 +1074,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Lamball meat.\r\nRed meat with a unique flavor.\r\nDelicious, but takes some getting used to.",
-    image: require("../assets/images/ingredients/lamball-mutton.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_SheepBall.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1050,9 +1106,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Kelpsea meat.\r\nTender and slightly sweet.\r\nFish meat tends to spoil quickly.",
-    image: require("../assets/images/ingredients/raw-kelpsea.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Kelpie.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1081,9 +1138,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Galeclaw meat.\r\nFull of nutrition, its flavor packs a punch.",
-    image: require("../assets/images/ingredients/galeclaw-poultry.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Eagle.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1112,9 +1170,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Rushoar meat.\r\nFull of the delicious flavors of wild game.\r\nJuicy and nutritious.",
-    image: require("../assets/images/ingredients/rushoar-pork.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Boar.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1143,9 +1202,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Dumud meat.\r\nFatty with a rich taste.\r\nHas a mouthwatering plump texture.",
-    image: require("../assets/images/ingredients/raw-dumud.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_LazyCatfish.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1173,9 +1233,10 @@ export const Ingredients = [
     name: "Eikthyrdeer Venison",
     rarity: "Common",
     description: "Eikthyrdeer meat.\r\nLight and lean, but rich in flavor.",
-    image: require("../assets/images/ingredients/eikthyrdeer-venison.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Deer.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1204,9 +1265,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Reindrix meat.\r\nStrange venison capable of remaining at low temperatures.\r\nTakes a very long time to spoil.",
-    image: require("../assets/images/ingredients/reindrix-venison.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_IceDeer.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1235,9 +1297,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Caprity meat.\r\nHealthy and full of nutrients.\r\nHints of berries scenting the meat stimulates the appetite.",
-    image: require("../assets/images/ingredients/caprity-meat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_BerryGoat.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1266,9 +1329,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Mozzarina meat.\r\nThick, juicy and marbled.\r\nResidents of Palpagos Island cherish it above all other meats.",
-    image: require("../assets/images/ingredients/mozzarina-meat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_CowPal.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -1297,9 +1361,10 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Broncherry meat.\r\nGiant meat full of massive stores of energy.\r\nStuffed to the brim with nutrients gathered through photosynthesis.",
-    image: require("../assets/images/ingredients/broncherry-meat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_SakuraSaurus.webp",
     recipe: [],
     stats: {
       Rarity: "Uncommon",
@@ -1328,9 +1393,10 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Mammorest meat.\r\nWith massive size comes massive flavor.\r\nIts overwhelming portions are sure to satisfy any glutton.",
-    image: require("../assets/images/ingredients/mammorest-meat.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_GrassMammoth.webp",
     recipe: [],
     stats: {
       Rarity: "Uncommon",
@@ -1359,16 +1425,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Chicken skewer slow-grilled over a charcoal fire.\r\nLight and refreshing on the tongue.",
-    image: require("../assets/images/ingredients/grilled-chikipi.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_ChickenPal.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_ChickenPal.webp",
     recipe: [
       {
         name: "Chikipi Poultry",
         quantity: 1,
-        image: require("../assets/images/items/chikipi-poultry.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_ChickenPal.webp",
       },
     ],
     stats: {
@@ -1398,16 +1466,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Spiced and roasted mutton.\r\nDeeply complex with unique flavors.",
-    image: require("../assets/images/ingredients/lamball-kebab.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_SheepBall.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_SheepBall.webp",
     recipe: [
       {
         name: "Lamball Mutton",
         quantity: 1,
-        image: require("../assets/images/items/lamball-mutton.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SheepBall.webp",
       },
     ],
     stats: {
@@ -1436,16 +1506,18 @@ export const Ingredients = [
     name: "Grilled Kelpsea",
     rarity: "Common",
     description: "Fresh fish grilled over a charcoal fire.\r\nPlump and juicy.",
-    image: require("../assets/images/ingredients/grilled-kelpsea.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_Kelpie.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_Kelpie.webp",
     recipe: [
       {
         name: "Raw Kelpsea",
         quantity: 1,
-        image: require("../assets/images/items/raw-kelpsea.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Kelpie.webp",
       },
     ],
     stats: {
@@ -1474,16 +1546,18 @@ export const Ingredients = [
     name: "Grilled Galeclaw",
     rarity: "Common",
     description: "Grilled meat full of vitality for flying high in the skies.",
-    image: require("../assets/images/ingredients/grilled-galeclaw.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_Eagle.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_Eagle.webp",
     recipe: [
       {
         name: "Galeclaw Poultry",
         quantity: 1,
-        image: require("../assets/images/items/galeclaw-poultry.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Eagle.webp",
       },
     ],
     stats: {
@@ -1513,16 +1587,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Boar grilled over a hearty flame.\r\nCrispy on the outside, juicy on the inside.\r\nPerfect as an extravagant main dish for a big party.",
-    image: require("../assets/images/ingredients/roast-rushoar.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_Boar.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_Boar.webp",
     recipe: [
       {
         name: "Rushoar Pork",
         quantity: 1,
-        image: require("../assets/images/items/rushoar-pork.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
       },
     ],
     stats: {
@@ -1552,16 +1628,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Grilled fish slathered with a secret sauce.\r\nSoothes both mind and body.\r\nPerfect for tired Pal Tamers.",
-    image: require("../assets/images/ingredients/broiled-dumud.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_LazyCatfish.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_LazyCatfish.webp",
     recipe: [
       {
         name: "Raw Dumud",
         quantity: 1,
-        image: require("../assets/images/items/raw-dumud.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_LazyCatfish.webp",
       },
     ],
     stats: {
@@ -1591,16 +1669,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Carefully roasted venison with delicate flavor notes,\r\naccented by the aromas of the deep forest.\r\nElegant taste for an elegant lifestyle.",
-    image: require("../assets/images/ingredients/roast-eikthyrdeer.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_Deer.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_Deer.webp",
     recipe: [
       {
         name: "Eikthyrdeer Venison",
         quantity: 1,
-        image: require("../assets/images/items/eikthyrdeer-venison.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Deer.webp",
       },
     ],
     stats: {
@@ -1630,16 +1710,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "When taken from a flame, Reindrix meat rapidly drops in temperature.\r\nThis allows it to retain freshness for long periods of time,\r\nmaking it a perfect emergency ration.",
-    image: require("../assets/images/ingredients/roast-reindrix.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_IceDeer.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_IceDeer.webp",
     recipe: [
       {
         name: "Reindrix Venison",
         quantity: 1,
-        image: require("../assets/images/items/reindrix-venison.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_IceDeer.webp",
       },
     ],
     stats: {
@@ -1669,16 +1751,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Mild roast filled with the natural aromas of\r\nherbs and berries embedded in the meat.\r\nGives a pleasant sense of warmth when eaten outdoors.",
-    image: require("../assets/images/ingredients/herb-roasted-caprity.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_BerryGoat.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_BerryGoat.webp",
     recipe: [
       {
         name: "Caprity Meat",
         quantity: 1,
-        image: require("../assets/images/items/caprity-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_BerryGoat.webp",
       },
     ],
     stats: {
@@ -1708,16 +1792,18 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Thick, well-done steak.\r\nStrong flavors give those who eat it an energy boost.",
-    image: require("../assets/images/ingredients/mozzarina-steak.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_CowPal.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_CowPal.webp",
     recipe: [
       {
         name: "Mozzarina Meat",
         quantity: 1,
-        image: require("../assets/images/items/mozzarina-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_CowPal.webp",
       },
     ],
     stats: {
@@ -1747,16 +1833,18 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Grilled meat brimming with the flavor of the king of the wilds.\r\nJuices from the compressed meat flow from the bone,\r\nmaking it surprisingly tender despite the initial toughness.",
-    image: require("../assets/images/ingredients/broncherry-rib-roast.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_SakuraSaurus.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_SakuraSaurus.webp",
     recipe: [
       {
         name: "Broncherry Meat",
         quantity: 1,
-        image: require("../assets/images/items/broncherry-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SakuraSaurus.webp",
       },
     ],
     stats: {
@@ -1786,16 +1874,18 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Boasts a rich and dignified flavor.\r\nMemories of glaciers and deep forests come rushing back with every bite.",
-    image: require("../assets/images/ingredients/mammorest-steak.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BakedMeat_GrassMammoth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BakedMeat_GrassMammoth.webp",
     recipe: [
       {
         name: "Mammorest Meat",
         quantity: 1,
-        image: require("../assets/images/items/mammorest-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_GrassMammoth.webp",
       },
     ],
     stats: {
@@ -1825,23 +1915,26 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Plump poultry saut\u00e9ed in butter.\r\nAccented with fresh lemons.\r\nEating it will slightly increase work speed for a period of time.",
-    image: require("../assets/images/ingredients/chikipi-saut\u00e9.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_ChickenSaute.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_ChickenSaute.webp",
     recipe: [
       {
         name: "Chikipi Poultry",
         quantity: 1,
-        image: require("../assets/images/items/chikipi-poultry.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_ChickenPal.webp",
       },
       {
         name: "Red Berries",
         quantity: 2,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -1873,23 +1966,26 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Indulging in an abundance of fresh berries\r\ncreates a tantalizing aroma that accentuates the unique flavor of mutton.\r\nEating it will increase Defense by +10% for a period of time.",
-    image: require("../assets/images/ingredients/herb-roasted-lamball.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_GrilledSheepHerbs.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_GrilledSheepHerbs.webp",
     recipe: [
       {
         name: "Lamball Mutton",
         quantity: 1,
-        image: require("../assets/images/items/lamball-mutton.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SheepBall.webp",
       },
       {
         name: "Red Berries",
         quantity: 2,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -1921,23 +2017,26 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Marinated mutton slow-cooked over a grill.\r\nEating it will slightly increase work speed\r\nand make SAN decrease slightly slower for a period of time.",
-    image: require("../assets/images/ingredients/grilled-lamball.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_GenghisKhan.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_GenghisKhan.webp",
     recipe: [
       {
         name: "Lamball Mutton",
         quantity: 1,
-        image: require("../assets/images/items/lamball-mutton.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SheepBall.webp",
       },
       {
         name: "Lettuce",
         quantity: 2,
-        image: require("../assets/images/items/lettuce.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
       },
     ],
     stats: {
@@ -1970,23 +2069,26 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Slow-cooked dish that exudes a burst of rich, wild flavors.\r\nEating it will make SAN decrease slightly slower for a period of time.",
-    image: require("../assets/images/ingredients/stewed-galeclaw.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Eaglestew.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Eaglestew.webp",
     recipe: [
       {
         name: "Galeclaw Poultry",
         quantity: 1,
-        image: require("../assets/images/items/galeclaw-poultry.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Eagle.webp",
       },
       {
         name: "Red Berries",
         quantity: 2,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -2018,25 +2120,46 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "The smoky essence of bacon intertwines flawlessly\r\nwith the gentle texture of eggs, creating a sublime harmony of flavors.\r\nEating it will increase Attack by +10% for a period of time.",
-    image: require("../assets/images/ingredients/rushoar-bacon-'n'-eggs.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_BaconEggs.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_BaconEggs.webp",
     recipe: [
       {
         name: "Rushoar Pork",
         quantity: 2,
-        image: require("../assets/images/items/rushoar-pork.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
       },
       {
         name: "Egg",
         quantity: 2,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
     ],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Ingredient",
+      Rank: 2,
+      "Gold Coin": 1670,
+      Weight: "0.5",
+      MaxStackCount: 9999,
+      Code: "BaconEggs",
+      Nutrition: 167,
+      SAN: 21,
+      Corruption: "1200 Seconds",
+      IconName: "BaconEggs",
+      TypeA: "Food",
+      TypeB: "FoodDishMeat",
+      SortID: 4019,
+      ItemStaticClass: "CommonConsume",
+      SneakAttackRate: 1,
+    },
     Nutrition: 167,
     SAN: 21,
     "Recovery Time": 600,
@@ -2048,23 +2171,26 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "Stewed vegetables and venison that was reared in a frigid environment.\r\nThe meat's soft texture melts away to reveal a delicate sweetness.\r\nEating it will stay full slightly longer for a period of time.",
-    image: require("../assets/images/ingredients/reindrix-stew.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_StewedIceDeer.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_StewedIceDeer.webp",
     recipe: [
       {
         name: "Reindrix Venison",
         quantity: 1,
-        image: require("../assets/images/items/reindrix-venison.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_IceDeer.webp",
       },
       {
         name: "Tomato",
         quantity: 2,
-        image: require("../assets/images/items/tomato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
       },
     ],
     stats: {
@@ -2096,37 +2222,42 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "Magnificently juicy poultry.\r\nEating it will slightly increase work speed\r\nand make SAN decrease slower for a period of time.",
-    image: require("../assets/images/ingredients/fried-chikipi.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_FriedChicken.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_FriedChicken.webp",
     recipe: [
       {
         name: "Chikipi Poultry",
         quantity: 1,
-        image: require("../assets/images/items/chikipi-poultry.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_ChickenPal.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Egg",
         quantity: 1,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 1,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -2159,30 +2290,34 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "Thick sausage wedged between warm buns.\r\nThe crisply seared meat and spicy flavors are to die for.\r\nEating it will increase Defense by +20% for a period of time.",
-    image: require("../assets/images/ingredients/rushoar-hot-dog.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HotDog_2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_HotDog_2.webp",
     recipe: [
       {
         name: "Rushoar Pork",
         quantity: 1,
-        image: require("../assets/images/items/rushoar-pork.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Lettuce",
         quantity: 2,
-        image: require("../assets/images/items/lettuce.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
       },
     ],
     stats: {
@@ -2214,30 +2349,34 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "Thick hamburger steak accented with a creamy fried egg.\r\nThis sublime combination brings pure joy to the mouths of those who eat it.\r\nEating it will increase Attack by +20% for a period of time.",
-    image: require("../assets/images/ingredients/eikthyrdeer-loco-moco.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_DeerLocoMoco.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_DeerLocoMoco.webp",
     recipe: [
       {
         name: "Eikthyrdeer Venison",
         quantity: 1,
-        image: require("../assets/images/items/eikthyrdeer-venison.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Deer.webp",
       },
       {
         name: "Red Berries",
         quantity: 2,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Egg",
         quantity: 2,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
     ],
     stats: {
@@ -2269,30 +2408,34 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "A tender, melt-in-your-mouth venison stew crafted with love.\r\nThe intertwining flavors of vegetables and meat create a harmonious blend that brings out a comforting richness.\r\nEating it will increase Defense by +20% for a period of time.",
-    image: require("../assets/images/ingredients/eikthyrdeer-stew.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_DeerStew.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_DeerStew.webp",
     recipe: [
       {
         name: "Eikthyrdeer Venison",
         quantity: 2,
-        image: require("../assets/images/items/eikthyrdeer-venison.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Deer.webp",
       },
       {
         name: "Mushroom",
         quantity: 1,
-        image: require("../assets/images/items/mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Milk",
         quantity: 2,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -2324,30 +2467,34 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "The rich flavor of beef melds with the sweetness of the buns in perfect harmony in this masterpiece.\r\nEating it will increase work speed\r\nand make SAN decrease slightly slower for a period of time.",
-    image: require("../assets/images/ingredients/mozzarina-hamburger.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Hamburger_2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Hamburger_2.webp",
     recipe: [
       {
         name: "Mozzarina Meat",
         quantity: 1,
-        image: require("../assets/images/items/mozzarina-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_CowPal.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Lettuce",
         quantity: 2,
-        image: require("../assets/images/items/lettuce.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
       },
     ],
     stats: {
@@ -2380,37 +2527,42 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "Now with cheese, this dish has reached the highest level of fine cuisine.\r\nEating it will increase Attack by +20%\r\nand stay full longer for a period of time.",
-    image: require("../assets/images/ingredients/mozzarina-cheeseburger.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_CheeseBurger_2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_CheeseBurger_2.webp",
     recipe: [
       {
         name: "Mozzarina Meat",
         quantity: 2,
-        image: require("../assets/images/items/mozzarina-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_CowPal.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Tomato",
         quantity: 2,
-        image: require("../assets/images/items/tomato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
       },
       {
         name: "Milk",
         quantity: 2,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -2443,37 +2595,42 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "Crunchy fried batter perfectly accentuates the Kelpsea's plumpness.\r\nEating it will increase Defense by +10%\r\nand make SAN decrease slower for a period of time.",
-    image: require("../assets/images/ingredients/fried-kelpsea.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_FriedKelpie.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_FriedKelpie.webp",
     recipe: [
       {
         name: "Raw Kelpsea",
         quantity: 1,
-        image: require("../assets/images/items/raw-kelpsea.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Kelpie.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Egg",
         quantity: 1,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 1,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -2506,30 +2663,34 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "Dumud lavishly covered in a thick, creamy soup.\r\nEating it will increase work speed\r\nand stay full slightly longer for a period of time.",
-    image: require("../assets/images/ingredients/dumud-chowder.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Chowder.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Chowder.webp",
     recipe: [
       {
         name: "Raw Dumud",
         quantity: 1,
-        image: require("../assets/images/items/raw-dumud.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_LazyCatfish.webp",
       },
       {
         name: "Lettuce",
         quantity: 2,
-        image: require("../assets/images/items/lettuce.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
       },
       {
         name: "Tomato",
         quantity: 2,
-        image: require("../assets/images/items/tomato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
       },
     ],
     stats: {
@@ -2562,9 +2723,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Mushroom that grows prolifically in caves.\r\nCan be made into healing medicine.",
-    image: require("../assets/images/ingredients/cavern-mushroom.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_HealingMushroom.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2592,9 +2754,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "Mushrooms that are not suitable for eating raw.\r\nEating makes one more prone to feeling hungry.",
-    image: require("../assets/images/ingredients/mysterious-mushroom.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PoisonMushroom.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_PoisonMushroom.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2626,9 +2789,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A hardy and filling crop that grows in any terrain. \r\nNot suitable for raw consumption.",
-    image: require("../assets/images/ingredients/potato.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potato.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Potato.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2658,9 +2822,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A vibrant, nutrient-rich root vegetable. \r\nNot suitable for raw consumption.",
-    image: require("../assets/images/ingredients/carrot.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carrot.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Carrot.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2688,9 +2853,10 @@ export const Ingredients = [
     rarity: "Common",
     description:
       "A cherished and easy-to-grow vegetable with a rich history. \r\nNot suitable for eating raw.",
-    image: require("../assets/images/ingredients/onion.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Onion.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Onion.webp",
     recipe: [],
     stats: {
       Rarity: "Common",
@@ -2718,30 +2884,34 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "A dish made by wrapping a filling of mushrooms and meat in wheat flour and boiling it. The chewy texture is irresistible. \r\nEating it improves your Attack by 10% for a period of time.",
-    image: require("../assets/images/ingredients/rushoar-gyoza.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Gyoza.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Gyoza.webp",
     recipe: [
       {
         name: "Rushoar Pork",
         quantity: 1,
-        image: require("../assets/images/items/rushoar-pork.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
       },
       {
         name: "Mushroom",
         quantity: 1,
-        image: require("../assets/images/items/mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -2774,23 +2944,26 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "A dish made by stir-frying Carrot and Onion. \r\nA simple and delicious way to enjoy vegetables. Eating it will slightly increase your work speed and improve your Defense by 10% for a period of time.",
-    image: require("../assets/images/ingredients/stir-fried-vegetables.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_FriedVegetables.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_FriedVegetables.webp",
     recipe: [
       {
         name: "Onion",
         quantity: 2,
-        image: require("../assets/images/items/onion.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Onion.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Onion.webp",
       },
       {
         name: "Carrot",
         quantity: 2,
-        image: require("../assets/images/items/carrot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carrot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Carrot.webp",
       },
     ],
     stats: {
@@ -2823,23 +2996,26 @@ export const Ingredients = [
     rarity: "Uncommon",
     description:
       "A dish made by deep-frying Potato. \r\nOnce you start eating, you can't stop. Eating it will make it harder for your SAN value to decrease for a period of time.",
-    image: require("../assets/images/ingredients/french-fries.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PotatoChips.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_PotatoChips.webp",
     recipe: [
       {
         name: "Potato",
         quantity: 2,
-        image: require("../assets/images/items/potato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Potato.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 1,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -2871,37 +3047,42 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "A dish made by stir-frying noodles with vegetables and meat. \r\nThe rich seasoning pairs perfectly with the thick cuts of meat. Eating it will increase your Attack by 20% for a period of time.",
-    image: require("../assets/images/ingredients/broncherry-fried-noodles.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Yakisoba.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Yakisoba.webp",
     recipe: [
       {
         name: "Broncherry Meat",
         quantity: 1,
-        image: require("../assets/images/items/broncherry-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SakuraSaurus.webp",
       },
       {
         name: "Onion",
         quantity: 1,
-        image: require("../assets/images/items/onion.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Onion.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Onion.webp",
       },
       {
         name: "Carrot",
         quantity: 1,
-        image: require("../assets/images/items/carrot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carrot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Carrot.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -2933,30 +3114,34 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "A dish made by wrapping vegetables and mushrooms in a thin skin and deep-frying them. \r\nThe crispy texture is delightful. Eating it will make it harder for your SAN value to decrease and increase your Attack by 10% for a period of time.",
-    image: require("../assets/images/ingredients/spring-rolls.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_SpringRolls.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_SpringRolls.webp",
     recipe: [
       {
         name: "Onion",
         quantity: 2,
-        image: require("../assets/images/items/onion.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Onion.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Onion.webp",
       },
       {
         name: "Mushroom",
         quantity: 2,
-        image: require("../assets/images/items/mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -2989,30 +3174,34 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "A dish made by coating potatoes with sauce and baking them to perfection. \r\nBest enjoyed hot and fresh. Eating it will provide lasting fullness and increase your Defense by 10% for a period of time.",
-    image: require("../assets/images/ingredients/gratin.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Gratin.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Gratin.webp",
     recipe: [
       {
         name: "Milk",
         quantity: 2,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
       {
         name: "Potato",
         quantity: 2,
-        image: require("../assets/images/items/potato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Potato.webp",
       },
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -3045,37 +3234,42 @@ export const Ingredients = [
     rarity: "Rare",
     description:
       "A soup simmered with a variety of vegetables. \r\nDrinking it warms you to the core. Eating it will increase your work speed for a period of time.",
-    image: require("../assets/images/ingredients/minestrone.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Minestrone.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Minestrone.webp",
     recipe: [
       {
         name: "Tomato",
         quantity: 3,
-        image: require("../assets/images/items/tomato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
       },
       {
         name: "Carrot",
         quantity: 2,
-        image: require("../assets/images/items/carrot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carrot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Carrot.webp",
       },
       {
         name: "Onion",
         quantity: 2,
-        image: require("../assets/images/items/onion.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Onion.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Onion.webp",
       },
       {
         name: "Potato",
         quantity: 1,
-        image: require("../assets/images/items/potato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Potato.webp",
       },
     ],
     stats: {
@@ -3098,7 +3292,7 @@ export const Ingredients = [
     },
     Nutrition: 146,
     SAN: 18,
-    "Work Speed": 30,
+    "Work Speed": 40,
     "Recovery Time": 600,
   },
   {
@@ -3107,44 +3301,50 @@ export const Ingredients = [
     rarity: "Epic",
     description:
       "A dish made by simmering vegetables and meat with spices. \r\nThe rich flavor is highlighted by large chunks of tender meat. Eating it will increase your Attack by 25% for a period of time.",
-    image: require("../assets/images/ingredients/mammorest-curry.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Curry.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Curry.webp",
     recipe: [
       {
         name: "Mammorest Meat",
         quantity: 1,
-        image: require("../assets/images/items/mammorest-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_GrassMammoth.webp",
       },
       {
         name: "Onion",
         quantity: 2,
-        image: require("../assets/images/items/onion.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Onion.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Onion.webp",
       },
       {
         name: "Carrot",
         quantity: 2,
-        image: require("../assets/images/items/carrot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carrot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Carrot.webp",
       },
       {
         name: "Potato",
         quantity: 2,
-        image: require("../assets/images/items/potato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Potato.webp",
       },
       {
         name: "Red Berries",
         quantity: 2,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -3176,37 +3376,42 @@ export const Ingredients = [
     rarity: "Epic",
     description:
       "A dish made by simmering meat and potatoes in a sweet and savory sauce. \r\nIt has a mysteriously nostalgic taste. Eating it will increase your Defense  by 25% for a period of time.",
-    image: require("../assets/images/ingredients/galeclaw-nikujaga.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_MeatAndPotatoes.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_MeatAndPotatoes.webp",
     recipe: [
       {
         name: "Galeclaw Poultry",
         quantity: 1,
-        image: require("../assets/images/items/galeclaw-poultry.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Eagle.webp",
       },
       {
         name: "Onion",
         quantity: 2,
-        image: require("../assets/images/items/onion.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Onion.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Onion.webp",
       },
       {
         name: "Carrot",
         quantity: 2,
-        image: require("../assets/images/items/carrot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Carrot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Carrot.webp",
       },
       {
         name: "Potato",
         quantity: 2,
-        image: require("../assets/images/items/potato.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potato.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Potato.webp",
       },
     ],
     stats: {
@@ -3238,44 +3443,50 @@ export const Ingredients = [
     rarity: "Epic",
     description:
       "A dish made by baking a pastry crust filled with eggs, vegetables, mushrooms, and cream. \r\nIt\u2019s delicious even when cooled. Eating it will help you stay fuller for a while and make it harder for your SAN value to decrease for a period of time.",
-    image: require("../assets/images/ingredients/mushroom-quiche.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Quiche.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Quiche.webp",
     recipe: [
       {
         name: "Flour",
         quantity: 1,
-        image: require("../assets/images/items/flour.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Mushroom",
         quantity: 2,
-        image: require("../assets/images/items/mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Onion",
         quantity: 2,
-        image: require("../assets/images/items/onion.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Onion.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Onion.webp",
       },
       {
         name: "Egg",
         quantity: 2,
-        image: require("../assets/images/items/egg.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
       },
       {
         name: "Milk",
         quantity: 2,
-        image: require("../assets/images/items/milk.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {

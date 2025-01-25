@@ -5,23 +5,26 @@ export const Consumables = [
     rarity: "Common",
     description:
       "Low Grade Medical Supplies good for colds and sprains.\r\nThey don't heal Health when eaten, however.",
-    image: require("../assets/images/consumables/low-grade-medical-supplies.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Herbs.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Herbs.webp",
     recipe: [
       {
         name: "Red Berries",
         quantity: 5,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Horn",
         quantity: 2,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
     ],
     stats: {
@@ -49,30 +52,34 @@ export const Consumables = [
     rarity: "Common",
     description:
       "Strange Medical Supplies that are effective at treating Ulcer and Fracture.\r\nUnfortunately, they have no healing effect.",
-    image: require("../assets/images/consumables/medical-supplies.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Medicines.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Medicines.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 3,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Horn",
         quantity: 3,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
       {
         name: "Bone",
         quantity: 1,
-        image: require("../assets/images/items/bone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
       },
     ],
     stats: {
@@ -100,30 +107,34 @@ export const Consumables = [
     rarity: "Common",
     description:
       "High Grade Medical Supplies that are effective at treating Weakened and Depressed.\r\nUnfortunately, they have no healing effect.",
-    image: require("../assets/images/consumables/high-grade-medical-supplies.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_LuxuryMedicines.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_LuxuryMedicines.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 5,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Horn",
         quantity: 5,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
       {
         name: "Bone",
         quantity: 2,
-        image: require("../assets/images/items/bone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
       },
     ],
     stats: {
@@ -151,37 +162,42 @@ export const Consumables = [
     rarity: "Common",
     description:
       "Mind Control Meds that are extremely effective in controlling dissidents.\r\nUnfortunately, they have no healing effect.",
-    image: require("../assets/images/consumables/mind-control-meds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_MindControlDrug.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_MindControlDrug.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 10,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Horn",
         quantity: 10,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
       {
         name: "Bone",
         quantity: 5,
-        image: require("../assets/images/items/bone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 3,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -209,37 +225,42 @@ export const Consumables = [
     rarity: "Common",
     description:
       "Juice that improves mood when consumed.\r\nDrinking it increases work speed for a period of time,\r\nbut lowers SAN.",
-    image: require("../assets/images/consumables/suspicious-juice.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Opium.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Opium.webp",
     recipe: [
       {
         name: "Beautiful Flower",
         quantity: 3,
-        image: require("../assets/images/items/beautiful-flower.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Poppy.webp",
       },
       {
         name: "Horn",
         quantity: 3,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
       {
         name: "Bone",
         quantity: 1,
-        image: require("../assets/images/items/bone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 1,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -262,6 +283,7 @@ export const Consumables = [
     Nutrition: 1,
     san: 30,
     stamina_work: 200,
+    san_resist: -25000,
     recovery_time: 10,
   },
   {
@@ -270,37 +292,42 @@ export const Consumables = [
     rarity: "Common",
     description:
       "Juice that greatly improves mood when consumed.\r\nDrinking it significantly increases work speed for a period of time,\r\nbut significantly lowers SAN.",
-    image: require("../assets/images/consumables/strange-juice.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Narcotic.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Narcotic.webp",
     recipe: [
       {
         name: "Beautiful Flower",
         quantity: 5,
-        image: require("../assets/images/items/beautiful-flower.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Poppy.webp",
       },
       {
         name: "Horn",
         quantity: 5,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
       {
         name: "Bone",
         quantity: 2,
-        image: require("../assets/images/items/bone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 2,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -323,6 +350,7 @@ export const Consumables = [
     Nutrition: 1,
     san: 60,
     stamina_work: 400,
+    san_resist: -50000,
     recovery_time: 10,
   },
   {
@@ -331,37 +359,42 @@ export const Consumables = [
     rarity: "Common",
     description:
       "A potion that allows the player to reset their status points when consumed.\r\nIt has no effect if consumed by a Pal.",
-    image: require("../assets/images/consumables/memory-wiping-medicine.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_StatusPointResetSan.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_StatusPointResetSan.webp",
     recipe: [
       {
         name: "Beautiful Flower",
         quantity: 99,
-        image: require("../assets/images/items/beautiful-flower.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Poppy.webp",
       },
       {
         name: "Horn",
         quantity: 50,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
       {
         name: "Bone",
         quantity: 50,
-        image: require("../assets/images/items/bone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 50,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -390,9 +423,10 @@ export const Consumables = [
     rarity: "Uncommon",
     description:
       "A book that contains secrets of amazing technology.\r\nUse it to obtain a few Technology Points.",
-    image: require("../assets/images/consumables/high-grade-technical-manual.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G1.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_TechnologyBook_G1.webp",
     recipe: [],
     stats: {
       Rarity: "Uncommon",
@@ -418,9 +452,10 @@ export const Consumables = [
     rarity: "Rare",
     description:
       "A book that contains secrets of cutting-edge technology.\r\nUse it to obtain Technology Points.",
-    image: require("../assets/images/consumables/innovative-technical-manual.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_TechnologyBook_G2.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -446,9 +481,10 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "A book that contains secrets of technology beyond current day comprehension.\r\nUse it to obtain lots of Technology Points.",
-    image: require("../assets/images/consumables/future-technical-manual.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G3.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_TechnologyBook_G3.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -474,9 +510,10 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "A book that contains long-lost secrets of technology from a forgotten era.\r\nUse it to obtain Ancient Technology Points.",
-    image: require("../assets/images/consumables/ancient-technical-manual.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TechnologyBook_G4.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_TechnologyBook_G4.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -501,23 +538,26 @@ export const Consumables = [
     rarity: "Common",
     description:
       "Tools for repairing structures.\r\nUse it on destroyed structures to repair them.",
-    image: require("../assets/images/consumables/repair-kit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/Survival_Icons_Pack/Textures/Tex_tools_10.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/Tex_tools_10.webp",
     recipe: [
       {
         name: "Fiber",
         quantity: 5,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Stone",
         quantity: 5,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -543,538 +583,1468 @@ export const Consumables = [
     name: "Skill Fruit: Power Shot",
     rarity: "Uncommon",
     description: "Use on a Pal to teach \r\nPower Shot.",
-    image: require("../assets/images/consumables/skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Neutral.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Neutral.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Power Shot",
+      Code: "SkillCard_PowerShot",
+      IconName: "SkillCard_Neutral",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6000,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Neutral",
+      SneakAttackRate: 1,
+      WazaID: "PowerShot",
+    },
   },
   {
     id: 14,
     name: "Skill Fruit: Power Bomb",
     rarity: "Rare",
     description: "Use on a Pal to teach \r\nPower Bomb.",
-    image: require("../assets/images/consumables/skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Neutral.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Neutral.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Power Bomb",
+      Code: "SkillCard_PowerBall",
+      IconName: "SkillCard_Neutral",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6001,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Neutral",
+      SneakAttackRate: 1,
+      WazaID: "PowerBall",
+    },
   },
   {
     id: 15,
     name: "Skill Fruit: Pal Blast",
     rarity: "Epic",
     description: "Use on a Pal to teach \r\nPal Blast.",
-    image: require("../assets/images/consumables/skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Neutral.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Neutral.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Pal Blast",
+      Code: "SkillCard_HyperBeam",
+      IconName: "SkillCard_Neutral",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6002,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Neutral",
+      SneakAttackRate: 1,
+      WazaID: "HyperBeam",
+    },
   },
   {
     id: 16,
     name: "Skill Fruit: Air Cannon",
     rarity: "Uncommon",
     description: "Use on a Pal to teach \r\nAir Cannon.",
-    image: require("../assets/images/consumables/skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Neutral.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Neutral.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1500,
+      MaxStackCount: 9999,
+      Waza: "Air Cannon",
+      Code: "SkillCard_AirCanon",
+      IconName: "SkillCard_Neutral",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6003,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Neutral",
+      SneakAttackRate: 1,
+      WazaID: "AirCanon",
+    },
   },
   {
     id: 17,
     name: "Skill Fruit: Implode",
     rarity: "Epic",
     description: "Use on a Pal to teach \r\nImplode.",
-    image: require("../assets/images/consumables/skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Neutral.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Neutral.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Implode",
+      Code: "SkillCard_SelfDestruct",
+      IconName: "SkillCard_Neutral",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6004,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Neutral",
+      SneakAttackRate: 1,
+      WazaID: "SelfDestruct",
+    },
   },
   {
     id: 18,
     name: "Grass Skill Fruit: Wind Cutter",
     rarity: "Uncommon",
     description: "Use on a Pal to teach \r\nWind Cutter.",
-    image: require("../assets/images/consumables/grass-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Grass.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Wind Cutter",
+      Code: "SkillCard_WindCutter",
+      IconName: "SkillCard_Grass",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6006,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Grass",
+      SneakAttackRate: 1,
+      WazaID: "WindCutter",
+    },
   },
   {
     id: 19,
     name: "Grass Skill Fruit: Grass Tornado",
     rarity: "Rare",
     description: "Use on a Pal to teach \r\nGrass Tornado.",
-    image: require("../assets/images/consumables/grass-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Grass.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Grass Tornado",
+      Code: "SkillCard_GrassTornado",
+      IconName: "SkillCard_Grass",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6007,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Grass",
+      SneakAttackRate: 1,
+      WazaID: "GrassTornado",
+    },
   },
   {
     id: 20,
     name: "Grass Skill Fruit: Solar Blast",
     rarity: "Epic",
     description: "Use on a Pal to teach \r\nSolar Blast.",
-    image: require("../assets/images/consumables/grass-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Grass.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Solar Blast",
+      Code: "SkillCard_SolarBeam",
+      IconName: "SkillCard_Grass",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6008,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Grass",
+      SneakAttackRate: 1,
+      WazaID: "SolarBeam",
+    },
   },
   {
     id: 21,
     name: "Grass Skill Fruit: Seed Machine Gun",
     rarity: "Uncommon",
     description: "Use on a Pal to teach \r\nSeed Machine Gun.",
-    image:
-      require("../assets/images/consumables/grass-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Grass.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1500,
+      MaxStackCount: 9999,
+      Waza: "Seed Machine Gun",
+      Code: "SkillCard_SeedMachinegun",
+      IconName: "SkillCard_Grass",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6009,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Grass",
+      SneakAttackRate: 1,
+      WazaID: "SeedMachinegun",
+    },
   },
   {
     id: 22,
     name: "Grass Skill Fruit: Spine Vine",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nSpine Vine.",
-    image: require("../assets/images/consumables/grass-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Grass.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 3000,
+      MaxStackCount: 9999,
+      Waza: "Spine Vine",
+      Code: "SkillCard_RootAttack",
+      IconName: "SkillCard_Grass",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6010,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Grass",
+      SneakAttackRate: 1,
+      WazaID: "RootAttack",
+    },
   },
   {
     id: 23,
     name: "Grass Skill Fruit: Seed Mine",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nSeed Mine.",
-    image: require("../assets/images/consumables/grass-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Grass.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2000,
+      MaxStackCount: 9999,
+      Waza: "Seed Mine",
+      Code: "SkillCard_SeedMine",
+      IconName: "SkillCard_Grass",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6011,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Grass",
+      SneakAttackRate: 1,
+      WazaID: "SeedMine",
+    },
   },
   {
     id: 24,
     name: "Water Skill Fruit: Aqua Gun",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nAqua Gun.",
-    image: require("../assets/images/consumables/water-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Water.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Aqua Gun",
+      Code: "SkillCard_WaterGun",
+      IconName: "SkillCard_Water",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6014,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Water",
+      SneakAttackRate: 1,
+      WazaID: "WaterGun",
+    },
   },
   {
     id: 25,
     name: "Water Skill Fruit: Aqua Burst",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nAqua Burst.",
-    image: require("../assets/images/consumables/water-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Water.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Aqua Burst",
+      Code: "SkillCard_WaterBall",
+      IconName: "SkillCard_Water",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6015,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Water",
+      SneakAttackRate: 1,
+      WazaID: "WaterBall",
+    },
   },
   {
     id: 26,
     name: "Water Skill Fruit: Hydro Laser",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nHydro Laser.",
-    image: require("../assets/images/consumables/water-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Water.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Hydro Laser",
+      Code: "SkillCard_HydroPump",
+      IconName: "SkillCard_Water",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6016,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Water",
+      SneakAttackRate: 1,
+      WazaID: "HydroPump",
+    },
   },
   {
     id: 27,
     name: "Water Skill Fruit: Hydro Jet",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nHydro Jet.",
-    image: require("../assets/images/consumables/water-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Water.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1500,
+      MaxStackCount: 9999,
+      Waza: "Hydro Jet",
+      Code: "SkillCard_AquaJet",
+      IconName: "SkillCard_Water",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6017,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Water",
+      SneakAttackRate: 1,
+      WazaID: "AquaJet",
+    },
   },
   {
     id: 28,
     name: "Water Skill Fruit: Bubble Blast",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nBubble Blast.",
-    image: require("../assets/images/consumables/water-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Water.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2000,
+      MaxStackCount: 9999,
+      Waza: "Bubble Blast",
+      Code: "SkillCard_BubbleShot",
+      IconName: "SkillCard_Water",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6018,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Water",
+      SneakAttackRate: 1,
+      WazaID: "BubbleShot",
+    },
   },
   {
     id: 29,
     name: "Water Skill Fruit: Acid Rain",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nAcid Rain.",
-    image: require("../assets/images/consumables/water-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Water.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 3000,
+      MaxStackCount: 9999,
+      Waza: "Acid Rain",
+      Code: "SkillCard_AcidRain",
+      IconName: "SkillCard_Water",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6019,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Water",
+      SneakAttackRate: 1,
+      WazaID: "AcidRain",
+    },
   },
   {
     id: 30,
     name: "Fire Skill Fruit: Ignis Blast",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nIgnis Blast.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Ignis Blast",
+      Code: "SkillCard_FireBlast",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6022,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "FireBlast",
+    },
   },
   {
     id: 31,
     name: "Fire Skill Fruit: Ignis Breath",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nIgnis Breath.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Ignis Breath",
+      Code: "SkillCard_Flamethrower",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6023,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "Flamethrower",
+    },
   },
   {
     id: 32,
     name: "Fire Skill Fruit: Fire Ball",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nFire Ball.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Fire Ball",
+      Code: "SkillCard_FireBall",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6024,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "FireBall",
+    },
   },
   {
     id: 33,
     name: "Fire Skill Fruit: Flare Arrow",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nFlare Arrow.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1500,
+      MaxStackCount: 9999,
+      Waza: "Flare Arrow",
+      Code: "SkillCard_FlareArrow",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6025,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "FlareArrow",
+    },
   },
   {
     id: 34,
     name: "Fire Skill Fruit: Spirit Fire",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nSpirit Fire.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2000,
+      MaxStackCount: 9999,
+      Waza: "Spirit Fire",
+      Code: "SkillCard_FireSeed",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6026,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "FireSeed",
+    },
   },
   {
     id: 35,
     name: "Fire Skill Fruit: Ignis Rage",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nIgnis Rage.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 4000,
+      MaxStackCount: 9999,
+      Waza: "Ignis Rage",
+      Code: "SkillCard_Inferno",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6027,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "Inferno",
+    },
   },
   {
     id: 36,
     name: "Fire Skill Fruit: Flare Storm",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nFlare Storm.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Flare Storm",
+      Code: "SkillCard_FlareTornado",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6028,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "FlareTornado",
+    },
   },
   {
     id: 37,
     name: "Electric Skill Fruit: Shockwave",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nShockwave.",
-    image: require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Shockwave",
+      Code: "SkillCard_ElecWave",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6031,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "ElecWave",
+    },
   },
   {
     id: 38,
     name: "Electric Skill Fruit: Lightning Bolt",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nLightning Bolt.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Lightning Bolt",
+      Code: "SkillCard_Thunderbolt",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6032,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "Thunderbolt",
+    },
   },
   {
     id: 39,
     name: "Electric Skill Fruit: Lightning Streak",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nLightning Streak.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Lightning Streak",
+      Code: "SkillCard_LineThunder",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6033,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "LineThunder",
+    },
   },
   {
     id: 40,
     name: "Electric Skill Fruit: Plasma Funnel",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nPlasma Funnel.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2000,
+      MaxStackCount: 9999,
+      Waza: "Plasma Funnel",
+      Code: "SkillCard_ThunderFunnel",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6034,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "ThunderFunnel",
+    },
   },
   {
     id: 41,
     name: "Electric Skill Fruit: Spark Blast",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nSpark Blast.",
-    image: require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1500,
+      MaxStackCount: 9999,
+      Waza: "Spark Blast",
+      Code: "SkillCard_SpreadPulse",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6035,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "SpreadPulse",
+    },
   },
   {
     id: 42,
     name: "Electric Skill Fruit: Lock-on Laser",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nLock-on Laser.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 3000,
+      MaxStackCount: 9999,
+      Waza: "Lock-on Laser",
+      Code: "SkillCard_LockonLaser",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6036,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "LockonLaser",
+    },
   },
   {
     id: 43,
     name: "Electric Skill Fruit: Electric Ball",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nElectric Ball.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Electric Ball",
+      Code: "SkillCard_ThunderBall",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6037,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "ThunderBall",
+    },
   },
   {
     id: 44,
     name: "Electric Skill Fruit: Tri-Lightning",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nTri-Lightning.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 3500,
+      MaxStackCount: 9999,
+      Waza: "Tri-Lightning",
+      Code: "SkillCard_ThreeThunder",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6038,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "ThreeThunder",
+    },
   },
   {
     id: 45,
     name: "Electric Skill Fruit: Lightning Strike",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nLightning Strike.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Lightning Strike",
+      Code: "SkillCard_LightningStrike",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6039,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "LightningStrike",
+    },
   },
   {
     id: 46,
     name: "Earth Skill Fruit: Stone Cannon",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nStone Cannon.",
-    image: require("../assets/images/consumables/earth-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Earth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Earth.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Stone Cannon",
+      Code: "SkillCard_ThrowRock",
+      IconName: "SkillCard_Earth",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6043,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Earth",
+      SneakAttackRate: 1,
+      WazaID: "ThrowRock",
+    },
   },
   {
     id: 47,
     name: "Earth Skill Fruit: Sand Tornado",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nSand Tornado.",
-    image: require("../assets/images/consumables/earth-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Earth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Earth.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Sand Tornado",
+      Code: "SkillCard_SandTornado",
+      IconName: "SkillCard_Earth",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6044,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Earth",
+      SneakAttackRate: 1,
+      WazaID: "SandTornado",
+    },
   },
   {
     id: 48,
     name: "Earth Skill Fruit: Rock Lance",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nRock Lance.",
-    image: require("../assets/images/consumables/earth-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Earth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Earth.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Rock Lance",
+      Code: "SkillCard_RockLance",
+      IconName: "SkillCard_Earth",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6045,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Earth",
+      SneakAttackRate: 1,
+      WazaID: "RockLance",
+    },
   },
   {
     id: 49,
     name: "Earth Skill Fruit: Bog Blast",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nBog Blast.",
-    image: require("../assets/images/consumables/earth-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Earth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Earth.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1500,
+      MaxStackCount: 9999,
+      Waza: "Bog Blast",
+      Code: "SkillCard_MudShot",
+      IconName: "SkillCard_Earth",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6046,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Earth",
+      SneakAttackRate: 1,
+      WazaID: "MudShot",
+    },
   },
   {
     id: 50,
     name: "Earth Skill Fruit: Stone Blast",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nStone Blast.",
-    image: require("../assets/images/consumables/earth-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Earth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Earth.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2000,
+      MaxStackCount: 9999,
+      Waza: "Stone Blast",
+      Code: "SkillCard_StoneShotgun",
+      IconName: "SkillCard_Earth",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6047,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Earth",
+      SneakAttackRate: 1,
+      WazaID: "StoneShotgun",
+    },
   },
   {
     id: 51,
     name: "Ice Skill Fruit: Ice Missile",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nIce Missile.",
-    image: require("../assets/images/consumables/ice-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Frost.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Frost.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Ice Missile",
+      Code: "SkillCard_IceMissile",
+      IconName: "SkillCard_Frost",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6050,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Frost",
+      SneakAttackRate: 1,
+      WazaID: "IceMissile",
+    },
   },
   {
     id: 52,
     name: "Ice Skill Fruit: Iceberg",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nIceberg.",
-    image: require("../assets/images/consumables/ice-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Frost.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Frost.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 3000,
+      MaxStackCount: 9999,
+      Waza: "Iceberg",
+      Code: "SkillCard_BlizzardLance",
+      IconName: "SkillCard_Frost",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6051,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Frost",
+      SneakAttackRate: 1,
+      WazaID: "BlizzardLance",
+    },
   },
   {
     id: 53,
     name: "Ice Skill Fruit: Blizzard Spike",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nBlizzard Spike.",
-    image: require("../assets/images/consumables/ice-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Frost.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Frost.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Blizzard Spike",
+      Code: "SkillCard_IcicleThrow",
+      IconName: "SkillCard_Frost",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6052,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Frost",
+      SneakAttackRate: 1,
+      WazaID: "IcicleThrow",
+    },
   },
   {
     id: 54,
     name: "Ice Skill Fruit: Icicle Cutter",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nIcicle Cutter.",
-    image: require("../assets/images/consumables/ice-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Frost.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Frost.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 3000,
+      MaxStackCount: 9999,
+      Waza: "Icicle Cutter",
+      Code: "SkillCard_IceBlade",
+      IconName: "SkillCard_Frost",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6053,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Frost",
+      MagazineSize: 1,
+      SneakAttackRate: 1,
+      WazaID: "IceBlade",
+    },
   },
   {
     id: 55,
     name: "Ice Skill Fruit: Crystal Breath",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nCrystal Breath.",
-    image: require("../assets/images/consumables/ice-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Frost.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Frost.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Crystal Breath",
+      Code: "SkillCard_FrostBreath",
+      IconName: "SkillCard_Frost",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6054,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Frost",
+      MagazineSize: 1,
+      SneakAttackRate: 1,
+      WazaID: "FrostBreath",
+    },
   },
   {
     id: 56,
     name: "Dark Skill Fruit: Shadow Burst",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nShadow Burst.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Shadow Burst",
+      Code: "SkillCard_DarkWave",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6057,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "DarkWave",
+    },
   },
   {
     id: 57,
     name: "Dark Skill Fruit: Nightmare Ball",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nNightmare Ball.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2500,
+      MaxStackCount: 9999,
+      Waza: "Nightmare Ball",
+      Code: "SkillCard_ShadowBall",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6058,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "ShadowBall",
+    },
   },
   {
     id: 58,
     name: "Dark Skill Fruit: Poison Blast",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nPoison Blast.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1500,
+      MaxStackCount: 9999,
+      Waza: "Poison Blast",
+      Code: "SkillCard_PoisonShot",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6060,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "PoisonShot",
+    },
   },
   {
     id: 59,
     name: "Dark Skill Fruit: Spirit Flame",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nSpirit Flame.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2000,
+      MaxStackCount: 9999,
+      Waza: "Spirit Flame",
+      Code: "SkillCard_GhostFlame",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6061,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "GhostFlame",
+    },
   },
   {
     id: 60,
     name: "Dark Skill Fruit: Dark Laser",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nDark Laser.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Dark Laser",
+      Code: "SkillCard_DarkLaser",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6062,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "DarkLaser",
+    },
   },
   {
     id: 61,
     name: "Dragon Skill Fruit: Draconic Breath",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nDraconic Breath.",
-    image:
-      require("../assets/images/consumables/dragon-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dragon.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 4000,
+      MaxStackCount: 9999,
+      Waza: "Draconic Breath",
+      Code: "SkillCard_DragonBreath",
+      IconName: "SkillCard_Dragon",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6067,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dragon",
+      SneakAttackRate: 1,
+      WazaID: "DragonBreath",
+    },
   },
   {
     id: 62,
     name: "Dragon Skill Fruit: Dragon Cannon",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nDragon Cannon.",
-    image: require("../assets/images/consumables/dragon-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dragon.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 2000,
+      MaxStackCount: 9999,
+      Waza: "Dragon Cannon",
+      Code: "SkillCard_DragonCanon",
+      IconName: "SkillCard_Dragon",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6068,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dragon",
+      SneakAttackRate: 1,
+      WazaID: "DragonCanon",
+    },
   },
   {
     id: 63,
     name: "Dragon Skill Fruit: Dragon Burst",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nDragon Burst.",
-    image: require("../assets/images/consumables/dragon-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dragon.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 3000,
+      MaxStackCount: 9999,
+      Waza: "Dragon Burst",
+      Code: "SkillCard_DragonWave",
+      IconName: "SkillCard_Dragon",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6069,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dragon",
+      SneakAttackRate: 1,
+      WazaID: "DragonWave",
+    },
   },
   {
     id: 64,
     name: "Dragon Skill Fruit: Dragon Meteor",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nDragon Meteor.",
-    image: require("../assets/images/consumables/dragon-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dragon.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 5000,
+      MaxStackCount: 9999,
+      Waza: "Dragon Meteor",
+      Code: "SkillCard_DragonMeteor",
+      IconName: "SkillCard_Dragon",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6070,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dragon",
+      SneakAttackRate: 1,
+      WazaID: "DragonMeteor",
+    },
   },
   {
     id: 65,
     name: "Copper Key",
     rarity: "Uncommon",
     description: "A key that can be used to open locked treasure chests.",
-    image: require("../assets/images/consumables/copper-key.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_TreasureBoxKey01.webp",
     recipe: [],
     stats: {
       Rarity: "Uncommon",
@@ -1096,9 +2066,10 @@ export const Consumables = [
     name: "Silver Key",
     rarity: "Rare",
     description: "A key that can be used to open locked treasure chests.",
-    image: require("../assets/images/consumables/silver-key.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_TreasureBoxKey02.webp",
     recipe: [],
     stats: {
       Rarity: "Rare",
@@ -1120,9 +2091,10 @@ export const Consumables = [
     name: "Gold Key",
     rarity: "Epic",
     description: "A key that can be used to open locked treasure chests.",
-    image: require("../assets/images/consumables/gold-key.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_TreasureBoxKey03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_TreasureBoxKey03.webp",
     recipe: [],
     stats: {
       Rarity: "Epic",
@@ -1145,18 +2117,33 @@ export const Consumables = [
     rarity: "Rare",
     description:
       "Slab depicting Bellanoir.\r\nOffer to a Summoning Altar\r\nto summon a powerful Lv 30 Bellanoir.",
-    image: require("../assets/images/consumables/bellanoir's-slab.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalSummon_NightLady.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalSummon_NightLady.webp",
     recipe: [
       {
         name: "Bellanoir's Slab Fragment",
         quantity: 4,
-        image: require("../assets/images/consumables/bellanoirs-slab-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Blueprint_PalSummon_NightLady_Parts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Blueprint_PalSummon_NightLady_Parts.webp",
       },
     ],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1,
+      Weight: 1,
+      MaxStackCount: 9999,
+      Code: "PalSummon_NightLady",
+      IconName: "PalSummon_NightLady",
+      TypeA: "Consume",
+      TypeB: "ConsumeOther",
+      SortID: 8100,
+    },
   },
   {
     id: 69,
@@ -1164,18 +2151,33 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Slab depicting Bellanoir Libero.\r\nOffer to a Summoning Altar\r\nto summon an exceptionally powerful Lv 50 Bellanoir Libero.",
-    image: require("../assets/images/consumables/bellanoir-libero's-slab.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalSummon_NightLady_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalSummon_NightLady_Dark.webp",
     recipe: [
       {
         name: "Bellanoir Libero's Slab Fragment",
         quantity: 4,
-        image: require("../assets/images/items/bellanoir-libero's-slab-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Blueprint_PalSummon_NightLady_Dark_Parts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Blueprint_PalSummon_NightLady_Dark_Parts.webp",
       },
     ],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1,
+      Weight: 1,
+      MaxStackCount: 9999,
+      Code: "PalSummon_NightLady_Dark",
+      IconName: "PalSummon_NightLady_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeOther",
+      SortID: 8101,
+    },
   },
   {
     id: 70,
@@ -1183,30 +2185,34 @@ export const Consumables = [
     rarity: "Common",
     description:
       "Medicine that heals wounds over time.\r\nLow quality, but restores some Health.",
-    image: require("../assets/images/consumables/low-quality-recovery-meds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_Low.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Potion_Low.webp",
     recipe: [
       {
         name: "Cavern Mushroom",
         quantity: 3,
-        image: require("../assets/images/items/cavern-mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
         quantity: 5,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 2,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -1235,37 +2241,42 @@ export const Consumables = [
     rarity: "Uncommon",
     description:
       "Medicine that heals wounds over time.\r\nRestores a decent amount of Health.",
-    image: require("../assets/images/consumables/recovery-meds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Potion.webp",
     recipe: [
       {
         name: "Cavern Mushroom",
         quantity: 5,
-        image: require("../assets/images/items/cavern-mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
         quantity: 5,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 5,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
       {
         name: "Cotton Candy",
         quantity: 3,
-        image: require("../assets/images/items/cotton-candy.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
       },
     ],
     stats: {
@@ -1294,44 +2305,50 @@ export const Consumables = [
     rarity: "Rare",
     description:
       "Medicine that heals wounds over time.\r\nHigh quality; restores a lot of Health.",
-    image: require("../assets/images/consumables/high-quality-recovery-meds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_High.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Potion_High.webp",
     recipe: [
       {
         name: "Cavern Mushroom",
         quantity: 10,
-        image: require("../assets/images/items/cavern-mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
         quantity: 20,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 5,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Cotton Candy",
         quantity: 5,
-        image: require("../assets/images/items/cotton-candy.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
       },
       {
         name: "Sulfur",
         quantity: 5,
-        image: require("../assets/images/items/sulfur.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Sulfur.webp",
       },
     ],
     stats: {
@@ -1360,37 +2377,42 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Extremely valuable potion that permanently raises Health by a slight amount when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/vital-remedy.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_hp_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_hp_01.webp",
     recipe: [
       {
         name: "Life Lotus (S)",
         quantity: 4,
-        image: require("../assets/images/items/life-lotus-(s).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_hp_01.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_hp_01.webp",
       },
       {
         name: "Raw Kelpsea",
         quantity: 3,
-        image: require("../assets/images/items/raw-kelpsea.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Kelpie.webp",
       },
       {
         name: "Gumoss Leaf",
         quantity: 2,
-        image: require("../assets/images/items/gumoss-leaf.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PlantSlime.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_PlantSlime.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 2,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -1419,37 +2441,42 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Extremely valuable potion that permanently raises Stamina by a slight amount when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/stamina-remedy.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_stamina_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_stamina_01.webp",
     recipe: [
       {
         name: "Stamina Lotus (S)",
         quantity: 4,
-        image: require("../assets/images/items/stamina-lotus-(s).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_stamina_01.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_stamina_01.webp",
       },
       {
         name: "Eikthyrdeer Venison",
         quantity: 3,
-        image: require("../assets/images/items/eikthyrdeer-venison.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Deer.webp",
       },
       {
         name: "Honey",
         quantity: 2,
-        image: require("../assets/images/items/honey.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Honey.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 2,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -1478,37 +2505,42 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Extremely valuable potion that permanently raises Attack by a slight amount when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/might-remedy.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_attack_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_attack_01.webp",
     recipe: [
       {
         name: "Power Lotus (S)",
         quantity: 4,
-        image: require("../assets/images/items/power-lotus-(s).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_attack_01.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_attack_01.webp",
       },
       {
         name: "Rushoar Pork",
         quantity: 3,
-        image: require("../assets/images/items/rushoar-pork.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
       },
       {
         name: "Mozzarina Meat",
         quantity: 2,
-        image: require("../assets/images/items/mozzarina-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_CowPal.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 2,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -1537,37 +2569,42 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Extremely valuable potion that permanently raises Work Speed by a slight amount when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/speed-remedy.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_workspeed_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_workspeed_01.webp",
     recipe: [
       {
         name: "Speed Lotus (S)",
         quantity: 4,
-        image: require("../assets/images/items/speed-lotus-(s).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_workspeed_01.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_workspeed_01.webp",
       },
       {
         name: "Ribbuny Ribbon",
         quantity: 3,
-        image: require("../assets/images/items/ribbuny-ribbon.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_PinkRabbit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_PinkRabbit.webp",
       },
       {
         name: "Katress Hair",
         quantity: 2,
-        image: require("../assets/images/items/katress-hair.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_CatMage.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_CatMage.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 2,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -1595,37 +2632,42 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Extremely valuable potion that permanently raises carrying capacity by a slight amount when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/burden-remedy.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_weight_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_weight_01.webp",
     recipe: [
       {
         name: "Carrying Lotus (S)",
         quantity: 4,
-        image: require("../assets/images/items/carrying-lotus-(s).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_weight_01.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_weight_01.webp",
       },
       {
         name: "Swee Hair",
         quantity: 3,
-        image: require("../assets/images/items/swee-hair.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_MopBaby.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_MopBaby.webp",
       },
       {
         name: "Cotton Candy",
         quantity: 2,
-        image: require("../assets/images/items/cotton-candy.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 2,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -1654,37 +2696,42 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Extremely valuable elixir that permanently raises Health when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/vital-elixir.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_hp_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_hp_02.webp",
     recipe: [
       {
         name: "Life Lotus (L)",
         quantity: 6,
-        image: require("../assets/images/items/life-lotus-(l).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_hp_02.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_hp_02.webp",
       },
       {
         name: "Galeclaw Poultry",
         quantity: 3,
-        image: require("../assets/images/items/galeclaw-poultry.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Eagle.webp",
       },
       {
         name: "Killamari Tentacle",
         quantity: 2,
-        image: require("../assets/images/items/killamari-tentacle.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_NegativeOctopus.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_NegativeOctopus.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 2,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -1713,37 +2760,42 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Extremely valuable elixir that permanently raises Stamina when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/stamina-elixir.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_stamina_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_stamina_02.webp",
     recipe: [
       {
         name: "Stamina Lotus (L)",
         quantity: 6,
-        image: require("../assets/images/items/stamina-lotus-(l).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_stamina_02.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_stamina_02.webp",
       },
       {
         name: "Reindrix Venison",
         quantity: 3,
-        image: require("../assets/images/items/reindrix-venison.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_IceDeer.webp",
       },
       {
         name: "Caprity Meat",
         quantity: 2,
-        image: require("../assets/images/items/caprity-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_BerryGoat.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 2,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -1772,37 +2824,42 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Extremely valuable elixir that permanently raises Attack when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/might-elixir.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_attack_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_attack_02.webp",
     recipe: [
       {
         name: "Power Lotus (L)",
         quantity: 6,
-        image: require("../assets/images/items/power-lotus-(l).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_attack_02.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_attack_02.webp",
       },
       {
         name: "Mammorest Meat",
         quantity: 3,
-        image: require("../assets/images/items/mammorest-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_GrassMammoth.webp",
       },
       {
         name: "Broncherry Meat",
         quantity: 2,
-        image: require("../assets/images/items/broncherry-meat.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SakuraSaurus.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 2,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -1831,37 +2888,42 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Extremely valuable elixir that permanently raises Work Speed when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/speed-elixir.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_workspeed_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_workspeed_02.webp",
     recipe: [
       {
         name: "Speed Lotus (L)",
         quantity: 6,
-        image: require("../assets/images/items/speed-lotus-(l).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_workspeed_02.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_workspeed_02.webp",
       },
       {
         name: "Dazzi Cloud",
         quantity: 3,
-        image: require("../assets/images/items/dazzi-cloud.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_RaijinDaughter.webp",
       },
       {
         name: "Tocotoco Feather",
         quantity: 2,
-        image: require("../assets/images/items/tocotoco-feather.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_ColorfulBird.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_ColorfulBird.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 2,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -1889,37 +2951,42 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Extremely valuable elixir that permanently raises carrying capacity when consumed.\r\nIneffective when used by Pals.",
-    image: require("../assets/images/consumables/burden-elixir.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Elixir_weight_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Elixir_weight_02.webp",
     recipe: [
       {
         name: "Carrying Lotus (L)",
         quantity: 6,
-        image: require("../assets/images/items/carrying-lotus-(l).png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lotus_weight_02.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lotus_weight_02.webp",
       },
       {
         name: "Leezpunk Crest",
         quantity: 3,
-        image: require("../assets/images/items/leezpunk-crest.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_LizardMan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_LizardMan.webp",
       },
       {
         name: "Raw Dumud",
         quantity: 2,
-        image: require("../assets/images/items/raw-dumud.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_LazyCatfish.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 2,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -1948,10 +3015,27 @@ export const Consumables = [
     rarity: "Uncommon",
     description:
       "Training manual that grants a tiny amount\r\nof EXP when read by a Pal.",
-    image: require("../assets/images/consumables/training-manual-(s).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_ExpBoost_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_ExpBoost_01.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 10,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "ExpBoost_01",
+      IconName: "ExpBoost_01",
+      TypeA: "Consume",
+      TypeB: "ConsumePalGainExp",
+      SortID: 4700,
+      ItemStaticClass: "CommonConsume",
+      SneakAttackRate: 1,
+      FloatValue1: 200,
+    },
     exp: 200,
   },
   {
@@ -1960,10 +3044,27 @@ export const Consumables = [
     rarity: "Rare",
     description:
       "Training manual that grants a small amount\r\nof EXP when read by a Pal.",
-    image: require("../assets/images/consumables/training-manual-(m).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_ExpBoost_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_ExpBoost_02.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 2,
+      "Gold Coin": 10,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "ExpBoost_02",
+      IconName: "ExpBoost_02",
+      TypeA: "Consume",
+      TypeB: "ConsumePalGainExp",
+      SortID: 4701,
+      ItemStaticClass: "CommonConsume",
+      SneakAttackRate: 1,
+      FloatValue1: 1000,
+    },
     exp: 1000,
   },
   {
@@ -1972,10 +3073,27 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Training manual that grants a large amount\r\nof EXP when read by a Pal.",
-    image: require("../assets/images/consumables/training-manual-(l).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_ExpBoost_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_ExpBoost_03.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 3,
+      "Gold Coin": 10,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "ExpBoost_03",
+      IconName: "ExpBoost_03",
+      TypeA: "Consume",
+      TypeB: "ConsumePalGainExp",
+      SortID: 4702,
+      ItemStaticClass: "CommonConsume",
+      SneakAttackRate: 1,
+      FloatValue1: 10000,
+    },
     exp: 10000,
   },
   {
@@ -1984,10 +3102,27 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Training manual that grants a substantial amount\r\nof EXP when read by a Pal.",
-    image: require("../assets/images/consumables/training-manual-(xl).png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_ExpBoost_04.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_ExpBoost_04.webp",
     recipe: [],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Consumable",
+      Rank: 4,
+      "Gold Coin": 10,
+      Weight: "0.1",
+      MaxStackCount: 9999,
+      Code: "ExpBoost_04",
+      IconName: "ExpBoost_04",
+      TypeA: "Consume",
+      TypeB: "ConsumePalGainExp",
+      SortID: 4703,
+      ItemStaticClass: "CommonConsume",
+      SneakAttackRate: 1,
+      FloatValue1: 100000,
+    },
     exp: 100000,
   },
   {
@@ -1996,9 +3131,10 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Strange crystal that when given to a Pal\r\nraises its level by one.",
-    image: require("../assets/images/consumables/training-crystal.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_LvUP_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_LvUP_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2023,9 +3159,10 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Precious fruit that is extremely difficult to obtain.\r\nSlightly increases a Pal's Health.",
-    image: require("../assets/images/consumables/life-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Fruit_hp_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Fruit_hp_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2053,9 +3190,10 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Precious fruit that is extremely difficult to obtain.\r\nSlightly increases a Pal's Attack.",
-    image: require("../assets/images/consumables/power-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Fruit_attack_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Fruit_attack_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2083,9 +3221,10 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Precious fruit that is extremely difficult to obtain.\r\nSlightly increases a Pal's Defense.",
-    image: require("../assets/images/consumables/stout-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Fruit__defense_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Fruit__defense_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2113,30 +3252,34 @@ export const Consumables = [
     rarity: "Uncommon",
     description:
       "Transports you to the nearest base.\r\nCannot be used in dungeons and other similar locations.",
-    image: require("../assets/images/consumables/homeward-thundercloud.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_Homeward.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_Homeward.webp",
     recipe: [
       {
         name: "Dazzi Cloud",
         quantity: 1,
-        image: require("../assets/images/items/dazzi-cloud.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalItem_RaijinDaughter.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalItem_RaijinDaughter.webp",
       },
       {
         name: "Electric Organ",
         quantity: 5,
-        image: require("../assets/images/items/electric-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectricOrgan.webp",
       },
       {
         name: "Ancient Civilization Parts",
         quantity: 2,
-        image: require("../assets/images/items/ancient-civilization-parts.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalCrystal_Ex.webp",
       },
     ],
     stats: {
@@ -2158,14 +3301,14 @@ export const Consumables = [
   },
   {
     id: 92,
-    name: "Concentrated All-Pupose Pal Extract",
+    name: "Concentrated All-Purpose Pal Extract",
     rarity: "Legendary",
     description:
       "A mysterious extract that can be injected into pals to unlock their potential.\r\nRaises Pal's rank by one.\r\nFor some reason, a resentful voice can be heard from within...",
-    image:
-      require("../assets/images/consumables/concentrated-all-pupose-pal-extract.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Rankup_Arbitrary.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Rankup_Arbitrary.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2187,19 +3330,33 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Slab overflowing with Bellanoir Libero's energy.\r\nOffer to a Summoning Altar\r\nto summon an inconceivably powerful (Lv ??) Bellanoir Libero.",
-    image: require("../assets/images/consumables/bellanoir-libero-(ultra)-slab.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalSummon_NightLady_Dark_2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalSummon_NightLady_Dark_2.webp",
     recipe: [
       {
         name: "Bellanoir Libero (Ultra) Slab Fragment",
         quantity: 4,
-        image:
-          require("../assets/images/items/bellanoir-libero-(ultra)-slab-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Blueprint_PalSummon_NightLady_Dark_Parts_2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Blueprint_PalSummon_NightLady_Dark_Parts_2.webp",
       },
     ],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1,
+      Weight: 1,
+      MaxStackCount: 9999,
+      Code: "PalSummon_NightLady_Dark_2",
+      IconName: "PalSummon_NightLady_Dark_2",
+      TypeA: "Consume",
+      TypeB: "ConsumeOther",
+      SortID: 8105,
+    },
   },
   {
     id: 94,
@@ -2207,16 +3364,18 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Slab depicting Blazamut Ryu.\r\nOffer to a Summoning Altar\r\nto summon a very powerful Lv 55 Blazamut Ryu.",
-    image: require("../assets/images/consumables/blazamut-ryu-slab.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalSummon_KingBahamut_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalSummon_KingBahamut_Dragon.webp",
     recipe: [
       {
         name: "Blazamut Ryu Slab Fragment",
         quantity: 4,
-        image: require("../assets/images/items/blazamut-ryu-slab-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Blueprint_PalSummon_KingBahamut_Dragon_Parts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Blueprint_PalSummon_KingBahamut_Dragon_Parts.webp",
       },
     ],
     stats: {
@@ -2239,230 +3398,621 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Slab overflowing with energy of Blazamut Ryu.\r\nOffer to a Summoning Altar\r\nto summon an inconceivably powerful (Lv ??) Blazamut Ryu.",
-    image: require("../assets/images/consumables/blazamut-ryu-(ultra)-slab.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalSummon_KingBahamut_Dragon_2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalSummon_KingBahamut_Dragon_2.webp",
     recipe: [
       {
         name: "Blazamut Ryu (Ultra) Slab Fragment",
         quantity: 4,
-        image: require("../assets/images/items/blazamut-ryu-(ultra)-slab-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Blueprint_PalSummon_KingBahamut_Dragon_Parts_2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Blueprint_PalSummon_KingBahamut_Dragon_Parts_2.webp",
       },
     ],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1,
+      Weight: 1,
+      MaxStackCount: 9999,
+      Code: "PalSummon_KingBahamut_Dragon_2",
+      IconName: "PalSummon_KingBahamut_Dragon_2",
+      TypeA: "Consume",
+      TypeB: "ConsumeOther",
+      SortID: 8106,
+    },
   },
   {
     id: 96,
     name: "Skill Fruit: Air Blade",
     rarity: "Uncommon",
     description: "Use on a Pal to teach \r\nAir Blade.",
-    image: require("../assets/images/consumables/skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Neutral.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Neutral.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Air Blade",
+      Code: "SkillCard_AirBlade",
+      IconName: "SkillCard_Neutral",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6005,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Neutral",
+      SneakAttackRate: 1,
+      WazaID: "AirBlade",
+    },
   },
   {
     id: 97,
     name: "Grass Skill Fruit: Circle Vine",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nCircle Vine.",
-    image: require("../assets/images/consumables/grass-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Grass.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Circle Vine",
+      Code: "SkillCard_RootLance",
+      IconName: "SkillCard_Grass",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6012,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Grass",
+      SneakAttackRate: 1,
+      WazaID: "RootLance",
+    },
   },
   {
     id: 98,
     name: "Grass Skill Fruit: Multicutter",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nMulticutter.",
-    image: require("../assets/images/consumables/grass-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Grass.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Grass.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Multicutter",
+      Code: "SkillCard_SpecialCutter",
+      IconName: "SkillCard_Grass",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6013,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Grass",
+      SneakAttackRate: 1,
+      WazaID: "SpecialCutter",
+    },
   },
   {
     id: 99,
     name: "Water Skill Fruit: Splash",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nSplash.",
-    image: require("../assets/images/consumables/water-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Water.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Splash",
+      Code: "SkillCard_LineGeyser",
+      IconName: "SkillCard_Water",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6020,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Water",
+      SneakAttackRate: 1,
+      WazaID: "LineGeyser",
+    },
   },
   {
     id: 100,
     name: "Water Skill Fruit: Wall Splash",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nCurtain Splash.",
-    image: require("../assets/images/consumables/water-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Water.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Water.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Curtain Splash",
+      Code: "SkillCard_WallSplash",
+      IconName: "SkillCard_Water",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6021,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Water",
+      SneakAttackRate: 1,
+      WazaID: "WallSplash",
+    },
   },
   {
     id: 101,
     name: "Fire Skill Fruit: Flame Wall",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nFlame Wall.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Flame Wall",
+      Code: "SkillCard_FlameWall",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6029,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "FlameWall",
+    },
   },
   {
     id: 102,
     name: "Fire Skill Fruit: Volcanic Rain",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nVolcanic Rain.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Volcanic Rain",
+      Code: "SkillCard_Eruption",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6030,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "Eruption",
+    },
   },
   {
     id: 103,
     name: "Electric Skill Fruit: TriSpark",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nTriSpark.",
-    image: require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "TriSpark",
+      Code: "SkillCard_TriSpark",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6040,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "TriSpark",
+    },
   },
   {
     id: 104,
     name: "Electric Skill Fruit: Thunder Rain",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nThunder Rain.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Thunder Rain",
+      Code: "SkillCard_ThunderRain",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6041,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "ThunderRain",
+    },
   },
   {
     id: 105,
     name: "Electric Skill Fruit: Thunderstorm",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nThunderstorm.",
-    image:
-      require("../assets/images/consumables/electric-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Electric.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Electric.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Thunderstorm",
+      Code: "SkillCard_ThunderStorm",
+      IconName: "SkillCard_Electric",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6042,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Electric",
+      SneakAttackRate: 1,
+      WazaID: "ThunderStorm",
+    },
   },
   {
     id: 106,
     name: "Earth Skill Fruit: Rockburst",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nRockburst.",
-    image: require("../assets/images/consumables/earth-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Earth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Earth.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Rockburst",
+      Code: "SkillCard_Tremor",
+      IconName: "SkillCard_Earth",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6048,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Earth",
+      SneakAttackRate: 1,
+      WazaID: "Tremor",
+    },
   },
   {
     id: 107,
     name: "Earth Skill Fruit: Sand Twister",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nSand Twister.",
-    image: require("../assets/images/consumables/earth-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Earth.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Earth.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Sand Twister",
+      Code: "SkillCard_SandTwister",
+      IconName: "SkillCard_Earth",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6049,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Earth",
+      SneakAttackRate: 1,
+      WazaID: "SandTwister",
+    },
   },
   {
     id: 108,
     name: "Ice Skill Fruit: Icicle Line",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nIcicle Line.",
-    image: require("../assets/images/consumables/ice-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Frost.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Frost.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Icicle Line",
+      Code: "SkillCard_IcicleLine",
+      IconName: "SkillCard_Frost",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6055,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Frost",
+      SneakAttackRate: 1,
+      WazaID: "IcicleLine",
+    },
   },
   {
     id: 109,
     name: "Ice Skill Fruit: Diamond Rain",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nDiamond Rain.",
-    image: require("../assets/images/consumables/ice-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Frost.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Frost.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Diamond Rain",
+      Code: "SkillCard_DiamondFall",
+      IconName: "SkillCard_Frost",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6056,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Frost",
+      SneakAttackRate: 1,
+      WazaID: "DiamondFall",
+    },
   },
   {
     id: 110,
     name: "Dark Skill Fruit: Dark Cannon",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nDark Cannon.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Dark Cannon",
+      Code: "SkillCard_DarkCanon",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6063,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "DarkCanon",
+    },
   },
   {
     id: 111,
     name: "Dark Skill Fruit: Dark Arrow",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nDark Arrow.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Dark Arrow",
+      Code: "SkillCard_DarkArrow",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6064,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "DarkArrow",
+    },
   },
   {
     id: 112,
     name: "Dark Skill Fruit: Umbral Surge",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nUmbral Surge.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Umbral Surge",
+      Code: "SkillCard_DarkPulse",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6065,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "DarkPulse",
+    },
   },
   {
     id: 113,
     name: "Dark Skill Fruit: Apocalypse",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nApocalypse.",
-    image: require("../assets/images/consumables/dark-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dark.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dark.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Apocalypse",
+      Code: "SkillCard_Apocalypse",
+      IconName: "SkillCard_Dark",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6066,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dark",
+      SneakAttackRate: 1,
+      WazaID: "Apocalypse",
+    },
   },
   {
     id: 114,
     name: "Dragon Skill Fruit: Beam Slicer",
     rarity: "Epic",
     description: "Use on a Pal to teach\r\nBeam Slicer.",
-    image: require("../assets/images/consumables/dragon-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dragon.webp",
     recipe: [],
+    stats: {
+      Rarity: "Epic",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 4000,
+      MaxStackCount: 9999,
+      Waza: "Beam Slicer",
+      Code: "SkillCard_BeamSlicer",
+      IconName: "SkillCard_Dragon",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6071,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dragon",
+      SneakAttackRate: 1,
+      WazaID: "BeamSlicer",
+    },
   },
   {
     id: 115,
     name: "Dragon Skill Fruit: Comet",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nComet Strike.",
-    image: require("../assets/images/consumables/dragon-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dragon.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 4000,
+      MaxStackCount: 9999,
+      Waza: "Comet Strike",
+      Code: "SkillCard_Commet",
+      IconName: "SkillCard_Dragon",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6072,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dragon",
+      SneakAttackRate: 1,
+      WazaID: "Commet",
+    },
   },
   {
     id: 116,
     name: "Dragon Skill Fruit: Blast Cannon",
     rarity: "Rare",
     description: "Use on a Pal to teach\r\nBlast Cannon.",
-    image: require("../assets/images/consumables/dragon-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Dragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Dragon.webp",
     recipe: [],
+    stats: {
+      Rarity: "Rare",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 4000,
+      MaxStackCount: 9999,
+      Waza: "Blast Cannon",
+      Code: "SkillCard_BlastCanon",
+      IconName: "SkillCard_Dragon",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6073,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Dragon",
+      SneakAttackRate: 1,
+      WazaID: "BlastCanon",
+    },
   },
   {
     id: 117,
@@ -2470,44 +4020,50 @@ export const Consumables = [
     rarity: "Common",
     description:
       "Mushroom juice known for its incredibly uplifting effect.\r\nDrinking it greatly boosts work speed for a period of time, \r\nbut drastically decreases SAN value.",
-    image: require("../assets/images/consumables/mysterious-mushroom-juice.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_MushroomJuice.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_MushroomJuice.webp",
     recipe: [
       {
         name: "Mysterious Mushroom",
         quantity: 20,
-        image: require("../assets/images/items/mysterious-mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_PoisonMushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_PoisonMushroom.webp",
       },
       {
         name: "Beautiful Flower",
         quantity: 10,
-        image: require("../assets/images/items/beautiful-flower.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Poppy.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Poppy.webp",
       },
       {
         name: "Horn",
         quantity: 10,
-        image: require("../assets/images/items/horn.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Horn.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Horn.webp",
       },
       {
         name: "Bone",
         quantity: 5,
-        image: require("../assets/images/items/bone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Bone.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 5,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -2530,6 +4086,7 @@ export const Consumables = [
     Nutrition: 1,
     san: 80,
     stamina_work: 600,
+    san_resist: -100000,
     recovery_time: 10,
   },
   {
@@ -2537,20 +4094,56 @@ export const Consumables = [
     name: "Skill Fruit: Holy Burst",
     rarity: "Uncommon",
     description: "Use on a Pal to teach \r\nHoly Burst.",
-    image: require("../assets/images/consumables/skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Neutral.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Neutral.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Holy Burst",
+      Code: "SkillCard_HolyBlast",
+      IconName: "SkillCard_Neutral",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6053,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Neutral",
+      SneakAttackRate: 1,
+      WazaID: "HolyBlast",
+    },
   },
   {
     id: 119,
     name: "Fire Skill Fruit: Flame Funnel",
     rarity: "Uncommon",
     description: "Use on a Pal to teach\r\nFlame Funnel.",
-    image: require("../assets/images/consumables/fire-skill-fruit.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_SkillCard_Flame.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_SkillCard_Flame.webp",
     recipe: [],
+    stats: {
+      Rarity: "Uncommon",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1000,
+      MaxStackCount: 9999,
+      Waza: "Flame Funnel",
+      Code: "SkillCard_FlameFunnel",
+      IconName: "SkillCard_Flame",
+      TypeA: "Consume",
+      TypeB: "ConsumeWazaMachine",
+      SortID: 6058,
+      ItemStaticClass: "CommonConsume",
+      VisualBlueprintClassName: "BP_Item_SkillFruits_Flame",
+      SneakAttackRate: 1,
+      WazaID: "FlameFunnel",
+    },
   },
   {
     id: 120,
@@ -2558,16 +4151,18 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Slab depicting Xenolord.\r\nOffer to a Summoning Altar\r\nto summon an exceptionally powerful Lv 60 Xenolord.",
-    image: require("../assets/images/consumables/xenolord-slab.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalSummon_DarkMechaDragon.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalSummon_DarkMechaDragon.webp",
     recipe: [
       {
         name: "Xenolord Slab Fragment",
         quantity: 4,
-        image: require("../assets/images/items/xenolord-slab-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Blueprint_PalSummon_DarkMechaDragon_Parts.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Blueprint_PalSummon_DarkMechaDragon_Parts.webp",
       },
     ],
     stats: {
@@ -2590,44 +4185,50 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "A potion that revives a Pal that has been injured and is unable to move.",
-    image: require("../assets/images/consumables/revival-potion.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalRevive.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalRevive.webp",
     recipe: [
       {
         name: "Cavern Mushroom",
         quantity: 30,
-        image: require("../assets/images/items/cavern-mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
         quantity: 50,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 20,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Cotton Candy",
         quantity: 10,
-        image: require("../assets/images/items/cotton-candy.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
       },
       {
         name: "Sulfur",
         quantity: 20,
-        image: require("../assets/images/items/sulfur.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Sulfur.webp",
       },
     ],
     stats: {
@@ -2652,18 +4253,33 @@ export const Consumables = [
     rarity: "Legendary",
     description:
       "Slab depicting Xenolord.\r\nOffer to a Summoning Altar\r\nto summon an exceptionally powerful Lv ?? Xenolord.",
-    image: require("../assets/images/consumables/xenolord-(ultra)-slab.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalSummon_DarkMechaDragon_2.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalSummon_DarkMechaDragon_2.webp",
     recipe: [
       {
         name: "Xenolord (Ultra) Slab Fragment",
         quantity: 4,
-        image: require("../assets/images/items/xenolord-(ultra)-slab-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Blueprint_PalSummon_DarkMechaDragon_Parts_2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Blueprint_PalSummon_DarkMechaDragon_Parts_2.webp",
       },
     ],
+    stats: {
+      Rarity: "Legendary",
+      Type: "Consumable",
+      Rank: 1,
+      "Gold Coin": 1,
+      Weight: 1,
+      MaxStackCount: 9999,
+      Code: "PalSummon_DarkMechaDragon_2",
+      IconName: "PalSummon_DarkMechaDragon_2",
+      TypeA: "Consume",
+      TypeB: "ConsumeOther",
+      SortID: 8107,
+    },
   },
   {
     id: 123,
@@ -2671,44 +4287,50 @@ export const Consumables = [
     rarity: "Epic",
     description:
       "Medicine that heals wounds over time.\r\nExtremely high quality, it rapidly restores HP before your eyes.",
-    image: require("../assets/images/consumables/advanced-recovery-meds.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Potion_Extreme.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Food_Potion_Extreme.webp",
     recipe: [
       {
         name: "Cavern Mushroom",
         quantity: 15,
-        image: require("../assets/images/items/cavern-mushroom.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
         quantity: 30,
-        image: require("../assets/images/items/red-berries.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 10,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
       {
         name: "Cotton Candy",
         quantity: 7,
-        image: require("../assets/images/items/cotton-candy.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
       },
       {
         name: "Sulfur",
         quantity: 10,
-        image: require("../assets/images/items/sulfur.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Sulfur.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Sulfur.webp",
       },
     ],
     stats: {
@@ -2734,14 +4356,14 @@ export const Consumables = [
   },
   {
     id: 124,
-    name: "Applied Fire Starting Technique\u2160",
+    name: "Applied Kindling Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Kindling. \r\nAllowing a Pal to read it permanently increases their Kindling affinity by +1.",
-    image:
-      require("../assets/images/consumables/applied-fire-starting-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_00.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_00.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2759,13 +4381,14 @@ export const Consumables = [
   },
   {
     id: 125,
-    name: "Applied Watering Technique\u2160",
+    name: "Applied Watering Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Watering. \r\nAllowing a Pal to read it permanently increases their Watering affinity by +1.",
-    image: require("../assets/images/consumables/applied-watering-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_01.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_01.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2783,14 +4406,14 @@ export const Consumables = [
   },
   {
     id: 126,
-    name: "Applied Seed Sowing Technique\u2160",
+    name: "Applied Planting Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Planting. \r\nAllowing a Pal to read it permanently increases their Planting affinity by +1.",
-    image:
-      require("../assets/images/consumables/applied-seed-sowing-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_02.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_02.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2808,14 +4431,14 @@ export const Consumables = [
   },
   {
     id: 127,
-    name: "Applied Power Generation Technique\u2160",
+    name: "Applied Generating Electricity Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Generating Electricity. \r\nAllowing a Pal to read it permanently increases their uiCommon id=|COMMON_WORK_SUITABILITY_GenerateElectricity|/> affinity by +1.",
-    image:
-      require("../assets/images/consumables/applied-power-generation-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_03.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_03.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2833,14 +4456,14 @@ export const Consumables = [
   },
   {
     id: 128,
-    name: "Applied Manual Labor Technique\u2160",
+    name: "Applied Handiwork Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Handiwork. \r\nAllowing a Pal to read it permanently increases their Handiwork affinity by +1.",
-    image:
-      require("../assets/images/consumables/applied-manual-labor-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_04.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_04.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2858,13 +4481,14 @@ export const Consumables = [
   },
   {
     id: 129,
-    name: "Applied Gathering Technique\u2160",
+    name: "Applied Gathering Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Gathering. \r\nAllowing a Pal to read it permanently increases their Gathering affinity by +1.",
-    image: require("../assets/images/consumables/applied-gathering-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_05.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_05.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2882,14 +4506,14 @@ export const Consumables = [
   },
   {
     id: 130,
-    name: "Applied Lumberjack Technique\u2160",
+    name: "Applied LumberingTechnique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Lumbering. \r\nAllowing a Pal to read it permanently increases their Lumbering affinity by +1.",
-    image:
-      require("../assets/images/consumables/applied-lumberjack-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_06.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_06.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2907,13 +4531,14 @@ export const Consumables = [
   },
   {
     id: 131,
-    name: "Applied Mining Technique\u2160",
+    name: "Applied Mining Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Mining. \r\nAllowing a Pal to read it permanently increases their Mining affinity by +1.",
-    image: require("../assets/images/consumables/applied-mining-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_07.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_07.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2931,14 +4556,14 @@ export const Consumables = [
   },
   {
     id: 132,
-    name: "Applied Pharmacology Technique\u2160",
+    name: "Applied Medicine Production Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Medicine Production. \r\nAllowing a Pal to read it permanently increases their Medicine Production affinity by +1.",
-    image:
-      require("../assets/images/consumables/applied-pharmacology-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_08.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_08.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2956,13 +4581,14 @@ export const Consumables = [
   },
   {
     id: 133,
-    name: "Applied Cooling Technique\u2160",
+    name: "Applied Cooling Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Cooling. \r\nAllowing a Pal to read it permanently increases their Cooling  affinity by +1.",
-    image: require("../assets/images/consumables/applied-cooling-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_10.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_10.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",
@@ -2980,14 +4606,14 @@ export const Consumables = [
   },
   {
     id: 134,
-    name: "Applied Transportation Technique\u2160",
+    name: "Applied Transporting Technique \u2160",
     rarity: "Legendary",
     description:
       "A rare book written about the secrets of Transporting. \r\nAllowing a Pal to read it permanently increases their Transporting affinity by +1.",
-    image:
-      require("../assets/images/consumables/applied-transportation-technique\u2170.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_PalWorkLvUp_11.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/consumable/T_itemicon_Consume_PalWorkLvUp_11.webp",
     recipe: [],
     stats: {
       Rarity: "Legendary",

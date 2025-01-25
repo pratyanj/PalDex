@@ -48,7 +48,7 @@ export default function IngredientScreen() {
         >
             <ItemCard
                 name={item.name}
-                img={item.image}
+                img={item.image_github_url}
                 type={item.stats ? item.stats["Gold Coin"] : 0}
                 rarity={item.rarity}
                 actColor={actColor}

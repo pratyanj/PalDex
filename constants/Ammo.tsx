@@ -4,23 +4,26 @@ export const Ammo = [
     name: "Arrow",
     rarity: "Common",
     description: "An Arrow for use with a bow.",
-    image: require("../assets/images/ammo/arrow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_Arrow.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 1,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 1,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -46,30 +49,34 @@ export const Ammo = [
     rarity: "Common",
     description:
       "Arrows for shooting with Poison Bow and Poison Arrow Crossbow.\r\nIt poisons any target it hits.",
-    image: require("../assets/images/ammo/poison-arrow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Poison.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_Arrow_Poison.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 3,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 3,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Venom Gland",
         quantity: 1,
-        image: require("../assets/images/items/venom-gland.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Venom.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Venom.webp",
       },
     ],
     stats: {
@@ -95,30 +102,34 @@ export const Ammo = [
     rarity: "Common",
     description:
       "Arrows for shooting with Fire Bow and Fire Arrow Crossbow.\r\nDeals Fire damage.",
-    image: require("../assets/images/ammo/fire-arrow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Fire.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_Arrow_Fire.webp",
     recipe: [
       {
         name: "Wood",
         quantity: 3,
-        image: require("../assets/images/items/wood.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Wood.webp",
       },
       {
         name: "Stone",
         quantity: 3,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
       {
         name: "Flame Organ",
         quantity: 1,
-        image: require("../assets/images/items/flame-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_FireOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_FireOrgan.webp",
       },
     ],
     stats: {
@@ -143,23 +154,26 @@ export const Ammo = [
     name: "Rocket Ammo",
     rarity: "Common",
     description: "Ammo for the Rocket Launcher and other similar weapons.",
-    image: require("../assets/images/ammo/rocket-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ExplosiveBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_ExplosiveBullet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 1,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Gunpowder",
         quantity: 5,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -184,23 +198,26 @@ export const Ammo = [
     name: "Energy Cartridge",
     rarity: "Common",
     description: "Ammo used by the Laser Rifle and similar weapons.",
-    image: require("../assets/images/ammo/energy-cartridge.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_LaserBullet.webp",
     recipe: [
       {
         name: "Electric Organ",
         quantity: 5,
-        image: require("../assets/images/items/electric-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectricOrgan.webp",
       },
       {
         name: "Pal Metal Ingot",
         quantity: 1,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
     ],
     stats: {
@@ -225,23 +242,26 @@ export const Ammo = [
     rarity: "Common",
     description:
       "Ammo for Decal Guns.\r\nUses ink to paint a picture of a Pal.",
-    image: require("../assets/images/ammo/decal-ink.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_InkBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_InkBullet.webp",
     recipe: [
       {
         name: "Pal Fluids",
         quantity: 1,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
       {
         name: "High Quality Pal Oil",
         quantity: 1,
-        image: require("../assets/images/items/high-quality-pal-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalOil.webp",
       },
     ],
     stats: {
@@ -265,23 +285,26 @@ export const Ammo = [
     name: "Handgun Ammo",
     rarity: "Common",
     description: "Ammo for Handgun and other similar weapons.",
-    image: require("../assets/images/ammo/handgun-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_HandgunBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_HandgunBullet.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 2,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Gunpowder",
         quantity: 1,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -306,23 +329,26 @@ export const Ammo = [
     name: "Rifle Ammo",
     rarity: "Common",
     description: "Ammo for Single-Shot Rifle and other similar weapons.",
-    image: require("../assets/images/ammo/rifle-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RifleBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_RifleBullet.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 1,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Gunpowder",
         quantity: 2,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -347,23 +373,26 @@ export const Ammo = [
     name: "Shotgun Shell",
     rarity: "Common",
     description: "Ammo for shotguns and other similar weapons.",
-    image: require("../assets/images/ammo/shotgun-shell.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ShotgunBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_ShotgunBullet.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 1,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Gunpowder",
         quantity: 3,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -389,23 +418,26 @@ export const Ammo = [
     rarity: "Common",
     description:
       "Ammo for Musket, Makeshift Handgun, and other similar weapons.",
-    image: require("../assets/images/ammo/coarse-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RoughBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_RoughBullet.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 2,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Gunpowder",
         quantity: 1,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -430,23 +462,26 @@ export const Ammo = [
     name: "Assault Rifle Ammo",
     rarity: "Common",
     description: "Ammo for Assault Rifle and other similar weapons.",
-    image: require("../assets/images/ammo/assault-rifle-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_AssaultRifleBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_AssaultRifleBullet.webp",
     recipe: [
       {
         name: "Refined Ingot",
         quantity: 1,
-        image: require("../assets/images/items/refined-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_IronIngot.webp",
       },
       {
         name: "Gunpowder",
         quantity: 2,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -472,16 +507,18 @@ export const Ammo = [
     rarity: "Common",
     description:
       "Flamethrower fuel.\r\nAmmo for the Flamethrower and similar weapons.",
-    image: require("../assets/images/ammo/flamethrower-fuel.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_FlamethrowerBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_FlamethrowerBullet.webp",
     recipe: [
       {
         name: "Crude Oil",
         quantity: 1,
-        image: require("../assets/images/items/crude-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CrudeOil.webp",
       },
     ],
     stats: {
@@ -505,37 +542,42 @@ export const Ammo = [
     name: "Missile Ammo",
     rarity: "Common",
     description: "Ammo for the Guided Missile Launcher and similar weapons.",
-    image: require("../assets/images/ammo/missile-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MissileBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_MissileBullet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 1,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Crude Oil",
         quantity: 1,
-        image: require("../assets/images/items/crude-oil.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CrudeOil.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CrudeOil.webp",
       },
       {
         name: "Circuit Board",
         quantity: 1,
-        image: require("../assets/images/items/circuit-board.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectronicCircuit.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectronicCircuit.webp",
       },
       {
         name: "Pal Fluids",
         quantity: 1,
-        image: require("../assets/images/items/pal-fluids.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalFluid.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_PalFluid.webp",
       },
     ],
     stats: {
@@ -559,30 +601,34 @@ export const Ammo = [
     name: "Grenade Ammo",
     rarity: "Common",
     description: "Ammo for the Grenade Launcher and similar weapons.",
-    image: require("../assets/images/ammo/grenade-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GrenadeBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_GrenadeBullet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 1,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Fiber",
         quantity: 20,
-        image: require("../assets/images/items/fiber.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Fiber.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Fiber.webp",
       },
       {
         name: "Gunpowder",
         quantity: 3,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -606,23 +652,26 @@ export const Ammo = [
     name: "Gatling Gun Ammo",
     rarity: "Common",
     description: "Ammo for the Gatling Gun and similar weapons.",
-    image: require("../assets/images/ammo/gatling-gun-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GatlingBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_GatlingBullet.webp",
     recipe: [
       {
         name: "Pal Metal Ingot",
         quantity: 1,
-        image: require("../assets/images/items/pal-metal-ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StealIngot.webp",
       },
       {
         name: "Gunpowder",
         quantity: 3,
-        image: require("../assets/images/items/gunpowder.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Gunpowder2.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Gunpowder2.webp",
       },
     ],
     stats: {
@@ -646,16 +695,18 @@ export const Ammo = [
     name: "Meteorite Ammo",
     rarity: "Common",
     description: "Ammo for the Meteor Launcher and any similar weapon.",
-    image: require("../assets/images/ammo/meteorite-ammo.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MeteorBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_MeteorBullet.webp",
     recipe: [
       {
         name: "Meteorite Fragment",
         quantity: 2,
-        image: require("../assets/images/items/meteorite-fragment.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MeteorDrop.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_MeteorDrop.webp",
       },
     ],
     stats: {
@@ -679,23 +730,26 @@ export const Ammo = [
     name: "Plasma Cartridge",
     rarity: "Common",
     description: "Ammo for the Plasma Cannon and any similar weapon.",
-    image: require("../assets/images/ammo/plasma-cartridge.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyLauncherBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_EnergyLauncherBullet.webp",
     recipe: [
       {
         name: "Electric Organ",
         quantity: 10,
-        image: require("../assets/images/items/electric-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectricOrgan.webp",
       },
       {
         name: "Hexolite",
         quantity: 1,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
     ],
     stats: {
@@ -719,23 +773,26 @@ export const Ammo = [
     name: "Laser Gatling Cartridge",
     rarity: "Common",
     description: "Ammo for the Laser Gatling Gun and any similar weapon.",
-    image: require("../assets/images/ammo/laser-gatling-cartridge.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserGatlingBullet.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_LaserGatlingBullet.webp",
     recipe: [
       {
         name: "Electric Organ",
         quantity: 5,
-        image: require("../assets/images/items/electric-organ.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_ElectricOrgan.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_ElectricOrgan.webp",
       },
       {
         name: "Plasteel",
         quantity: 1,
-        image: require("../assets/images/items/plasteel.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Plastic.webp",
       },
     ],
     stats: {
@@ -759,23 +816,26 @@ export const Ammo = [
     name: "Reinforced Arrow",
     rarity: "Common",
     description: "Enhanced arrows designed for use with the Compound Bow.",
-    image: require("../assets/images/ammo/reinforced-arrow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ReinforcedArrow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_ReinforcedArrow.webp",
     recipe: [
       {
         name: "Ingot",
         quantity: 1,
-        image: require("../assets/images/items/ingot.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_CopperIngot.webp",
       },
       {
         name: "Stone",
         quantity: 2,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
@@ -800,23 +860,26 @@ export const Ammo = [
     rarity: "Common",
     description:
       "Arrows made of Hexolite material, designed for use with the Advanced Bow.",
-    image: require("../assets/images/ammo/advanced-arrow.png"),
     image_url:
       "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SFArrow.webp",
+    image_github_url:
+      "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ammos/T_itemicon_Ammo_SFArrow.webp",
     recipe: [
       {
         name: "Hexolite",
         quantity: 1,
-        image: require("../assets/images/items/hexolite.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_StainlessSteel.webp",
       },
       {
         name: "Stone",
         quantity: 10,
-        image: require("../assets/images/items/stone.png"),
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        image_github_url:
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Stone.webp",
       },
     ],
     stats: {
