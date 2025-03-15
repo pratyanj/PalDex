@@ -22,14 +22,14 @@ export default function Inventory() {
   ];
   const inventory: { name: string, path: any ,image?: any }[] = [
     { name: "Weapon", path: '/inventory/Weapon/WeaponScreen',image: require('../../assets/images/background/weaponBG.png') },
-    { name: "Spheres", path: '/inventory/SphereScreen' ,image: require('../../assets/images/background/sphereBG.png')},
-    { name: "Sphere Modules", path: '/inventory/SphereModuleScreen',image: require('../../assets/images/background/sphereModule.png') },
-    { name: "Armor", path: "/inventory/ArmorScreen",image: require('../../assets/images/background/armorBG.png') },
-    { name: "Accessory", path: "/inventory/AccessoryScreen" ,image: require('../../assets/images/background/accessoryBG.png')},
-    { name: "Materials", path: "/inventory/MaterialScreen",image: require('../../assets/images/background/materialsBG.png') },
-    { name: "Consumables", path: "/inventory/ConsumableScreen",image: require('../../assets/images/background/consumableBG.png') },
-    { name: "Ammo", path: "/inventory/AmmoScreen",image: require('../../assets/images/background/ammoBG.png') },
-    { name: "Ingredients", path: "/inventory/IngredientScreen",image: require('../../assets/images/background/ingredientBG.png') },
+    { name: "Armor", path: "/inventory/Armor/ArmorScreen",image: require('../../assets/images/background/armorBG.png') },
+    { name: "Spheres", path: '/inventory/Sphere/SphereScreen' ,image: require('../../assets/images/background/sphereBG.png')},
+    { name: "Sphere Modules", path: '/inventory/SphereModule/SphereModuleScreen',image: require('../../assets/images/background/sphereModule.png') },
+    { name: "Accessory", path: "/inventory/Accessory/AccessoryScreen" ,image: require('../../assets/images/background/accessoryBG.png')},
+    { name: "Ammo", path: "/inventory/Ammo/AmmoScreen",image: require('../../assets/images/background/ammoBG.png') },
+    { name: "Materials", path: "/inventory/Material/MaterialScreen",image: require('../../assets/images/background/materialsBG.png') },
+    { name: "Consumables", path: "/inventory/Consumable/ConsumableScreen",image: require('../../assets/images/background/consumableBG.png') },
+    { name: "Ingredients", path: "/inventory/Ingredient/IngredientScreen",image: require('../../assets/images/background/ingredientBG.png') },
   ];
 
   return (
