@@ -48,7 +48,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -88,7 +88,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -193,7 +193,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Wheat.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Wheat.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Wheat.webp",
       },
     ],
     stats: {
@@ -329,7 +329,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -370,7 +370,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Red Berries",
@@ -378,7 +378,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -419,7 +419,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Lettuce.webp",
       },
       {
         name: "Tomato",
@@ -427,7 +427,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Tomato.webp",
       },
     ],
     stats: {
@@ -470,7 +470,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Tomato.webp",
       },
       {
         name: "Egg",
@@ -478,7 +478,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
     ],
     stats: {
@@ -521,7 +521,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Milk",
@@ -529,7 +529,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -572,7 +572,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Red Berries",
@@ -580,7 +580,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -623,7 +623,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Milk",
@@ -631,7 +631,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -674,7 +674,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Egg",
@@ -682,7 +682,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
       {
         name: "Milk",
@@ -690,7 +690,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -733,7 +733,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Red Berries",
@@ -741,7 +741,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Tomato",
@@ -749,7 +749,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Tomato.webp",
       },
       {
         name: "Milk",
@@ -757,7 +757,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -801,7 +801,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Red Berries",
@@ -809,7 +809,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Milk",
@@ -817,7 +817,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
       {
         name: "Egg",
@@ -825,7 +825,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
       {
         name: "Honey",
@@ -833,7 +833,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Honey.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Honey.webp",
       },
     ],
     stats: {
@@ -874,7 +874,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
     ],
     stats: {
@@ -949,7 +949,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Mushroom.webp",
       },
     ],
     stats: {
@@ -1436,7 +1436,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_ChickenPal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_ChickenPal.webp",
       },
     ],
     stats: {
@@ -1477,7 +1477,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SheepBall.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_SheepBall.webp",
       },
     ],
     stats: {
@@ -1517,7 +1517,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Kelpie.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Kelpie.webp",
       },
     ],
     stats: {
@@ -1557,7 +1557,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Eagle.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Eagle.webp",
       },
     ],
     stats: {
@@ -1598,7 +1598,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Boar.webp",
       },
     ],
     stats: {
@@ -1639,7 +1639,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_LazyCatfish.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_LazyCatfish.webp",
       },
     ],
     stats: {
@@ -1680,7 +1680,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Deer.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Deer.webp",
       },
     ],
     stats: {
@@ -1721,7 +1721,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_IceDeer.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_IceDeer.webp",
       },
     ],
     stats: {
@@ -1762,7 +1762,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_BerryGoat.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_BerryGoat.webp",
       },
     ],
     stats: {
@@ -1803,7 +1803,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_CowPal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_CowPal.webp",
       },
     ],
     stats: {
@@ -1844,7 +1844,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SakuraSaurus.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_SakuraSaurus.webp",
       },
     ],
     stats: {
@@ -1885,7 +1885,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_GrassMammoth.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_GrassMammoth.webp",
       },
     ],
     stats: {
@@ -1926,7 +1926,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_ChickenPal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_ChickenPal.webp",
       },
       {
         name: "Red Berries",
@@ -1934,7 +1934,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -1977,7 +1977,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SheepBall.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_SheepBall.webp",
       },
       {
         name: "Red Berries",
@@ -1985,7 +1985,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -2028,7 +2028,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SheepBall.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SheepBall.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_SheepBall.webp",
       },
       {
         name: "Lettuce",
@@ -2036,7 +2036,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Lettuce.webp",
       },
     ],
     stats: {
@@ -2080,7 +2080,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Eagle.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Eagle.webp",
       },
       {
         name: "Red Berries",
@@ -2088,7 +2088,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -2131,7 +2131,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Boar.webp",
       },
       {
         name: "Egg",
@@ -2139,7 +2139,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
     ],
     stats: {
@@ -2182,7 +2182,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_IceDeer.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_IceDeer.webp",
       },
       {
         name: "Tomato",
@@ -2190,7 +2190,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Tomato.webp",
       },
     ],
     stats: {
@@ -2233,7 +2233,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_ChickenPal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_ChickenPal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_ChickenPal.webp",
       },
       {
         name: "Flour",
@@ -2241,7 +2241,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Egg",
@@ -2249,7 +2249,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -2301,7 +2301,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Boar.webp",
       },
       {
         name: "Flour",
@@ -2309,7 +2309,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Lettuce",
@@ -2317,7 +2317,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Lettuce.webp",
       },
     ],
     stats: {
@@ -2360,7 +2360,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Deer.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Deer.webp",
       },
       {
         name: "Red Berries",
@@ -2368,7 +2368,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Egg",
@@ -2376,7 +2376,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
     ],
     stats: {
@@ -2419,7 +2419,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Deer.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Deer.webp",
       },
       {
         name: "Mushroom",
@@ -2427,7 +2427,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Milk",
@@ -2435,7 +2435,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -2478,7 +2478,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_CowPal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_CowPal.webp",
       },
       {
         name: "Flour",
@@ -2486,7 +2486,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Lettuce",
@@ -2494,7 +2494,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Lettuce.webp",
       },
     ],
     stats: {
@@ -2538,7 +2538,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_CowPal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_CowPal.webp",
       },
       {
         name: "Flour",
@@ -2546,7 +2546,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Tomato",
@@ -2554,7 +2554,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Tomato.webp",
       },
       {
         name: "Milk",
@@ -2562,7 +2562,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {
@@ -2606,7 +2606,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Kelpie.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Kelpie.webp",
       },
       {
         name: "Flour",
@@ -2614,7 +2614,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Egg",
@@ -2622,7 +2622,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -2674,7 +2674,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_LazyCatfish.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_LazyCatfish.webp",
       },
       {
         name: "Lettuce",
@@ -2682,7 +2682,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Lettuce.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Lettuce.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Lettuce.webp",
       },
       {
         name: "Tomato",
@@ -2690,7 +2690,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Tomato.webp",
       },
     ],
     stats: {
@@ -2895,7 +2895,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Boar.webp",
       },
       {
         name: "Mushroom",
@@ -2903,7 +2903,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Flour",
@@ -2911,7 +2911,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -3058,7 +3058,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SakuraSaurus.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_SakuraSaurus.webp",
       },
       {
         name: "Onion",
@@ -3082,7 +3082,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -3133,7 +3133,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Flour",
@@ -3141,7 +3141,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -3185,7 +3185,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
       {
         name: "Potato",
@@ -3201,7 +3201,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
     ],
     stats: {
@@ -3245,7 +3245,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Tomato.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Tomato.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Tomato.webp",
       },
       {
         name: "Carrot",
@@ -3312,7 +3312,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_GrassMammoth.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_GrassMammoth.webp",
       },
       {
         name: "Onion",
@@ -3344,7 +3344,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
     ],
     stats: {
@@ -3387,7 +3387,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Eagle.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Eagle.webp",
       },
       {
         name: "Onion",
@@ -3454,7 +3454,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Flour.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Material_Flour.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Material_Flour.webp",
       },
       {
         name: "Mushroom",
@@ -3462,7 +3462,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Mushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Mushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Mushroom.webp",
       },
       {
         name: "Onion",
@@ -3478,7 +3478,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Egg.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Egg.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Egg.webp",
       },
       {
         name: "Milk",
@@ -3486,7 +3486,7 @@ export const Ingredients = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Milk.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Milk.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Milk.webp",
       },
     ],
     stats: {

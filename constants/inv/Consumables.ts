@@ -16,7 +16,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Horn",
@@ -2196,7 +2196,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
@@ -2204,7 +2204,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Pal Fluids",
@@ -2252,7 +2252,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
@@ -2260,7 +2260,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "Pal Fluids",
@@ -2276,7 +2276,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Sweet.webp",
       },
     ],
     stats: {
@@ -2316,7 +2316,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
@@ -2324,7 +2324,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -2340,7 +2340,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Sweet.webp",
       },
       {
         name: "Sulfur",
@@ -2396,7 +2396,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Kelpie.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Kelpie.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Kelpie.webp",
       },
       {
         name: "Gumoss Leaf",
@@ -2460,7 +2460,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Deer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Deer.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Deer.webp",
       },
       {
         name: "Honey",
@@ -2468,7 +2468,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Honey.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Honey.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Honey.webp",
       },
       {
         name: "Pal Fluids",
@@ -2524,7 +2524,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Boar.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Boar.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Boar.webp",
       },
       {
         name: "Mozzarina Meat",
@@ -2532,7 +2532,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_CowPal.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_CowPal.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_CowPal.webp",
       },
       {
         name: "Pal Fluids",
@@ -2659,7 +2659,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Sweet.webp",
       },
       {
         name: "Pal Fluids",
@@ -2715,7 +2715,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_Eagle.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_Eagle.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_Eagle.webp",
       },
       {
         name: "Killamari Tentacle",
@@ -2779,7 +2779,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_IceDeer.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_IceDeer.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_IceDeer.webp",
       },
       {
         name: "Caprity Meat",
@@ -2787,7 +2787,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_BerryGoat.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_BerryGoat.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_BerryGoat.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -2843,7 +2843,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_GrassMammoth.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_GrassMammoth.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_GrassMammoth.webp",
       },
       {
         name: "Broncherry Meat",
@@ -2851,7 +2851,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_SakuraSaurus.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_SakuraSaurus.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_SakuraSaurus.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -2978,7 +2978,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Meat_LazyCatfish.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Meat_LazyCatfish.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Meat_LazyCatfish.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4196,7 +4196,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
@@ -4204,7 +4204,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4220,7 +4220,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Sweet.webp",
       },
       {
         name: "Sulfur",
@@ -4298,7 +4298,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_HealingMushroom.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_HealingMushroom.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_HealingMushroom.webp",
       },
       {
         name: "Red Berries",
@@ -4306,7 +4306,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Berries.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Berries.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Berries.webp",
       },
       {
         name: "High Quality Pal Oil",
@@ -4322,7 +4322,7 @@ export const Consumables = [
         image_url:
           "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Food_Sweet.webp",
         image_github_url:
-          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/materials/T_itemicon_Food_Sweet.webp",
+          "https://raw.githubusercontent.com/pratyanj/palworld-scraper/main/images/ingredients/T_itemicon_Food_Sweet.webp",
       },
       {
         name: "Sulfur",
