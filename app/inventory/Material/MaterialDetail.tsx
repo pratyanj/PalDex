@@ -7,15 +7,15 @@ import {
 } from "react-native";
 import React, { useContext, useEffect } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { Image } from "expo-image";
-import { Materials } from "../../constants/Meterials";
+import { Materials } from "../../../constants/inv/Materials";
 import { useLocalSearchParams } from "expo-router";
 
-import InvHeader from "../../components/inv/Header";
-import { GetRarityColor } from "../../components/inv/GetRarityColor";
-import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { Colors } from "../../../constants/Colors";
+import InvHeader from "../../../components/inv/Header";
+import { GetRarityColor } from "../../../components/inv/GetRarityColor";
+import { CraftingRecipe } from "../../../components/inv/CraftingRecipe";
 
 export default function MaterialDetail() {
   const { theme } = useContext(ThemeContext);
@@ -47,7 +47,7 @@ export default function MaterialDetail() {
     <SafeAreaView
       style={[styles.container, { backgroundColor: actColor.background }]}
     >
-      <InvHeader name="Material" actColor={actColor} path="/inventory/MaterialScreen" />
+      <InvHeader name="Material" actColor={actColor} path="/inventory/Material/MaterialScreen" />
 
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View

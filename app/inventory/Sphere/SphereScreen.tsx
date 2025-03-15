@@ -6,16 +6,14 @@ import {
   TouchableOpacity,
 } from "react-native";
 import React, { useContext } from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
-import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
-import { Image } from "expo-image";
-import { spheres } from "../../constants/spheres";
-import { ItemCard } from "../../components/inv/ItemCard";
-import { ListHeader } from "../../components/inv/ListHeader";
-import { ItemsData } from "../../constants/allItems";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { Colors } from "../../../constants/Colors";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { ItemCard } from "../../../components/inv/ItemCard";
+import { ListHeader } from "../../../components/inv/ListHeader";
+import { spheres } from "../../../constants/inv/spheres";
+
 export default function sphereScreen() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
@@ -37,7 +35,7 @@ export default function sphereScreen() {
               key={index}
               onPress={() =>
                 router.push({
-                  pathname: "/inventory/SphereDetail",
+                  pathname: "/inventory/Sphere/SphereDetail",
                   params: { id: item.id - 1 },
                 })
               }

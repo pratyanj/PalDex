@@ -8,15 +8,15 @@ import {
 } from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
+import { Colors } from "../../../constants/Colors";
+import { ThemeContext } from "../../../constants/ThemeContext";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
 import { Image } from "expo-image";
-import { ListHeader } from "../../components/inv/ListHeader";
-import { ItemsData } from "../../constants/allItems";
-import { Consumables } from "../../constants/Consumables";
-import { ItemCard } from "../../components/inv/ItemCard";
+import { ListHeader } from "../../../components/inv/ListHeader";
+import { ItemsData } from "../../../constants/allItems";
+import { Consumables } from "../../../constants/inv/Consumables";
+import { ItemCard } from "../../../components/inv/ItemCard";
 
 export default function ConsumableScreen() {
     const { theme } = useContext(ThemeContext);
@@ -41,7 +41,7 @@ export default function ConsumableScreen() {
             key={index}
             onPress={() =>
                 router.push({
-                    pathname: "/inventory/ConsumableDetail",
+                    pathname: "/inventory/Consumable/ConsumableDetail",
                     params: { id: item.id - 1 },
                 })
             }

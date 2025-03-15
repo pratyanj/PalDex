@@ -1,24 +1,14 @@
-import {
-    View,
-    Text,
-    StyleSheet,
-    FlatList,
-    TouchableOpacity,
-    TextInput,
-} from "react-native";
+import {View,Text,StyleSheet,FlatList,TouchableOpacity,TextInput,} from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
-import AntDesign from "@expo/vector-icons/AntDesign";
+import { Colors } from "../../../constants/Colors";
+import { ThemeContext } from "../../../constants/ThemeContext";
 import { router } from "expo-router";
-import { Image } from "expo-image";
-import { ListHeader } from "../../components/inv/ListHeader";
-import { ItemsData } from "../../constants/allItems";
-import { Ammo } from "../../constants/Ammo";
-import { ItemCard } from "../../components/inv/ItemCard";
+import { ListHeader } from "../../../components/inv/ListHeader";
+import { Ingredients } from "../../../constants/inv/Ingredients";
+import { ItemCard } from "../../../components/inv/ItemCard";
 
-export default function AmmoScreen() {
+export default function IngredientScreen() {
     const { theme } = useContext(ThemeContext);
     const actColor = Colors[theme.mode];
     const [visibleItems, setVisibleItems] = useState(15);
@@ -28,7 +18,7 @@ export default function AmmoScreen() {
         setSearchQuery(text);
     };
 
-    const filteredItems = Ammo.filter((item) =>
+    const filteredItems = Ingredients.filter((item) =>
         item.name.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
@@ -41,7 +31,7 @@ export default function AmmoScreen() {
             key={index}
             onPress={() =>
                 router.push({
-                    pathname: "/inventory/AmmoDetail",
+                    pathname: "/inventory/Ingredient/IngredientDetail",
                     params: { id: item.id - 1 },
                 })
             }
@@ -60,7 +50,7 @@ export default function AmmoScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Ammo", actColor,"/Inventory")}
+            {ListHeader("Ingredients", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,
@@ -79,7 +69,7 @@ export default function AmmoScreen() {
                 data={filteredItems.slice(0, visibleItems)}
                 renderItem={renderItem}
                 keyExtractor={(item, index) => index.toString()}
-                ListEmptyComponent={<Text style={styles.placeholderText}>No Ammo Found</Text>}
+                ListEmptyComponent={<Text style={styles.placeholderText}>No Ingredients Found</Text>}
                 onEndReached={loadMoreItems}
                 onEndReachedThreshold={0.5}
             />

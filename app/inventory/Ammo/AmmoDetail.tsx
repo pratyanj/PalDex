@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { Image } from "expo-image";
-import { Ammo } from "../../constants/Ammo";
 import { router, useLocalSearchParams } from "expo-router";
-import { CreateStatRow } from "../../components/inv/CreateStatRow";
-import InvHeader from "../../components/inv/Header";
-import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/GetRarityColor";
+import { Colors } from "../../../constants/Colors";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import InvHeader from "../../../components/inv/Header";
+import { CreateStatRow } from "../../../components/inv/CreateStatRow";
+import { CraftingRecipe } from "../../../components/inv/CraftingRecipe";
+import { GetRarityColor } from "../../../components/inv/GetRarityColor";
+import { Ammo } from "../../../constants/inv/Ammo";
 
 export default function AmmoDetail() {
     const { theme } = useContext(ThemeContext);
@@ -92,7 +92,7 @@ export default function AmmoDetail() {
             <InvHeader
                 name="Ammo details"
                 actColor={actColor}
-                path="/inventory/AmmoScreen"
+                path="/inventory/Ammo/AmmoScreen"
             />
 
             <ScrollView contentContainerStyle={styles.scrollView}>

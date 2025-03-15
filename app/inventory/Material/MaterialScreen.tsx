@@ -9,12 +9,12 @@ import {
 } from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { router } from "expo-router";
-import { ListHeader } from "../../components/inv/ListHeader";
-import { ItemCard } from "../../components/inv/ItemCard";
-import { Materials } from "../../constants/Meterials";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { ListHeader } from "../../../components/inv/ListHeader";
+import { ItemCard } from "../../../components/inv/ItemCard";
+import { Colors } from "../../../constants/Colors";
+import { Materials } from "../../../constants/inv/Materials";
 
 export default function MaterialScreen() {
     const { theme } = useContext(ThemeContext);
@@ -42,7 +42,7 @@ export default function MaterialScreen() {
             key={index}
             onPress={() =>
                 router.push({
-                    pathname: "/inventory/MaterialDetail",
+                    pathname: "/inventory/Material/MaterialDetail",
                     params: { id: item.id - 1 },
                 })
             }

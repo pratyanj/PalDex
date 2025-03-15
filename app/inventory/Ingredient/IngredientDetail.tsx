@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { Image } from "expo-image";
-import { Ingredients } from "../../constants/Ingredients";
-import { router, useLocalSearchParams } from "expo-router";
-import { CreateStatRow } from "../../components/inv/CreateStatRow";
-import InvHeader from "../../components/inv/Header";
-import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/GetRarityColor";
+import { useLocalSearchParams } from "expo-router";
+import { Ingredients } from "../../../constants/inv/Ingredients";
+import { Colors } from "../../../constants/Colors";
+import InvHeader from "../../../components/inv/Header";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { CreateStatRow } from "../../../components/inv/CreateStatRow";
+import { CraftingRecipe } from "../../../components/inv/CraftingRecipe";
+import { GetRarityColor } from "../../../components/inv/GetRarityColor";
 
 export default function IngredientDetail() {
     const { theme } = useContext(ThemeContext);
@@ -98,7 +98,7 @@ export default function IngredientDetail() {
             <InvHeader
                 name="Ingredient details"
                 actColor={actColor}
-                path="/inventory/IngredientScreen"
+                path="/inventory/Ingredient/IngredientScreen"
             />
 
             <ScrollView contentContainerStyle={styles.scrollView}>

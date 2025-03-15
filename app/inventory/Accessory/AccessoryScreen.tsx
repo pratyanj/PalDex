@@ -8,17 +8,14 @@ import {
 } from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
-import AntDesign from "@expo/vector-icons/AntDesign";
+import { Colors } from "../../../constants/Colors";
+import { ThemeContext } from "../../../constants/ThemeContext";
 import { router } from "expo-router";
-import { Image } from "expo-image";
-import { ListHeader } from "../../components/inv/ListHeader";
-import { ItemsData } from "../../constants/allItems";
-import { Ingredients } from "../../constants/Ingredients";
-import { ItemCard } from "../../components/inv/ItemCard";
+import { ListHeader } from "../../../components/inv/ListHeader";
+import { ItemCard } from "../../../components/inv/ItemCard";
+import { Accessories } from "../../../constants/inv/accessory";
 
-export default function IngredientScreen() {
+export default function AccessoryScreen() {
     const { theme } = useContext(ThemeContext);
     const actColor = Colors[theme.mode];
     const [visibleItems, setVisibleItems] = useState(15);
@@ -26,9 +23,9 @@ export default function IngredientScreen() {
     const [searchQuery, setSearchQuery] = useState("");
     const handleSearch = (text: string) => {
         setSearchQuery(text);
-    };
+      };
 
-    const filteredItems = Ingredients.filter((item) =>
+    const filteredItems = Accessories.filter((item) =>
         item.name.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
@@ -41,7 +38,7 @@ export default function IngredientScreen() {
             key={index}
             onPress={() =>
                 router.push({
-                    pathname: "/inventory/IngredientDetail",
+                    pathname: "/inventory/Accessory/AccessoryDetail",
                     params: { id: item.id - 1 },
                 })
             }
@@ -49,7 +46,7 @@ export default function IngredientScreen() {
             <ItemCard
                 name={item.name}
                 img={item.image_github_url}
-                type={item.stats ? item.stats["Gold Coin"] : 0}
+                type={item.stats ? item.stats["Gold Coin"] : 123456789}
                 rarity={item.rarity}
                 actColor={actColor}
             />
@@ -60,29 +57,33 @@ export default function IngredientScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Ingredients", actColor,"/Inventory")}
+            {ListHeader("Accessory ", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,
                     {
-                        backgroundColor: actColor.backdrop,
-                        color: actColor.onSurface,
+                    backgroundColor: actColor.backdrop,
+                    color: actColor.onSurface,
                     },
                 ]}
                 placeholder="Search Pal..."
                 placeholderTextColor={actColor.onSurfaceVariant}
                 value={searchQuery}
                 onChangeText={handleSearch}
+                
             />
+
             <FlatList
                 contentContainerStyle={styles.content}
                 data={filteredItems.slice(0, visibleItems)}
                 renderItem={renderItem}
                 keyExtractor={(item, index) => index.toString()}
-                ListEmptyComponent={<Text style={styles.placeholderText}>No Ingredients Found</Text>}
+                ListEmptyComponent={<Text style={styles.placeholderText}>No Armors Found</Text>}
                 onEndReached={loadMoreItems}
                 onEndReachedThreshold={0.5}
             />
+            
+            
         </SafeAreaView>
     );
 }
@@ -109,5 +110,5 @@ const styles = StyleSheet.create({
         fontSize: 16,
         marginHorizontal: 16,
         marginVertical: 10,
-    },
+      },
 });

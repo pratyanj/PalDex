@@ -6,15 +6,15 @@ import {
 } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { Image } from "expo-image";
-import { spheres } from "../../constants/spheres";
 import { router, useLocalSearchParams } from "expo-router";
-import { CreateStatRow } from "../../components/inv/CreateStatRow";
-import InvHeader from "../../components/inv/Header";
-import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/GetRarityColor";
+import { CreateStatRow } from "../../../components/inv/CreateStatRow";
+import { Colors } from "../../../constants/Colors";
+import InvHeader from "../../../components/inv/Header";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { CraftingRecipe } from "../../../components/inv/CraftingRecipe";
+import { GetRarityColor } from "../../../components/inv/GetRarityColor";
+import { spheres } from "../../../constants/inv/spheres";
 
 export default function sphereDetail() {
   const { theme } = useContext(ThemeContext);
@@ -96,7 +96,7 @@ export default function sphereDetail() {
     <SafeAreaView
       style={[styles.container, { backgroundColor: actColor.background }]}
     >
-      <InvHeader name="Sphere details" actColor={actColor} path='/inventory/SphereScreen' />
+      <InvHeader name="Sphere details" actColor={actColor} path='/inventory/Sphere/SphereScreen' />
 
       <ScrollView contentContainerStyle={styles.scrollView}>
         <ItemView 

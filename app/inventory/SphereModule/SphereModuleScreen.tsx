@@ -1,12 +1,12 @@
 import { StyleSheet, ScrollView, TouchableOpacity } from "react-native";
 import React, { useContext } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { router } from "expo-router";
-import { sphereModule } from "../../constants/sphereModules";
-import { ItemCard } from "../../components/inv/ItemCard";
-import { ListHeader } from "../../components/inv/ListHeader";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { ListHeader } from "../../../components/inv/ListHeader";
+import { ItemCard } from "../../../components/inv/ItemCard";
+import { Colors } from "../../../constants/Colors";
+import { sphereModule } from "../../../constants/inv/sphereModules";
 export default function sphereModuleScreen() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
@@ -24,7 +24,7 @@ export default function sphereModuleScreen() {
             key={item.name + index}
             onPress={() =>
               router.push({
-                pathname: "/inventory/SphereModuleDetail",
+                pathname: "/inventory/SphereModule/SphereModuleDetail",
                 params: { id: item.id - 1 },
               })
             }

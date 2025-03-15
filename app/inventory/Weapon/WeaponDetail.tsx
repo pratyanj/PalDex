@@ -9,7 +9,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../../constants/Colors";
 import { ThemeContext } from "../../../constants/ThemeContext";
 import { Image } from "expo-image";
-import { weaponDataSet } from "../../../constants/weapon";
+import { weaponDataSet } from "../../../constants/inv/weapon";
 import { useLocalSearchParams } from "expo-router";
 
 import { CreateStatRow } from "../../../components/inv/CreateStatRow";

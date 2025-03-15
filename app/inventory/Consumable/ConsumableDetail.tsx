@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { Image } from "expo-image";
-import { Consumables } from "../../constants/Consumables";
-import { router, useLocalSearchParams } from "expo-router";
-import { CreateStatRow } from "../../components/inv/CreateStatRow";
-import InvHeader from "../../components/inv/Header";
-import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/GetRarityColor";
+import { useLocalSearchParams } from "expo-router";
+import { Consumables } from "../../../constants/inv/Consumables";
+import { Colors } from "../../../constants/Colors";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import InvHeader from "../../../components/inv/Header";
+import { CreateStatRow } from "../../../components/inv/CreateStatRow";
+import { CraftingRecipe } from "../../../components/inv/CraftingRecipe";
+import { GetRarityColor } from "../../../components/inv/GetRarityColor";
 
 export default function ConsumableDetail() {
     const { theme } = useContext(ThemeContext);
@@ -43,7 +43,7 @@ export default function ConsumableDetail() {
         if (Consumables[Number(consumableID)].stamina_work) {
             setWorkSpeed(true);
         }
-        if (Consumables[Number(consumableID).recovery_time]) {
+        if (Consumables[Number(consumableID)].recovery_time) {
             setRecoveryTime(true);
         }
         if (Consumables[Number(consumableID)].technology_points) {
@@ -69,8 +69,9 @@ export default function ConsumableDetail() {
         }
         if (Consumables[Number(consumableID)].recipe.length > 0) {
             setRecipe(true);
+        }
     };
-}
+
     useEffect(() => {
         dataCheck();
     }, []);
@@ -140,7 +141,7 @@ export default function ConsumableDetail() {
             <InvHeader
                 name="Consumable details"
                 actColor={actColor}
-                path="/inventory/ConsumableScreen"
+                path="/inventory/Consumable/ConsumableScreen"
             />
 
             <ScrollView contentContainerStyle={styles.scrollView}>

@@ -8,27 +8,25 @@ import {
 } from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { router } from "expo-router";
-import { ListHeader } from "../../components/inv/ListHeader";
-import { ItemCard } from "../../components/inv/ItemCard";
-import { Accessories } from "../../constants/accessory";
-
-export default function AccessoryScreen() {
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { ListHeader } from "../../../components/inv/ListHeader";
+import { ItemCard } from "../../../components/inv/ItemCard";
+import { Colors } from "../../../constants/Colors";
+import { Armors } from "../../../constants/inv/Armors";
+export default function ArmorScreen() {
     const { theme } = useContext(ThemeContext);
     const actColor = Colors[theme.mode];
     const [visibleItems, setVisibleItems] = useState(15);
 
     const [searchQuery, setSearchQuery] = useState("");
-    const handleSearch = (text: string) => {
-        setSearchQuery(text);
-      };
-
-    const filteredItems = Accessories.filter((item) =>
-        item.name.toLowerCase().includes(searchQuery.toLowerCase())
-    );
-
+        const handleSearch = (text: string) => {
+            setSearchQuery(text);
+          };
+    
+        const filteredItems = Armors.filter((item) =>
+            item.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
     const loadMoreItems = () => {
         setVisibleItems((prev) => prev + 15);
     };
@@ -38,7 +36,7 @@ export default function AccessoryScreen() {
             key={index}
             onPress={() =>
                 router.push({
-                    pathname: "/inventory/AccessoryDetail",
+                    pathname: "/inventory/Armor/ArmorDetails",
                     params: { id: item.id - 1 },
                 })
             }
@@ -57,7 +55,7 @@ export default function AccessoryScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Accessory ", actColor,"/Inventory")}
+            {ListHeader("Armors", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,
@@ -72,7 +70,6 @@ export default function AccessoryScreen() {
                 onChangeText={handleSearch}
                 
             />
-
             <FlatList
                 contentContainerStyle={styles.content}
                 data={filteredItems.slice(0, visibleItems)}
@@ -81,6 +78,7 @@ export default function AccessoryScreen() {
                 ListEmptyComponent={<Text style={styles.placeholderText}>No Armors Found</Text>}
                 onEndReached={loadMoreItems}
                 onEndReachedThreshold={0.5}
+
             />
             
             

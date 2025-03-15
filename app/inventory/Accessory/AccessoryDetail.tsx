@@ -1,16 +1,13 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
 import { Image } from "expo-image";
 import { useLocalSearchParams } from "expo-router";
-
-import { CreateStatRow } from "../../components/inv/CreateStatRow";
-import InvHeader from "../../components/inv/Header";
-import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/GetRarityColor";
-import { Accessories } from "../../constants/accessory";
+import { Colors } from "../../../constants/Colors";
+import InvHeader from "../../../components/inv/Header";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { GetRarityColor } from "../../../components/inv/GetRarityColor";
+import { Accessories } from "../../../constants/inv/accessory";
 export default function AccessoryDetail() {
   const { theme } = useContext(ThemeContext);
   const actColor = Colors[theme.mode];
@@ -49,7 +46,7 @@ export default function AccessoryDetail() {
       <InvHeader
         name="Accessory"
         actColor={actColor}
-        path="/inventory/AccessoryScreen"
+        path="/inventory/Accessory/AccessoryScreen"
       />
 
       <ScrollView contentContainerStyle={styles.scrollView}>

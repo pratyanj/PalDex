@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
-import { Image } from "expo-image";
-import { Armors } from "../../constants/Armors";
 import { router, useLocalSearchParams } from "expo-router";
-import { CreateStatRow } from "../../components/inv/CreateStatRow";
-import InvHeader from "../../components/inv/Header";
-import { CraftingRecipe } from "../../components/inv/CraftingRecipe";
-import { GetRarityColor } from "../../components/inv/GetRarityColor";
+import { Image } from "expo-image";
+import { CreateStatRow } from "../../../components/inv/CreateStatRow";
+import { CraftingRecipe } from "../../../components/inv/CraftingRecipe";
+import { GetRarityColor } from "../../../components/inv/GetRarityColor";
+import { ThemeContext } from "../../../constants/ThemeContext";
+import InvHeader from "../../../components/inv/Header";
+import { Colors } from "../../../constants/Colors";
+import { Armors } from "../../../constants/inv/Armors";
 
 export default function ArmorDetails() {
   const { theme } = useContext(ThemeContext);
@@ -98,7 +98,7 @@ export default function ArmorDetails() {
       <InvHeader
         name="Armor details"
         actColor={actColor}
-        path="/inventory/ArmorScreen"
+        path="/inventory/Armor/ArmorScreen"
       />
 
       <ScrollView contentContainerStyle={styles.scrollView}>

@@ -8,28 +8,27 @@ import {
 } from "react-native";
 import React, { useContext, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Colors } from "../../constants/Colors";
-import { ThemeContext } from "../../constants/ThemeContext";
-import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
-import { Image } from "expo-image";
-import { ListHeader } from "../../components/inv/ListHeader";
-import { ItemsData } from "../../constants/allItems";
-import { Armors } from "../../constants/Armors";
-import { ItemCard } from "../../components/inv/ItemCard";
-export default function ArmorScreen() {
+import { ThemeContext } from "../../../constants/ThemeContext";
+import { ListHeader } from "../../../components/inv/ListHeader";
+import { ItemCard } from "../../../components/inv/ItemCard";
+import { Colors } from "../../../constants/Colors";
+import { Ammo } from "../../../constants/inv/Ammo";
+
+export default function AmmoScreen() {
     const { theme } = useContext(ThemeContext);
     const actColor = Colors[theme.mode];
     const [visibleItems, setVisibleItems] = useState(15);
 
     const [searchQuery, setSearchQuery] = useState("");
-        const handleSearch = (text: string) => {
-            setSearchQuery(text);
-          };
-    
-        const filteredItems = Armors.filter((item) =>
-            item.name.toLowerCase().includes(searchQuery.toLowerCase())
-        );
+    const handleSearch = (text: string) => {
+        setSearchQuery(text);
+    };
+
+    const filteredItems = Ammo.filter((item) =>
+        item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
     const loadMoreItems = () => {
         setVisibleItems((prev) => prev + 15);
     };
@@ -39,7 +38,7 @@ export default function ArmorScreen() {
             key={index}
             onPress={() =>
                 router.push({
-                    pathname: "/inventory/ArmorDetails",
+                    pathname: "/inventory/Ammo/AmmoDetail",
                     params: { id: item.id - 1 },
                 })
             }
@@ -47,7 +46,7 @@ export default function ArmorScreen() {
             <ItemCard
                 name={item.name}
                 img={item.image_github_url}
-                type={item.stats ? item.stats["Gold Coin"] : 123456789}
+                type={item.stats ? item.stats["Gold Coin"] : 0}
                 rarity={item.rarity}
                 actColor={actColor}
             />
@@ -58,33 +57,29 @@ export default function ArmorScreen() {
         <SafeAreaView
             style={[styles.container, { backgroundColor: actColor.background }]}
         >
-            {ListHeader("Armors", actColor,"/Inventory")}
+            {ListHeader("Ammo", actColor,"/Inventory")}
             <TextInput
                 style={[
                     styles.searchInput,
                     {
-                    backgroundColor: actColor.backdrop,
-                    color: actColor.onSurface,
+                        backgroundColor: actColor.backdrop,
+                        color: actColor.onSurface,
                     },
                 ]}
                 placeholder="Search Pal..."
                 placeholderTextColor={actColor.onSurfaceVariant}
                 value={searchQuery}
                 onChangeText={handleSearch}
-                
             />
             <FlatList
                 contentContainerStyle={styles.content}
                 data={filteredItems.slice(0, visibleItems)}
                 renderItem={renderItem}
                 keyExtractor={(item, index) => index.toString()}
-                ListEmptyComponent={<Text style={styles.placeholderText}>No Armors Found</Text>}
+                ListEmptyComponent={<Text style={styles.placeholderText}>No Ammo Found</Text>}
                 onEndReached={loadMoreItems}
                 onEndReachedThreshold={0.5}
-
             />
-            
-            
         </SafeAreaView>
     );
 }
@@ -111,5 +106,5 @@ const styles = StyleSheet.create({
         fontSize: 16,
         marginHorizontal: 16,
         marginVertical: 10,
-      },
+    },
 });

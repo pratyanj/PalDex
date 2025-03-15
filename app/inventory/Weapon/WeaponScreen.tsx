@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "../../../constants/Colors";
 import { ThemeContext } from "../../../constants/ThemeContext";
 import { router } from "expo-router";
-import { weaponDataSet } from "../../../constants/weapon";
+import { weaponDataSet } from "../../../constants/inv/weapon";
 import { ItemCard } from "../../../components/inv/ItemCard";
 import { ListHeader } from "../../../components/inv/ListHeader";
 
