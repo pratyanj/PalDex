@@ -1,54 +1,112 @@
-# Welcome to your Expo app 👋
+# PalDex 🐾
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A comprehensive Pal database and companion app built with Expo and React Native.
+## 📸 Screenshots
+## 🏠 Home Screen![PalDex App](./assets/images/appScreenshot/Screenshot_20250528-101724.jpg)
+## Home screen with filter ![PalDex App](./assets/images/appScreenshot/Screenshot_20250528-101733.jpg)More filter will be added in future and optimized
 
-## Get started
+## Pal Details Screen General tab![PalDex App](./assets/images/appScreenshot/Screenshot_20250528-101754.jpg)![PalDex App](./assets/images/appScreenshot/Screenshot_20250528-101806.jpg)
 
-1. Install dependencies
+Additional screenshots and images can be found in the [assets/images/appScreenshot](https://github.com/pratyanj/PalDex/tree/master/assets/images/appScreenshot) directory.
 
+## Full app Video Demo 
+[Watch Demo Video](https://github.com/pratyanj/PalDex/blob/master/assets/images/appScreenshot/demo.mp4)## 📱 Features
+
+- Browse and search through Pal database
+- View detailed Pal information and stats
+- Track active skills and abilities
+- View all inventory items and their details
+- Filter pals by type, rarity, and more
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- Expo CLI
+- iOS Simulator or Android Emulator (optional)
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/pratyanj/PalDex.git
+   cd PalDex
+   ```
+
+2. Install dependencies
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server
    ```bash
-    npx expo start
+   npm start 
    ```
 
-In the output, you'll find options to open the app in a
+4. Open the app in:
+   - [Expo Go](https://expo.dev/go) on your mobile device
+   - [iOS Simulator](https://docs.expo.dev/workflow/ios-simulator/)
+   - [Android Emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Framework:** Expo / React Native
+- **Navigation:** Expo Router (file-based routing)
+- **Language:** TypeScript/JavaScript
 
-## Get a fresh project
+## 📁 Project Structure
 
-When you're ready, run:
+```
+PalDex/
+├── app/                 # Main application code (file-based routing)
+├── assets/             # Images, fonts, and other static assets
+├── components/         # Reusable UI components
+├── constants/          # App constants and configuration
+└── hooks/             # Custom React hooks
+```
 
+## 🔧 Development
+
+### Reset Project
+When you're ready to start fresh:
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This moves the starter code to `app-example/` and creates a blank `app/` directory.
 
-## Learn more
+### Available Scripts
 
-To learn more about developing your project with Expo, look at the following resources:
+- `npm start` - Start the Expo development server
+- `npm run android` - Run on Android emulator
+- `npm run ios` - Run on iOS simulator
+- `npm run web` - Run in web browser
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📋 TODO
 
-## Join the community
+- [ ] Add map view for pal locations
+- [ ] Add loding screens
+- [ ] Optimize performance
+- [ ] Upadate dataset
 
-Join our community of developers creating universal apps.
+## 🤝 Contributing
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 
-## TO DO
-- Add range in active skillls range
+## 🙏 Acknowledgments
+
+- [Expo](https://expo.dev) for the amazing development platform
+
+## 📞 Contact
+
+Pratyanj - [@pratyanj](https://github.com/pratyanj)
+
+Project Link: [https://github.com/pratyanj/PalDex](https://github.com/pratyanj/PalDex)
