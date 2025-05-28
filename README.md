@@ -2,15 +2,23 @@
 
 A comprehensive Pal database and companion app built with Expo and React Native.
 ## 📸 Screenshots
-## 🏠 Home Screen![PalDex App](./assets/images/appScreenshot/Screenshot_20250528-101724.jpg)
-## Home screen with filter ![PalDex App](./assets/images/appScreenshot/Screenshot_20250528-101733.jpg)More filter will be added in future and optimized
+## 🏠 Home Screen
+<img src="./assets/images/appScreenshot/Screenshot_20250528-101724.jpg" width="300" />
+<img src="./assets/images/appScreenshot/Screenshot_20250528-101733.jpg" width="300" />
 
-## Pal Details Screen General tab![PalDex App](./assets/images/appScreenshot/Screenshot_20250528-101754.jpg)![PalDex App](./assets/images/appScreenshot/Screenshot_20250528-101806.jpg)
+## 🔍 Pal Details Screen - General Tab
+<img src="./assets/images/appScreenshot/Screenshot_20250528-101754.jpg" width="300" alt="Pal Details General View" />
+<br/>
+<img src="./assets/images/appScreenshot/Screenshot_20250528-101806.jpg" width="300" alt="Pal Details Stats View" />
 
 Additional screenshots and images can be found in the [assets/images/appScreenshot](https://github.com/pratyanj/PalDex/tree/master/assets/images/appScreenshot) directory.
 
-## Full app Video Demo 
-[Watch Demo Video](https://github.com/pratyanj/PalDex/blob/master/assets/images/appScreenshot/demo.mp4)## 📱 Features
+### Full app Video Demo 
+<video controls>
+  <source src="./assets/images/appScreenshot/demo.mp4" type="video/mp4" width="300">
+</video>
+
+## 📱 Features
 
 - Browse and search through Pal database
 - View detailed Pal information and stats
