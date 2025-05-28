@@ -15,7 +15,7 @@ Additional screenshots and images can be found in the [assets/images/appScreensh
 
 ### Full app Video Demo 
 <video controls>
-  <source src="./assets/images/appScreenshot/demo.mp4" type="video/mp4" width="300">
+  <source src="https://github.com/pratyanj/PalDex/raw/master/assets/images/appScreenshot/demo.mp4" type="video/mp4" width="300">
 </video>
 
 ## 📱 Features
