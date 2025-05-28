@@ -14,9 +14,9 @@ A comprehensive Pal database and companion app built with Expo and React Native.
 Additional screenshots and images can be found in the [assets/images/appScreenshot](https://github.com/pratyanj/PalDex/tree/master/assets/images/appScreenshot) directory.
 
 ### Full app Video Demo 
-<video controls>
-  <source src="https://github.com/pratyanj/PalDex/raw/master/assets/images/appScreenshot/demo.mp4" type="video/mp4" width="300">
-</video>
+
+[![Demo Video](https://img.youtube.com/vi/02jgGNRXHZc/0.jpg)](https://youtu.be/02jgGNRXHZc?si=F4Xjjh03J52PLBLK)
+
 
 ## 📱 Features
 
