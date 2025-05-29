@@ -99,6 +99,10 @@ This moves the starter code to `app-example/` and creates a blank `app/` directo
 - [ ] Add loding screens
 - [ ] Optimize performance
 - [ ] Upadate dataset
+- [ ] COnvert to Mobile .apk file(facing issues in gradle)
+- [ ] create a new database to store all the data
+- [ ] optimize pal details screen tabbar (there is a bug in tabbar)
+- [ ] Optimize pal filter in home page
 
 ## 🤝 Contributing
 
